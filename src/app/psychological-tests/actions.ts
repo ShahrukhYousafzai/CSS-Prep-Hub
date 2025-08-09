@@ -1,7 +1,8 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { aiPsychEval, type AiPsychEvalInput } from "@/ai/flows/ai-psych-eval";
+import { aiPsychEval } from "@/ai/flows/ai-psych-eval";
+import type { AiPsychEvalInput } from "@/lib/types";
 
 export async function evaluatePsychTest(input: AiPsychEvalInput) {
   try {

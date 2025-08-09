@@ -9,24 +9,7 @@
  */
 
 import {ai} from '@/ai/genkit';
-import {z} from 'genkit';
-
-export const AiPsychEvalInputSchema = z.object({
-  mcqAnswers: z.record(z.string()).describe("A map of MCQ question IDs to the user's chosen value (e.g., 'analytical', 'leader')."),
-  sentenceCompletions: z.record(z.string()).describe("A map of sentence completion IDs to the user's full sentence response."),
-});
-export type AiPsychEvalInput = z.infer<typeof AiPsychEvalInputSchema>;
-
-export const AiPsychEvalOutputSchema = z.object({
-  overallAnalysis: z.string().describe("A brief, holistic overview of the user's personality based on their responses."),
-  keyTraits: z.array(z.object({
-    trait: z.string().describe("The identified personality trait (e.g., 'Analytical Thinking', 'Leadership Potential')."),
-    analysis: z.string().describe("A detailed analysis of the identified trait, citing evidence from the user's responses."),
-  })).describe("An array of key personality traits identified from the responses."),
-  potentialStrengths: z.string().describe("A summary of potential strengths for a civil service career based on the analysis."),
-  areasForReflection: z.string().describe("Gentle suggestions on areas the user might want to reflect upon for personal growth."),
-});
-export type AiPsychEvalOutput = z.infer<typeof AiPsychEvalOutputSchema>;
+import { AiPsychEvalInputSchema, AiPsychEvalOutputSchema, type AiPsychEvalInput, type AiPsychEvalOutput } from '@/lib/types';
 
 
 export async function aiPsychEval(input: AiPsychEvalInput): Promise<AiPsychEvalOutput> {
