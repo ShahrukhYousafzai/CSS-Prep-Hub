@@ -102,7 +102,3 @@ export interface SubjectWiseQuestion {
   idealAnswer: string;
   group: 'Compulsory' | 'Group I' | 'Group II' | 'Group III' | 'Group IV' | 'Group V' | 'Group VI' | 'Group VII';
 }
-
-// This is a temporary alias to avoid breaking the app during refactoring.
-// Will be removed once all data files are updated to the new format.
-export type PastPaperQuestion = PastPaper;
