@@ -3,6 +3,105 @@ import type { PastPaper } from '../../../types';
 
 export const pastPapers: PastPaper[] = [
     {
+        id: 'pp-eng-precis-2021',
+        year: 2021,
+        subject: 'English (Precis & Composition)',
+        questions: [
+            {
+                id: 'pp-eng-precis-2021-q2',
+                questionNumber: 'Q. 2',
+                questionType: 'Precis',
+                questionText: `Nizar Hassan was born in 1960 and raised in the village of Mashhad, near Nazareth, where he has lived with his family. He studied anthropology at Haifa University and after graduating worked in TV. Starting in 1990, he turned to cinema. In 1994, he produced Independence, in which he pokes his Palestinian interlocutors about what they think of the bizarre Israeli notion of their “independence”. They have stolen another people’s homeland and call the act “independence”! Hassan dwells on that absurdity.
+As the world’s attention was captured by the news of Israel planning to “annex” yet a bit more of Palestine and add it to what they have already stolen, I received an email from Nizar Hassan, the pre-eminent Palestinian documentary filmmaker. He wrote to me about his latest film, My Grandfather’s Path, and included a link to the director’s cut. It was a blessing. They say choose your enemies carefully for you would end up like them. The same goes for those opposing Zionist settler colonialists. If you are too incensed and angered by their daily dose of claptrap, the vulgarity of their armed robbery of Palestine, you would soon become like them and forget yourself and what beautiful ideas, ideals, and aspirations once animated your highest dreams. Never fall into that trap. For decades, aspects of Palestinian and world cinema, art, poetry, fiction, and drama have done for me precisely that: saved me from that trap. They have constantly reminded me what all our politics are about – a moment of poetic salvation from it all.
+Nizar Hassan’s new documentary is one such work – in a moment of dejection over Israel’s encroachment on Palestinian rights and the world’s complicity, it has put Palestine in perspective. The film is mercifully long, beautifully paced and patient, a masterfully crafted work of art – a Palestinian’s epic ode to his homeland. A shorter version of My Grandfather’s Path has been broadcast on Al Jazeera Arabic in three parts, but it must be seen in its entirety, in one go. It is a pilgrimage that must not be interrupted.`,
+                idealAnswer: `**Title: Nizar Hassan’s Cinematic Ode to Palestine**\n\nThe author discusses the work of pre-eminent Palestinian filmmaker Nizar Hassan, whose films challenge Israeli narratives like “independence.” Hassan’s latest documentary, “My Grandfather’s Path,” is presented as a crucial work of art that provides poetic salvation from the anger induced by Zionist colonialism. The author argues that Palestinian art is essential to avoid becoming like the oppressor. The film itself is described as a masterfully crafted, patient pilgrimage—an epic ode to Hassan's homeland that offers perspective amidst political dejection over Israeli encroachment and global complicity.`
+            },
+            {
+                id: 'pp-eng-precis-2021-q3',
+                questionNumber: 'Q. 3',
+                questionType: 'Comprehension',
+                questionText: `In its response to 9/11, America has shown itself to be not only a hyperpower but increasingly assertive and ready to use its dominance as a hyperpower. After declaring a War on Terrorism, America has led two conventional wars, in Afghanistan and Iraq, demonstrating its overwhelmingly awesome military might. But these campaigns reveal something more: America’s willingness to have recourse to arms as appropriate and legitimate means to secure its interests and bolster its security. It has set forth a new doctrine: the right of pre-emptive strike when it considers its security, and therefore its national interests, to be at risk. The essence of this doctrine is the real meaning of hyperpower.
+Prime Minister Tony Blair has consistently argued that the only option in the face of hyperpower is to offer wise counsel. But increasingly this is a course that governments and people across the world have refused. The mobilisation for war against Iraq split the United Nations and provoked the largest anti-war demonstrations the world has ever seen. And through it all, America maintained its determination to wage war alone if necessary and not to be counselled by the concerns of supposedly allied governments when they faithfully represented the wishes of their electorates. Rather than engaging in debate, the American government expressed its exasperation. The influential new breed of neoconservative radio and television hosts went much further. They acted as ringmasters for outpourings of public scorn that saw French fries renamed ‘freedom fries’ and moves to boycott French and German produce across America. If one sound-bite can capture a mood, then perhaps it would be Fox News’ Bill O’Reilly. At the height of the tension over a second Security Council resolution to legitimate war in Iraq, Mr O’Reilly told his viewers that the bottom line was security, the security of his family, and in that matter ‘There’s no moral equivalence between the US and Belgium’. It is, in effect, the ethos of hyperpower articulated and made manifest in the public domain of 24-hour talk. And America’s willingness to prosecute war has raised innumerable questions about how it engages with other countries. Afghanistan has seen the removal of the Taliban. But there are no official statistics on the number of innocent civilians dead and injured to achieve that security objective. The people of Afghanistan have witnessed a descent into the chaos that preceded the arrival of the Taliban, a country administered not by a new era of democracy under the tutelage of the hyperpower, but merely by the return of the warlords. Beyond Kabul, much of the country remains too insecure for any meaningful efforts at reconstruction and there is enormous difficulty in bringing relief aid to the rural population.`,
+                subQuestions: [
+                    { id: 'pp-eng-precis-2021-q3-1', questionText: 'Why does the doctrine of power set by neo-imperial America deny space to counselling?', idealAnswer: 'The doctrine denies space to counseling because it is based on the unilateral right of pre-emptive strike to secure its national interests. America demonstrated its willingness to act alone, ignoring the concerns of allied governments and the UN, and expressing exasperation rather than engaging in debate.' },
+                    { id: 'pp-eng-precis-2021-q3-2', questionText: 'What is the essence of ‘moral equivalence’ whereas War has no moral justification?', idealAnswer: 'The concept of "no moral equivalence," as used by Bill O’Reilly, implies that in matters of national security, the interests and moral standing of the hyperpower (USA) are superior to and cannot be compared with those of a smaller nation (Belgium). It is a justification for unilateral action, dismissing the idea that all nations have an equal moral voice.' },
+                    { id: 'pp-eng-precis-2021-q3-3', questionText: 'Why do countries occupied and under the tutelage of hypepower have no peace?', idealAnswer: 'According to the passage, these countries have no peace because the hyperpower\'s intervention, like in Afghanistan, can lead to the removal of a regime but results in a descent into chaos, the return of warlords, and widespread insecurity that hinders reconstruction and relief efforts.' },
+                    { id: 'pp-eng-precis-2021-q3-4', questionText: 'Arguably Europe and hyperpower US are at cross purposes over the concept of war. Are they? Why?', idealAnswer: 'Yes, the passage suggests they are at cross-purposes. The US was determined to wage war on Iraq, while key European nations like France and Germany were opposed, reflecting the wishes of their populations who participated in the largest anti-war demonstrations ever seen. This split the UN and showed a fundamental disagreement on the legitimacy of the war.' },
+                    { id: 'pp-eng-precis-2021-q3-5', questionText: 'What Tony Blair’s meant by ‘wise counsel’, and did it prevail?', idealAnswer: 'Tony Blair\'s "wise counsel" meant that the only viable option for other countries was to advise and influence the hyperpower rather than directly opposing it. It did not prevail, as America largely ignored the counsel and concerns of its allies regarding the Iraq war.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2021-q4',
+                questionNumber: 'Q. 4',
+                questionType: 'Correction',
+                questionText: 'Correct only FIVE of the following:',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2021-q4-i', questionText: 'They were lieing in the sun.', idealAnswer: 'They were lying in the sun.' },
+                    { id: 'pp-eng-precis-2021-q4-ii', questionText: 'He will not come without he is asked.', idealAnswer: 'He will not come unless he is asked.' },
+                    { id: 'pp-eng-precis-2021-q4-iii', questionText: 'John as well as Harry bear witness to it.', idealAnswer: 'John as well as Harry bears witness to it.' },
+                    { id: 'pp-eng-precis-2021-q4-iv', questionText: 'The crew was now on board and they soon busied themselves in preparing to meet the coming storm.', idealAnswer: 'The crew were now on board and they soon busied themselves in preparing to meet the coming storm. (Crew can be singular or plural; here "themselves" suggests plural).' },
+                    { id: 'pp-eng-precis-2021-q4-v', questionText: 'Could I have piece of please?', idealAnswer: 'Could I have a piece, please?' },
+                    { id: 'pp-eng-precis-2021-q4-vi', questionText: 'Is there a sport club near by?', idealAnswer: 'Is there a sports club nearby?' },
+                    { id: 'pp-eng-precis-2021-q4-vii', questionText: 'The coat is quite big.', idealAnswer: 'The coat is quite big. (This sentence is correct but perhaps informal. A more formal alternative could be "The coat is rather large.")' },
+                    { id: 'pp-eng-precis-2021-q4-viii', questionText: 'It’s only a short travel by train.', idealAnswer: 'It’s only a short journey by train.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2021-q5a',
+                questionNumber: 'Q. 5 (a)',
+                questionType: 'Punctuation',
+                questionText: 'Punctuate the following text, where necessary.',
+                subQuestions: [
+                  { id: 'pp-eng-precis-2021-q5a-i', questionText: 'That familiarity produces neglect has been long observed the effect of all external objects however great or splendid ceases with their novelty the courtier stands without emotion in the royal presence the music tramples under his foot the beauties of the spring with little attention to their fragrance and the inhabitant of the coast darts his eye upon the immense diffusion of waters without awe wonder or terror', idealAnswer: 'That familiarity produces neglect has been long observed. The effect of all external objects, however great or splendid, ceases with their novelty. The courtier stands without emotion in the royal presence, the musician tramples under his foot the beauties of the spring with little attention to their fragrance, and the inhabitant of the coast darts his eye upon the immense diffusion of waters without awe, wonder, or terror.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2021-q5b',
+                questionNumber: 'Q. 5 (b)',
+                questionType: 'Correction',
+                questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate Prepositions.',
+                 subQuestions: [
+                    { id: 'pp-eng-precis-2021-q5b-i', questionText: 'The knavish wolf was able _____ convince the pig to let him _____ his home.', idealAnswer: 'The knavish wolf was able to convince the pig to let him into his home.' },
+                    { id: 'pp-eng-precis-2021-q5b-ii', questionText: 'I looked this word ____ in the dictionary, but I still don\'t understand it.', idealAnswer: 'I looked this word up in the dictionary, but I still don\'t understand it.' },
+                    { id: 'pp-eng-precis-2021-q5b-iii', questionText: 'I need to learn these verbs ___ heart ___ tomorrow.', idealAnswer: 'I need to learn these verbs by heart by tomorrow.' },
+                    { id: 'pp-eng-precis-2021-q5b-iv', questionText: 'The morgue is redolent___ the odor of deceased individuals.', idealAnswer: 'The morgue is redolent of the odor of deceased individuals.' },
+                    { id: 'pp-eng-precis-2021-q5b-v', questionText: 'He is cogitating___ some means of revenge.', idealAnswer: 'He is cogitating on some means of revenge.' },
+                    { id: 'pp-eng-precis-2021-q5b-vi', questionText: 'He was reticent___ do anything about the problem.', idealAnswer: 'He was reticent to do anything about the problem.' },
+                    { id: 'pp-eng-precis-2021-q5b-vii', questionText: 'His body is impervious___ moisture.', idealAnswer: 'His body is impervious to moisture.' },
+                    { id: 'pp-eng-precis-2021-q5b-viii', questionText: 'Ahmad applied ___ the bank for a loan.', idealAnswer: 'Ahmad applied to the bank for a loan.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2021-q6',
+                questionNumber: 'Q. 6',
+                questionType: 'Word Pairs',
+                questionText: 'Use only FIVE of the pairs of words in sentences clearly illustrating their meanings.',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2021-q6-i', questionText: 'Gibe, Jibe', idealAnswer: '**Gibe:** (an insulting remark) The comedian\'s gibe about his weight was cruel.\n**Jibe:** (to be in accord) Your story doesn\'t jibe with the evidence.' },
+                    { id: 'pp-eng-precis-2021-q6-ii', questionText: 'Epigram, Epigraph', idealAnswer: '**Epigram:** (a pithy saying) Oscar Wilde was famous for his witty epigrams.\n**Epigraph:** (a short quotation at the beginning of a book) The author chose a famous poem as the epigraph for her novel.' },
+                    { id: 'pp-eng-precis-2021-q6-iii', questionText: 'Brawl, Bawl', idealAnswer: '**Brawl:** (a noisy fight) A brawl broke out between fans after the match.\n**Bawl:** (to cry loudly) The baby started to bawl when he was hungry.' },
+                    { id: 'pp-eng-precis-2021-q6-iv', questionText: 'Crib, Crypt', idealAnswer: '**Crib:** (a child\'s bed) The baby was sleeping peacefully in his crib.\n**Crypt:** (an underground burial chamber) The ancient church had a dark crypt beneath it.' },
+                    { id: 'pp-eng-precis-2021-q6-v', questionText: 'Barmy, Balmy', idealAnswer: '**Barmy:** (mad, crazy - UK slang) You must be barmy to go swimming in this cold weather.\n**Balmy:** (pleasantly warm) It was a balmy evening, perfect for a walk.' },
+                    { id: 'pp-eng-precis-2021-q6-vi', questionText: 'Peat, Petite', idealAnswer: '**Peat:** (decomposed vegetable matter used as fuel) In Ireland, peat is traditionally used for fuel.\n**Petite:** (attractively small and dainty) She was a petite woman with delicate features.' },
+                    { id: 'pp-eng-precis-2021-q6-vii', questionText: 'Monogamous, Monogenous', idealAnswer: '**Monogamous:** (having only one partner at a time) Humans are generally a monogamous species.\n**Monogenous:** (asexual reproduction) This is a biological term meaning producing offspring of only one sex or kind.' },
+                    { id: 'pp-eng-precis-2021-q6-viii', questionText: 'Postilion, Posterior', idealAnswer: '**Postilion:** (a person who rides the leading left-hand horse of a team drawing a coach) The postilion guided the horses expertly through the narrow street.\n**Posterior:** (the buttocks; or coming after in time) The posterior chain muscles are important for running. / This event is posterior to the one we discussed yesterday.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2021-q7',
+                questionNumber: 'Q. 7',
+                questionType: 'Translation',
+                questionText: 'رانہ طرز استعماریت پسند انگر یزی اقدار کےسا منے خوش آمدانہ اور فر ما نبردا عمل کے بر خال ف ، جسے برطا نوی حکمرانوں نے فر و غ دیا تھااور جسے اہل ہند نے اُس دور میں اختیار کر رکھا تھا ۔ سید احمد خاں اور اُن کے اعلی مر تبت اور روشن دما غ فر زند سید محمو د دونو ں نے ایسا رویہ اختیار کر نے کی کو شش کی گویا وہ انگر یزو ں کے مساوی اور ہم مر تبہ ہوں ۔ سن ١٨٦٧ ء کے آگر ہ دربا ر کا واقعہ نہ صر ف مسلما نو ں کو بلکہ پور ی ہندوستا نی قو م کو بخو بی معلو م تھا ۔ سید احمد خاں نے اس در با ر سے اس لیے علیحد گی اختیار کی تھی کہ وہا ں ہندوستانیو ں کو انگر یزو ں کے مقا بلے میں کم تر در جے کی نشست فرا ہم کی گئی تھی ۔ اس دربا ر میں سید احمد خاں کو ایک تمغہ عطا کیا جا نے واال تھا ۔ بعد میں میرٹھ کے کمشنر ویلیمس کو یہ خد مت تقویض کی گئی کہ وہ علی گڑھ ریلو ے اسٹیشن جا کر سید احمد خا ں کو تمغہ پیش کر یں۔',
+                idealAnswer: 'Contrary to the sycophantic and obedient attitude towards pro-imperialist English values, which the British rulers had promoted and which the people of India had adopted during that period, both Sir Syed Ahmed Khan and his high-ranking and enlightened son, Syed Mahmud, tried to adopt an attitude as if they were equal and of the same status as the English. The incident of the Agra Durbar of 1867 was well-known not only to the Muslims but to the entire Indian nation. Sir Syed Ahmed Khan had withdrawn from this Durbar because Indians were provided with seats of a lower status compared to the English. In this Durbar, Sir Syed Ahmed Khan was to be awarded a medal. Later, the Commissioner of Meerut, Williams, was assigned the duty to go to the Aligarh railway station and present the medal to Sir Syed Ahmed Khan.'
+            }
+        ]
+    },
+    {
         id: 'pp-eng-precis-2020',
         year: 2020,
         subject: 'English (Precis & Composition)',
@@ -177,14 +276,14 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 questionType: 'Idioms',
                 questionText: 'Use ONLY FIVE of the following in sentences which illustrate their meanings.',
                 subQuestions: [
-                    { id: 'pp-eng-precis-2019-q6-i', questionText: 'To cast pearls before swine', idealAnswer: 'To offer something valuable to someone who does not appreciate it. (e.g., "Giving him financial advice was like casting pearls before swine; he just wasted it all.")' },
-                    { id: 'pp-eng-precis-2019-q6-ii', questionText: 'To step into one’s shoes', idealAnswer: 'To take over a job or role from someone else. (e.g., "It will be difficult to step into the manager\'s shoes after she retires.")' },
-                    { id: 'pp-eng-precis-2019-q6-iii', questionText: 'Stuff and nonsense', idealAnswer: 'An expression of disbelief or that something is foolish. (e.g., "His excuse about a UFO making him late was stuff and nonsense.")' },
-                    { id: 'pp-eng-precis-2019-q6-iv', questionText: 'A wild goose chase', idealAnswer: 'A foolish and hopeless pursuit of something unattainable. (e.g., "The search for the mythical treasure turned out to be a wild goose chase.")' },
-                    { id: 'pp-eng-precis-2019-q6-v', questionText: 'To be ill at ease', idealAnswer: 'To feel anxious and uncomfortable. (e.g., "She was ill at ease speaking in front of a large crowd.")' },
-                    { id: 'pp-eng-precis-2019-q6-vi', questionText: 'Sit on the fence', idealAnswer: 'To avoid making a decision or choosing a side. (e.g., "You can\'t sit on the fence any longer; you have to decide whose side you\'re on.")' },
-                    { id: 'pp-eng-precis-2019-q6-vii', questionText: 'In a jiffy', idealAnswer: 'Very quickly; in a moment. (e.g., "I\'ll be back in a jiffy.")' },
-                    { id: 'pp-eng-precis-2019-q6-viii', questionText: 'To preen oneself', idealAnswer: 'To devote effort to making oneself look attractive and then admire one\'s appearance. (e.g., "He spent hours preening himself before the party.")' },
+                    { id: 'pp-eng-precis-2019-q6-i', questionText: 'To cast pearls before swine', idealAnswer: 'Giving him financial advice was like casting pearls before swine; he just wasted it all.' },
+                    { id: 'pp-eng-precis-2019-q6-ii', questionText: 'To step into one’s shoes', idealAnswer: 'It will be difficult to step into the manager\'s shoes after she retires.' },
+                    { id: 'pp-eng-precis-2019-q6-iii', questionText: 'Stuff and nonsense', idealAnswer: 'His excuse about a UFO making him late was stuff and nonsense.' },
+                    { id: 'pp-eng-precis-2019-q6-iv', questionText: 'A wild goose chase', idealAnswer: 'The search for the mythical treasure turned out to be a wild goose chase.' },
+                    { id: 'pp-eng-precis-2019-q6-v', questionText: 'To be ill at ease', idealAnswer: 'She was ill at ease speaking in front of a large crowd.' },
+                    { id: 'pp-eng-precis-2019-q6-vi', questionText: 'Sit on the fence', idealAnswer: 'You can\'t sit on the fence any longer; you have to decide whose side you\'re on.' },
+                    { id: 'pp-eng-precis-2019-q6-vii', questionText: 'In a jiffy', idealAnswer: 'I\'ll be back in a jiffy.' },
+                    { id: 'pp-eng-precis-2019-q6-viii', questionText: 'To preen oneself', idealAnswer: 'He spent hours preening himself before the party.' },
                 ],
                 idealAnswer: ''
             },
@@ -580,7 +679,7 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 id: 'pp-eng-precis-2016-q7',
                 questionNumber: 'Q. 7',
                 questionType: 'Translation',
-                questionText: 'Translate the following Urdu paragraph into English by keeping in view figurative/ idiomatic expression.\n\nعام لوگوں کا خیال ہے کہ ملک کے قانون اور فرد کی آزادی ایک دوسرے کی ضد ہوتے ہیں۔ بظاہر یہ بات غلط معلوم نہیں ہوتی۔ ہر قانون شہریوں پر کوئی نہ کوئی پابندی عائد کرتا ہے۔ اگر ملک میں قوانین کی تعداد زیادہ ہو تو مجموعی پابندیاں بھی زیادہ ہوتی ہیں۔ زیادہ پابندیوں سے فرد کی آزادی ا ن کے بوجھ تلے دب کررہ جاتی ہے۔ ا س کے برعکس قوانین کی تعداد کم ہو تو شہریوں کی آزادی کا دائرہ وسیع ہوتا ہے۔',
+                questionText: 'عام لوگوں کا خیال ہے کہ ملک کے قانون اور فرد کی آزادی ایک دوسرے کی ضد ہوتے ہیں۔ بظاہر یہ بات غلط معلوم نہیں ہوتی۔ ہر قانون شہریوں پر کوئی نہ کوئی پابندی عائد کرتا ہے۔ اگر ملک میں قوانین کی تعداد زیادہ ہو تو مجموعی پابندیاں بھی زیادہ ہوتی ہیں۔ زیادہ پابندیوں سے فرد کی آزادی ا ن کے بوجھ تلے دب کررہ جاتی ہے۔ ا س کے برعکس قوانین کی تعداد کم ہو تو شہریوں کی آزادی کا دائرہ وسیع ہوتا ہے۔',
                 idealAnswer: 'The common person thinks that the law of the land and individual liberty are antithetical to each other. On the face of it, this does not seem incorrect. Every law imposes some restriction on the citizens. If the number of laws in a country is large, the collective restrictions are also numerous. With more restrictions, an individual\'s freedom gets crushed under their weight. Conversely, if the number of laws is small, the sphere of citizens\' freedom is broadened.'
             }
         ]
