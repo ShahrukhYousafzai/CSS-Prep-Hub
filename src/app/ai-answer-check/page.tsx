@@ -59,10 +59,12 @@ export default function AiAnswerCheckPage() {
               <Bot className="h-4 w-4" />
               AI Answer Check
             </Button>
-            <Button variant="ghost" className="justify-start gap-2">
-              <GanttChartSquare className="h-4 w-4" />
-              Quizzes
-            </Button>
+            <Link href="/quizzes">
+              <Button variant="ghost" className="justify-start gap-2 w-full">
+                <GanttChartSquare className="h-4 w-4" />
+                Quizzes
+              </Button>
+            </Link>
             <Button variant="ghost" className="justify-start gap-2">
                 <MessageSquareQuote className="h-4 w-4" />
                 Interview Prep
@@ -103,7 +105,7 @@ export default function AiAnswerCheckPage() {
                   <Bot className="h-5 w-5" />
                   AI Answer Check
                 </Link>
-                <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                <Link href="/quizzes" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <GanttChartSquare className="h-5 w-5" />
                   Quizzes
                 </Link>

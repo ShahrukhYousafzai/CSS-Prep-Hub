@@ -15,3 +15,15 @@ export type AIFeedback = {
   feedbackWeaknesses: string;
   improvementTips: string;
 }
+
+export interface QuizQuestion {
+  questionText: string;
+  options: string[];
+  correctAnswer: string;
+}
+
+export interface Quiz {
+  id: string;
+  subject: string;
+  questions: QuizQuestion[];
+}
