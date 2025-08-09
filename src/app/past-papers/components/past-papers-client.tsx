@@ -125,6 +125,28 @@ export function PastPapersClient() {
           </>
         );
 
+      case 'Precis':
+        return (
+          <div className="space-y-4">
+            <Card className="bg-muted/50">
+              <CardHeader>
+                <CardTitle className="text-lg">Original Passage</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="whitespace-pre-wrap text-sm text-muted-foreground">{q.questionText}</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg text-primary">Model Précis</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="whitespace-pre-wrap text-sm">{q.idealAnswer}</p>
+              </CardContent>
+            </Card>
+          </div>
+        );
+        
       case 'MCQ':
       case 'Analogy':
         return (
@@ -150,6 +172,8 @@ export function PastPapersClient() {
       case 'Punctuation':
       case 'Word Pairs':
       case 'Idioms':
+      case 'Dialogue':
+      case 'Translation':
         return (
           <div className="space-y-4">
             <p className="whitespace-pre-wrap text-sm">{q.questionText}</p>
