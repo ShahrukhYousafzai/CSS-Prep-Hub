@@ -3,6 +3,105 @@ import type { PastPaper } from '../../../types';
 
 export const pastPapers: PastPaper[] = [
     {
+        id: 'pp-eng-precis-2020',
+        year: 2020,
+        subject: 'English (Precis & Composition)',
+        questions: [
+            {
+                id: 'pp-eng-precis-2020-q2',
+                questionNumber: 'Q. 2',
+                questionType: 'Precis',
+                questionText: `Manto was a victim of some kind of social ambivalence that converged on self-righteousness, hypocrisy, and mental obtuseness. His detractors branded him as vulgar and obscene and implicated him into a long-dawn legal battle questioning the moral validity of his writings. Without being deterred by their negative tactics, he remained firm in his commitment to exploring the stark realities of life offensive to the conservative taste of some self-styled purists. In the line of Freud, he sought to unravel the mysteries of sex not in an abstract, non-earthly manner but in a palpable, fleshy permutation signifying his deep concern for the socially disabled and depressed classes of society, like petty wage-earners, pimps, and prostitutes.
+For Manto, man is neither an angel nor a devil, but a mix of both. His middle and lower middle class characters think, feel and act like human beings. Without feigning virtuosity, he was able to strike a rapport with his readers on some of the most vital socio-moral issues concerning them. As a realist, he was fully conscious of the yawning gap between appearance and reality; in fact, nothing vexed him more than a demonstrable duality in human behaviour at different levels of the social hierarchy. He had an unjaundiced view of man’s faults and follies. As a literary artist, he treated vulgarity discreetly --- without ever sounding vulgar in the process. Like Joyce, Lawrence, and Caldwell, in Manto’s work too, men and women of the age find their own restlessness accurately mirrored. And like them, Manto was also ‘raised above his own self by his sombre enthusiasm’.`,
+                idealAnswer: `**Title: Manto: The Realistic Mirror to Society**\n\nSaadat Hasan Manto faced social condemnation from self-righteous critics who labeled his work obscene, leading to legal battles. Undeterred, he unflinchingly depicted life's harsh realities, particularly the lives of marginalized social classes, exploring human nature with a Freudian lens. Manto portrayed humanity as a mix of good and evil, creating relatable characters that resonated with readers on key socio-moral issues. As a realist, he detested hypocrisy and exposed the gap between appearance and reality with a clear-eyed view. A skilled artist, he handled vulgar subjects with discretion, mirroring the restlessness of his time much like his Western counterparts, and was elevated by his solemn passion.`
+            },
+            {
+                id: 'pp-eng-precis-2020-q3',
+                questionNumber: 'Q. 3',
+                questionType: 'Comprehension',
+                questionText: `Globalization is viewed by its proponents as a process of cementing economic, cultural and political bonds between peoples of different countries of the world. One may regard it as a process by which they are welded into a single world society, to be termed as global society. It means internationalization of production and labour leading to integration of economies of developing and developed countries into global economy. To quote Rosaberth M.Kanter, “The world is becoming a global shopping mall in which ideas and products are available everywhere at the same time.”
+Globalization is a natural outcome of computer networking and electronic mass communication. Information technology has made it possible for nations of the world to contact one another beyond their national borders. Besides, globalization is also promoted through the growth and proliferation of multinational companies and corporations that operate as transporter networks. Anyhow the flow of capital technology and labour across the borders of countries has accentuated the process of globalization.
+Deregulation, liberalism and privatization being assiduously pursued in the developing countries are some other manifestations of globalization. These countries are opening their economies to follow these trends. The size of the public sector is shrinking for the private sector to assume an increasingly important role in the economic development of the Third World countries. The downsizing of the public sector is in line with the spirit of market economy. This is suggested as a measure to cover up their fiscal deficit.`,
+                subQuestions: [
+                    { id: 'pp-eng-precis-2020-q3-1', questionText: 'Define globalization.', idealAnswer: 'Globalization is the process of integrating the economies, cultures, and politics of different countries, leading to a single world society where production, labor, ideas, and products are internationalized and available everywhere.' },
+                    { id: 'pp-eng-precis-2020-q3-2', questionText: 'What is electronic mass communication?', idealAnswer: 'Electronic mass communication refers to information technology, like computer networking, that allows nations and people to connect and communicate with each other instantly across national borders.' },
+                    { id: 'pp-eng-precis-2020-q3-3', questionText: 'What does the term Third World denote?', idealAnswer: 'The term "Third World" denotes developing countries that are opening up their economies and often face challenges like fiscal deficits.' },
+                    { id: 'pp-eng-precis-2020-q3-4', questionText: 'What is privatization?', idealAnswer: 'Privatization is a policy where the public sector shrinks and the private sector is given an increasingly important role in the economic development of a country.' },
+                    { id: 'pp-eng-precis-2020-q3-5', questionText: 'Explain ‘liberalism’ in the above context.', idealAnswer: 'In this context, liberalism refers to the policy of opening up economies, reducing regulations (deregulation), and allowing for the free flow of capital, technology, and labor across borders, in line with market economy principles.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2020-q4',
+                questionNumber: 'Q. 4',
+                questionType: 'Correction',
+                questionText: 'Correct only FIVE of the following:',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2020-q4-i', questionText: 'I won him in the race.', idealAnswer: 'I beat him in the race.' },
+                    { id: 'pp-eng-precis-2020-q4-ii', questionText: 'He said that I am playing chess.', idealAnswer: 'He said that he was playing chess.' },
+                    { id: 'pp-eng-precis-2020-q4-iii', questionText: 'Unless you do not try, you will never succeed.', idealAnswer: 'Unless you try, you will never succeed.' },
+                    { id: 'pp-eng-precis-2020-q4-iv', questionText: 'He wrote with ink.', idealAnswer: 'He wrote in ink.' },
+                    { id: 'pp-eng-precis-2020-q4-v', questionText: 'What country he belongs to?', idealAnswer: 'What country does he belong to?' },
+                    { id: 'pp-eng-precis-2020-q4-vi', questionText: 'When he reaches to manhood, he will visit to England.', idealAnswer: 'When he reaches manhood, he will visit England.' },
+                    { id: 'pp-eng-precis-2020-q4-vii', questionText: 'The new session commences from February 1st, 2020.', idealAnswer: 'The new session commences on February 1st, 2020.' },
+                    { id: 'pp-eng-precis-2020-q4-viii', questionText: 'Please send this letter on my address.', idealAnswer: 'Please send this letter to my address.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2020-q5a',
+                questionNumber: 'Q. 5 (a)',
+                questionType: 'Punctuation',
+                questionText: 'Punctuate the following text, where necessary.',
+                subQuestions: [
+                  { id: 'pp-eng-precis-2020-q5a-i', questionText: 'Letters between relatives and friends are called personal letters the most important thing in such letters is the content don’t begin with a hackneyed phrase like I was delighted to get your letter received your letter or I have often thought of writing to you use a vigorous clear chatty style', idealAnswer: 'Letters between relatives and friends are called personal letters. The most important thing in such letters is the content. Don’t begin with a hackneyed phrase like, "I was delighted to get your letter," "Received your letter," or "I have often thought of writing to you." Use a vigorous, clear, chatty style.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2020-q5b',
+                questionNumber: 'Q. 5 (b)',
+                questionType: 'MCQ',
+                questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate prepositions.',
+                options: [
+                    { question: 'I was annoyed ________ him.', choices: ['with', 'at', 'on', 'by'], answer: 'with' },
+                    { question: 'This train is bound ________ Gujrat.', choices: ['to', 'for', 'at', 'from'], answer: 'for' },
+                    { question: 'The pistol went ________ by accident.', choices: ['on', 'off', 'up', 'down'], answer: 'off' },
+                    { question: 'He kept ________ asking silly questions.', choices: ['up', 'on', 'in', 'at'], answer: 'on' },
+                    { question: 'He was knocked ________ by the bus.', choices: ['up', 'down', 'out', 'off'], answer: 'down' },
+                    { question: 'Do not meddle ________ my affairs.', choices: ['with', 'in', 'into', 'at'], answer: 'in' },
+                    { question: 'The meeting was put ________ by the Chairman.', choices: ['out', 'up', 'off', 'away'], answer: 'off' },
+                    { question: 'He rounded ________ his speech with a quote from Ghalib.', choices: ['up', 'off', 'out', 'in'], answer: 'off' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2020-q6',
+                questionNumber: 'Q. 6',
+                questionType: 'Idioms',
+                questionText: 'Use ONLY FIVE of the following in sentences which illustrate their meanings.',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2020-q6-i', questionText: 'To break the ice', idealAnswer: 'He told a joke to break the ice at the start of the formal meeting.' },
+                    { id: 'pp-eng-precis-2020-q6-ii', questionText: 'Nip in the bud', idealAnswer: 'It\'s important to nip bad habits in the bud before they become serious problems.' },
+                    { id: 'pp-eng-precis-2020-q6-iii', questionText: 'See eye to eye with', idealAnswer: 'Although they were partners, they rarely saw eye to eye on business strategy.' },
+                    { id: 'pp-eng-precis-2020-q6-iv', questionText: 'For good', idealAnswer: 'After the final argument, she decided to leave the city for good.' },
+                    { id: 'pp-eng-precis-2020-q6-v', questionText: 'Tamper with', idealAnswer: 'It is a serious crime to tamper with evidence at a crime scene.' },
+                    { id: 'pp-eng-precis-2020-q6-vi', questionText: 'The small hours', idealAnswer: 'The students were studying into the small hours of the morning for their final exam.' },
+                    { id: 'pp-eng-precis-2020-q6-vii', questionText: 'Keep up appearances', idealAnswer: 'Despite their financial troubles, the family tried to keep up appearances by driving an expensive car.' },
+                    { id: 'pp-eng-precis-2020-q6-viii', questionText: 'Prima facie', idealAnswer: 'There was prima facie evidence that he was guilty, but further investigation was needed.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2020-q7',
+                questionNumber: 'Q. 7',
+                questionType: 'Translation',
+                questionText: 'د نیا کی تمام بڑی زبانوں کی طرح اُردو بھی ایک مخلوط زبان ہے، جو مختلف زبانوں کے الفاظ سے مل کر بنی ہے۔ اور جب کوئی قوم دوسری قوم کے ساتھ سیاسی، سماجی یا کاروباری تعلقات قائم کرتی ہے تو وہ اس کی زبان کے کچھ الفاظ بھی اختیار کر لیتی ہے۔ اُردو زبان کی ابتدا اُس وقت ہوئی جب مسلمان اِس ملک میں آئے۔ مسلمانوں کی زبان عربی، ترکی اور فارسی تھی۔ وقت گزرنے کے ساتھ ساتھ مقامی زبانوں کے میل جول سے ایک نئی زبان نے جنم لیا جس کا نام اُردو رکھا گیا۔',
+                idealAnswer: 'Like all major languages of the world, Urdu is also a mixed language, which is formed by the combination of words from different languages. And when one nation establishes political, social, or business relations with another nation, it also adopts some words from its language. The Urdu language began when the Muslims came to this country. The language of the Muslims was Arabic, Turkish, and Persian. With the passage of time, through interaction with local languages, a new language was born which was named Urdu.'
+            }
+        ]
+    },
+    {
         id: 'pp-eng-precis-2019',
         year: 2019,
         subject: 'English (Precis & Composition)',
