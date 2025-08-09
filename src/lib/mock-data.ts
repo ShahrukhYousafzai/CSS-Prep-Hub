@@ -32,6 +32,76 @@ export const pastPaperQuestions: PastPaperQuestion[] = [
     idealAnswer: 'The essay should deconstruct the phrase "boys will be boys" as a cultural artifact that often excuses harmful behaviors under the guise of innate male nature. It should argue that this phrase perpetuates toxic masculinity, which is a narrow and repressive description of manhood, characterized by violence, dominance, emotional illiteracy, and misogyny. The essay should explore the societal impacts of this mindset, linking it to issues like domestic violence, mental health crises in men, and systemic gender inequality. A strong essay would also propose a counter-narrative, advocating for a healthier, more diverse understanding of masculinity that allows for emotional expression, empathy, and respect for all genders. It should conclude that far from being a justification, the phrase is a significant social problem that requires critical examination and dismantling.',
   },
   {
+    id: 'pp-eng-essay-2019-1',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'Let there be more light in the corridors of worship places.',
+    idealAnswer: 'This metaphorical essay should argue for religious tolerance, enlightenment, and the rejection of extremism within religious spaces. "Light" symbolizes knowledge, reason, and compassion, while "corridors of worship places" represent mosques, churches, temples, etc. The essay should contend that these places should be centers of peace and interfaith harmony, not sources of division and conflict. It would call for religious leaders and followers to focus on the humanistic and ethical core of their faiths, promoting critical thinking over blind dogma to combat radicalization and foster a more peaceful society.',
+  },
+  {
+    id: 'pp-eng-essay-2019-2',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'New war fronts lie in economic zones.',
+    idealAnswer: 'This essay should analyze the shift from traditional military warfare to modern economic warfare. It should argue that contemporary global conflicts are increasingly fought through economic means such as trade wars, sanctions, currency manipulation, and control over strategic resources and trade routes (like CPEC). The essay should provide examples of how major powers use economic tools to achieve geopolitical objectives, effectively turning economic zones into battlegrounds for influence and dominance. It should conclude that in the 21st century, economic strength is a primary determinant of national power and security.',
+  },
+  {
+    id: 'pp-eng-essay-2019-3',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'Urdu literature and progressive movement.',
+    idealAnswer: 'This essay should trace the history and impact of the Progressive Writers\' Movement on Urdu literature from the 1930s onwards. It should discuss the movement\'s core tenets, which were influenced by Marxism and a desire for social reform, anti-imperialism, and realism. The essay should mention key figures like Faiz Ahmed Faiz, Sajjad Zaheer, and Ismat Chughtai, and analyze how their work challenged traditional literary norms and addressed pressing social issues like poverty, inequality, and feudalism. It should conclude on the lasting legacy of the movement on the social consciousness of Urdu literature.',
+  },
+  {
+    id: 'pp-eng-essay-2019-4',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'Art for peace.',
+    idealAnswer: 'This essay should explore the role of art—including literature, music, painting, and film—as a medium for promoting peace and understanding. It should argue that art can transcend political and cultural divides, fostering empathy by sharing human stories and emotions. The essay can provide examples of how art has been used in conflict resolution, for social commentary against war, and to build bridges between communities. It should conclude that while art alone may not stop wars, it is a powerful tool for changing hearts and minds, which is the foundation of a lasting peace.',
+  },
+  {
+    id: 'pp-eng-essay-2019-5',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'Truth is lived not taught.',
+    idealAnswer: 'This philosophical essay should argue that true understanding and knowledge ("truth") come from experience and action, rather than from abstract teaching or dogma. It can draw upon existentialist and pragmatist philosophy. The essay should make the case that one can be taught many facts, but wisdom and authentic belief are forged through personal struggle, reflection, and the practical application of principles in one\'s life. It suggests that a lived truth is internalized and becomes part of one\'s being, which is far more profound than a passively accepted "taught" truth.',
+  },
+  {
+    id: 'pp-eng-essay-2019-6',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'New Waves of feminism and our culture.',
+    idealAnswer: 'This essay should analyze the impact of contemporary feminist movements (e.g., #MeToo, fourth-wave feminism) on Pakistani culture. It should discuss how these "new waves," often amplified by social media, are challenging traditional patriarchal norms and raising awareness about issues like workplace harassment, consent, and women\'s rights. The essay should explore both the positive impacts (empowerment, public discourse) and the cultural backlash or resistance these movements face. It requires a nuanced conclusion on the ongoing negotiation between modern feminist ideals and the cultural fabric of the society.',
+  },
+  {
+    id: 'pp-eng-essay-2019-7',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'Democracy and illiteracy do not move together.',
+    idealAnswer: 'This essay should argue that a thriving democracy requires an educated and informed citizenry. It should explain that illiteracy prevents people from understanding their rights and responsibilities, critically evaluating political candidates and policies, and participating meaningfully in the democratic process. An illiterate population is more susceptible to manipulation, populism, and demagoguery, which undermines democratic institutions. The essay should conclude that investment in education and literacy is not just a social good but a fundamental prerequisite for the success and stability of any democracy.',
+  },
+  {
+    id: 'pp-eng-essay-2019-8',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'Sometimes we do not see what we see.',
+    idealAnswer: 'This essay should explore the gap between perception and reality, and the role of cognitive biases, prejudices, and preconceived notions in shaping what we "see." It can delve into concepts from psychology and sociology to explain how our minds can filter or interpret information to fit our existing beliefs. The essay could argue for the importance of critical thinking, self-awareness, and empathy to see the world more clearly and objectively, moving beyond our initial, often flawed, perceptions.',
+  },
+  {
+    id: 'pp-eng-essay-2019-9',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'Expanding information technology: a curse or blessing.',
+    idealAnswer: 'This essay requires a balanced analysis of the impact of information technology. The "blessing" side should cover its benefits in communication, access to information, economic efficiency, and education. The "curse" side should discuss drawbacks like job displacement due to automation, the digital divide, privacy concerns, cybercrime, and the spread of misinformation. A strong conclusion would argue that IT is a powerful tool whose outcome as a curse or blessing depends entirely on how humanity chooses to manage and regulate it.',
+  },
+  {
+    id: 'pp-eng-essay-2019-10',
+    year: 2019,
+    subject: 'English Essay',
+    questionText: 'Classrooms decide the future of the nation.',
+    idealAnswer: 'This essay should argue that the quality of education delivered in classrooms is the single most important factor in shaping a nation\'s future. It should discuss how classrooms are not just for imparting knowledge, but for inculcating values, fostering critical thinking, and nurturing the next generation of leaders, innovators, and responsible citizens. The essay can contrast the futures of nations that invest heavily in education with those that neglect it, concluding that a nation\'s economic prosperity, social cohesion, and democratic stability are all determined by the work done in its classrooms.',
+  },
+  {
     id: 'pp-eng-essay-2018-1',
     year: 2018,
     subject: 'English Essay',
@@ -625,3 +695,4 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
   { id: 'swq-per-1', subject: 'Persian', topic: 'Literature', difficulty: 'Medium', questionText: 'Who wrote the Shahnameh?', idealAnswer: 'The Shahnameh (Book of Kings) was written by the Persian poet Ferdowsi.', group: 'Group VII' },
   { id: 'swq-ara-1', subject: 'Arabic', topic: 'Literature', difficulty: 'Medium', questionText: 'Who is one of the most famous pre-Islamic Arab poets?', idealAnswer: 'Imru\' al-Qais is one of the most famous poets of the pre-Islamic era.', group: 'Group VII' }
 ];
+
