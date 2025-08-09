@@ -7,6 +7,6 @@ export const pastPapers: PastPaperQuestion[] = [
     year: 2023,
     subject: 'English (Precis and Composition)',
     questionText: 'Make a precis of the following passage and suggest a suitable title.',
-    idealAnswer: 'The ideal answer would consist of a concise summary of the provided (hypothetical) passage, capturing its main points in about one-third of the original length. It must be in the candidate\'s own words, coherent, and well-connected. A suitable title that encapsulates the essence of the passage should also be provided.',
+    idealAnswer: 'A good precis requires a concise summary capturing all essential points in about one-third of the original length, written in your own words. It must be coherent and concluded with a suitable title that reflects the core theme of the passage.',
   },
 ];
