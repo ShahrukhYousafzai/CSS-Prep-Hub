@@ -6,7 +6,8 @@ export interface PaperQuestion {
   questionNumber?: string; // e.g., "Q.2", "Q.4 (a)"
   questionText: string;
   idealAnswer: string;
-  questionType: 'Essay' | 'Precis' | 'Comprehension' | 'Correction' | 'Analogy' | 'Idioms' | 'Translation' | 'Other';
+  questionType: 'Essay' | 'Precis' | 'Comprehension' | 'Correction' | 'Analogy' | 'Idioms' | 'Translation' | 'MCQ' | 'Other';
+  options?: string[]; // For MCQs
 }
 
 // Represents a full past paper, which can contain multiple questions
@@ -17,6 +18,10 @@ export interface PastPaper {
   questions: PaperQuestion[];
 }
 
+export type EnrichedQuestion = PaperQuestion & {
+  subject: string;
+  year: number;
+}
 
 export type AIFeedback = {
   scoreContent: number;

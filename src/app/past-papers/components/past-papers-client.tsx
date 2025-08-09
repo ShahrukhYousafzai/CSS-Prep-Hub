@@ -28,13 +28,10 @@ import { Bot, Loader2 } from 'lucide-react';
 import { pastPaperQuestions } from '@/lib/data';
 import { generateEssayAction } from '../actions';
 import { useToast } from '@/hooks/use-toast';
-import type { PaperQuestion } from '@/lib/types';
+import type { EnrichedQuestion } from '@/lib/types';
 import { Badge } from '@/components/ui/badge';
-
-interface EnrichedQuestion extends PaperQuestion {
-  subject: string;
-  year: number;
-}
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
+import { Label } from '@/components/ui/label';
 
 export function PastPapersClient() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -147,17 +144,26 @@ export function PastPapersClient() {
                    <div className="flex items-center gap-2 mt-2 flex-wrap">
                     <Badge variant="outline">{q.subject}</Badge>
                     <Badge variant="secondary">{q.year}</Badge>
+                    <Badge variant="outline">{q.questionType}</Badge>
                   </div>
                 </div>
               </AccordionTrigger>
               <AccordionContent className="p-4 pt-0">
                 <div className="space-y-4">
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
-                    <div className="text-muted-foreground text-sm whitespace-pre-wrap">{q.idealAnswer}</div>
-                  </div>
-                  {q.questionType === 'Essay' && (
-                     <div className="mt-4">
+                  {(q.questionType === 'MCQ' && q.options) ? (
+                    <div className="space-y-4">
+                        <RadioGroup disabled defaultValue={q.idealAnswer}>
+                            {q.options.map((option, index) => (
+                                <div key={index} className="flex items-center space-x-2">
+                                    <RadioGroupItem value={option} id={`${q.id}-${index}`} />
+                                    <Label htmlFor={`${q.id}-${index}`}>{option}</Label>
+                                </div>
+                            ))}
+                        </RadioGroup>
+                        <p className="text-sm font-semibold text-primary">Correct Answer: {q.idealAnswer}</p>
+                    </div>
+                  ) : q.questionType === 'Essay' ? (
+                    <>
                       {generatingId === q.id ? (
                         <div className="flex items-center justify-center h-24 rounded-lg border border-dashed">
                           <div className="text-center">
@@ -184,7 +190,12 @@ export function PastPapersClient() {
                           Generate Full Answer with AI
                         </Button>
                       )}
-                    </div>
+                    </>
+                  ) : (
+                     <div>
+                        <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
+                        <div className="text-muted-foreground text-sm whitespace-pre-wrap">{q.idealAnswer}</div>
+                      </div>
                   )}
                 </div>
               </AccordionContent>
@@ -199,4 +210,3 @@ export function PastPapersClient() {
     </div>
   );
 }
-

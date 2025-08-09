@@ -97,20 +97,74 @@ The daily exercise lasted only eleven minutes and I proposed to do them early in
 (v) Missing punctuation: **,** (Comma) -> ...high school senior, decided...`
       },
       {
-        id: 'pp-eng-precis-2016-q5',
-        questionNumber: 'Q. 5',
-        questionType: 'Analogy',
-        questionText: `(a) Choose the analogy of the words written in capital letters (Any five).
-(i) SLAPSTICK : LAUGHTER
-(ii) CONVICTION : INCARCERATION
-(iii) PROFESSOR : ERUDITE
-(iv) METAPHOR : SYMBOL
-(v) SPY : CLANDESTINE
-(vi) VERVE : ENTHUSIASM
-(vii) DELTOID : MUSCLE
-(viii)DEPENDABLE : CAPRICIOUS
-
-(b) Rewrite the following dialogue, written in indirect speech, in a paragraph form.
+        id: 'pp-eng-precis-2016-q5a',
+        questionNumber: 'Q. 5 (a)',
+        questionType: 'MCQ',
+        questionText: 'SLAPSTICK : LAUGHTER',
+        options: ['Fallacy : Dismay', 'Genre : Mystery', 'Satire : Anger', 'Horror : Fear'],
+        idealAnswer: 'Horror : Fear'
+      },
+      {
+        id: 'pp-eng-precis-2016-q5b',
+        questionNumber: 'Q. 5 (a)',
+        questionType: 'MCQ',
+        questionText: 'CONVICTION : INCARCERATION',
+        options: ['Reduction : Diminution', 'Induction : Amelioration', 'Radicalization : Estimation', 'Marginalization : Intimidation'],
+        idealAnswer: 'Reduction : Diminution'
+      },
+      {
+        id: 'pp-eng-precis-2016-q5c',
+        questionNumber: 'Q. 5 (a)',
+        questionType: 'MCQ',
+        questionText: 'PROFESSOR : ERUDITE',
+        options: ['Aviator : Licensed', 'Inventor : Imaginative', 'Procrastinator : Conscientious', 'Overseer : Wealthy'],
+        idealAnswer: 'Inventor : Imaginative'
+      },
+       {
+        id: 'pp-eng-precis-2016-q5d',
+        questionNumber: 'Q. 5 (a)',
+        questionType: 'MCQ',
+        questionText: 'METAPHOR : SYMBOL',
+        options: ['Pentameter : Poem', 'Rhythm : Melody', 'Nuance : Song', 'Analogy : Comparison'],
+        idealAnswer: 'Analogy : Comparison'
+      },
+       {
+        id: 'pp-eng-precis-2016-q5e',
+        questionNumber: 'Q. 5 (a)',
+        questionType: 'MCQ',
+        questionText: 'SPY : CLANDESTINE',
+        options: ['Accountant : Meticulous', 'Furrier : Rambunctious', 'Lawyer : Ironic', 'Shepherd : Garrulous'],
+        idealAnswer: 'Accountant : Meticulous'
+      },
+       {
+        id: 'pp-eng-precis-2016-q5f',
+        questionNumber: 'Q. 5 (a)',
+        questionType: 'MCQ',
+        questionText: 'VERVE : ENTHUSIASM',
+        options: ['Loyalty : Duplicity', 'Devotion : Reverence', 'Intensity : Colour', 'Eminence : Anonymity'],
+        idealAnswer: 'Devotion : Reverence'
+      },
+       {
+        id: 'pp-eng-precis-2016-q5g',
+        questionNumber: 'Q. 5 (a)',
+        questionType: 'MCQ',
+        questionText: 'DELTOID : MUSCLE',
+        options: ['Radius : Bone', 'Brain : Nerve', 'Tissue : Organ', 'Blood : Vein'],
+        idealAnswer: 'Radius : Bone'
+      },
+       {
+        id: 'pp-eng-precis-2016-q5h',
+        questionNumber: 'Q. 5 (a)',
+        questionType: 'MCQ',
+        questionText: 'DEPENDABLE : CAPRICIOUS',
+        options: ['Fallible : Cantankerous', 'Erasable : Obtuse', 'Malleable : Limpid', 'Capable : Inept'],
+        idealAnswer: 'Capable : Inept'
+      },
+      {
+        id: 'pp-eng-precis-2016-q5i',
+        questionNumber: 'Q. 5 (b)',
+        questionType: 'Translation',
+        questionText: `Rewrite the following dialogue, written in indirect speech, in a paragraph form.
 Helen: Mr West, what's happened to John?
 Mr West: He's left the company
 Helen: Why has he done that?
@@ -123,18 +177,7 @@ Helen: What is his salary like?
 Mr West: I think he earns quite a lot.
 Helen: Does he like the new job?
 Mr West: I don't know.`,
-        idealAnswer: `**(a) Analogies:**
-(i) **(d) Horror : Fear** (Slapstick is a genre that causes laughter; Horror is a genre that causes fear)
-(ii) **(a) Reduction : Diminution** (Conviction can lead to incarceration; Reduction leads to diminution - both are cause and effect)
-(iii) **(b) Inventor : Imaginative** (A professor is expected to be erudite; an inventor is expected to be imaginative)
-(iv) **(d) Analogy : Comparison** (A metaphor is a type of symbol; an analogy is a type of comparison)
-(v) **(a) Accountant : Meticulous** (A spy's work is clandestine; an accountant's work is meticulous)
-(vi) **(b) Devotion : Reverence** (Verve and enthusiasm are synonyms; devotion and reverence are synonyms)
-(vii) **(a) Radius : Bone** (Deltoid is a type of muscle; Radius is a type of bone)
-(viii) **(d) Capable : Inept** (Dependable and capricious are antonyms; capable and inept are antonyms)
-
-**(b) Dialogue:**
-Helen asked Mr. West what had happened to John. Mr. West replied that he had left the company. Helen then asked why he had done that, and Mr. West explained that John had asked for a raise, but he hadn't given it to him because he was lazy. When Helen inquired if he had found another job, Mr. West confirmed that he was working in a film company and that he thought he earned quite a lot. However, when Helen asked if he liked the new job, Mr. West admitted that he didn't know.`
+        idealAnswer: `Helen asked Mr. West what had happened to John. Mr. West replied that he had left the company. Helen then asked why he had done that, and Mr. West explained that John had asked for a raise, but he hadn't given it to him because he was lazy. When Helen inquired if he had found another job, Mr. West confirmed that he was working in a film company and that he thought he earned quite a lot. However, when Helen asked if he liked the new job, Mr. West admitted that he didn't know.`
       },
       {
         id: 'pp-eng-precis-2016-q6',
