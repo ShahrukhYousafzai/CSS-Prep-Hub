@@ -32,6 +32,76 @@ export const pastPaperQuestions: PastPaperQuestion[] = [
     idealAnswer: 'The essay should deconstruct the phrase "boys will be boys" as a cultural artifact that often excuses harmful behaviors under the guise of innate male nature. It should argue that this phrase perpetuates toxic masculinity, which is a narrow and repressive description of manhood, characterized by violence, dominance, emotional illiteracy, and misogyny. The essay should explore the societal impacts of this mindset, linking it to issues like domestic violence, mental health crises in men, and systemic gender inequality. A strong essay would also propose a counter-narrative, advocating for a healthier, more diverse understanding of masculinity that allows for emotional expression, empathy, and respect for all genders. It should conclude that far from being a justification, the phrase is a significant social problem that requires critical examination and dismantling.',
   },
   {
+    id: 'pp-eng-essay-2020-1',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'Do we really need literature in our lives?',
+    idealAnswer: 'This essay should argue affirmatively that literature is essential. It should explore how literature cultivates empathy by allowing readers to experience different perspectives, enhances critical thinking through the analysis of complex narratives and characters, and serves as a repository of cultural and historical knowledge. The essay can also discuss literature\'s role in personal development, providing solace, inspiration, and a deeper understanding of the human condition, making it indispensable for a truly enriched life.',
+  },
+  {
+    id: 'pp-eng-essay-2020-2',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'Women universities as agents of change.',
+    idealAnswer: 'This essay should argue that women\'s universities act as powerful catalysts for social change, especially in patriarchal societies. They provide safe spaces for women to pursue higher education, develop leadership skills, and enter professions from which they were previously excluded. The essay should discuss how these institutions empower women economically and socially, challenge traditional gender roles, and create a generation of female leaders who can advocate for gender equality in all spheres of life, thus driving significant societal transformation.',
+  },
+  {
+    id: 'pp-eng-essay-2020-3',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'Pakistan and the future of Kashmir cause.',
+    idealAnswer: 'A comprehensive essay on this topic would analyze Pakistan\'s long-standing position on the Kashmir issue, focusing on its diplomatic, political, and moral support for the Kashmiri right to self-determination. It should discuss the future of this cause in light of evolving regional and global dynamics, including India\'s actions in 2019. The essay should explore future strategies for Pakistan, such as strengthening its diplomatic advocacy, highlighting human rights issues internationally, and fostering a favorable global opinion, while also considering the challenges and complexities involved.',
+  },
+  {
+    id: 'pp-eng-essay-2020-4',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'Polarized politics: the issues and challenges of democracy in Pakistan.',
+    idealAnswer: 'This essay should analyze the detrimental effects of political polarization on Pakistan\'s democratic institutions. It should discuss how the lack of consensus on key national issues, confrontational politics, and the erosion of political discourse weaken governance and hinder progress. The challenges include institutional instability, political deadlock, and a decline in public trust. The essay should conclude by emphasizing the need for political maturity, dialogue, and a culture of tolerance to overcome these challenges and strengthen democracy.',
+  },
+  {
+    id: 'pp-eng-essay-2020-5',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'Global power dynamics and Pakistan’s foreign policy.',
+    idealAnswer: 'This essay should examine how Pakistan\'s foreign policy navigates the shifting global power landscape, particularly the rivalry between the US and China. It should discuss the need for a balanced approach, maintaining strategic partnerships with both major powers while safeguarding Pakistan\'s national interests. The essay should analyze the opportunities and challenges this presents, such as leveraging CPEC for economic growth with China while maintaining security cooperation with the US. A key theme would be the pursuit of strategic autonomy in a multipolar world.',
+  },
+  {
+    id: 'pp-eng-essay-2020-6',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'Pakistan’s informal economy: the way forward.',
+    idealAnswer: 'The essay should first define and describe the scale of Pakistan\'s informal economy, noting its role in employment but also its drawbacks, such as tax evasion and lack of worker protections. The "way forward" should focus on gradual formalization through policy interventions. These include simplifying tax registration, providing incentives for businesses to formalize, expanding access to credit for small enterprises, and improving social safety nets for workers. The goal is to integrate the informal sector into the formal economy to broaden the tax base and improve labor standards.',
+  },
+  {
+    id: 'pp-eng-essay-2020-7',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'Promoting tourism in Pakistan: opportunities and challenges.',
+    idealAnswer: 'This essay should highlight Pakistan\'s immense tourism potential, from its northern mountains to its historical sites. Opportunities include economic growth, job creation, and improving the country\'s international image. The challenges section should cover issues like infrastructure deficits, security concerns, visa policies, and the need for better marketing and service standards. The essay should conclude with a roadmap for developing a sustainable tourism industry through public-private partnerships and policy reforms.',
+  },
+  {
+    id: 'pp-eng-essay-2020-8',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'I do not agree with what you have to say, but I’ll defend to the death your right to say it.',
+    idealAnswer: 'This essay, centered on the famous quote attributed to Voltaire, should be a robust defense of the principle of free speech. It should argue that freedom of expression is a cornerstone of democracy and essential for the pursuit of truth. The essay should explore the importance of protecting even unpopular or offensive speech, while also discussing the reasonable limits, such as incitement to violence. The core argument is that the answer to bad speech is more speech, not censorship, and that a society\'s commitment to liberty is tested by its tolerance for dissenting views.',
+  },
+  {
+    id: 'pp-eng-essay-2020-9',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'Is Pakistan ready for digital revolution?',
+    idealAnswer: 'The essay should present a balanced view. On one hand, it can discuss the progress made, such as increasing internet penetration, a booming freelance market, and government initiatives like Digital Pakistan. On the other hand, it must address the challenges that suggest a lack of readiness: the digital divide between urban and rural areas, low digital literacy rates, inadequate infrastructure, and a need for a robust data protection legal framework. The conclusion should argue that while the revolution has begun, significant investment in infrastructure and education is needed to ensure it is inclusive and successful.',
+  },
+  {
+    id: 'pp-eng-essay-2020-10',
+    year: 2020,
+    subject: 'English Essay',
+    questionText: 'IMF bailouts: roads to stability or recipes for disaster.',
+    idealAnswer: 'This essay requires a critical analysis of IMF loan programs for countries like Pakistan. The "roads to stability" argument would be that IMF bailouts provide necessary foreign exchange to avert a balance of payments crisis and enforce fiscal discipline. The "recipes for disaster" argument would focus on the harsh austerity conditions that often accompany these loans, which can stifle growth, increase poverty, and lead to a cycle of debt. A strong essay would conclude that the outcome depends on the design of the program and the country\'s commitment to deep-rooted structural reforms beyond the IMF\'s short-term fixes.',
+  },
+  {
     id: 'pp-eng-essay-2019-1',
     year: 2019,
     subject: 'English Essay',
@@ -695,4 +765,3 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
   { id: 'swq-per-1', subject: 'Persian', topic: 'Literature', difficulty: 'Medium', questionText: 'Who wrote the Shahnameh?', idealAnswer: 'The Shahnameh (Book of Kings) was written by the Persian poet Ferdowsi.', group: 'Group VII' },
   { id: 'swq-ara-1', subject: 'Arabic', topic: 'Literature', difficulty: 'Medium', questionText: 'Who is one of the most famous pre-Islamic Arab poets?', idealAnswer: 'Imru\' al-Qais is one of the most famous poets of the pre-Islamic era.', group: 'Group VII' }
 ];
-
