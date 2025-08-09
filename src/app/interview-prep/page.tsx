@@ -28,9 +28,9 @@ import {
 import { Icons } from '@/components/icons';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { UserNav } from '@/components/user-nav';
-import { AIAnswerCheckerClient } from './components/ai-answer-checker-client';
+import { InterviewPrepClient } from './components/interview-prep-client';
 
-export default function AiAnswerCheckPage() {
+export default function InterviewPrepPage() {
   return (
     <div className="flex min-h-screen w-full flex-col bg-background">
       <aside className="fixed inset-y-0 left-0 z-10 hidden w-60 flex-col border-r bg-card sm:flex">
@@ -55,22 +55,22 @@ export default function AiAnswerCheckPage() {
                 Past Papers
               </Button>
             </Link>
-            <Button variant="secondary" className="justify-start gap-2">
-              <Bot className="h-4 w-4" />
-              AI Answer Check
-            </Button>
+            <Link href="/ai-answer-check">
+              <Button variant="ghost" className="justify-start gap-2 w-full">
+                <Bot className="h-4 w-4" />
+                AI Answer Check
+              </Button>
+            </Link>
             <Link href="/quizzes">
               <Button variant="ghost" className="justify-start gap-2 w-full">
                 <GanttChartSquare className="h-4 w-4" />
                 Quizzes
               </Button>
             </Link>
-            <Link href="/interview-prep">
-              <Button variant="ghost" className="justify-start gap-2 w-full">
-                  <MessageSquareQuote className="h-4 w-4" />
-                  Interview Prep
-              </Button>
-            </Link>
+            <Button variant="secondary" className="justify-start gap-2">
+                <MessageSquareQuote className="h-4 w-4" />
+                Interview Prep
+            </Button>
             <Button variant="ghost" className="justify-start gap-2">
                 <BrainCircuit className="h-4 w-4" />
                 Psychological Tests
@@ -103,7 +103,7 @@ export default function AiAnswerCheckPage() {
                   <FileText className="h-5 w-5" />
                   Past Papers
                 </Link>
-                <Link href="/ai-answer-check" className="flex items-center gap-4 px-2.5 text-foreground">
+                <Link href="/ai-answer-check" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <Bot className="h-5 w-5" />
                   AI Answer Check
                 </Link>
@@ -111,7 +111,7 @@ export default function AiAnswerCheckPage() {
                   <GanttChartSquare className="h-5 w-5" />
                   Quizzes
                 </Link>
-                 <Link href="/interview-prep" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                 <Link href="/interview-prep" className="flex items-center gap-4 px-2.5 text-foreground">
                     <MessageSquareQuote className="h-5 w-5" />
                     Interview Prep
                 </Link>
@@ -131,7 +131,7 @@ export default function AiAnswerCheckPage() {
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbPage>AI Answer Check</BreadcrumbPage>
+                <BreadcrumbPage>Interview Prep</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
@@ -147,7 +147,7 @@ export default function AiAnswerCheckPage() {
           <UserNav />
         </header>
         <main className="flex-1 p-4 sm:px-6 sm:py-0">
-          <AIAnswerCheckerClient />
+          <InterviewPrepClient />
         </main>
          <footer className="text-center p-4 text-sm text-muted-foreground">
           Developed by Shahrukh Yousafzai

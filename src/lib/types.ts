@@ -27,3 +27,10 @@ export interface Quiz {
   subject: string;
   questions: QuizQuestion[];
 }
+
+export interface InterviewQuestion {
+  id: string;
+  category: 'General Knowledge' | 'Current Affairs' | 'Personality';
+  questionText: string;
+  suggestedAnswer: string;
+}

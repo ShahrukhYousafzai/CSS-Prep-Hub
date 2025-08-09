@@ -69,7 +69,7 @@ const featureCards = [
     title: 'Interview Prep',
     description: 'Prepare with our extensive Q&A bank.',
     icon: MessageSquareQuote,
-    href: '#',
+    href: '/interview-prep',
     color: 'text-purple-500',
   },
   {
@@ -116,10 +116,12 @@ export default function DashboardPage() {
               Quizzes
             </Button>
           </Link>
-          <Button variant="ghost" className="justify-start gap-2">
-            <MessageSquareQuote className="h-4 w-4" />
-            Interview Prep
-          </Button>
+          <Link href="/interview-prep">
+            <Button variant="ghost" className="justify-start gap-2 w-full">
+              <MessageSquareQuote className="h-4 w-4" />
+              Interview Prep
+            </Button>
+          </Link>
           <Button variant="ghost" className="justify-start gap-2">
             <BrainCircuit className="h-4 w-4" />
             Psychological Tests
@@ -160,7 +162,7 @@ export default function DashboardPage() {
                   <GanttChartSquare className="h-5 w-5" />
                   Quizzes
                 </Link>
-                <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                <Link href="/interview-prep" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                     <MessageSquareQuote className="h-5 w-5" />
                     Interview Prep
                 </Link>
