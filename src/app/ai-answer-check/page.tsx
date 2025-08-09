@@ -44,9 +44,9 @@ export default function AiAnswerCheckPage() {
             </Link>
           </div>
         <nav className="flex flex-col gap-2 w-full px-4">
-             <Link href="/" legacyBehavior passHref>
-              <Button asChild variant="ghost" className="justify-start gap-2">
-                <a><LayoutDashboard className="h-4 w-4" />Dashboard</a>
+             <Link href="/">
+              <Button variant="ghost" className="justify-start gap-2 w-full">
+                <LayoutDashboard className="h-4 w-4" />Dashboard
               </Button>
             </Link>
             <Button variant="ghost" className="justify-start gap-2">

@@ -103,9 +103,9 @@ export default function DashboardPage() {
             <FileText className="h-4 w-4" />
             Past Papers
           </Button>
-          <Link href="/ai-answer-check" legacyBehavior passHref>
-            <Button asChild variant="ghost" className="justify-start gap-2">
-              <a><Bot className="h-4 w-4" />AI Answer Check</a>
+          <Link href="/ai-answer-check">
+            <Button variant="ghost" className="justify-start gap-2 w-full">
+              <Bot className="h-4 w-4" />AI Answer Check
             </Button>
           </Link>
           <Button variant="ghost" className="justify-start gap-2">
