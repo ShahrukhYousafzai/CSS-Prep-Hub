@@ -1,7 +1,7 @@
 
 import type { PastPaper, Quiz, InterviewQuestion, PsychTest, SubjectWiseQuestion } from '../types';
 import { pastPapers as pastPapersCompulsory } from './past-papers/compulsory';
-import { pastPapers as pastPapersGroup1 } from './past-papers/group-1/index';
+import { pastPapers as pastPapersGroup1 } from './past-papers/group-1';
 import { pastPapers as pastPapersGroup2 } from './past-papers/group-2';
 import { pastPapers as pastPapersGroup3 } from './past-papers/group-3';
 import { pastPapers as pastPapersGroup4 } from './past-papers/group-4';
