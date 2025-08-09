@@ -42,13 +42,13 @@ export function PastPapersClient() {
   const years = useMemo(() => ['all', ...Array.from(new Set(pastPaperQuestions.map((q) => q.year.toString()))).sort((a, b) => Number(b) - Number(a))], []);
   const subjects = useMemo(() => ['all', ...Array.from(new Set(pastPaperQuestions.map((q) => q.subject)))], []);
 
-  const filteredQuestions = useMemo(() => {
-    return pastPaperQuestions.filter((q) => {
-      const yearMatch = selectedYear === 'all' || q.year.toString() === selectedYear;
-      const subjectMatch = selectedSubject === 'all' || q.subject === selectedSubject;
+  const filteredPapers = useMemo(() => {
+    return pastPaperQuestions.filter((paper) => {
+      const yearMatch = selectedYear === 'all' || paper.year.toString() === selectedYear;
+      const subjectMatch = selectedSubject === 'all' || paper.subject === selectedSubject;
       const searchTermMatch =
-        q.questionText.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        q.idealAnswer.toLowerCase().includes(searchTerm.toLowerCase());
+        paper.subject.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        paper.questions.some(q => q.questionText.toLowerCase().includes(searchTerm.toLowerCase()));
       return yearMatch && subjectMatch && searchTermMatch;
     });
   }, [searchTerm, selectedYear, selectedSubject]);
@@ -86,7 +86,7 @@ export function PastPapersClient() {
         <CardContent>
           <div className="grid gap-4 md:grid-cols-3">
             <Input
-              placeholder="Search questions or answers..."
+              placeholder="Search subjects or questions..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -118,52 +118,68 @@ export function PastPapersClient() {
         </CardContent>
       </Card>
 
-      {filteredQuestions.length > 0 ? (
+      {filteredPapers.length > 0 ? (
         <Accordion type="single" collapsible className="w-full space-y-2">
-          {filteredQuestions.map((q) => (
-            <AccordionItem value={q.id} key={q.id} className="border-b-0 rounded-lg bg-card overflow-hidden">
+          {filteredPapers.map((paper) => (
+            <AccordionItem value={paper.id} key={paper.id} className="border-b-0 rounded-lg bg-card overflow-hidden border">
               <AccordionTrigger className="p-4 hover:no-underline">
                 <div className="text-left">
-                  <p className="font-semibold">{q.questionText}</p>
+                  <p className="font-semibold text-lg">{paper.subject}</p>
                   <p className="text-sm text-muted-foreground">
-                    {q.subject} - {q.year}
+                    {paper.year}
                   </p>
                 </div>
               </AccordionTrigger>
               <AccordionContent className="p-4 pt-0">
                 <div className="space-y-4">
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">Ideal Answer Outline</h4>
-                    <p className="text-muted-foreground text-sm">{q.idealAnswer}</p>
-                  </div>
-                  <div className="mt-4">
-                    {generatingId === q.id ? (
-                      <div className="flex items-center justify-center h-24 rounded-lg border border-dashed">
-                        <div className="text-center">
-                          <Loader2 className="mx-auto h-8 w-8 animate-spin text-primary" />
-                          <p className="mt-2 font-semibold">Generating full answer...</p>
-                          <p className="text-xs text-muted-foreground">This may take a moment.</p>
-                        </div>
-                      </div>
-                    ) : generatedAnswers[q.id] ? (
-                      <Card className="bg-muted/50">
-                         <CardHeader>
-                          <CardTitle className="text-lg">AI Generated Answer</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                          <p className="whitespace-pre-wrap text-sm">{generatedAnswers[q.id]}</p>
-                        </CardContent>
-                      </Card>
-                    ) : (
-                      <Button
-                        onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
-                        disabled={isPending}
-                      >
-                        <Bot className="mr-2 h-4 w-4" />
-                        Generate Full Answer with AI
-                      </Button>
-                    )}
-                  </div>
+                  <Accordion type="single" collapsible className="w-full space-y-2">
+                    {paper.questions.map(q => (
+                       <AccordionItem value={q.id} key={q.id} className="border-b-0 rounded-lg bg-muted/50 overflow-hidden">
+                          <AccordionTrigger className="p-4 hover:no-underline text-left">
+                            <span className="font-semibold">{q.questionNumber ? `${q.questionNumber} ` : ''}{q.questionType === 'Essay' ? q.questionText : `(${q.questionType})`}</span>
+                          </AccordionTrigger>
+                           <AccordionContent className="p-4 pt-0">
+                              <div className="space-y-4">
+                                {q.questionType !== 'Essay' && <p className='text-sm font-semibold'>{q.questionText}</p>}
+                                <div>
+                                  <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
+                                  <div className="text-muted-foreground text-sm whitespace-pre-wrap">{q.idealAnswer}</div>
+                                </div>
+                                {q.questionType === 'Essay' && (
+                                   <div className="mt-4">
+                                    {generatingId === q.id ? (
+                                      <div className="flex items-center justify-center h-24 rounded-lg border border-dashed">
+                                        <div className="text-center">
+                                          <Loader2 className="mx-auto h-8 w-8 animate-spin text-primary" />
+                                          <p className="mt-2 font-semibold">Generating full answer...</p>
+                                          <p className="text-xs text-muted-foreground">This may take a moment.</p>
+                                        </div>
+                                      </div>
+                                    ) : generatedAnswers[q.id] ? (
+                                      <Card className="bg-background">
+                                        <CardHeader>
+                                          <CardTitle className="text-lg">AI Generated Answer</CardTitle>
+                                        </CardHeader>
+                                        <CardContent>
+                                          <p className="whitespace-pre-wrap text-sm">{generatedAnswers[q.id]}</p>
+                                        </CardContent>
+                                      </Card>
+                                    ) : (
+                                      <Button
+                                        onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
+                                        disabled={isPending}
+                                      >
+                                        <Bot className="mr-2 h-4 w-4" />
+                                        Generate Full Answer with AI
+                                      </Button>
+                                    )}
+                                  </div>
+                                )}
+                              </div>
+                           </AccordionContent>
+                       </AccordionItem>
+                    ))}
+                  </Accordion>
                 </div>
               </AccordionContent>
             </AccordionItem>

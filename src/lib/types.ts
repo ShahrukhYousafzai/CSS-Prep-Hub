@@ -1,12 +1,22 @@
 import { z } from 'zod';
 
-export interface PastPaperQuestion {
+// A single question within a paper
+export interface PaperQuestion {
+  id: string;
+  questionNumber?: string; // e.g., "Q.2", "Q.4 (a)"
+  questionText: string;
+  idealAnswer: string;
+  questionType: 'Essay' | 'Precis' | 'Comprehension' | 'Correction' | 'Analogy' | 'Idioms' | 'Translation' | 'Other';
+}
+
+// Represents a full past paper, which can contain multiple questions
+export interface PastPaper {
   id: string;
   year: number;
   subject: string;
-  questionText: string;
-  idealAnswer: string;
+  questions: PaperQuestion[];
 }
+
 
 export type AIFeedback = {
   scoreContent: number;
@@ -92,3 +102,7 @@ export interface SubjectWiseQuestion {
   idealAnswer: string;
   group: 'Compulsory' | 'Group I' | 'Group II' | 'Group III' | 'Group IV' | 'Group V' | 'Group VI' | 'Group VII';
 }
+
+// This is a temporary alias to avoid breaking the app during refactoring.
+// Will be removed once all data files are updated to the new format.
+export type PastPaperQuestion = PastPaper;
