@@ -544,4 +544,396 @@ export const pastPapers: PastPaper[] = [
         }
     ]
   },
+  {
+    id: 'pp-gs-2020-1',
+    year: 2020,
+    subject: 'General Science & Ability',
+    questions: [
+        {
+            id: 'pp-gs-2020-1-q2',
+            questionNumber: 'Q. 2',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2020-1-q2a', questionText: '(a) On 7th April 2012 an Avalanche hit a Pakistan military base in Gayari sector trapping 140 soldiers and civilians under deep snow. What is Avalanche; describe its four types with focus on most dangerous type?', idealAnswer: 'An avalanche is a rapid flow of snow down a slope. Four types are: Loose Snow Avalanches, Slab Avalanches, Powder Snow Avalanches, and Wet Snow Avalanches. The most dangerous is the Slab Avalanche, where a cohesive slab of snow slides as a unit, making it large, fast, and destructive.' },
+                { id: 'pp-gs-2020-1-q2b', questionText: '(b) What do you understand by Global Wind and Pressure patterns? Also explain wind and pressure features at higher altitude.', idealAnswer: 'Global wind and pressure patterns are large-scale atmospheric circulations caused by uneven solar heating of the Earth. Key features include the Hadley, Ferrel, and Polar cells. At higher altitudes, wind speeds are generally faster (e.g., jet streams) due to less friction, and air pressure decreases exponentially with height.' },
+                { id: 'pp-gs-2020-1-q2c', questionText: '(c) World largest earthquake was assigned a magnitude of 9.5 by the United States Geological Survey on 22 May 1960 in southern Chile Valdivia. What do you know about earthquake? Also explain shallow-focus and deep-focus earthquakes.', idealAnswer: 'An earthquake is the shaking of the Earth\'s surface from a sudden release of energy in the crust. Shallow-focus earthquakes occur at depths less than 70 km and are generally more destructive as the seismic waves have less distance to travel. Deep-focus earthquakes occur at depths between 300 and 700 km and are usually less damaging.' },
+                { id: 'pp-gs-2020-1-q2d', questionText: '(d) Differentiate between the renewable and non renewable energy sources. Briefly explain Geothermal Energy and Hydro Electricity.', idealAnswer: 'Renewable sources replenish naturally (solar, wind). Non-renewable sources are finite (coal, oil). Geothermal energy uses heat from the Earth\'s core to generate electricity. Hydroelectricity generates power from the movement of water, typically by damming rivers.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2020-1-q3',
+            questionNumber: 'Q. 3',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2020-1-q3a', questionText: '(a) What are Pesticides? Explain their different types; why persistent pesticides are more lethal for mankind?', idealAnswer: 'Pesticides are substances used to kill pests. Types include insecticides, herbicides, and fungicides. Persistent pesticides (like DDT) are more lethal because they do not break down easily in the environment, leading to bioaccumulation in the food chain, which can cause long-term health problems in humans.' },
+                { id: 'pp-gs-2020-1-q3b', questionText: '(b) What are carbohydrates? Classify and give detail of each class along with examples.', idealAnswer: 'Carbohydrates are organic compounds of carbon, hydrogen, and oxygen. They are classified as: Monosaccharides (simple sugars, e.g., glucose), Disaccharides (two simple sugars, e.g., sucrose), and Polysaccharides (complex carbohydrates, e.g., starch, cellulose).' },
+                { id: 'pp-gs-2020-1-q3c', questionText: '(c) Discuss different methods of Food preservation.', idealAnswer: 'Methods include: Refrigeration/Freezing (slowing microbial growth), Canning (heating to kill microbes and sealing), Drying/Dehydration (removing moisture), Salting/Curing (using salt to draw out water), and Pasteurization (using heat to kill pathogens).' },
+                { id: 'pp-gs-2020-1-q3d', questionText: '(d) Where and how Fiber Optics are used? Also write down their advantages and disadvantages.', idealAnswer: 'Fiber optics are used in telecommunications, internet, and medical imaging. They transmit data as light pulses through glass fibers. Advantages: high bandwidth, speed, security. Disadvantages: high installation cost, fragility.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2020-1-q4',
+            questionNumber: 'Q. 4',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2020-1-q4a', questionText: '(a) Briefly describe the various segments of atmosphere. How these segments are maintaining the Earth Radiation Balance?', idealAnswer: 'The atmosphere has five layers: Troposphere, Stratosphere (contains ozone layer), Mesosphere, Thermosphere, and Exosphere. They maintain Earth\'s radiation balance by absorbing and reflecting solar radiation. Greenhouse gases in the troposphere trap heat, while the ozone layer in the stratosphere absorbs harmful UV radiation.' },
+                { id: 'pp-gs-2020-1-q4b', questionText: '(b) How the organic particulate matter enters in the atmosphere. Also describe the sources?', idealAnswer: 'Organic particulate matter enters the atmosphere from sources like pollen, fungal spores, bacteria, incomplete combustion of fossil fuels, and burning biomass. These can be primary (emitted directly) or secondary (formed from chemical reactions).' },
+                { id: 'pp-gs-2020-1-q4c', questionText: '(c) What is natural radioactivity? How it is different from the artificial radioactivity?', idealAnswer: 'Natural radioactivity is the spontaneous decay of an unstable nucleus found in nature (e.g., Uranium). Artificial radioactivity is induced in a stable nucleus by bombarding it with particles (e.g., in a nuclear reactor).'},
+                { id: 'pp-gs-2020-1-q4d', questionText: '(d) What are the Fossils? Discuss the importance of paleontology.', idealAnswer: 'Fossils are the preserved remains or traces of ancient organisms. Paleontology, the study of fossils, is important for understanding the history of life on Earth, evolution, and past climates.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2020-1-q5',
+            questionNumber: 'Q. 5',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2020-1-q5a', questionText: '(a) What do you know about Hepatitis? Describe its types and write down preventive measures.', idealAnswer: 'Hepatitis is an inflammation of the liver, usually caused by a virus. Main types are A, B, and C. Prevention includes vaccination (for A and B), practicing good hygiene, and avoiding sharing needles or other personal items.' },
+                { id: 'pp-gs-2020-1-q5b', questionText: '(b) Differentiate between Middle Latitude Cyclones and Tornadoes.', idealAnswer: 'Middle Latitude Cyclones are large-scale (hundreds of km) low-pressure systems that form along fronts in the mid-latitudes and can last for days. Tornadoes are small-scale (hundreds of meters), violent rotating columns of air that form from thunderstorms and are short-lived but intensely destructive.' },
+                { id: 'pp-gs-2020-1-q5c', questionText: '(c) What is Open System Interconnections (OSI) and describe its layers?', idealAnswer: 'The OSI model is a 7-layer conceptual framework for network communication. The layers are: 7. Application, 6. Presentation, 5. Session, 4. Transport, 3. Network, 2. Data Link, 1. Physical. Each layer performs a specific function in the communication process.' },
+                { id: 'pp-gs-2020-1-q5d', questionText: '(d) What is GPS? How does it work?', idealAnswer: 'GPS (Global Positioning System) is a satellite-based navigation system. A receiver on Earth calculates its position by precisely timing the signals sent by at least four GPS satellites.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2020-1-q6',
+            questionNumber: 'Q. 6',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2020-1-q6a', questionText: '(a) Tariq can do a tailoring job in 6 hours. Sajid does the same job in 4 hours. Irfan does it in 8 hours. Tariq and Sajid start doing the work. Sajid leaves after two hours and Irfan replaces him. How long would it take to complete the work?', idealAnswer: 'Rates: Tariq=1/6, Sajid=1/4, Irfan=1/8 job/hr. Work by T&S in 2hrs = 2*(1/6 + 1/4) = 5/6. Remaining work = 1/6. T&I combined rate = 1/6 + 1/8 = 7/24. Time to finish = (1/6) / (7/24) = 4/7 hours. Total time = 2 + 4/7 = 18/7 hours.' },
+                { id: 'pp-gs-2020-1-q6b', questionText: '(b) Find the missing number to complete each sum.\n(a) 9 + 8 – 5 = 2 × (-------------) (b) 3 × 9 – 14 = 24 – (-------------)\n(c) 15 ÷ 3 × 12 = 41 + (-------------) (d) 24 ÷ 4 + 5 = 66 ÷ (-------------)\n(e) 8 × 6 – 13 + 3 = 7 × 6 – (-------------)', idealAnswer: '(a) 6, (b) 11, (c) 19, (d) 6, (e) 4' },
+                { id: 'pp-gs-2020-1-q6c', questionText: '(c) There are seven students in a group having ages 17,17,18,18,18,19,19. Calculate mean, median, mode and range of their ages. Also define these mentioned terms.', idealAnswer: 'Mean: Average (126/7=18). Median: Middle value (18). Mode: Most frequent (18). Range: Highest-Lowest (19-17=2).' },
+                { id: 'pp-gs-2020-1-q6d', questionText: '(d) How does mental ability scales differ from IQ test?', idealAnswer: 'Mental ability scales often measure specific abilities (verbal, numerical, spatial) providing a profile of strengths and weaknesses. An IQ test typically provides a single, global score representing general intelligence.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2020-1-q7',
+            questionNumber: 'Q. 7',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2020-1-q7a', questionText: '(a) Mushtaq, Pervaiz, Ehsan, Umair and Saleem are friends having different heights and weights. Mushtaq weighs four times as much as Pervaiz and Pervaiz weighs double than Ehsan, Ehsan weighs half as much as Umair and Umair weighs half as much as Saleem.\n(i) Who is the heaviest among five friends? (ii) Who is the second heaviest? (iii) Who has lowest weight? (iv) Who are equal in weight? (v) Mention the descending order.', idealAnswer: 'Let Ehsan=E. Umair=2E, Saleem=4E, Pervaiz=2E, Mushtaq=8E. (i) Mushtaq, (ii) Saleem, (iii) Ehsan, (iv) Pervaiz & Umair. (v) Mushtaq, Saleem, Pervaiz/Umair, Ehsan.' },
+                { id: 'pp-gs-2020-1-q7b', questionText: '(b) A farmer needs to build a boundary wall around his farm. If the area of farm is 484 m2, what will be the total area of the wall if it is two meters high on three sides and three meters high on one side?', idealAnswer: 'Assuming the farm is square, side = sqrt(484) = 22m. Perimeter = 4 * 22 = 88m. Wall area = (3 * 22 * 2) + (1 * 22 * 3) = 132 + 66 = 198 m².' },
+                { id: 'pp-gs-2020-1-q7c', questionText: '(c) Five girls A,B,C,D,E and four boys W,X,Y,Z have to go to a trip in three cars, car-1,car-2 and car-3. The following restrictions for seating in car are to be observed:\n(i) Only three persons can sit in one car (ii) At least one boy and one girl must be in each car\n(iii) A and D should remain together (iv) Z cannot sit with B or C in the same car\nDistribute boys and girls in three cars.', idealAnswer: 'Car 1: A, D, W. Car 2: B, X, Y. Car 3: C, E, Z. This satisfies all conditions.' },
+                { id: 'pp-gs-2020-1-q7d', questionText: '(d) What are social skills? Describe four causes of weak social skills.', idealAnswer: 'Social skills are the skills we use to communicate and interact with each other. Four causes of weak social skills can be: lack of practice/social isolation, anxiety disorders, certain developmental conditions, and lack of positive role models.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2020-1-q8',
+            questionNumber: 'Q. 8',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2020-1-q8a', questionText: '(a) What do you understand by systematic sampling? Discuss its types.', idealAnswer: 'Systematic sampling is a probability sampling method where a random starting point is selected and then every k-th member of the population is selected. Types include linear and circular systematic sampling.' },
+                { id: 'pp-gs-2020-1-q8b', questionText: '(b) Blood groups of inhabitants of a village were checked. It was found that 600 people possessed blood group A, 650 possessed blood group B, 550 had blood group AB and 200 have blood group O. Calculate the probability of having blood group B. (ii) Calculate the probability of having blood group O.', idealAnswer: 'Total people = 600+650+550+200 = 2000. (i) P(B) = 650/2000 = 0.325. (ii) P(O) = 200/2000 = 0.1.' },
+                { id: 'pp-gs-2020-1-q8c', questionText: '(c) A group of 50 men can construct 20 kilometer road in 40 days. How long will 70 men take to complete same length of road?', idealAnswer: 'This is an inverse proportion. 50 men * 40 days = 70 men * x days. x = (50 * 40) / 70 ≈ 28.57 days.' },
+                { id: 'pp-gs-2020-1-q8d', questionText: '(d) Zahid left a property worth Rs 1750,000/. His family had to pay off a debt of Rs 150,000/. The rest of money was distributed between a son and a daughter. How much did each child receive if share of a son was double than that of a daughter?', idealAnswer: 'Net property = 1,750,000 - 150,000 = 1,600,000. Ratio Son:Daughter = 2:1 (3 parts). Daughter\'s share = (1/3)*1,600,000 = Rs. 533,333.33. Son\'s share = (2/3)*1,600,000 = Rs. 1,066,666.67.' },
+            ]
+        }
+    ]
+  },
+  {
+    id: 'pp-gs-2021-2',
+    year: 2021,
+    subject: 'General Science & Ability',
+    questions: [
+        {
+            id: 'pp-gs-2021-2-q2',
+            questionNumber: 'Q. 2',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2021-2-q2a', questionText: '(a) Differentiate between a star and a planet. What is the magnitude of a star and how the color of stars is correlated with their temperatures?', idealAnswer: 'A star generates its own light through nuclear fusion (e.g., the Sun). A planet orbits a star and shines by reflecting its light. Magnitude is a measure of a star\'s brightness. A star\'s color is correlated with its temperature: blue stars are hottest, followed by white, yellow, orange, and red stars which are the coolest.' },
+                { id: 'pp-gs-2021-2-q2b', questionText: '(b) “Semiconductors are the Brains of Modern Electronics”. Explain in detail what this quotation means.', idealAnswer: 'This means semiconductors are the fundamental components of all modern electronics. Materials like silicon form the basis of transistors, diodes, and integrated circuits (microchips), which perform the logic, memory, and control functions essential for computers, smartphones, and countless other devices.' },
+                { id: 'pp-gs-2021-2-q2c', questionText: '(c) Briefly describe the most popular and accepted theory about the origin of the Universe.', idealAnswer: 'The Big Bang theory is the most accepted theory. It posits that the universe began as an extremely hot, dense point approximately 13.8 billion years ago and has been expanding and cooling ever since. Evidence includes the cosmic microwave background radiation and the observed redshift of distant galaxies.' },
+                { id: 'pp-gs-2021-2-q2d', questionText: '(d) What are the advantages and limitations of renewable energy resources? Briefly explain the prospects of non-conventional energy resources in Pakistan.', idealAnswer: 'Advantages: environmentally friendly, sustainable. Limitations: intermittent (solar/wind), high initial cost, land use. Pakistan has significant potential for non-conventional resources like solar (due to abundant sunlight), wind (in coastal areas), and hydropower.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2021-2-q3',
+            questionNumber: 'Q. 3',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2021-2-q3a', questionText: '(a) Explain with examples the relationship between cells, tissues and organs.', idealAnswer: 'Cells are the basic units of life (e.g., muscle cell). Tissues are groups of similar cells performing a specific function (e.g., muscle tissue). Organs are structures made of different tissues working together for a common purpose (e.g., the heart, which is made of muscle, nerve, and connective tissues).' },
+                { id: 'pp-gs-2021-2-q3b', questionText: '(b) Explain the differences in structure & function between a cell wall and a cell membrane.', idealAnswer: 'A cell wall (found in plants, not animals) is a rigid outer layer providing structural support. A cell membrane is a flexible barrier in all cells that controls what enters and leaves the cell.' },
+                { id: 'pp-gs-2021-2-q3c', questionText: '(c) What is meant by transpiration? Explain in detail the significance of leaf structure in the process of transpiration.', idealAnswer: 'Transpiration is the process of water movement through a plant and its evaporation from aerial parts, such as leaves. The leaf\'s broad surface area and stomata (pores) are significant as they allow for gas exchange and the release of water vapor, which pulls water up from the roots.' },
+                { id: 'pp-gs-2021-2-q3d', questionText: '(d) What is meant by the term double circulation? Briefly describe how the heart is adapted to keep blood flowing in a double circulation.', idealAnswer: 'Double circulation means blood passes through the heart twice for each complete circuit of the body. The heart\'s four-chambered structure (two atria, two ventricles) is adapted for this, separating oxygenated blood (left side) from deoxygenated blood (right side) to ensure efficient oxygen transport.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2021-2-q4',
+            questionNumber: 'Q. 4',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2021-2-q4a', questionText: '(a) What is the sequence of strata of atmosphere and on what factors does it depends?', idealAnswer: 'The sequence from the ground up is: Troposphere, Stratosphere, Mesosphere, Thermosphere, Exosphere. The layers are classified based on temperature changes with altitude.' },
+                { id: 'pp-gs-2021-2-q4b', questionText: '(b) Describe water cycle and briefly explain the major processes involved in water cycle?', idealAnswer: 'The water cycle is the continuous movement of water on Earth. Major processes are: Evaporation (liquid to gas), Condensation (gas to liquid, forming clouds), Precipitation (rain, snow), and Collection (water gathering in rivers, lakes, oceans).' },
+                { id: 'pp-gs-2021-2-q4c', questionText: '(c) What is the Difference between asthenosphere and lithosphere? Explain various components of lithosphere.', idealAnswer: 'The lithosphere is the rigid outer part of the earth, consisting of the crust and upper mantle. The asthenosphere is the highly viscous, mechanically weak region of the upper mantle below the lithosphere. The lithosphere is broken into tectonic plates.' },
+                { id: 'pp-gs-2021-2-q4d', questionText: '(d) Differentiate between food contaminants and food adulterants.', idealAnswer: 'Contaminants are substances accidentally incorporated into food (e.g., bacteria, pesticides). Adulterants are substances intentionally added to food to reduce its quality or increase its bulk for economic gain (e.g., adding water to milk).' },
+            ]
+        },
+        {
+            id: 'pp-gs-2021-2-q5',
+            questionNumber: 'Q. 5',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2021-2-q5a', questionText: '(a) Define the term “malnutrition”. Elaborate its major causes and consequences.', idealAnswer: 'Malnutrition refers to deficiencies, excesses, or imbalances in a person’s intake of energy and/or nutrients. Causes include poverty, lack of access to food, and poor dietary choices. Consequences include stunted growth, weakened immune system, and increased risk of chronic diseases.' },
+                { id: 'pp-gs-2021-2-q5b', questionText: '(b) Explain how a slice of bread after few days decomposes due to the growth of fungi.', idealAnswer: 'Fungal spores (like mold) from the air land on the bread. In a warm, moist environment, they germinate, grow hyphae (threads) into the bread, and release enzymes to digest the starch and sugars, causing the bread to decompose.' },
+                { id: 'pp-gs-2021-2-q5c', questionText: '(c) What is a computer memory? Describe its units and discuss various types of memories.', idealAnswer: 'Computer memory stores data and instructions. Units include bits, bytes, kilobytes, megabytes, etc. Types include: RAM (volatile, primary memory) and ROM (non-volatile, firmware), and secondary storage like HDD and SSD.' },
+                { id: 'pp-gs-2021-2-q5d', questionText: '(d) Differentiate between natural and artificial satellites. Briefly describe the working of communication satellites with some applications.', idealAnswer: 'Natural satellites are celestial bodies orbiting a planet (e.g., the Moon). Artificial satellites are man-made objects placed in orbit. Communication satellites relay signals from one point on Earth to another. They are used for television broadcasting, phone calls, and internet services.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2021-2-q6',
+            questionNumber: 'Q. 6',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2021-2-q6a', questionText: '(a) A man is now 3 times as old as his son. In ten (10) years time, the sum of their ages will be 76. How old wasthe man when his son was born?', idealAnswer: 'Let son\'s age=S, man\'s age=M. M=3S. (M+10)+(S+10)=76. Substituting M=3S gives 4S+20=76, so S=14. M=42. The man was 42-14=28 years old when the son was born.' },
+                { id: 'pp-gs-2021-2-q6b', questionText: '(b) How many tiles of 20cm2 will be required to have a footpath 1m wide carried around the outside of grassy plot 24m long and 14m broad?', idealAnswer: 'Area of plot=24*14=336 m². Area with path=(24+2)*(14+2)=26*16=416 m². Path area = 416-336=80 m². Tile area=20 cm² = 0.002 m². Tiles needed = 80 / 0.002 = 40,000 tiles.' },
+                { id: 'pp-gs-2021-2-q6c', questionText: '(c) Mr. Faheem has dinner with his family at a restaurant which offers a 10% discount on food. The marked price of the food that they order was Rs.15000/-. Given that there was a service charges of 10% and GST is 17%, calculate the total amount of money he has to pay.', idealAnswer: 'Discounted price = 15000 * 0.90 = 13500. Service charge = 13500 * 0.10 = 1350. Price with service = 14850. GST = 14850 * 0.17 = 2524.5. Total = 14850 + 2524.5 = Rs. 17374.5.' },
+                { id: 'pp-gs-2021-2-q6d', questionText: '(d) Mr. Khawaja walked for 45 minutes at the rate of 3km/h and then ran for half an hour at a certain speed. At the end of that time he was 6km away from the starting point. How fast did he run?', idealAnswer: 'Distance walked = 3 km/h * 0.75 h = 2.25 km. Distance ran = 6 - 2.25 = 3.75 km. Speed ran = 3.75 km / 0.5 h = 7.5 km/h.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2021-2-q7',
+            questionNumber: 'Q. 7',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2021-2-q7a', questionText: '(a) A child went 90m towards East, and then he turned Right and went 20m. Subsequently he turned Right and after going 30m he reached his uncle’s house. From there he went 100m to his North. Determine how far he is from his starting point.', idealAnswer: 'Net East-West = 90E - 30W = 60m East. Net North-South = 100N - 20S = 80m North. Distance = sqrt(60² + 80²) = sqrt(3600+6400) = sqrt(10000) = 100m.' },
+                { id: 'pp-gs-2021-2-q7b', questionText: '(b) The average of 11 numbers is 63, that of the first 6 numbers are 60 and that of the last 6 numbers are 65. Find the 6th number.', idealAnswer: 'Sum of 11 numbers = 11*63=693. Sum of first 6 = 6*60=360. Sum of last 6 = 6*65=390. 6th number = (360+390) - 693 = 57.' },
+                { id: 'pp-gs-2021-2-q7c', questionText: '(c) The following table shows some values of ‘x’ and the corresponding values of ‘y’ where, y = x³ − 3x − 10.\nx -3 -2 -1 0 1 2 3 4\ny -28 -12 -8 -10 -12 -12 8 42\nComplete the table and draw a graph between ‘x’ and ‘y’ to find the value of ‘y’ when x=1.8 and value of ‘x’ when y=10.', idealAnswer: 'The table values are incorrect in the question. Corrected table: x=-2, y=-12; x=-1, y=-8. For x=1.8, y=-11.568. When y=10, x≈3.05. A graph would be needed for precise interpolation.' },
+                { id: 'pp-gs-2021-2-q7d', questionText: '(d) Mr. Raheel invests Rs.60000/- in an account that earns simple interest. At the end of 5 years, the investment is worth Rs.85000/-. Calculate the rate ofsimple interest per year.', idealAnswer: 'Interest earned = 85000 - 60000 = 25000. Interest for 1 year = 25000/5 = 5000. Rate = (5000/60000) * 100 = 8.33%.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2021-2-q8',
+            questionNumber: 'Q. 8',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2021-2-q8a', questionText: '(a) Find out the correct word from the given jumbled spellings.\n(i) UORSEIS (ii) REGAHT (iii) TYLEAL (iv) RAMYR (v) RYUHR', idealAnswer: '(i) SERIOUS (ii) GATHER (iii) LATELY (iv) MARRY (v) HURRY' },
+                { id: 'pp-gs-2021-2-q8b', questionText: '(b) Find the number of triangles in the following two images.', idealAnswer: 'The images are missing, so the question cannot be answered.' },
+                { id: 'pp-gs-2021-2-q8c', questionText: '(c) Calculate the total area and perimeter of the given shape.', idealAnswer: 'The shape is missing, so the question cannot be answered.' },
+                { id: 'pp-gs-2021-2-q8d', questionText: '(d) Find the missing numbers in the given series.\n(i) 4, 18, ?, 100, 180, 294 (ii) 15, 31, 63, 127, ? (iii) 1, 8, 27, 64, 125, ?\n(iv) 132, 156, ?, 210, 240, (v) 8, 24, 12, 36, 18, 54, ?', idealAnswer: '(i) 48 (series is n³+n²), (ii) 255 (2ⁿ-1), (iii) 216 (n³), (iv) 182 (n²+n), (v) 27 (x3, /2 pattern)' },
+            ]
+        }
+    ]
+  },
+  {
+    id: 'pp-gs-2022-1',
+    year: 2022,
+    subject: 'General Science & Ability',
+    questions: [
+        {
+            id: 'pp-gs-2022-1-q2',
+            questionNumber: 'Q. 2',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2022-1-q2a', questionText: '(a) What do you know about Volcanoes? Discuss the causes and effects of volcanic eruptions.', idealAnswer: 'Volcanoes are vents in the Earth\'s crust where molten rock (magma), ash, and gas escape. Causes include tectonic plate movement and magma rising. Effects include destructive lava flows, ash clouds disrupting air travel, and long-term changes to climate.' },
+                { id: 'pp-gs-2022-1-q2b', questionText: '(b) Differentiate between renewable and non-renewable sources of energy. Briefly explain wind energy, solar energy and biofuels.', idealAnswer: 'Renewable sources are naturally replenished (solar, wind). Non-renewable sources are finite (coal, oil). Wind energy uses turbines to convert wind into electricity. Solar energy uses photovoltaic cells to convert sunlight into electricity. Biofuels are derived from organic matter.' },
+                { id: 'pp-gs-2022-1-q2c', questionText: '(c) What is a Tornado? How is it formed and what are the effects of tornadoes? Explain briefly.', idealAnswer: 'A tornado is a violently rotating column of air extending from a thunderstorm to the ground. It forms when warm, moist air meets cool, dry air, creating atmospheric instability and rotation. Effects include extreme destruction of buildings and infrastructure due to high winds and flying debris.' },
+                { id: 'pp-gs-2022-1-q2d', questionText: '(d) Discuss various factors which affect the variations in the climate of a place.', idealAnswer: 'Factors include latitude (distance from the equator), altitude (height above sea level), proximity to oceans and large bodies of water, ocean currents, and local topography (mountain ranges).' },
+            ]
+        },
+        {
+            id: 'pp-gs-2022-1-q3',
+            questionNumber: 'Q. 3',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2022-1-q3a', questionText: '(a) Discuss Vaccination, types of Vaccines, their side-effects and effectiveness.', idealAnswer: 'Vaccination introduces a weakened or inactive form of a pathogen to stimulate an immune response. Types include live-attenuated, inactivated, subunit, and mRNA vaccines. Side-effects are usually mild (soreness, fever). They are highly effective in preventing infectious diseases.' },
+                { id: 'pp-gs-2022-1-q3b', questionText: '(b) What is Polio? Discuss its symptoms, causes of spreading, prevention and vaccine.', idealAnswer: 'Polio is a viral disease that can affect the spinal cord, causing muscle weakness and paralysis. Symptoms include fever, fatigue, and stiffness. It spreads through person-to-person contact. Prevention is through the polio vaccine (OPV or IPV).' },
+                { id: 'pp-gs-2022-1-q3c', questionText: '(c) What do you understand by the DNA and RNA?', idealAnswer: 'DNA (Deoxyribonucleic acid) is a double-stranded molecule that contains the genetic instructions for the development and functioning of all living organisms. RNA (Ribonucleic acid) is typically a single-stranded molecule involved in coding, decoding, regulation, and expression of genes.' },
+                { id: 'pp-gs-2022-1-q3d', questionText: '(d) What is Solid Waste? Discuss the main issues of Solid Waste Management in our country?', idealAnswer: 'Solid waste is any discarded solid material. Main issues in Pakistan include inadequate collection systems, lack of proper landfill sites, open dumping and burning, and low rates of recycling, leading to environmental pollution and health hazards.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2022-1-q4',
+            questionNumber: 'Q. 4',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2022-1-q4a', questionText: '(a) Define the term Water Pollution. What indicators are used to measure the quality of water? Write down the drinking water quality standards.', idealAnswer: 'Water pollution is the contamination of water bodies. Indicators include pH, dissolved oxygen, turbidity, and levels of coliform bacteria. WHO drinking water standards provide limits for these and other contaminants.' },
+                { id: 'pp-gs-2022-1-q4b', questionText: '(b) What do you understand by the term Population Planning? Point out the different benefits of Population Planning.', idealAnswer: 'Population planning is the practice of controlling the growth rate of a population. Benefits include reduced strain on resources like food and water, improved maternal and child health, and enhanced economic development prospects.' },
+                { id: 'pp-gs-2022-1-q4c', questionText: '(c) Discuss the possible negative effects that Pakistan my face due to Global Warming and Climate Change. What steps may be helpful to control the climatic change?', idealAnswer: 'Negative effects for Pakistan include increased flooding from glacial melt, more frequent heatwaves, threats to water security, and reduced agricultural productivity. Steps to control it include transitioning to renewable energy, improving energy efficiency, and reforestation.' },
+                { id: 'pp-gs-2022-1-q4d', questionText: '(d) What is Radioactivity? Differentiate between natural and artificial radioactivity.', idealAnswer: 'Radioactivity is the process by which an unstable atomic nucleus loses energy by radiation. Natural radioactivity occurs in unstable isotopes found in nature (e.g., uranium). Artificial radioactivity is induced by bombarding stable isotopes with particles.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2022-1-q5',
+            questionNumber: 'Q. 5',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2022-1-q5a', questionText: '(a) What do you understand by the term Remote Sensing? Write its basic principle. Give its important applications.', idealAnswer: 'Remote sensing is the science of obtaining information about Earth\'s surface without being in direct contact. The basic principle involves detecting and measuring radiation reflected or emitted from the target. Applications include mapping, weather forecasting, and environmental monitoring.' },
+                { id: 'pp-gs-2022-1-q5b', questionText: '(b) Explain the Optical Fiber. Explain how Fiber Optic Communication works?', idealAnswer: 'An optical fiber is a thin, flexible strand of glass that transmits light. Communication works by sending data as pulses of light through the fiber, which are guided by total internal reflection. This allows for high-speed, long-distance data transmission.' },
+                { id: 'pp-gs-2022-1-q5c', questionText: '(c) Briefly explain the working and structure of a Cell Phone.', idealAnswer: 'A cell phone is a radio transceiver. It communicates with a nearby cell tower, which connects it to the wider telephone network. Its structure includes an antenna, a screen, a microphone, a speaker, and a circuit board with a processor and memory.' },
+                { id: 'pp-gs-2022-1-q5d', questionText: '(d) Explain Artificial Intelligence. What do you understand by the term Robotics?', idealAnswer: 'Artificial intelligence is the simulation of human intelligence in machines. Robotics is a field of engineering that deals with the design, construction, operation, and use of robots, which are machines designed to execute tasks automatically.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2022-1-q6',
+            questionNumber: 'Q. 6',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2022-1-q6a', questionText: '(a) For his morning walk Aslam went 110 meters towards east from his house and then turned right to keep walking for 40 meters before turning right again. After continuing to walk for 50 more meters, he turned right again and kept walking for another 120 meters, before he sat down on a bench at the park. How far was the bench located from his house?', idealAnswer: 'Net East-West = 110E - 50W = 60m East. Net North-South = 120N - 40S = 80m North. Distance = sqrt(60² + 80²) = sqrt(3600+6400) = sqrt(10000) = 100m.' },
+                { id: 'pp-gs-2022-1-q6b', questionText: '(b) The income of a company decreased by 10% and 15% in two successive years. What is the percentage of decrease in income after two years?', idealAnswer: 'Let initial income be 100. After year 1: 100 * 0.90 = 90. After year 2: 90 * 0.85 = 76.5. Total decrease = 100 - 76.5 = 23.5%. ' },
+                { id: 'pp-gs-2022-1-q6c', questionText: '(c) What do you understand by Mental Ability Scales? Differentiate between Aptitude and Intelligence?', idealAnswer: 'Mental ability scales are tests designed to measure cognitive functions. Intelligence is a broad ability to learn and apply knowledge. Aptitude is the specific potential to learn a particular skill.' },
+                { id: 'pp-gs-2022-1-q6d', questionText: '(d) Discuss the factors affecting Intelligence.', idealAnswer: 'Factors affecting intelligence include genetics (heredity), environment (nutrition, education, socioeconomic status), and the interaction between them.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2022-1-q7',
+            questionNumber: 'Q. 7',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2022-1-q7a', questionText: '(a) The sum of three consecutive odd numbers is 273. What are the three odd numbers?', idealAnswer: 'Let the numbers be x, x+2, x+4. 3x+6=273. 3x=267. x=89. The numbers are 89, 91, and 93.' },
+                { id: 'pp-gs-2022-1-q7b', questionText: '(b) Find the missing number in the given series.\n(i) 4, 16, 36, 64, ?, 144. (ii) 30,29,27,?, 20, 15 (iii) 1, 7, 15, 25, ?, 51\n(iv) 0,2,6,12,20,30, ? (v) 48, 24, 72, 36, 108, ?', idealAnswer: '(i) 100 (squares of even numbers), (ii) 24 (-1,-2,-3...), (iii) 37 (+6,+8,+10,+12...), (iv) 42 (n²+n), (v) 54 (/2, x3 pattern).' },
+                { id: 'pp-gs-2022-1-q7c', questionText: '(c) Find out the correct word from the given jumbled spellings.\n(i) THRSI (ii) GNDREA (iii) SCHAMOT (iv) ONLNDO (v) HIODALY', idealAnswer: '(i) SHIRT, (ii) GARDEN, (iii) STOMACH, (iv) LONDON, (v) HOLIDAY' },
+                { id: 'pp-gs-2022-1-q7d', questionText: '(d) Sara’s mother is 6 times older than Sara, where as her brother Ali is twice as old as Sara. In three years’ time the sum of their ages will be 72. How old are Sara, Ali and their mother now?', idealAnswer: 'Let Sara=S, Mother=6S, Ali=2S. (S+3)+(6S+3)+(2S+3)=72. 9S+9=72. 9S=63. S=7. Sara=7, Ali=14, Mother=42.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2022-1-q8',
+            questionNumber: 'Q. 8',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2022-1-q8a', questionText: '(a) What do you understand by Sampling? Discuss Non-Probability Sampling.', idealAnswer: 'Sampling is selecting a subset of individuals from a population to estimate characteristics of the whole. Non-probability sampling does not give all individuals an equal chance of being selected. Methods include convenience sampling and quota sampling.' },
+                { id: 'pp-gs-2022-1-q8b', questionText: '(b) Aslam is willing to use the stylish ceramics tiles in the lounge of his under-construction house. The shape of the tile is a right triangle, having the lengths of two legs of 12 cm and 4 cm. Each tile costs Rs. 15. How much will it cost to fill the lounge of 8 meters length and 6 meters width with these tiles?', idealAnswer: 'Tile area = 0.5 * 0.12 * 0.04 = 0.0024 m². Lounge area = 8 * 6 = 48 m². Tiles needed = 48 / 0.0024 = 20,000. Total cost = 20,000 * 15 = Rs. 300,000.' },
+                { id: 'pp-gs-2022-1-q8c', questionText: '(c) During a sale a clerk was putting new price tags on each item. On one sweater, he accidentally raised the price by 20% instead of lowering the price by 20%. As a result the price on the tag was Rs. 80 too high. What was the original price of the sweater?', idealAnswer: 'Let original price=P. 1.2P - 0.8P = 80. 0.4P = 80. P = 80 / 0.4 = Rs. 200.' },
+                { id: 'pp-gs-2022-1-q8d', questionText: '(d) If in a certain language, BROTHER is written as QDGSNQA, then in the same language, SISTER would be written as --------?', idealAnswer: 'The code seems to be a complex substitution cipher where each letter is replaced by another. B->Q, R->D etc. Without the key or a clear pattern, this is difficult to solve. The pattern seems inconsistent.' },
+            ]
+        }
+    ]
+  },
+  {
+    id: 'pp-gs-2023-1',
+    year: 2023,
+    subject: 'General Science & Ability',
+    questions: [
+        {
+            id: 'pp-gs-2023-1-q2',
+            questionNumber: 'Q. 2',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2023-1-q2a', questionText: '(a) Define ceramic and nano-ceramic materials. Why the nano-ceramics show better properties than their ceramic counterparts? Write the applications of ceramic materials.', idealAnswer: 'Ceramics are hard, brittle, heat-resistant materials made by shaping and firing an inorganic, nonmetallic material. Nano-ceramics are ceramics with grain sizes at the nanoscale. They show better properties (like increased strength and ductility) due to their fine grain structure which reduces flaws. Applications include pottery, tiles, and advanced uses in aerospace and electronics.' },
+                { id: 'pp-gs-2023-1-q2b', questionText: '(b) What is ‘Black Hole’? How black holes are formed and discovered?', idealAnswer: 'A black hole is a region of spacetime where gravity is so strong that nothing can escape. They are formed from the remnants of massive stars after a supernova. They are discovered indirectly by observing their effect on nearby matter, such as stars orbiting them, or by detecting gravitational waves.' },
+                { id: 'pp-gs-2023-1-q2c', questionText: '(c) Write two applications of each of the following electromagnetic radiations:\n(i) Ultraviolet (ii) Infra-red (iii) Microwaves\n(iv) Radio waves (v) X-rays.', idealAnswer: '(i) UV: Sterilization, Vitamin D production. (ii) Infrared: Night vision, remote controls. (iii) Microwaves: Cooking, telecommunications. (iv) Radio waves: Broadcasting, communication. (v) X-rays: Medical imaging, security screening.' },
+                { id: 'pp-gs-2023-1-q2d', questionText: '(d) What is Wildfire? Explain its types, causes, spread and preventions.', idealAnswer: 'A wildfire is an uncontrolled fire in an area of combustible vegetation. Types include ground, surface, and crown fires. Causes can be natural (lightning) or human-caused. Spread is influenced by fuel, weather, and topography. Prevention includes creating firebreaks and controlled burns.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2023-1-q3',
+            questionNumber: 'Q. 3',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2023-1-q3a', questionText: '(a) (i) Why the bat and whale are considered as mammals?\n(ii) Write a note on liver juice ‘Bile’.', idealAnswer: '(i) They are mammals because they are warm-blooded, breathe air, have hair/fur, and produce milk to feed their young. (ii) Bile is a digestive fluid produced by the liver and stored in the gallbladder. It helps in the digestion and absorption of fats.' },
+                { id: 'pp-gs-2023-1-q3b', questionText: '(b) How the urine is formed? Describe the role of kidney in excretion.', idealAnswer: 'Urine is formed in the kidneys through a three-step process: filtration of blood in the glomerulus, reabsorption of useful substances, and secretion of waste products into the urine. Kidneys are the primary excretory organs, filtering waste from the blood and maintaining water and electrolyte balance.' },
+                { id: 'pp-gs-2023-1-q3c', questionText: '(c) (i) How a bacterial cell is different from a plant cell?\n(ii) What do you think cold-blooded animals are slowed down by low temperatures?', idealAnswer: '(i) A bacterial cell is prokaryotic (no nucleus), while a plant cell is eukaryotic. A plant cell has a cell wall, chloroplasts, and a large vacuole, which are absent in bacteria. (ii) Cold-blooded (ectothermic) animals rely on external heat sources. Their metabolic rate decreases in low temperatures, causing them to become sluggish and slow down.' },
+                { id: 'pp-gs-2023-1-q3d', questionText: '(d) What is hepatitis, its types, causes, prevention, and cure?', idealAnswer: 'Hepatitis is liver inflammation, usually caused by a virus. Types A, B, C, D, E exist. Causes include viral infection and alcohol abuse. Prevention includes vaccines (for A & B) and practicing good hygiene. Cures exist for Hepatitis C, while others are managed.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2023-1-q4',
+            questionNumber: 'Q. 4',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2023-1-q4a', questionText: '(a) What is the difference between fog and smog? What are the causes of smog and its effects on human health? Write short note on any one of the latest technologies to eliminate smog to avoid atmospheric pollution.', idealAnswer: 'Fog is water vapor condensed into fine droplets near the ground. Smog is a mixture of smoke and fog, a type of air pollution. Causes include emissions from vehicles and industry. It causes respiratory problems. Technologies like smog towers can filter pollutants from the air.' },
+                { id: 'pp-gs-2023-1-q4b', questionText: '(b) What is the role of oxygen-demanding wastes in water pollution? How it can be prevented?', idealAnswer: 'Oxygen-demanding wastes (like sewage) are organic materials that are decomposed by aerobic bacteria, consuming dissolved oxygen in the water. This can kill aquatic life. It can be prevented by proper wastewater treatment.' },
+                { id: 'pp-gs-2023-1-q4c', questionText: '(c) What is the biosphere? Write a note on the ‘Energy Resources’ available in the biosphere.', idealAnswer: 'The biosphere is the global sum of all ecosystems. Energy resources include biomass (wood, crops, waste), which can be burned or converted into biofuels. This is a form of stored solar energy.' },
+                { id: 'pp-gs-2023-1-q4d', questionText: '(d) What are the different layers of the atmosphere? On what basis these layers are classified? In which layer ‘Auroras’ are formed and where do satellites orbit?', idealAnswer: 'The layers are Troposphere, Stratosphere, Mesosphere, Thermosphere, Exosphere. They are classified based on temperature profile. Auroras are formed in the Thermosphere. Satellites orbit in the Thermosphere and Exosphere.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2023-1-q5',
+            questionNumber: 'Q. 5',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2023-1-q5a', questionText: '(a) What are antioxidants and why are they used in foods? Write a short note on natural and synthetic antioxidants.', idealAnswer: 'Antioxidants are substances that prevent oxidation, which can cause food to spoil. They are used to preserve freshness and extend shelf life. Natural antioxidants include Vitamin C and E. Synthetic ones include BHA and BHT.' },
+                { id: 'pp-gs-2023-1-q5b', questionText: '(b) How the carbohydrates, proteins, and fats are digested in humans?', idealAnswer: 'Carbohydrates begin digestion in the mouth (amylase), proteins in the stomach (pepsin), and fats in the small intestine (lipase, aided by bile). Final digestion and absorption for all three occur in the small intestine.' },
+                { id: 'pp-gs-2023-1-q5c', questionText: '(c) How does the Navstar GPS system work for different applications?', idealAnswer: 'The Navstar GPS system uses a constellation of satellites that transmit timing signals. A receiver on Earth calculates its distance from at least four satellites to determine its precise location (latitude, longitude, altitude), which is used for navigation, mapping, and tracking.' },
+                { id: 'pp-gs-2023-1-q5d', questionText: '(d) (i) Differentiate between network and internet.\n(ii) What is the difference among application, program and software?', idealAnswer: '(i) A network is a collection of connected computers. The Internet is a global network of networks. (ii) Software is a general term for all non-hardware components. A program is a specific set of instructions to perform a task. An application is a type of program designed for end-users to perform a specific function (e.g., a web browser).' },
+            ]
+        },
+        {
+            id: 'pp-gs-2023-1-q6',
+            questionNumber: 'Q. 6',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2023-1-q6a', questionText: '(a) A telephone company charges initially Rs.0.50 and then Rs. 0.11 for every minute. Write an expression that gives the cost of a call that lasts N minutes.', idealAnswer: 'Cost = 0.50 + 0.11 * N' },
+                { id: 'pp-gs-2023-1-q6b', questionText: '(b) Find the missing number in the series below\n(i) 1, 8, 4, 27, 9, ? (ii) 3,6,8,16,18,? (iii) 2, 8, 512, ?\n(iv) 81 ,9,64 ,8,?,12 (v) 6, 11, 21, 36, 56, ?', idealAnswer: '(i) 64 (alternating sequence n and n³), (ii) 36 (x2, +2 pattern), (iii) 262144 (x⁴, x³ then x²), (iv) 144 (n², n pattern), (v) 81 (+5, +10, +15, +20, +25)' },
+                { id: 'pp-gs-2023-1-q6c', questionText: '(c) The perimeter of the rectangle given below is 114 cm. Find the area of the rectangle.', idealAnswer: 'The image is missing. If the sides were (3x-y) and (2x-3), Perimeter = 2((3x-y)+(2x-3))=114. Area = (3x-y)(2x-3). Without more info, it\'s unsolvable.' },
+                { id: 'pp-gs-2023-1-q6d', questionText: '(d) Ahmad stands at point D, 2m in front of a spotlight at point A. He is 1.6m tall and is facing the wall of a building which is 10.5m away from him. How tall (BC) is his shadow on the wall of the building.', idealAnswer: 'Using similar triangles: (Ahmad\'s height / distance from light) = (Shadow height / total distance from light). 1.6 / 2 = BC / (2 + 10.5). So, BC = 0.8 * 12.5 = 10 meters.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2023-1-q7',
+            questionNumber: 'Q. 7',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2023-1-q7a', questionText: '(a) Ali is standing 10 meters away from a tree. The distance of his eyes from his feet is 1.5 meter. Given that the distance from his eyes to the top of the tree is 15 meters, find the height of the tree.', idealAnswer: 'This forms a right triangle. Height from eye level to top of tree = sqrt(15² - 10²) = sqrt(225 - 100) = sqrt(125) ≈ 11.18m. Total height = 11.18 + 1.5 = 12.68 meters.' },
+                { id: 'pp-gs-2023-1-q7b', questionText: '(b) Find out the correct word from the jumbled spellings given below.\nLNUGEF, CKANS, CIREFE, EERAANMOGTP, MNIKPPU.', idealAnswer: 'FUNGLE, SNACK, FIERCE, POMEGRANATE, PUMPKIN' },
+                { id: 'pp-gs-2023-1-q7c', questionText: '(c) Draw and write the total number of lines of symmetry in a regular hexagon and octagon. How many lines of symmetry are there in a circle?', idealAnswer: 'A regular hexagon has 6 lines of symmetry. A regular octagon has 8 lines of symmetry. A circle has an infinite number of lines of symmetry.' },
+                { id: 'pp-gs-2023-1-q7d', questionText: '(d) The height of the Egyptian pyramid is 146.6 meters and a base length is 230.6 meters. Find the volume of that pyramid.', idealAnswer: 'Volume of a pyramid = (1/3) * base_area * height = (1/3) * (230.6 * 230.6) * 146.6 ≈ 2,592,276 cubic meters.' },
+            ]
+        },
+        {
+            id: 'pp-gs-2023-1-q8',
+            questionNumber: 'Q. 8',
+            questionType: 'Other',
+            questionText: '',
+            idealAnswer: '',
+            subQuestions: [
+                { id: 'pp-gs-2023-1-q8a', questionText: '(a) Ali buys an oven for Rs. 36800 and sells it at a gain of 8.5%. For how much does he sell it?', idealAnswer: 'Sale price = 36800 * 1.085 = Rs. 39,928.' },
+                { id: 'pp-gs-2023-1-q8b', questionText: '(b) A card is drawn at random from a box containing 12 cards numbered 1,2,3,4,5,….,12. Find the probability of drawing (i) ‘8’, (ii) an even number, (iii) a perfect square, (iv) a negative number and (v) a number less than 13.', idealAnswer: '(i) 1/12, (ii) 6/12 = 1/2, (iii) 3/12 = 1/4 (1,4,9), (iv) 0/12 = 0, (v) 12/12 = 1.' },
+                { id: 'pp-gs-2023-1-q8c', questionText: '(c) The scintillation nuclear radiation detector detects the alpha rays per second. When the energy of the alpha rays (Eα) in MeV increases, the number of counts (Nc) on the detector also increases linearly as shown in the table below.\nEα (MeV) 0.25 0.45 0.65 1 1.4\nNc 17500 23500 29500 40000 52000\nDraw the graph of Nc as a function of Eα (MeV) and find the energy of unknown alpha ray if the number of counts are 31600.', idealAnswer: 'The relationship is linear. From the graph, a count of 31600 would correspond to an energy of approximately 0.72 MeV.' },
+                { id: 'pp-gs-2023-1-q8d', questionText: '(d) The y is directly proportional to x2 and y = m for a particular value of x. Find an expression for y in terms of m, when this value of x is doubled.', idealAnswer: 'y = kx². Given y=m, so m=kx². If x is doubled, the new value y_new = k(2x)² = 4kx² = 4m. So, y = 4m.' },
+            ]
+        }
+    ]
+  }
 ];
