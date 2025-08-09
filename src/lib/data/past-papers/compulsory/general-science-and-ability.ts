@@ -330,7 +330,203 @@ export const pastPapers: PastPaper[] = [
           { id: 'pp-gs-2017-1-q8a', questionText: '(A) Divide Rs.500 between Arham, Mariam and Sarim so that Arham gets 2/3 of what Mariam gets and Mariam gets ¼ of what Sarim gets. Find the share of each.', idealAnswer: 'Let Sarim get S. Mariam gets M = S/4. Arham gets A = (2/3)M = (2/3)(S/4) = S/6. A + M + S = 500 => S/6 + S/4 + S = 500. Solving for S gives S = Rs. 300. Mariam gets M = Rs. 75. Arham gets A = Rs. 50.' },
           { id: 'pp-gs-2017-1-q8b', questionText: '(B) A school has enough provision of food for 52 days. After 20 days a group of 400 students arrives and the food would have last for 24 days only. How many students are there in the school actually?', idealAnswer: 'Let x be the original number of students. The remaining food for x students would last for 52-20=32 days. So, x * 32 = (x + 400) * 24. Solving for x gives x = 1200 students.' },
           { id: 'pp-gs-2017-1-q8c', questionText: '(C) A man walks 2km towards North. Then he turns to East and walks 10km. After this he turns to North and walks 3km. Again he turns towards East and walks 2km. How far is he from the starting point?', idealAnswer: 'Total North distance = 2 + 3 = 5 km. Total East distance = 10 + 2 = 12 km. Using Pythagorean theorem, distance = sqrt(5^2 + 12^2) = sqrt(25 + 144) = sqrt(169) = 13 km.' },
-          { id: 'pp-gs-2017-1-q8d', questionText: '(D) In a certain code language COMPUTER is written as RFUVQNPC. How will MEDICINE be written in that code language?', idealAnswer: 'The code reverses the first and last letters, second and second-to-last, etc., and then shifts each letter back by one (C->B->RF, O->N->UV, etc). The pattern is complex. Another simpler pattern is a reversed alphabet substitution with some shifts. Let\'s check the simple reversal: C(3)->X(24), O(15)->L(12). Not a simple pattern. Let\'s check letter pairs: CO -> RF, MP -> UQ, UT->VN, ER->PC. No. Let\'s check positions: C is reversed to C, then -1 = B? No. RFUVQNPC. It seems COMPUTER -> RFUVQNPC is a fixed key. The logic is: C -> C-1=B -> R(everse), O -> O-1=N -> F(orward). This is too complex. A simpler logic might be that each letter is substituted. C->R, O->F, M->U, etc. MEDICINE -> EOJDJEFM.' },
+          { id: 'pp-gs-2017-1-q8d', questionText: '(D) In a certain code language COMPUTER is written as RFUVQNPC. How will MEDICINE be written in that code language?', idealAnswer: 'The code reverses the first and last letters, second and second-to-last, etc., and then shifts each letter back by one (C->B->RF, O->N->UV, etc). The pattern is complex. Another simpler logic might be that each letter is substituted. C->R, O->F, M->U, etc. MEDICINE -> EOJDJEFM.' },
+        ]
+      }
+    ]
+  },
+  {
+    id: 'pp-gs-2018-1',
+    year: 2018,
+    subject: 'General Science & Ability',
+    questions: [
+      {
+        id: 'pp-gs-2018-1-q2',
+        questionNumber: 'Q. 2',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2018-1-q2a', questionText: '(A). Describe different methods to estimate the age of the Universe.', idealAnswer: 'Methods include: 1. Observing the oldest stars (globular clusters). 2. Measuring the expansion rate of the universe (Hubble\'s Law) and extrapolating back to the Big Bang. 3. Using Cosmic Microwave Background radiation data.' },
+          { id: 'pp-gs-2018-1-q2b', questionText: '(B). Explain the formation of Lunar Eclipse.', idealAnswer: 'A lunar eclipse occurs when the Earth passes directly between the Sun and Moon, and Earth\'s shadow obscures the Moon or a portion of it. This can only happen during a full moon.' },
+          { id: 'pp-gs-2018-1-q2c', questionText: '(C). Explain the terms Dark Energy and Dark Matter.', idealAnswer: 'Dark Matter is a non-luminous material of unknown composition that does not emit or reflect light but whose existence is inferred from its gravitational effects. Dark Energy is a hypothetical form of energy that is believed to be responsible for the accelerating expansion of the universe.' },
+          { id: 'pp-gs-2018-1-q2d', questionText: '(D). Define the term Black Hole. What’s expected inside it?', idealAnswer: 'A black hole is a region of spacetime where gravity is so strong that nothing—no particles or even electromagnetic radiation such as light—can escape from it. Inside, it\'s expected to contain a "singularity," a point of infinite density and zero volume.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2018-1-q3',
+        questionNumber: 'Q. 3',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2018-1-q3a', questionText: '(A). Describe different causes and preventions of ‘Polio’', idealAnswer: 'Polio is caused by the poliovirus, which spreads from person to person, usually through contaminated water. Prevention is primarily through vaccination, using either the Inactivated Polio Vaccine (IPV) or the Oral Polio Vaccine (OPV), along with improved sanitation and hygiene.' },
+          { id: 'pp-gs-2018-1-q3b', questionText: '(B). Define the term ‘Bio-Fuel’. How is it helpful to promote clean energy?', idealAnswer: 'Bio-fuel is a fuel derived directly from living matter (biomass), such as agricultural crops, algae, or animal waste. It is helpful in promoting clean energy because it is a renewable resource and can be carbon-neutral, as the CO2 released during combustion is offset by the CO2 absorbed by the plants during their growth.' },
+          { id: 'pp-gs-2018-1-q3c', questionText: '(C). Define ‘Carbohydrates’. Describe different steps to digest these in the human body.', idealAnswer: 'Carbohydrates are biomolecules consisting of carbon, hydrogen, and oxygen atoms. Digestion begins in the mouth with salivary amylase, continues in the small intestine where pancreatic amylase breaks them into simpler sugars, and is completed by enzymes on the intestinal wall which break them into monosaccharides like glucose for absorption.' },
+          { id: 'pp-gs-2018-1-q3d', questionText: '(D). Describe the ‘Cell Structure’. Write down at least three differences between an animal cell and plant cell.', idealAnswer: 'A cell consists of a cell membrane, cytoplasm, and a nucleus. Differences: 1. Plant cells have a rigid cell wall, animal cells do not. 2. Plant cells have chloroplasts for photosynthesis, animal cells do not. 3. Plant cells typically have a large central vacuole, while animal cells have small, temporary vacuoles.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2018-1-q4',
+        questionNumber: 'Q. 4',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2018-1-q4a', questionText: '(A). What is ‘Acid Rain’.Describe its causes and how it can be prevented?', idealAnswer: 'Acid rain is precipitation containing high levels of sulfuric and nitric acids. It\'s caused by emissions of sulfur dioxide and nitrogen oxides from burning fossil fuels. It can be prevented by reducing these emissions through the use of scrubbers in power plants and catalytic converters in vehicles, and by shifting to renewable energy sources.' },
+          { id: 'pp-gs-2018-1-q4b', questionText: '(B). What is ‘Water Pollution’. Discuss its causes and measurement methods. Name the countries with the highest and lowest percentage of it.', idealAnswer: 'Water pollution is the contamination of water bodies. Causes include industrial discharge, agricultural runoff, and sewage. It is measured by testing for pollutants and assessing parameters like BOD (Biochemical Oxygen Demand). Country rankings change, but often countries with heavy industry and poor regulation have high pollution, while those with strong environmental laws (like Scandinavian countries) have low pollution.' },
+          { id: 'pp-gs-2018-1-q4c', questionText: '(C). Write a comprehensive note on ‘Smog’.', idealAnswer: 'Smog is a type of air pollution, a mixture of smoke and fog. Photochemical smog is formed when sunlight reacts with nitrogen oxides and volatile organic compounds in the atmosphere, creating pollutants like ground-level ozone. It reduces visibility and causes respiratory problems.' },
+          { id: 'pp-gs-2018-1-q4d', questionText: '(D). Describe different causes of ‘Tsunami’. Is there any difference between a Tsunami and a tidal wave? Name the worst Tsunami ever recorded.', idealAnswer: 'Tsunamis are caused by large-scale disturbances of water, usually underwater earthquakes, but also volcanic eruptions or landslides. A tidal wave is a shallow water wave caused by the gravitational interactions between the Sun, Moon, and Earth. The 2004 Indian Ocean tsunami is considered one of the worst ever recorded in terms of fatalities.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2018-1-q5',
+        questionNumber: 'Q. 5',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2018-1-q5a', questionText: '(A). Write a note, how data is stored on a ‘Hard Disk’.', idealAnswer: 'Data is stored on a hard disk magnetically. The disk\'s platters are coated with a magnetic material. A read/write head moves across the spinning platters, magnetizing tiny spots to represent binary data (1s and 0s).' },
+          { id: 'pp-gs-2018-1-q5b', questionText: '(B). How an ‘Optical Fiber’ is constructed? How is it helpful in transmitting the electromagnetic radiations?', idealAnswer: 'An optical fiber consists of a core (usually glass) through which light travels, surrounded by cladding with a lower refractive index, and a protective outer coating. It transmits light (electromagnetic radiation) over long distances through total internal reflection, allowing for high-speed, high-bandwidth data transmission.' },
+          { id: 'pp-gs-2018-1-q5c', questionText: '(C). Write a comprehensive note on ‘Balanced Diet’.', idealAnswer: 'A balanced diet provides all the essential nutrients the body needs to function correctly. It includes an adequate intake of macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins, minerals), along with water and fiber. It is crucial for maintaining good health and preventing diseases.' },
+          { id: 'pp-gs-2018-1-q5d', questionText: '(D). What is ‘Artificial Intelligence’? How is it helpful for humanity?', idealAnswer: 'Artificial Intelligence is a branch of computer science that aims to create machines capable of performing tasks that require human intelligence. It is helpful for humanity in areas like medical diagnosis, scientific research, automating complex tasks, improving accessibility, and creating more efficient systems in various industries.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2018-1-q6',
+        questionNumber: 'Q. 6',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2018-1-q6a', questionText: '(A).It takes 3 liters of paint to cover an area of 24 square meters. What percentage increase in the quantity of paint would be required to cover an area of 50.4 square meters?', idealAnswer: 'Paint per sq meter = 3/24 = 0.125 L/m². Paint needed for 50.4 m² = 50.4 * 0.125 = 6.3 liters. Increase = 6.3 - 3 = 3.3 liters. Percentage increase = (3.3 / 3) * 100 = 110%.' },
+          { id: 'pp-gs-2018-1-q6b', questionText: '(B). An automobile travels 3 km towards south, 4 km towards west, 5 km towards north and 2 km towards south-east. How far is it from its starting position?', idealAnswer: 'This requires vector addition. The net north-south movement is 5 km North - 3 km South = 2 km North. The south-east movement has components: 2*cos(45) South and 2*sin(45) East. Net N-S: 2 - 1.414 = 0.586 km North. Net W-E: -4 + 1.414 = -2.586 km West. Distance = sqrt(0.586² + (-2.586)²) ≈ 2.65 km.' },
+          { id: 'pp-gs-2018-1-q6c', questionText: '(C). Tahir started a business with a capital of Rs. 15,000. After 5 months Umar also joined him with an investment of Rs. 30,000. At the start of 9th month, Usman joined them by investing Rs. 45,000. At the end of the year they earned a profit of Rs. 406,000. Find the share of each one.', idealAnswer: 'Ratio of investment*time: Tahir = 15000*12 = 180000. Umar = 30000*7 = 210000. Usman = 45000*4 = 180000. Ratio = 18:21:18 = 6:7:6. Total parts = 19. Tahir\'s share = (6/19)*406000 = Rs. 128210.5. Umar\'s share = (7/19)*406000 = Rs. 149578.9. Usman\'s share = Rs. 128210.5.' },
+          { id: 'pp-gs-2018-1-q6d', questionText: '(D). A man left his property of Rs. 640,000. A debt of Rs. 40,000 was due to him and Rs. 5,000 was spent on his burial. Distribute the amount between his widow, one daughter and two sons according to the Islamic Law.', idealAnswer: 'Amount to be distributed = 640000 - 40000 - 5000 = Rs. 595,000. Widow\'s share = 1/8 = Rs. 74,375. Remaining = 520,625. Ratio for children (Son:Daughter = 2:1) is 2+2+1=5 parts. Daughter\'s share = 1/5 * 520625 = Rs. 104,125. Each son\'s share = 2/5 * 520625 = Rs. 208,250.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2018-1-q7',
+        questionNumber: 'Q. 7',
+        questionType: 'Other',
+        questionText: 'The breakdown of average monthly expenditure for a family is given in the following Figure:',
+        idealAnswer: 'The pie chart data is missing from the question, so calculations cannot be performed.',
+        subQuestions: [
+          { id: 'pp-gs-2018-1-q7a', questionText: '(A). Calculate from the figure what percentage of the family’s expenditure is on ‘other ’?', idealAnswer: '' },
+          { id: 'pp-gs-2018-1-q7b', questionText: '(B).Approximately what fraction of the family’s monthly expenditure do’ ‘utilities’, ‘rent’ and ‘food’ represent?', idealAnswer: '' },
+          { id: 'pp-gs-2018-1-q7c', questionText: '(C).If the family spends Rs.11600 on utilities, how much is the family’s total expenditure?', idealAnswer: '' },
+          { id: 'pp-gs-2018-1-q7d', questionText: '(D).‘Other’ expenditure comprises savings, entertainment and luxury items, which are spent in the ratio 3 : 4 : 1. Calculate how much the family saves each month if monthly income is Rs.24,000.', idealAnswer: '' },
+        ]
+      },
+      {
+        id: 'pp-gs-2018-1-q8',
+        questionNumber: 'Q. 8',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2018-1-q8a', questionText: '(A). Police officers are in pursuit of a stolen vehicle. Officer Baker is directly behind the stolen car. Officer Lopez is behind Baker; Officer O\'Malley is behind Lopez. Officer Reinhart is ahead of the stolen car and coming from the opposite direction. Officer Reinhart makes a U-turn and joins the pursuit. He pulls in behind Officer Lopez. Officer Baker pulls up on the driver\'s side of the stolen vehicle and Officer Lopez pulls up on the other side. Which officer is directly behind the vehicle?', idealAnswer: 'Initially: Reinhart ... Stolen Car ... Baker ... Lopez ... O\'Malley. After U-turn and pull-up: The positions beside the car are lateral, not behind. O\'Malley is still behind Lopez, who is now beside the car. Therefore, no one is directly behind the stolen vehicle anymore in the chase line. This is a trick question. However, if "behind" means in the chase line, O\'Malley is the rearmost.' },
+          { id: 'pp-gs-2018-1-q8b', questionText: '(B). Define a Histogram. How is it constructed? What information may be deduced from it?', idealAnswer: 'A histogram is a graphical representation of the distribution of numerical data. It is constructed by grouping data into continuous intervals (bins) and plotting bars whose height is proportional to the frequency of data in each bin. It shows the shape, center, and spread of the data distribution.' },
+          { id: 'pp-gs-2018-1-q8c', questionText: '(C). Look at this series: F2, , D8, C16, B32, What number should fill the blank?', idealAnswer: 'The letter goes backward alphabetically (F, E, D, C, B). The number is multiplying by 2 (2, 4, 8, 16, 32). The missing term is E4.' },
+          { id: 'pp-gs-2018-1-q8d', questionText: '(D). In a certain code language LANDMINE is written as PYRBQGRC. How will HOMEMADE be written in that code language?', idealAnswer: 'The logic appears to be a complex substitution. L->P, A->Y, N->R etc. There is no simple arithmetic or reversal pattern. Assuming a direct substitution cipher based on the example (which is unreliable), it cannot be solved without the key. However, a common pattern is letter pairs. LA->PY, ND->RB, MI->QG, NE->RC. Again no obvious pattern. This question is likely flawed or uses a non-standard code.' },
+        ]
+      }
+    ]
+  },
+  {
+    id: 'pp-gs-2019-1',
+    year: 2019,
+    subject: 'General Science & Ability',
+    questions: [
+      {
+        id: 'pp-gs-2019-1-q2',
+        questionNumber: 'Q. 2',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2019-1-q2a', questionText: '(a) Deficiency of vitamins causes different human diseases some of which are given in the table below choose the correct type of vitamin from the box and write in front of each disease. 1.Poor night vision 2. Bleeding gums 3. Rickets in children 4. Beri-Beri 5. Anaemia (Vit. A Vit. B1 Vit. C Vit. D Vit. E Vit. K)', idealAnswer: '1. Vit. A, 2. Vit. C, 3. Vit. D, 4. Vit. B1, 5. Vit. E/B12 (Anaemia has multiple causes).' },
+          { id: 'pp-gs-2019-1-q2b', questionText: '(b) People suffering from cardiovascular disease having high level of cholesterol in their blood, this often leads to build of fats on its internal arterial walls, suggests how this might be harmful to the heart', idealAnswer: 'This buildup of fats, called atherosclerosis, narrows the arteries, restricting blood flow to the heart. This can cause chest pain (angina) or, if a plaque ruptures and a clot forms, it can completely block the artery, causing a heart attack.' },
+          { id: 'pp-gs-2019-1-q2c', questionText: '(c) Why the excessive use of chemical fertilizers should be avoided?', idealAnswer: 'Excessive use leads to water pollution (eutrophication) through runoff, degrades soil health over time by killing beneficial microorganisms, and can contaminate groundwater, making it unsafe for drinking.' },
+          { id: 'pp-gs-2019-1-q2d', questionText: '(d) Why are Scientists worried about the increase of CO2 in atmosphere?', idealAnswer: 'Scientists are worried because CO2 is a major greenhouse gas. Its increase in the atmosphere traps more heat, leading to global warming, which causes climate change, rising sea levels, and more frequent extreme weather events.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2019-1-q3',
+        questionNumber: 'Q. 3',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2019-1-q3a', questionText: '(a) Differentiate between the renewable and non- renewable sources of energy giving example of each one of them.', idealAnswer: 'Renewable sources are naturally replenished (e.g., solar, wind). Non-renewable sources are finite and deplete with use (e.g., fossil fuels like coal, oil, and natural gas).' },
+          { id: 'pp-gs-2019-1-q3b', questionText: '(b) Give a brief account of optic fibers. What is their importance in present day telecom system?', idealAnswer: 'Optic fibers are thin strands of glass that transmit data as pulses of light. They are important in modern telecommunications because they offer extremely high bandwidth, low signal loss, and immunity to electromagnetic interference, forming the backbone of the global internet.' },
+          { id: 'pp-gs-2019-1-q3c', questionText: '(c) What is the most dangerous part of hurricane and how do cyclone affect humans?', idealAnswer: 'The most dangerous part of a hurricane is the storm surge, an abnormal rise of water generated by the storm\'s winds. Cyclones affect humans through high winds that destroy property, heavy rain that causes flooding, and storm surges that inundate coastal areas, leading to loss of life and displacement.' },
+          { id: 'pp-gs-2019-1-q3d', questionText: '(d) What is the difference between vaccines and Antibiotics? How do antibiotics and vaccines contribute to health?', idealAnswer: 'Vaccines are used for prevention; they stimulate the body\'s immune system to produce antibodies against a specific disease. Antibiotics are used for treatment; they kill or inhibit the growth of bacteria. Both contribute to health by preventing and treating infectious diseases.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2019-1-q4',
+        questionNumber: 'Q. 4',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2019-1-q4a', questionText: '(a) What is the importance of forests in the economy of a country?', idealAnswer: 'Forests provide timber, fuel, and other products. They support industries like tourism and pharmaceuticals, prevent soil erosion, regulate water cycles, act as carbon sinks, and are vital for biodiversity, all of which have significant economic value.' },
+          { id: 'pp-gs-2019-1-q4b', questionText: '(b) Give a brief account of biotechnology.', idealAnswer: 'Biotechnology uses biological systems or living organisms to develop or create different products. Its applications range from agriculture (genetically modified crops) and medicine (producing insulin) to environmental uses (bioremediation).' },
+          { id: 'pp-gs-2019-1-q4c', questionText: '(c) Do the mammals always lay eggs? If yes, where in the world do they live? Write the name some of them.', idealAnswer: 'No, most mammals give live birth. However, a small group called monotremes lay eggs. They live in Australia and New Guinea. Examples include the platypus and the echidna.' },
+          { id: 'pp-gs-2019-1-q4d', questionText: '(d) How can the sun have such a strong gravitational field if its made of gases?', idealAnswer: 'The sun\'s strong gravitational field is due to its enormous mass, not its state of matter. Gravity depends on mass and distance. Despite being made of gas (plasma), the sun contains over 99.8% of the total mass of the solar system.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2019-1-q5',
+        questionNumber: 'Q. 5',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2019-1-q5a', questionText: '(a) What does Ozone depletion mean and how can we protect the ozone layer?', idealAnswer: 'Ozone depletion is the thinning of the stratospheric ozone layer, which protects us from harmful UV radiation. It is mainly caused by CFCs. We can protect it by adhering to international treaties like the Montreal Protocol, which phase out the use of ozone-depleting substances.' },
+          { id: 'pp-gs-2019-1-q5b', questionText: '(b) What are the different types of a network? Explain each briefly.', idealAnswer: 'Types include: LAN (Local Area Network), covering a small area like a home or office; WAN (Wide Area Network), covering a large geographical area, like the internet; MAN (Metropolitan Area Network), spanning a city; and PAN (Personal Area Network) for short-range device connections.' },
+          { id: 'pp-gs-2019-1-q5c', questionText: '(c) Why an indiscriminate / causal use of antibiotic may prove dangerous?', idealAnswer: 'Indiscriminate use of antibiotics can lead to the development of antibiotic-resistant bacteria, making infections much harder to treat. It can also kill beneficial bacteria in the gut, leading to other health problems.' },
+          { id: 'pp-gs-2019-1-q5d', questionText: '(d) Why do atoms form bonds? Name three major types of chemical bonds.', idealAnswer: 'Atoms form bonds to achieve a more stable electron configuration, typically by filling their outermost electron shell. The three major types of bonds are Ionic (transfer of electrons), Covalent (sharing of electrons), and Metallic (a sea of shared electrons).' },
+        ]
+      },
+      {
+        id: 'pp-gs-2019-1-q6',
+        questionNumber: 'Q. 6',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2019-1-q6a', questionText: '(a) Moiz was trying to sleep at one night but there was too much noise around him. His clock ticked every 5 seconds; a tap was dipping every seventh seconds and a pet dog snored every 12th second. He noticed on his clock that all three things happened together on the stroke of midnight. Find after how may seconds are three things happened together', idealAnswer: 'Find the Least Common Multiple (LCM) of 5, 7, and 12. LCM(5, 7, 12) = 420 seconds.' },
+          { id: 'pp-gs-2019-1-q6b', questionText: '(b) One pipe can fill a pool 1.25 times as fast as second pipe. When both pipes are opened they can fill the pool in five hours. How long it will take the fill the pool if only slower pipe is used?', idealAnswer: 'Let the slower pipe take x hours. The faster pipe takes x/1.25 hours. Together, 1/x + 1.25/x = 1/5. Solving for x gives x = 11.25 hours or 11 hours and 15 minutes.' },
+          { id: 'pp-gs-2019-1-q6c', questionText: '(c) The cost of hiring a car for 2 days in 2018 was Rs.264 which was 20% more than in 2013. What was the cost of hiring a car in 2013?', idealAnswer: 'Let the cost in 2013 be x. Then 1.20 * x = 264. So, x = 264 / 1.20 = Rs. 220.' },
+          { id: 'pp-gs-2019-1-q6d', questionText: '(d) What do you understand by measure central tendency? State its types.', idealAnswer: 'A measure of central tendency is a single value that attempts to describe a set of data by identifying the central position within that set. The main types are Mean (average), Median (middle value), and Mode (most frequent value).' },
+        ]
+      },
+      {
+        id: 'pp-gs-2019-1-q7',
+        questionNumber: 'Q. 7',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2019-1-q7a', questionText: '(a) Moiz and Mair share a lottery win of Rs. 2000 in the ratio of 1:4. Moiz then share this part between himself, his wife and his son.in the ratio of 4:5:1. How much more his wife gets over his son?', idealAnswer: 'Moiz\'s share = (1/5) * 2000 = Rs. 400. He shares this in ratio 4:5:1 (total 10 parts). Wife\'s share = (5/10) * 400 = Rs. 200. Son\'s share = (1/10) * 400 = Rs. 40. The wife gets Rs. 200 - 40 = Rs. 160 more than the son.' },
+          { id: 'pp-gs-2019-1-q7b', questionText: '(b) A farmer keeps hens and rabbits on his farm. One day he counted the total of 70 heads and 196 legs. How many more hens than rabbits does he have?', idealAnswer: 'Let h = hens, r = rabbits. h + r = 70. 2h + 4r = 196. Solving these equations gives r = 28 and h = 42. There are 42 - 28 = 14 more hens than rabbits.' },
+          { id: 'pp-gs-2019-1-q7c', questionText: '(c) What is polygon? Describe different types of regular polygon.', idealAnswer: 'A polygon is a closed plane figure with three or more straight sides. A regular polygon has all sides and all angles equal. Types are named by number of sides: Triangle (3), Square (4), Pentagon (5), Hexagon (6), etc.' },
+          { id: 'pp-gs-2019-1-q7d', questionText: '(d) In a certain code computer is written as FRUVQNPC. How will MEDICINE will be written in code language?', idealAnswer: 'This question seems to have a typo, as it\'s a repeat from a previous year with a different key (FRUVQNPC vs RFUVQNPC). The pattern is likely a complex substitution. Assuming the 2017 paper was the intended one, the answer for MEDICINE is EOJDJEFM. Without the correct key, it is unsolvable.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2019-1-q8',
+        questionNumber: 'Q. 8',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2019-1-q8a', questionText: '(a) Seven Piano Students T U V W X Y & Z are given a recital and their instructor is deciding the order in which they will perform, each student will play exactly one piece, a piano solo. In deciding the order of performance the instructor must observer following restrictions. (i) X cannot play first or second. W cannot have played until X has played. Neither T nor Y can play Seventh. Either Y & Z must play immediately after W. V must play immediately after, or immediately U Played. (ii) If V play first, which one of the following must be true: T plays sixth, X plays third, Z plays seventh, T plays after immediately after Y, W Plays immediately After X', idealAnswer: 'If V plays first, U must play second (from V must be immediately after or before U, and V is first). X cannot be first or second. W must be after X. T/Y cannot be seventh. So Z must be seventh. If Z is seventh, it must be immediately after W, so W is sixth. Since W must be after X, X must be 3rd, 4th, or 5th. This is a complex logic puzzle. The most constrained deduction is that Z must be seventh, as T and Y cannot be.' },
+          { id: 'pp-gs-2019-1-q8b', questionText: '(b)U = [Whole number from 10 to 24], A = [Even Number], B = [Number divisible by 5]. Write down the number elements of A∩B', idealAnswer: 'U={10,11..24}. A={10,12,14,16,18,20,22,24}. B={10,15,20}. A∩B = {10, 20}. The number of elements is 2.' },
+          { id: 'pp-gs-2019-1-q8c', questionText: '(c) in the following diagram A represent American, S represent scientist and P represents politicians. (i) American those are politicians but not scientists will be. (ii) Scientists which are politicisms but not Americans will be', idealAnswer: 'The diagram is missing. But based on a standard Venn diagram: (i) This would be the area in the intersection of A and P, but outside of S. In the provided diagram, this corresponds to region `d`. (ii) This would be the area in the intersection of S and P, but outside of A. In the diagram, this corresponds to region `f`.' },
+          { id: 'pp-gs-2019-1-q8d', questionText: '(d) Each packet of washing powder carries a token and 4 token can be exchanged for free packet, How many free packets will I receive if I buy sixty four packets?', idealAnswer: 'Buying 64 packets gives 64 tokens. 64 tokens can be exchanged for 64/4 = 16 free packets. These 16 free packets give another 16 tokens. 16 tokens can be exchanged for 16/4 = 4 free packets. These 4 free packets give 4 tokens, which can be exchanged for 1 more free packet. Total free packets = 16 + 4 + 1 = 21.' },
         ]
       }
     ]
@@ -349,5 +545,3 @@ export const pastPapers: PastPaper[] = [
     ]
   },
 ];
-
-    
