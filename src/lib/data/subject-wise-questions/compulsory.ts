@@ -38,15 +38,6 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
     idealAnswer: 'The Russia-Ukraine war has profoundly disrupted global energy markets. Sanctions against Russia, a major oil and gas exporter, have led to significant price volatility and supply chain disruptions. European countries, heavily reliant on Russian gas, have scrambled to find alternative sources, accelerating the transition towards renewable energy but also causing short-term energy crises. The conflict has highlighted the geopolitical weaponization of energy and forced a global reassessment of energy security strategies, leading to increased investment in LNG infrastructure and a renewed focus on energy diversification.',
     group: 'Compulsory'
   },
-  {
-    id: 'swq-eng-precis-1',
-    subject: 'English (Precis and Composition)',
-    topic: 'Precis Writing',
-    difficulty: 'Medium',
-    questionText: 'What are the key qualities of a good precis?',
-    idealAnswer: 'A good precis must be clear, concise, and comprehensive. It should capture the essential ideas of the original passage accurately, without omitting important points or adding new information. It must be written in the writer\'s own words and should be about one-third the length of the original. A suitable title is also necessary.',
-    group: 'Compulsory'
-  },
    {
     id: 'swq-eng-essay-1',
     subject: 'English Essay',

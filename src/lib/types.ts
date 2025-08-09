@@ -6,7 +6,7 @@ export interface PaperQuestion {
   questionNumber?: string; // e.g., "Q.2", "Q.4 (a)"
   questionText: string;
   idealAnswer: string;
-  questionType: 'Essay' | 'Precis' | 'Comprehension' | 'Correction' | 'Analogy' | 'Idioms' | 'Translation' | 'MCQ' | 'Other';
+  questionType: 'Essay' | 'MCQ' | 'Analogy' | 'Other';
   options?: string[]; // For MCQs
 }
 
