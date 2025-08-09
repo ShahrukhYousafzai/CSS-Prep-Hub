@@ -3,6 +3,111 @@ import type { PastPaper } from '../../../types';
 
 export const pastPapers: PastPaper[] = [
     {
+        id: 'pp-eng-precis-2022',
+        year: 2022,
+        subject: 'English (Precis & Composition)',
+        questions: [
+            {
+                id: 'pp-eng-precis-2022-q2',
+                questionNumber: 'Q. 2',
+                questionType: 'Precis',
+                questionText: `The fear of human beings when faced with the mysteries of life and their weakness by comparison with the vastness of nature created in them a need to communicate with the divine, with the superior powers which they believed regulated the universe and determined their own fates. Knowledge of wishes of the gods was always a sure guide for human behavior. In ancient Greece, the precise nature of these wishes was ‘decoded’ by the art of giving oracles, practiced by soothsayers who had the gift of understanding the signs or signals sent by the gods.
+The soothsayers uttered their oracles by interpreting flashes of lightening, rolls of thunder or the flights of certain birds of prey (omens); alternatively, they might observe the direction in which the fire burned when a sacrifice was made, examine the entrails of animals which had just been sacrificed, or base judgments on the sacrificial beast’s willingness to approach the altar. The interpretation of dreams was popular too, and so was palmistry. The most notable soothsayers of ancient Greece were Tiresias, Calchas, Helenus, Amphiaraus and Cassandra.
+However, there were abundant instances in which the gods did not manifest themselves to the faithful in the forms of signs but spoke directly to an intermediate who for a short time was overcome by a ‘divine mania’ and transcended his own human essence. Here the prophet- or more usually the prophetess- entered a state of ecstasy in which he or she delivered the message from the gods to the suppliants.
+These practices for foreseeing the future were the basis on which the ancient Greek oracles operated. Each oracle was located within a properly-organized sanctuary and was directly associated with one or other of the gods. Apollo was the archetypal soothsayer for the Greeks, the god who was responsible for conveying to mortals the decisions pronounced by Zeus. The most important of all the oracles, that at the Delphi, delivered the messages with the intervention of Apollo, while the oldest that of Dodona, functioned with the assistance of Zeus.`,
+                idealAnswer: `**Title: Divine Communication in Ancient Greece**
+
+In ancient Greece, human fear and weakness before life's mysteries created a need to understand the will of the gods, who were believed to control destiny. This divine will was deciphered through the art of oracles. Soothsayers interpreted various signs, such as lightning, thunder, bird flights, sacrificial flames, or animal entrails. Sometimes, a god would speak directly through a prophet or prophetess in a state of ecstatic trance. These practices formed the foundation of organized oracles, each linked to a specific deity. Apollo, the archetypal soothsayer, conveyed Zeus's decisions, with the Delphic oracle being the most important, while the oldest oracle at Dodona was directly associated with Zeus.`
+            },
+            {
+                id: 'pp-eng-precis-2022-q3',
+                questionNumber: 'Q. 3',
+                questionType: 'Comprehension',
+                questionText: `Civil society refers to all of the places where individuals gather together to have conversations, pursue common interests and, occasionally, try to influence public opinion or public policy. In many respects, civil society is where people spend their time when they are not at work or at home. For example, a group of people gather at a local park every Thursday afternoon for a game of football. Most of them arrive well before the game begins and stay for some time after it ends. Some of them go out for dinner or a drink after the game. In the course of their meetings they talk about a wide range of topics, including football but also extending to include issues such as work, family, relationships, community events, racial issues and politics. This kind of solidarity can be found in a variety of other places in civil society – such as sports clubs, bowling leagues, reading groups and social movements – where individuals get together to associate on the basis of some shared interest fostering more effective forms of citizenship. Even though people may come together on the basis of an interest they all share in common, they eventually have to develop productive strategies for dealing with conflicts and differences that emerge within the association. Team mates in a bowling league discover, on certain issues, significant differences of opinion. And yet, because they value the association and look forward to participating in its activities, they do not respond to these differences by exiting the scene. Instead, they search for the ways of interacting that will not threaten the solidarity of the group. In the process, they learn to appreciate and to tolerate social differences, a valuable skill to have in an increasingly multicultural nation. They also develop a general sense of social trust and mutual obligation, which makes society function more efficiently (this is what political scientists and sociologists are talking about when they refer to the importance of social capital). Gathering together in an association, people begin to think about their shared private interest as a collective public interest, and they try to make sure that this public interest is safe and secured. For example, the group that gets together for a weekly football game begins to talk about the park as an important community resource; if feel that the park is being mistreated or mismanaged, will organize a ‘save the park’ campaign to try to influence their local politicians and the other residents of the community. Recently, there has been growing concern that civil society is weaker than it used to be, because people are losing interest in joining associations. As citizens become increasingly disconnected from voluntary associations, they will experience less trust and less social connection, and as a result political institutions will function less efficiently. However, some scholars opine that many people are simply choosing to participate in different kinds of associations with fewer face-to-face meetings but supplemented with ‘virtual’ interactions facilitated by resources.`,
+                subQuestions: [
+                    { id: 'pp-eng-precis-2022-q3-1', questionText: 'How does the author characterize the concept of civil society?', idealAnswer: 'The author characterizes civil society as the spaces where individuals gather outside of work and home to pursue common interests, have conversations, and sometimes try to influence public opinion or policy.' },
+                    { id: 'pp-eng-precis-2022-q3-2', questionText: 'Why does civil society strive towards better socialization driven by tolerance?', idealAnswer: 'Because members value their association, they learn to manage internal conflicts and differences without dissolving the group. This process teaches them to appreciate and tolerate social differences, which is a valuable skill for better socialization.' },
+                    { id: 'pp-eng-precis-2022-q3-3', questionText: 'What do you understand by the term ‘Social Capital’ used in this passage?', idealAnswer: 'Social capital refers to the sense of social trust and mutual obligation that develops within associations, which helps society function more efficiently.' },
+                    { id: 'pp-eng-precis-2022-q3-4', questionText: 'Why does a civil society assume the role of a public stake holder?', idealAnswer: 'A civil society assumes this role when members begin to view their shared private interests as a collective public interest and organize to protect that interest, such as campaigning to save a local park.' },
+                    { id: 'pp-eng-precis-2022-q3-5', questionText: 'What impact is feared by the weakening state of civil society?', idealAnswer: 'The feared impact is that as people become disconnected from voluntary associations, they will experience less trust and social connection, causing political institutions to function less efficiently.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2022-q4',
+                questionNumber: 'Q. 4',
+                questionType: 'Correction',
+                questionText: 'Correct only FIVE of the following:',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2022-q4-i', questionText: 'I must walk two miles to school every morning when I was a child.', idealAnswer: 'I had to walk two miles to school every morning when I was a child. / I used to walk...' },
+                    { id: 'pp-eng-precis-2022-q4-ii', questionText: 'After the storm, we had got to pick up some fallen branches.', idealAnswer: 'After the storm, we had to pick up some fallen branches.' },
+                    { id: 'pp-eng-precis-2022-q4-iii', questionText: 'Guitar is most popular instrument among teen age boys, but not girls.', idealAnswer: 'The guitar is the most popular instrument among teenage boys, but not girls.' },
+                    { id: 'pp-eng-precis-2022-q4-iv', questionText: 'You are not well and I wish you feel better soon.', idealAnswer: 'You are not well; I hope you feel better soon.' },
+                    { id: 'pp-eng-precis-2022-q4-v', questionText: 'The grass not looking green now because it is not raining since last month.', idealAnswer: 'The grass does not look green now because it has not rained since last month.' },
+                    { id: 'pp-eng-precis-2022-q4-vi', questionText: 'The cold air made me shiver a little when I was waiting for him.', idealAnswer: 'The cold air made me shiver a little while I was waiting for him.' },
+                    { id: 'pp-eng-precis-2022-q4-vii', questionText: 'I offered my seat to an older woman who just smiled me.', idealAnswer: 'I offered my seat to an older woman who just smiled at me.' },
+                    { id: 'pp-eng-precis-2022-q4-viii', questionText: 'She packed her bags, carried downstairs and put the back seat of her car.', idealAnswer: 'She packed her bags, carried them downstairs and put them on the back seat of her car.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2022-q5a',
+                questionNumber: 'Q. 5 (a)',
+                questionType: 'Punctuation',
+                questionText: 'Punctuate the following text, where necessary.',
+                subQuestions: [
+                    {
+                        id: 'pp-eng-precis-2022-q5a-i',
+                        questionText: 'unfortunately we often miss a basic school lesson every big task consists of several small ones done precisely and perfectly as a nation we acutely need to learn the art of breaking down our moonlit goals into small accomplishable tasks it will reduce frustration anxiety depression in society and embarrassment for the government machinery too as they dont have to defend their unkept promises.',
+                        idealAnswer: 'Unfortunately, we often miss a basic school lesson: every big task consists of several small ones, done precisely and perfectly. As a nation, we acutely need to learn the art of breaking down our moon-lit goals into small, accomplishable tasks. It will reduce frustration, anxiety, and depression in society, and embarrassment for the government machinery, too, as they don\'t have to defend their unkept promises.'
+                    }
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2022-q5b',
+                questionNumber: 'Q. 5 (b)',
+                questionType: 'Correction',
+                questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate Prepositions.',
+                 subQuestions: [
+                    { id: 'pp-eng-precis-2022-q5b-i', questionText: 'Despite regular practice he never seems to win ---------- tennis.', idealAnswer: 'Despite regular practice, he never seems to win at tennis.' },
+                    { id: 'pp-eng-precis-2022-q5b-ii', questionText: '---------- luck, we should be in Islamabad by 5 p.m.', idealAnswer: 'With luck, we should be in Islamabad by 5 p.m.' },
+                    { id: 'pp-eng-precis-2022-q5b-iii', questionText: 'He went ----------- his own accord: nobody forced him to go.', idealAnswer: 'He went of his own accord; nobody forced him to go.' },
+                    { id: 'pp-eng-precis-2022-q5b-iv', questionText: 'My husband brought me some flowers today. He must be ----------- something!', idealAnswer: 'My husband brought me some flowers today. He must be after something!' },
+                    { id: 'pp-eng-precis-2022-q5b-v', questionText: 'My younger son tripped ------------ the cat and fell downstairs.', idealAnswer: 'My younger son tripped over the cat and fell downstairs.' },
+                    { id: 'pp-eng-precis-2022-q5b-vi', questionText: 'You look really ---------- the weather. Are you ill?', idealAnswer: 'You look really under the weather. Are you ill?' },
+                    { id: 'pp-eng-precis-2022-q5b-vii', questionText: 'The car went ---------- the brow of the hill and was soon out of sight.', idealAnswer: 'The car went over the brow of the hill and was soon out of sight.' },
+                    { id: 'pp-eng-precis-2022-q5b-viii', questionText: 'He told that his career was ---------- ruins because of pandemic.', idealAnswer: 'He told me that his career was in ruins because of the pandemic.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2022-q6',
+                questionNumber: 'Q. 6',
+                questionType: 'Word Pairs',
+                questionText: 'Use only FIVE pairs of words in sentences clearly illustrating their meanings.',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2022-q6-i', questionText: 'Annalist, Analyst', idealAnswer: '**Annalist:** (a writer of annals) The medieval annalist recorded the events of the king\'s reign.\n**Analyst:** (a person who conducts analysis) The financial analyst recommended selling the stock.' },
+                    { id: 'pp-eng-precis-2022-q6-ii', questionText: 'Gest, Jest', idealAnswer: '**Gest:** (a notable deed or adventure) The poem celebrated the great gest of the knight.\n**Jest:** (a joke) He made the comment in jest, but it was taken seriously.' },
+                    { id: 'pp-eng-precis-2022-q6-iii', questionText: 'Sleigh, Slay', idealAnswer: '**Sleigh:** (a sled drawn by horses) The family enjoyed a sleigh ride through the snow.\n**Slay:** (to kill violently) The hero set out to slay the dragon.' },
+                    { id: 'pp-eng-precis-2022-q6-iv', questionText: 'Shoot, Chute', idealAnswer: '**Shoot:** (to fire a gun or camera) The director began to shoot the final scene.\n**Chute:** (a slide) The children loved sliding down the water chute.' },
+                    { id: 'pp-eng-precis-2022-q6-v', questionText: 'Coign, Coin', idealAnswer: '**Coign:** (a projecting cornerstone) The building had a decorative coign on each corner.\n**Coin:** (a piece of money) He flipped a coin to make the decision.' },
+                    { id: 'pp-eng-precis-2022-q6-vi', questionText: 'Key, Quay', idealAnswer: '**Key:** (an instrument for locking) She used the key to open the door.\n**Quay:** (a wharf where ships are loaded) The ship was moored at the quay.' },
+                    { id: 'pp-eng-precis-2022-q6-vii', questionText: 'Wile, While', idealAnswer: '**Wile:** (a trick) He used his wiles to get out of trouble.\n**While:** (during the time that) She read a book while she waited for the bus.' },
+                    { id: 'pp-eng-precis-2022-q6-viii', questionText: 'Leek, Leak', idealAnswer: '**Leek:** (a vegetable) She added chopped leek to the soup.\n**Leak:** (an accidental escape of fluid) The pipe had a slow leak that needed to be fixed.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2022-q7',
+                questionNumber: 'Q. 7',
+                questionType: 'Translation',
+                questionText: 'ہمارے پیارے نبی حضرت محمد صلی اللہ علیہ وسلم نے فرمایا ہے کہ جو شخص علم کی تلاش میں سفر کرتا ہے، اللہ تعالیٰ اس کے لیے جنت کا راستہ آسان کر دیتا ہے۔ فرشتے طالب علم کے کام سے خوش ہو کر اس کے لیے اپنے پر بچھا دیتے ہیں۔ طالب علم کے لیے زمین اور آسمان کی تمام چیزیں حتٰی کہ پانی میں مچھلیاں بھی دعا کرتی ہیں۔ عابد پر عالم کی فضیلت ایسی ہے جیسی چودھویں کے چاند کی تمام ستاروں پر۔ بے شک علماء ہی پیغمبروں کے وارث ہیں۔ پیغمبروں نے روپے پیسے کی میراث نہیں چھوڑی، بلکہ انہوں نے علم کی میراث چھوڑی ہے۔ پس جس نے علم حاصل کیا، اس نے بڑا حصہ پایا۔',
+                idealAnswer: 'Our beloved Prophet, Hazrat Muhammad (peace be upon him), has said that for whoever travels in search of knowledge, Allah makes the path to paradise easy for him. The angels, pleased with the work of the student, spread their wings for him. All things in the heavens and the earth, even the fish in the water, pray for the student. The superiority of a scholar over a worshipper is like that of the full moon over all the stars. Indeed, the scholars are the heirs of the prophets. The prophets did not leave an inheritance of money, but they left an inheritance of knowledge. Therefore, whoever acquires knowledge has gained a great share.'
+            }
+        ]
+    },
+    {
         id: 'pp-eng-precis-2021',
         year: 2021,
         subject: 'English (Precis & Composition)',
@@ -160,17 +265,17 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             {
                 id: 'pp-eng-precis-2020-q5b',
                 questionNumber: 'Q. 5 (b)',
-                questionType: 'MCQ',
+                questionType: 'Correction',
                 questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate prepositions.',
-                options: [
-                    { question: 'I was annoyed ________ him.', choices: ['with', 'at', 'on', 'by'], answer: 'with' },
-                    { question: 'This train is bound ________ Gujrat.', choices: ['to', 'for', 'at', 'from'], answer: 'for' },
-                    { question: 'The pistol went ________ by accident.', choices: ['on', 'off', 'up', 'down'], answer: 'off' },
-                    { question: 'He kept ________ asking silly questions.', choices: ['up', 'on', 'in', 'at'], answer: 'on' },
-                    { question: 'He was knocked ________ by the bus.', choices: ['up', 'down', 'out', 'off'], answer: 'down' },
-                    { question: 'Do not meddle ________ my affairs.', choices: ['with', 'in', 'into', 'at'], answer: 'in' },
-                    { question: 'The meeting was put ________ by the Chairman.', choices: ['out', 'up', 'off', 'away'], answer: 'off' },
-                    { question: 'He rounded ________ his speech with a quote from Ghalib.', choices: ['up', 'off', 'out', 'in'], answer: 'off' },
+                subQuestions: [
+                    { question: 'I was annoyed ________ him.', idealAnswer: 'I was annoyed with him.' },
+                    { question: 'This train is bound ________ Gujrat.', idealAnswer: 'This train is bound for Gujrat.' },
+                    { question: 'The pistol went ________ by accident.', idealAnswer: 'The pistol went off by accident.' },
+                    { question: 'He kept ________ asking silly questions.', idealAnswer: 'He kept on asking silly questions.' },
+                    { question: 'He was knocked ________ by the bus.', idealAnswer: 'He was knocked down by the bus.' },
+                    { question: 'Do not meddle ________ my affairs.', idealAnswer: 'Do not meddle in my affairs.' },
+                    { question: 'The meeting was put ________ by the Chairman.', idealAnswer: 'The meeting was put off by the Chairman.' },
+                    { question: 'He rounded ________ his speech with a quote from Ghalib.', idealAnswer: 'He rounded off his speech with a quote from Ghalib.' },
                 ],
                 idealAnswer: ''
             },
@@ -256,17 +361,17 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             {
                 id: 'pp-eng-precis-2019-q5b',
                 questionNumber: 'Q. 5 (b)',
-                questionType: 'MCQ',
+                questionType: 'Correction',
                 questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate prepositions.',
-                options: [
-                    { question: 'What time do we arrive ______our destination?', choices: ['in', 'at', 'on', 'to'], answer: 'at' },
-                    { question: 'We are flying ______some rough weather; please fasten your seat belts.', choices: ['in', 'into', 'through', 'on'], answer: 'through' },
-                    { question: 'It is warming up; ______noon we should be able to go swimming.', choices: ['at', 'by', 'in', 'on'], answer: 'by' },
-                    { question: 'My parents are not responsible ______my actions.', choices: ['with', 'of', 'to', 'for'], answer: 'for' },
-                    { question: 'This pan is ______cooking omelettes.', choices: ['for', 'to', 'in', 'with'], answer: 'for' },
-                    { question: '______ poor attendance, this course is being cancelled.', choices: ['Owing to', 'With', 'As', 'For'], answer: 'Owing to' },
-                    { question: 'The police took the men in ______questioning.', choices: ['to', 'for', 'with', 'about'], answer: 'for' },
-                    { question: 'The woman you gave the book ______is my aunt.', choices: ['to', 'at', 'with', 'from'], answer: 'to' },
+                subQuestions: [
+                    { question: 'What time do we arrive ______our destination?', idealAnswer: 'What time do we arrive at our destination?' },
+                    { question: 'We are flying ______some rough weather; please fasten your seat belts.', idealAnswer: 'We are flying through some rough weather; please fasten your seat belts.' },
+                    { question: 'It is warming up; ______noon we should be able to go swimming.', idealAnswer: 'It is warming up; by noon we should be able to go swimming.' },
+                    { question: 'My parents are not responsible ______my actions.', idealAnswer: 'My parents are not responsible for my actions.' },
+                    { question: 'This pan is ______cooking omelettes.', idealAnswer: 'This pan is for cooking omelettes.' },
+                    { question: '______ poor attendance, this course is being cancelled.', idealAnswer: 'Owing to poor attendance, this course is being cancelled.' },
+                    { question: 'The police took the men in ______questioning.', idealAnswer: 'The police took the men in for questioning.' },
+                    { question: 'The woman you gave the book ______is my aunt.', idealAnswer: 'The woman you gave the book to is my aunt.' },
                 ],
                 idealAnswer: ''
             },
@@ -428,7 +533,7 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 questionNumber: 'Q. 2',
                 questionType: 'Precis',
                 questionText: 'All the evils in this world are brought about by the persons who are always up and doing, but do not know when they ought to be up nor what they ought to be doing. The devil, I take it, is still the busiest creature in the universe, and I can quite imagine him denouncing laziness and becoming angry at the smallest waste of time. In his kingdom, I will wager, nobody is allowed to do nothing, not even for a single afternoon. The world, we all freely admit, is in a muddle but I for one do not think that it is laziness that has brought it to such a pass. It is not the active virtues that it lacks but the passive ones; it is capable of anything but kindness and a little steady thought. There is still plenty of energy in the world (there never were more fussy people about), but most of it is simply misdirected. If, for example, in July 1914, when there was some capital idling weather, everybody, emperors, Kings, arch dukes, statesmen, generals, journalists, had been suddenly smitten with an intense desire to do nothing, just to hang about in the sunshine and consume tobacco, then we should all have been much better off than we are now. But no, the doctrine of the strenuous life still went unchallenged; there must be no time wasted; something must be done. Again, suppose our statesmen, instead of rushing off to Versailles with a bundle of ill-digested notions and great deal of energy to dissipate had all taken a fortnight off, away from all correspondence and interviews and what not, and had simply lounged about on some hillside or other apparently doing nothing for the first time in their energetic lives, then they might have gone to their so-called peace conference and come away again with their reputations still unsoiled and the affairs of the world in good trim. Even at the present time, if half of the politicians in Europe would relinquish the notion that laziness is crime and go away and do nothing for a little space, we should certainly gain by it. Other examples come crowding into mind. Thus, every now and then, certain religious sects hold conferences; but though there are evils abroad that are mountains high, though the fate of civilization is still doubtful, the members who attend these conferences spend their time condemning the length of ladies’ skirts and the noisiness of dance bands. They would all be better employed lying flat on their backs somewhere, staring at the sky and recovering their mental health.',
-                idealAnswer: `**Title: In Praise of Idleness**\n\nThe author argues that the world\'s problems are caused not by laziness, but by misdirected and restless energy. He posits that evil thrives on ceaseless activity without thoughtful consideration. If world leaders and influential figures had chosen idleness over action at critical moments, such as before World War I or the Versailles conference, the world would be in a better state. The author believes the world lacks passive virtues like kindness and steady thought, not active ones. He concludes that many influential people, from politicians to religious leaders, would serve humanity better by taking time for quiet reflection to regain mental clarity, rather than engaging in misguided, fussy activities.`
+                idealAnswer: `**Title: In Praise of Idleness**\n\nThe author argues that the world's problems are caused not by laziness, but by misdirected and restless energy. He posits that evil thrives on ceaseless activity without thoughtful consideration. If world leaders and influential figures had chosen idleness over action at critical moments, such as before World War I or the Versailles conference, the world would be in a better state. The author believes the world lacks passive virtues like kindness and steady thought, not active ones. He concludes that many influential people, from politicians to religious leaders, would serve humanity better by taking time for quiet reflection to regain mental clarity, rather than engaging in misguided, fussy activities.`
             },
             {
                 id: 'pp-eng-precis-2017-q3',
@@ -464,17 +569,17 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             {
                 id: 'pp-eng-precis-2017-q4b',
                 questionNumber: 'Q. 4 (b)',
-                questionType: 'MCQ',
+                questionType: 'Correction',
                 questionText: 'Re-write the following sentences (Only FIVE) after filling in the blanks appropriately:',
-                options: [
-                    { question: 'I cannot buy this car _____ this price.', choices: ['for', 'in', 'at', 'on'], answer: 'at' },
-                    { question: 'Send these books _____ my home address.', choices: ['on', 'at', 'in', 'to'], answer: 'to' },
-                    { question: 'Monkeys live _____ trees.', choices: ['in', 'at', 'upon', 'on'], answer: 'in' },
-                    { question: 'I said it _____ his face.', choices: ['at', 'on', 'to', 'upon'], answer: 'to' },
-                    { question: 'The manager _______the receipt of my letter promptly.', choices: ['accepted', 'realized', 'recognized', 'acknowledged'], answer: 'acknowledged' },
-                    { question: 'Most foreign students don’t like American coffee, and ________ .', choices: ['I don’t too', 'either don’t', 'neither don’t I', 'neither do I'], answer: 'neither do I' },
-                    { question: 'We________ take care of our parents when they are old.', choices: ['could', 'would', 'might', 'ought to'], answer: 'ought to' },
-                    { question: 'Yousaf ________in the garden the whole of yesterday.', choices: ['has dug', 'was digging', 'dug', 'had dug'], answer: 'was digging' },
+                 subQuestions: [
+                    { question: 'I cannot buy this car _____ this price.', idealAnswer: 'I cannot buy this car at this price.' },
+                    { question: 'Send these books _____ my home address.', idealAnswer: 'Send these books to my home address.' },
+                    { question: 'Monkeys live _____ trees.', idealAnswer: 'Monkeys live in trees.' },
+                    { question: 'I said it _____ his face.', idealAnswer: 'I said it to his face.' },
+                    { question: 'The manager _______the receipt of my letter promptly.', idealAnswer: 'The manager acknowledged the receipt of my letter promptly.' },
+                    { question: 'Most foreign students don’t like American coffee, and ________ .', idealAnswer: 'Most foreign students don’t like American coffee, and neither do I.' },
+                    { question: 'We________ take care of our parents when they are old.', idealAnswer: 'We ought to take care of our parents when they are old.' },
+                    { question: 'Yousaf ________in the garden the whole of yesterday.', idealAnswer: 'Yousaf was digging in the garden the whole of yesterday.' },
                 ],
                 idealAnswer: ''
             },
@@ -554,7 +659,7 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 id: 'pp-eng-precis-2016-q2',
                 questionNumber: 'Q. 2',
                 questionType: 'Precis',
-                questionText: 'During my vacation last May, I had a hard time choosing a tour. Flights to Japan, Hong Kong and Australia are just too common. What I wanted was somewhere exciting and exotic, a place where I could be spared from the holiday tour crowds. I was so happy when John called up, suggesting a trip to Cherokee, a county in the state of Oklahoma. I agreed and went off with the preparation immediately.\nWe took a flight to Cherokee and visited a town called Qualla Boundary surrounded by magnificent mountain scenery, the town painted a paradise before us. With its Oconaluftee Indian Village reproducing tribal crafts and lifestyles of the 18th century and the outdoor historical pageant Unto These Hills playing six times weekly in the summer nights, Qualla Boundary tries to present a brief image of the Cherokee past to the tourists.\nDespite the language barrier, we managed to find our way to the souvenir shops with the help of the natives. The shops were filled with rubber tomahawks and colorful traditional war bonnets, made of dyed turkey feathers. Tepees, coneshaped tents made from animal skin, were also pitched near the shops. "Welcome! Want to get anything?" We looked up and saw a middle-aged man smiling at us. We were very surprised by his fluent English. He introduced himself as George and we ended up chatting till lunch time when he invited us for lunch at a nearby coffee shop.\n"Sometimes, I\'ve to work from morning to sunset during the tour season. Anyway, this is still better off than being a woodcutter ..." Remembrance weighed heavy on George\'s mind and he went on to tell us that he used to cut firewood for a living but could hardly make ends meet. We learnt from him that the Cherokees do not depend solely on trade for survival. During the tour off-peak period, the tribe would have to try out other means for income. One of the successful ways is the "Bingo Weekend". On the Friday afternoons of the Bingo weekends, a large bingo hall was opened, attracting huge crowds of people to the various kinds of games like the Super Jackpot and the Warrior Game Special. According to George, these forms of entertainment fetch them great returns.\nOur final stop in Qualla Boundary was at the museum where arts, ranging from the simple hand-woven oak baskets to wood and stone carvings of wolves, ravens and other symbols of Cherokee cosmology are displayed.\nBack at home, I really missed the place and I would of course look forward to the next trip to another exotic place.',
+                questionText: `During my vacation last May, I had a hard time choosing a tour. Flights to Japan, Hong Kong and Australia are just too common. What I wanted was somewhere exciting and exotic, a place where I could be spared from the holiday tour crowds. I was so happy when John called up, suggesting a trip to Cherokee, a county in the state of Oklahoma. I agreed and went off with the preparation immediately.\nWe took a flight to Cherokee and visited a town called Qualla Boundary surrounded by magnificent mountain scenery, the town painted a paradise before us. With its Oconaluftee Indian Village reproducing tribal crafts and lifestyles of the 18th century and the outdoor historical pageant Unto These Hills playing six times weekly in the summer nights, Qualla Boundary tries to present a brief image of the Cherokee past to the tourists.\nDespite the language barrier, we managed to find our way to the souvenir shops with the help of the natives. The shops were filled with rubber tomahawks and colorful traditional war bonnets, made of dyed turkey feathers. Tepees, coneshaped tents made from animal skin, were also pitched near the shops. "Welcome! Want to get anything?" We looked up and saw a middle-aged man smiling at us. We were very surprised by his fluent English. He introduced himself as George and we ended up chatting till lunch time when he invited us for lunch at a nearby coffee shop.\n"Sometimes, I've to work from morning to sunset during the tour season. Anyway, this is still better off than being a woodcutter ..." Remembrance weighed heavy on George's mind and he went on to tell us that he used to cut firewood for a living but could hardly make ends meet. We learnt from him that the Cherokees do not depend solely on trade for survival. During the tour off-peak period, the tribe would have to try out other means for income. One of the successful ways is the "Bingo Weekend". On the Friday afternoons of the Bingo weekends, a large bingo hall was opened, attracting huge crowds of people to the various kinds of games like the Super Jackpot and the Warrior Game Special. According to George, these forms of entertainment fetch them great returns.\nOur final stop in Qualla Boundary was at the museum where arts, ranging from the simple hand-woven oak baskets to wood and stone carvings of wolves, ravens and other symbols of Cherokee cosmology are displayed.\nBack at home, I really missed the place and I would of course look forward to the next trip to another exotic place.`,
                 idealAnswer: `**Title: A Glimpse into Cherokee Life**\n\nSeeking an unconventional vacation, the author visited the Cherokee town of Qualla Boundary in Oklahoma. The town offers tourists a recreation of 18th-century tribal life through its Indian Village and historical pageants. While exploring souvenir shops filled with traditional crafts, the author met George, a local who spoke fluent English. George explained that tourism is a seasonal industry, and during the off-peak season, the tribe generates income through other means, such as popular "Bingo Weekends." The author also visited a museum displaying Cherokee arts and crafts, from simple baskets to symbolic carvings. The trip left a lasting impression, fueling a desire for more exotic travel.`
             },
             {
@@ -592,14 +697,14 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 questionType: 'Correction',
                 questionText: 'Correct only FIVE of the following:',
                 subQuestions: [
-                    { id: 'pp-eng-precis-2016-q4a-i', questionText: '(i) We were staying at my sister’s cape’s code vacation home.', idealAnswer: 'We were staying at my sister’s Cape Cod vacation home.' },
-                    { id: 'pp-eng-precis-2016-q4a-ii', questionText: '(ii) She recommended me that I take a few days off from work.', idealAnswer: 'She recommended that I take a few days off from work.' },
-                    { id: 'pp-eng-precis-2016-q4a-iii', questionText: '(iii) I tried to explain him the problem, but he had difficulty understanding me.', idealAnswer: 'I tried to explain the problem to him, but he had difficulty understanding me.' },
-                    { id: 'pp-eng-precis-2016-q4a-iv', questionText: '(iv) I’ll do the grocery shopping for you grandma, Lucy said.', idealAnswer: '"I’ll do the grocery shopping for you, Grandma," Lucy said.' },
-                    { id: 'pp-eng-precis-2016-q4a-v', questionText: '(v) We took a tent, a cooler, and a sleeping bag.', idealAnswer: 'We took a tent, a cooler, and a sleeping bag.' },
-                    { id: 'pp-eng-precis-2016-q4a-vi', questionText: '(vi) I don’t know why you didn’t go. If I were you, I should have gone.', idealAnswer: 'I don’t know why you didn’t go. If I were you, I would have gone.' },
-                    { id: 'pp-eng-precis-2016-q4a-vii', questionText: '(vii) Kevin says he stopped to travel internationally because of his family.', idealAnswer: 'Kevin says he stopped travelling internationally because of his family.' },
-                    { id: 'pp-eng-precis-2016-q4a-viii', questionText: '(viii) Don’t run! Mr. Salman shouted.', idealAnswer: '"Don’t run!" Mr. Salman shouted.' },
+                    { id: 'pp-eng-precis-2016-q4a-i', questionText: 'We were staying at my sister’s cape’s code vacation home.', idealAnswer: 'We were staying at my sister’s Cape Cod vacation home.' },
+                    { id: 'pp-eng-precis-2016-q4a-ii', questionText: 'She recommended me that I take a few days off from work.', idealAnswer: 'She recommended that I take a few days off from work.' },
+                    { id: 'pp-eng-precis-2016-q4a-iii', questionText: 'I tried to explain him the problem, but he had difficulty understanding me.', idealAnswer: 'I tried to explain the problem to him, but he had difficulty understanding me.' },
+                    { id: 'pp-eng-precis-2016-q4a-iv', questionText: 'I’ll do the grocery shopping for you grandma, Lucy said.', idealAnswer: '"I’ll do the grocery shopping for you, Grandma," Lucy said.' },
+                    { id: 'pp-eng-precis-2016-q4a-v', questionText: 'We took a tent, a cooler, and a sleeping bag.', idealAnswer: 'We took a tent, a cooler, and a sleeping bag.' },
+                    { id: 'pp-eng-precis-2016-q4a-vi', questionText: 'I don’t know why you didn’t go. If I were you, I should have gone.', idealAnswer: 'I don’t know why you didn’t go. If I were you, I would have gone.' },
+                    { id: 'pp-eng-precis-2016-q4a-vii', questionText: 'Kevin says he stopped to travel internationally because of his family.', idealAnswer: 'Kevin says he stopped travelling internationally because of his family.' },
+                    { id: 'pp-eng-precis-2016-q4a-viii', questionText: 'Don’t run! Mr. Salman shouted.', idealAnswer: '"Don’t run!" Mr. Salman shouted.' },
                 ],
                 idealAnswer: ''
             },
@@ -647,14 +752,14 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 questionType: 'Word Pairs',
                 questionText: 'Explain the difference between the following word pairs by using each word in your own sentences (Any five):',
                  subQuestions: [
-                    { id: 'pp-eng-precis-2016-q6a-i', questionText: '(i) Adverse, averse', idealAnswer: '**Adverse:** (unfavorable) The project was cancelled due to adverse weather conditions.\n**Averse:** (opposed to) I am averse to taking unnecessary risks.' },
-                    { id: 'pp-eng-precis-2016-q6a-ii', questionText: '(ii) altogether, all together', idealAnswer: '**Altogether:** (entirely) I am altogether certain that this is the right decision.\n**All together:** (in a group) The family was all together for the holidays.' },
-                    { id: 'pp-eng-precis-2016-q6a-iii', questionText: '(iii) allude, elude', idealAnswer: '**Allude:** (refer to indirectly) He kept alluding to a secret plan but wouldn\'t give details.\n**Elude:** (escape) The clever fox managed to elude the hunters.' },
-                    { id: 'pp-eng-precis-2016-q6a-iv', questionText: '(iv) braise, braze', idealAnswer: '**Braise:** (cook slowly in liquid) She decided to braise the beef to make it tender.\n**Braze:** (join metals) The plumber had to braze the two copper pipes together.' },
-                    { id: 'pp-eng-precis-2016-q6a-v', questionText: '(v) curb, kerb', idealAnswer: '**Curb:** (restrain) You must learn to curb your spending habits.\n**Kerb:** (edge of a pavement - UK spelling) He parked his car next to the kerb.' },
-                    { id: 'pp-eng-precis-2016-q6a-vi', questionText: '(vi) faze, phase', idealAnswer: '**Faze:** (disconcert) The loud noise did not faze the experienced soldier.\n**Phase:** (a stage in a process) The project is entering its final phase.' },
-                    { id: 'pp-eng-precis-2016-q6a-vii', questionText: '(vii) maybe, may be', idealAnswer: '**Maybe:** (perhaps) Maybe we can go to the park tomorrow.\n**May be:** (might be) He may be late due to traffic.' },
-                    { id: 'pp-eng-precis-2016-q6a-viii', questionText: '(viii) moat, mote', idealAnswer: '**Moat:** (ditch around a castle) The castle was surrounded by a deep moat.\n**Mote:** (a speck of dust) A single mote of dust floated in the sunbeam.' },
+                    { id: 'pp-eng-precis-2016-q6a-i', questionText: 'Adverse, averse', idealAnswer: '**Adverse:** (unfavorable) The project was cancelled due to adverse weather conditions.\n**Averse:** (opposed to) I am averse to taking unnecessary risks.' },
+                    { id: 'pp-eng-precis-2016-q6a-ii', questionText: 'altogether, all together', idealAnswer: '**Altogether:** (entirely) I am altogether certain that this is the right decision.\n**All together:** (in a group) The family was all together for the holidays.' },
+                    { id: 'pp-eng-precis-2016-q6a-iii', questionText: 'allude, elude', idealAnswer: '**Allude:** (refer to indirectly) He kept alluding to a secret plan but wouldn\'t give details.\n**Elude:** (escape) The clever fox managed to elude the hunters.' },
+                    { id: 'pp-eng-precis-2016-q6a-iv', questionText: 'braise, braze', idealAnswer: '**Braise:** (cook slowly in liquid) She decided to braise the beef to make it tender.\n**Braze:** (join metals) The plumber had to braze the two copper pipes together.' },
+                    { id: 'pp-eng-precis-2016-q6a-v', questionText: 'curb, kerb', idealAnswer: '**Curb:** (restrain) You must learn to curb your spending habits.\n**Kerb:** (edge of a pavement - UK spelling) He parked his car next to the kerb.' },
+                    { id: 'pp-eng-precis-2016-q6a-vi', questionText: 'faze, phase', idealAnswer: '**Faze:** (disconcert) The loud noise did not faze the experienced soldier.\n**Phase:** (a stage in a process) The project is entering its final phase.' },
+                    { id: 'pp-eng-precis-2016-q6a-vii', questionText: 'maybe, may be', idealAnswer: '**Maybe:** (perhaps) Maybe we can go to the park tomorrow.\n**May be:** (might be) He may be late due to traffic.' },
+                    { id: 'pp-eng-precis-2016-q6a-viii', questionText: 'moat, mote', idealAnswer: '**Moat:** (ditch around a castle) The castle was surrounded by a deep moat.\n**Mote:** (a speck of dust) A single mote of dust floated in the sunbeam.' },
                 ],
                 idealAnswer: ''
             },
@@ -664,14 +769,14 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 questionType: 'Idioms',
                 questionText: 'Use any FIVE of the following in sentences which illustrate their meaning:',
                 subQuestions: [
-                    { id: 'pp-eng-precis-2016-q6b-i', questionText: '(i) Smash hit', idealAnswer: 'The new movie was a smash hit at the box office.' },
-                    { id: 'pp-eng-precis-2016-q6b-ii', questionText: '(ii) Murphy’s law', idealAnswer: 'I was already late, and then my car wouldn\'t start—it\'s Murphy\'s law.' },
-                    { id: 'pp-eng-precis-2016-q6b-iii', questionText: '(iii) Place in the Sun', idealAnswer: 'After years of hard work, she finally found her place in the sun as a successful entrepreneur.' },
-                    { id: 'pp-eng-precis-2016-q6b-iv', questionText: '(iv) Wooden spoon', idealAnswer: 'For the third year in a row, their team received the wooden spoon for finishing last in the league.' },
-                    { id: 'pp-eng-precis-2016-q6b-v', questionText: '(v) Go bananas', idealAnswer: 'The crowd will go bananas if the home team scores.' },
-                    { id: 'pp-eng-precis-2016-q6b-vi', questionText: '(vi) Beard the Lion in his den', idealAnswer: 'He decided to beard the lion in his den and confront his boss directly about the issue.' },
-                    { id: 'pp-eng-precis-2016-q6b-vii', questionText: '(vii) Groan inwardly', idealAnswer: 'When the teacher announced a pop quiz, the students groaned inwardly.' },
-                    { id: 'pp-eng-precis-2016-q6b-viii', questionText: '(viii) Chicken out', idealAnswer: 'He was going to ask for a raise but he chickened out at the last minute.' },
+                    { id: 'pp-eng-precis-2016-q6b-i', questionText: 'Smash hit', idealAnswer: 'The new movie was a smash hit at the box office.' },
+                    { id: 'pp-eng-precis-2016-q6b-ii', questionText: 'Murphy’s law', idealAnswer: 'I was already late, and then my car wouldn\'t start—it\'s Murphy\'s law.' },
+                    { id: 'pp-eng-precis-2016-q6b-iii', questionText: 'Place in the Sun', idealAnswer: 'After years of hard work, she finally found her place in the sun as a successful entrepreneur.' },
+                    { id: 'pp-eng-precis-2016-q6b-iv', questionText: 'Wooden spoon', idealAnswer: 'For the third year in a row, their team received the wooden spoon for finishing last in the league.' },
+                    { id: 'pp-eng-precis-2016-q6b-v', questionText: 'Go bananas', idealAnswer: 'The crowd will go bananas if the home team scores.' },
+                    { id: 'pp-eng-precis-2016-q6b-vi', questionText: 'Beard the Lion in his den', idealAnswer: 'He decided to beard the lion in his den and confront his boss directly about the issue.' },
+                    { id: 'pp-eng-precis-2016-q6b-vii', questionText: 'Groan inwardly', idealAnswer: 'When the teacher announced a pop quiz, the students groaned inwardly.' },
+                    { id: 'pp-eng-precis-2016-q6b-viii', questionText: 'Chicken out', idealAnswer: 'He was going to ask for a raise but he chickened out at the last minute.' },
                 ],
                 idealAnswer: ''
             },
@@ -685,3 +790,5 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
         ]
     }
 ];
+
+    
