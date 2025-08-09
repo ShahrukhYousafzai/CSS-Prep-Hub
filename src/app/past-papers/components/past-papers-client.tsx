@@ -1,7 +1,7 @@
 
 "use client";
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useTransition } from 'react';
 import {
   Accordion,
   AccordionContent,
@@ -23,13 +23,21 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
+import { Bot, Loader2 } from 'lucide-react';
 import { pastPaperQuestions } from '@/lib/data';
-import type { PastPaperQuestion } from '@/lib/types';
+import { generateEssayAction } from '../actions';
+import { useToast } from '@/hooks/use-toast';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
 export function PastPapersClient() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedYear, setSelectedYear] = useState('all');
   const [selectedSubject, setSelectedSubject] = useState('all');
+  const [generatedAnswers, setGeneratedAnswers] = useState<Record<string, string>>({});
+  const [generatingId, setGeneratingId] = useState<string | null>(null);
+  const [isPending, startTransition] = useTransition();
+  const { toast } = useToast();
 
   const years = useMemo(() => ['all', ...Array.from(new Set(pastPaperQuestions.map((q) => q.year.toString()))).sort((a, b) => Number(b) - Number(a))], []);
   const subjects = useMemo(() => ['all', ...Array.from(new Set(pastPaperQuestions.map((q) => q.subject)))], []);
@@ -44,6 +52,27 @@ export function PastPapersClient() {
       return yearMatch && subjectMatch && searchTermMatch;
     });
   }, [searchTerm, selectedYear, selectedSubject]);
+
+  const handleGenerateAnswer = (questionId: string, topic: string, outline: string) => {
+    setGeneratingId(questionId);
+    startTransition(async () => {
+      const result = await generateEssayAction({ topic, outline });
+      if (result.success && result.data) {
+        setGeneratedAnswers(prev => ({ ...prev, [questionId]: result.data }));
+        toast({
+          title: 'Answer Generated!',
+          description: 'The AI has generated a full model answer.',
+        });
+      } else {
+        toast({
+          title: 'Generation Failed',
+          description: result.error || 'Could not generate the answer.',
+          variant: 'destructive',
+        });
+      }
+      setGeneratingId(null);
+    });
+  };
 
   return (
     <div className="space-y-4">
@@ -104,10 +133,39 @@ export function PastPapersClient() {
               <AccordionContent className="p-4 pt-0">
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
+                    <h4 className="font-semibold text-primary mb-2">Ideal Answer Outline</h4>
                     <p className="text-muted-foreground text-sm">{q.idealAnswer}</p>
                   </div>
-                  {/* You can add marking scheme here later */}
+                  {q.subject === 'English Essay' && (
+                    <div className="mt-4">
+                      {generatingId === q.id ? (
+                        <div className="flex items-center justify-center h-24 rounded-lg border border-dashed">
+                          <div className="text-center">
+                            <Loader2 className="mx-auto h-8 w-8 animate-spin text-primary" />
+                            <p className="mt-2 font-semibold">Generating full answer...</p>
+                            <p className="text-xs text-muted-foreground">This may take a moment.</p>
+                          </div>
+                        </div>
+                      ) : generatedAnswers[q.id] ? (
+                        <Card className="bg-muted/50">
+                           <CardHeader>
+                            <CardTitle className="text-lg">AI Generated Answer</CardTitle>
+                          </CardHeader>
+                          <CardContent>
+                            <p className="whitespace-pre-wrap text-sm">{generatedAnswers[q.id]}</p>
+                          </CardContent>
+                        </Card>
+                      ) : (
+                        <Button
+                          onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
+                          disabled={isPending}
+                        >
+                          <Bot className="mr-2 h-4 w-4" />
+                          Generate Full Answer with AI
+                        </Button>
+                      )}
+                    </div>
+                  )}
                 </div>
               </AccordionContent>
             </AccordionItem>
