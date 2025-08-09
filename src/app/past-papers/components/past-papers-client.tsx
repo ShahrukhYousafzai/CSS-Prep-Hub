@@ -132,6 +132,8 @@ export function PastPapersClient() {
   const renderAnswer = (q: PaperQuestion) => {
     switch (q.questionType) {
       case 'Essay':
+      case 'Other':
+        const title = q.questionType === 'Essay' ? 'Outline' : 'Ideal Answer';
         return (
           <>
             {generatingId === q.id ? (
@@ -153,7 +155,7 @@ export function PastPapersClient() {
               </Card>
             ) : (
               <div>
-                <h4 className="font-semibold text-primary mb-2">Outline</h4>
+                <h4 className="font-semibold text-primary mb-2">{title}</h4>
                 <div className="text-muted-foreground text-sm whitespace-pre-wrap mb-4">{q.idealAnswer}</div>
                 <Button
                   onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
@@ -209,7 +211,6 @@ export function PastPapersClient() {
           </div>
         );
       
-      case 'Other':
       case 'Comprehension':
       case 'Correction':
       case 'Punctuation':
