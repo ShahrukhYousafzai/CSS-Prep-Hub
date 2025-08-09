@@ -3,6 +3,102 @@ import type { PastPaper } from '../../../types';
 
 export const pastPapers: PastPaper[] = [
     {
+        id: 'pp-eng-precis-2019',
+        year: 2019,
+        subject: 'English (Precis & Composition)',
+        questions: [
+            {
+                id: 'pp-eng-precis-2019-q2',
+                questionNumber: 'Q. 2',
+                questionType: 'Precis',
+                questionText: 'I think modern educational theorists are inclined to attach too much importance to the negative virtue of not interfering with children, and too little to the positive merit of enjoying their company. If you have the sort of liking for children that many people have for horses or dogs, they will be apt to respond to your suggestions, and to accept prohibitions, perhaps with some good-humoured grumbling, but without resentment. It is no use to have the sort of liking that consists in regarding them as a field for valuable social endeavour, or what amounts to the same thing as an outlet for power-impulses. No child will be grateful for an interest in him that springs from the thought that he will have a vote to be secured for your party or a body to be sacrificed to king and country. The desirable sort of interest is that which consists in spontaneous pleasure in the presence of children, without any ulterior purpose. Teachers who have this quality will seldom need to interfere with children\'s freedom, but will be able to do so, when necessary, without causing psychological damage.\nUnfortunately, it is utterly impossible for over-worked teachers to preserve an instinctive liking for children; they are bound to come to feel towards them as the proverbial confectioner\'s apprentice does towards macaroons. I do not think that education ought to be anyone\'s whole profession: it should be undertaken for at most two hours a day by people whose remaining hours are spent away from children. The society of the young is fatiguing, especially when strict discipline is avoided. Fatigue, in the end, produces irritation, which is likely to express itself somehow, whatever theories the harassed teacher may have taught himself or herself to believe. The necessary friendliness cannot be preserved by self-control alone. But where it exists, it should be unnecessary to have rules in advance as to how "naughty" children are to be treated, since impulse is likely to lead to the right decision, and almost any decision will be right if the child feels that you like him. No rules, however wise, are a substitute for affection and tact.',
+                idealAnswer: `**Title: The Importance of Genuine Affection in Education**\n\nThe author argues that effective education hinges on a genuine, spontaneous enjoyment of children's company, not on viewing them as objects for social engineering or power. When this natural affection exists, children respond positively to guidance without resentment. However, the author contends that overworked, full-time teachers inevitably lose this instinctive liking due to fatigue, which breeds irritation. He suggests that teaching should be a part-time activity, as friendliness cannot be maintained by self-control alone. Ultimately, the author concludes that affection and tact are superior to any rigid rules, as a child who feels liked is more receptive to any decision made by the teacher.`
+            },
+            {
+                id: 'pp-eng-precis-2019-q3',
+                questionNumber: 'Q. 3',
+                questionType: 'Comprehension',
+                questionText: 'When I returned to the common the sun was setting. The crowd about the pit had increased, and stood out black against the lemon yellow of the sky-a couple of hundred people, perhaps. There were raised voices, and some sort of struggle appeared to be going on about the pit. Strange imaginings passed through my mind. As I drew nearer I heard Stent\'s voice: "Keep back! Keep back!" A boy came running towards me. "It\'s movin\'," he said to me as he passed; "it’s screwin\' and screwin\' out. I don\'t like it. I\'m goin\' home, I am." I went on to the crowd. There were really, I should think, two or three hundred people elbowing and jostling one another, the one or two ladies there being by no means the least active. "He\'s fallen in the pit!" cried someone. "Keep back!" said several. The crowd swayed a little, and I elbowed my way through. Everyone seemed greatly excited. I heard a peculiar humming sound from the pit. "I say!" said Ogilvy. "Help keep these idiots back. We don\'t know what\'s in the confounded thing, you know!" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within. Nearly two feet of shining screw projected. Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw. I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion. I stuck my elbow into the person behind me, and turned my head towards the Thing again. For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge-possibly something a little unlike us terrestrial men, but in all essentials a man. I know I did. But, looking, I presently saw something stirring within the shadow: greyish billowy movements, one above another, and then two luminous disks-like eyes. Then something resembling a little grey snake, about the thickness of a walking stick, coiled up out of the writhing middle, and wriggled in the air towards me-and then another. A sudden chill came over me. There was a loud shriek from a woman behind. I half turned, keeping my eyes fixed upon the cylinder still, from which other tentacles were now projecting, and began pushing my way back from the edge of the pit. I saw astonishment giving place to horror on the faces of the people about me. I heard inarticulate exclamations on all sides. There was a general movement backwards. I saw the shopman struggling still on the edge of the pit. I found myself alone, and saw the people on the other side of the pit running off, Stent among them. I looked again at the cylinder and ungovernable terror gripped me. I stood petrified and staring. A big greyish rounded bulk, the size, perhaps, of a bear, was rising slowly and painfully out of the cylinder. As it bulged up and caught the light, it glistened like wet leather. Two large dark-coloured eyes were regarding me steadfastly. The mass that framed them, the head of the thing, was rounded, and had, one might say, a face. There was a mouth under the eyes, the lipless brim of which quivered and panted, and dropped saliva. The whole creature heaved and pulsated convulsively. A lank tentacular appendage gripped the edge of the cylinder, another swayed in the air. Those who have never seen a living Martian can scarcely imagine the strange horror of its appearance. The peculiar V-shaped mouth with its pointed upper lip, the absence of brow ridges, the absence of a chin beneath the wedge like lower lip, the incessant quivering of this mouth, the Gorgon groups of tentacles, the tumultuous breathing of the lungs in a strange atmosphere, the evident heaviness and painfulness of movement due to the greater gravitational energy of the earthabove all, the extraordinary intensity of the immense eyes-were at once vital, intense, inhuman, crippled and monstrous. There was something fungoid in the oily brown skin, something in the clumsy deliberation of the tedious movements unspeakably nasty. Even at this first encounter, this first glimpse, I was overcome with disgust and dread.',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2019-q3-1', questionText: 'What leads us to believe that this passage is from a science fiction story?', idealAnswer: 'The passage describes the emergence of a monstrous, inhuman creature with tentacles and immense eyes from a metal cylinder that fell from the sky, which are common elements of science fiction.' },
+                    { id: 'pp-eng-precis-2019-q3-2', questionText: 'How was the crowd behaving?', idealAnswer: 'The crowd was excited, unruly, and chaotic, "elbowing and jostling one another." Their lack of caution led to them pushing a young man into the pit.' },
+                    { id: 'pp-eng-precis-2019-q3-3', questionText: 'Why did the mood of the crowd alter?', idealAnswer: 'The mood altered from excitement to horror when they saw the strange, non-human creature emerge from the cylinder. The sight of its tentacles and monstrous appearance caused astonishment to give way to terror, leading them to flee.' },
+                    { id: 'pp-eng-precis-2019-q3-4', questionText: 'What was the narrator’s initial reaction to the “Thing”?', idealAnswer: 'The narrator\'s initial reaction was a "sudden chill," followed by "ungovernable terror" that caused him to stand "petrified and staring."' },
+                    { id: 'pp-eng-precis-2019-q3-5', questionText: 'Why did the writer feel disgusted?', idealAnswer: 'The writer felt disgusted because of the creature\'s grotesque appearance: its oily brown, fungoid skin, glistening wet leather-like bulk, quivering lipless mouth that drooled saliva, and its clumsy, tedious movements which he found "unspeakably nasty."' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2019-q4',
+                questionNumber: 'Q. 4',
+                questionType: 'Correction',
+                questionText: 'Correct only FIVE of the following:',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2019-q4-i', questionText: 'He enjoyed during the holidays.', idealAnswer: 'He enjoyed himself during the holidays.' },
+                    { id: 'pp-eng-precis-2019-q4-ii', questionText: 'None of the boys had learnt their lesson.', idealAnswer: 'None of the boys had learned his lesson.' },
+                    { id: 'pp-eng-precis-2019-q4-iii', questionText: 'He is abusing the money of his father.', idealAnswer: 'He is misusing his father\'s money.' },
+                    { id: 'pp-eng-precis-2019-q4-iv', questionText: 'I regret at the delay.', idealAnswer: 'I regret the delay.' },
+                    { id: 'pp-eng-precis-2019-q4-v', questionText: 'I could not help but laugh.', idealAnswer: 'I could not help laughing.' },
+                    { id: 'pp-eng-precis-2019-q4-vi', questionText: 'I always have and always shall be your friend.', idealAnswer: 'I always have been and always shall be your friend.' },
+                    { id: 'pp-eng-precis-2019-q4-vii', questionText: 'I was out walking when I saw the new moon in the garden.', idealAnswer: 'While I was walking in the garden, I saw the new moon.' },
+                    { id: 'pp-eng-precis-2019-q4-viii', questionText: 'He cried as if he was mad.', idealAnswer: 'He cried as if he were mad.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2019-q5a',
+                questionNumber: 'Q. 5 (a)',
+                questionType: 'Punctuation',
+                questionText: 'Punctuate the following text, where necessary.',
+                subQuestions: [
+                  { id: 'pp-eng-precis-2019-q5a-i', questionText: 'a hungry lion slipped out of the forest into a barnyard one evening when he saw a plump donkey his mouth began to water but just as he was ready to jump on the donkey a rooster crowed he was frightened and so turned away into the forest again hey look at that cowardly lion the donkey brayed to the rooster i am going to chase him and the donkey ran after the lion wait the rooster shouted you dont know that but it was too late the lion had turned and killed the donkey ah my poor stupid friend the rooster said as he watched the lion eating the donkey the lion wasnt afraid of you but of my crowing', idealAnswer: 'A hungry lion slipped out of the forest into a barnyard one evening. When he saw a plump donkey, his mouth began to water, but just as he was ready to jump on the donkey, a rooster crowed. He was frightened and so turned away into the forest again. "Hey, look at that cowardly lion!" the donkey brayed to the rooster. "I am going to chase him." And the donkey ran after the lion. "Wait!" the rooster shouted. "You don\'t know that!" But it was too late. The lion had turned and killed the donkey. "Ah, my poor, stupid friend," the rooster said as he watched the lion eating the donkey. "The lion wasn\'t afraid of you, but of my crowing."' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2019-q5b',
+                questionNumber: 'Q. 5 (b)',
+                questionType: 'MCQ',
+                questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate prepositions.',
+                options: [
+                    { question: 'What time do we arrive ______our destination?', choices: ['in', 'at', 'on', 'to'], answer: 'at' },
+                    { question: 'We are flying ______some rough weather; please fasten your seat belts.', choices: ['in', 'into', 'through', 'on'], answer: 'through' },
+                    { question: 'It is warming up; ______noon we should be able to go swimming.', choices: ['at', 'by', 'in', 'on'], answer: 'by' },
+                    { question: 'My parents are not responsible ______my actions.', choices: ['with', 'of', 'to', 'for'], answer: 'for' },
+                    { question: 'This pan is ______cooking omelettes.', choices: ['for', 'to', 'in', 'with'], answer: 'for' },
+                    { question: '______ poor attendance, this course is being cancelled.', choices: ['Owing to', 'With', 'As', 'For'], answer: 'Owing to' },
+                    { question: 'The police took the men in ______questioning.', choices: ['to', 'for', 'with', 'about'], answer: 'for' },
+                    { question: 'The woman you gave the book ______is my aunt.', choices: ['to', 'at', 'with', 'from'], answer: 'to' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2019-q6',
+                questionNumber: 'Q. 6',
+                questionType: 'Idioms',
+                questionText: 'Use ONLY FIVE of the following in sentences which illustrate their meanings.',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2019-q6-i', questionText: 'To cast pearls before swine', idealAnswer: 'To offer something valuable to someone who does not appreciate it. (e.g., "Giving him financial advice was like casting pearls before swine; he just wasted it all.")' },
+                    { id: 'pp-eng-precis-2019-q6-ii', questionText: 'To step into one’s shoes', idealAnswer: 'To take over a job or role from someone else. (e.g., "It will be difficult to step into the manager\'s shoes after she retires.")' },
+                    { id: 'pp-eng-precis-2019-q6-iii', questionText: 'Stuff and nonsense', idealAnswer: 'An expression of disbelief or that something is foolish. (e.g., "His excuse about a UFO making him late was stuff and nonsense.")' },
+                    { id: 'pp-eng-precis-2019-q6-iv', questionText: 'A wild goose chase', idealAnswer: 'A foolish and hopeless pursuit of something unattainable. (e.g., "The search for the mythical treasure turned out to be a wild goose chase.")' },
+                    { id: 'pp-eng-precis-2019-q6-v', questionText: 'To be ill at ease', idealAnswer: 'To feel anxious and uncomfortable. (e.g., "She was ill at ease speaking in front of a large crowd.")' },
+                    { id: 'pp-eng-precis-2019-q6-vi', questionText: 'Sit on the fence', idealAnswer: 'To avoid making a decision or choosing a side. (e.g., "You can\'t sit on the fence any longer; you have to decide whose side you\'re on.")' },
+                    { id: 'pp-eng-precis-2019-q6-vii', questionText: 'In a jiffy', idealAnswer: 'Very quickly; in a moment. (e.g., "I\'ll be back in a jiffy.")' },
+                    { id: 'pp-eng-precis-2019-q6-viii', questionText: 'To preen oneself', idealAnswer: 'To devote effort to making oneself look attractive and then admire one\'s appearance. (e.g., "He spent hours preening himself before the party.")' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2019-q7',
+                questionNumber: 'Q. 7',
+                questionType: 'Translation',
+                questionText: 'یہ حقیقت ہے کہ انسان، حیوان اور نباتات ایک دوسرے کے محتاج ہیں۔ سب ایک دوسرے کی بقا کے لیے ناگزیر ہیں۔ ہوا، زمین، چاند، سورج، ستارے اور دیگر اجرام فلکی ایک نظام کے تحت ایک دوسرے کی معاونت کرتے ہیں۔ اس کائنات میں کوئی بھی چیز نہ تو غیر ضروری ہے اور نہ ہی بے مقصد۔ انسان اور حیوان روز اول سے ہی ایک دوسرے کے کام آرہے ہیں۔ انسان ان سے اپنی خوراک، حفاظت اور دیگر ضروریات زندگی پوری کرتا آرہا ہے۔ اس کے علاوہ انسان نے اپنی تفریح طبع کے لیے ان سے اپنی دلچسپی کے وابستہ مشاغل بھی اپنا رکھے ہیں۔ جانوروں اور پرندوں کی لڑائی، دوڑ اور دیگر مقابلے بھی انسان کی دلچسپی کا محور رہے ہیں۔ انسان اور حیوان کی لازم و ملزوم رفاقت اپنی جگہ لیکن انسان اپنی فطری ضرورتوں کے تحت دیگر ذرائع سے بھی اپنی تفریح طبع کا اہتمام کرتا رہا ہے۔',
+                idealAnswer: 'It is a fact that humans, animals, and plants are dependent on each other. All are indispensable for each other\'s survival. The air, earth, moon, sun, stars, and other celestial bodies assist each other under one system. In this universe, nothing is either unnecessary or purposeless. Man and animal have been useful to each other since the very first day. Man has been fulfilling his food, safety, and other life necessities from them. Besides this, for his recreation, man has also adopted hobbies associated with his interest in them. The fights, races, and other competitions of animals and birds have also been the focus of human interest. The inseparable companionship of man and animal is one thing, but man, according to his natural needs, has also been arranging for his recreation through other means.'
+            }
+        ]
+    },
+    {
         id: 'pp-eng-precis-2018',
         year: 2018,
         subject: 'English (Precis & Composition)',
