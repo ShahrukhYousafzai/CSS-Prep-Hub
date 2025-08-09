@@ -24,7 +24,7 @@ import {
 } from '@/components/ui/select';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Bot, Loader2 } from 'lucide-react';
+import { Bot, Loader2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { pastPaperQuestions } from '@/lib/data';
 import { generateEssayAction } from '../actions';
 import { useToast } from '@/hooks/use-toast';
@@ -33,12 +33,15 @@ import { Badge } from '@/components/ui/badge';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 
+const QUESTIONS_PER_PAGE = 10;
+
 export function PastPapersClient() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedYear, setSelectedYear] = useState('all');
   const [selectedSubject, setSelectedSubject] = useState('all');
   const [generatedAnswers, setGeneratedAnswers] = useState<Record<string, string>>({});
   const [generatingId, setGeneratingId] = useState<string | null>(null);
+  const [currentPage, setCurrentPage] = useState(1);
   const [isPending, startTransition] = useTransition();
   const { toast } = useToast();
 
@@ -56,6 +59,7 @@ export function PastPapersClient() {
   const subjects = useMemo(() => ['all', ...Array.from(new Set(allQuestions.map((q) => q.subject)))] , [allQuestions]);
 
   const filteredQuestions = useMemo(() => {
+    setCurrentPage(1); // Reset to first page on filter change
     return allQuestions.filter((question) => {
       const yearMatch = selectedYear === 'all' || question.year.toString() === selectedYear;
       const subjectMatch = selectedSubject === 'all' || question.subject === selectedSubject;
@@ -65,6 +69,14 @@ export function PastPapersClient() {
       return yearMatch && subjectMatch && searchTermMatch;
     });
   }, [searchTerm, selectedYear, selectedSubject, allQuestions]);
+  
+  const paginatedQuestions = useMemo(() => {
+    const startIndex = (currentPage - 1) * QUESTIONS_PER_PAGE;
+    const endIndex = startIndex + QUESTIONS_PER_PAGE;
+    return filteredQuestions.slice(startIndex, endIndex);
+  }, [filteredQuestions, currentPage]);
+
+  const totalPages = Math.ceil(filteredQuestions.length / QUESTIONS_PER_PAGE);
 
   const handleGenerateAnswer = (questionId: string, topic: string, outline: string) => {
     setGeneratingId(questionId);
@@ -86,6 +98,36 @@ export function PastPapersClient() {
       setGeneratingId(null);
     });
   };
+  
+  const renderPagination = () => {
+    if (totalPages <= 1) return null;
+
+    return (
+      <Card className="mt-4">
+        <CardContent className="p-4 flex items-center justify-between">
+          <Button 
+            variant="outline"
+            onClick={() => setCurrentPage(p => p - 1)}
+            disabled={currentPage === 1}
+          >
+            <ChevronLeft className="mr-2 h-4 w-4" />
+            Previous
+          </Button>
+          <span className="text-sm font-medium text-muted-foreground">
+            Page {currentPage} of {totalPages}
+          </span>
+          <Button
+            variant="outline"
+            onClick={() => setCurrentPage(p => p + 1)}
+            disabled={currentPage === totalPages}
+          >
+            Next
+            <ChevronRight className="ml-2 h-4 w-4" />
+          </Button>
+        </CardContent>
+      </Card>
+    );
+  }
 
   const renderAnswer = (q: PaperQuestion) => {
     switch (q.questionType) {
@@ -242,9 +284,9 @@ export function PastPapersClient() {
         </CardContent>
       </Card>
 
-      {filteredQuestions.length > 0 ? (
+      {paginatedQuestions.length > 0 ? (
         <Accordion type="single" collapsible className="w-full space-y-2">
-          {filteredQuestions.map((q) => (
+          {paginatedQuestions.map((q) => (
             <AccordionItem value={q.id} key={q.id} className="border-b-0 rounded-lg bg-card overflow-hidden border">
               <AccordionTrigger className="p-4 hover:no-underline">
                 <div className="flex-1 text-left">
@@ -270,6 +312,7 @@ export function PastPapersClient() {
           <p className="text-muted-foreground">No matching past papers found.</p>
         </Card>
       )}
+      {renderPagination()}
     </div>
   );
 }
