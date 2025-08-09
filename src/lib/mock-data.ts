@@ -35,6 +35,27 @@ export const pastPaperQuestions: PastPaperQuestion[] = [
     subject: 'International Relations',
     questionText: 'Explain the core tenets of Realism in International Relations theory.',
     idealAnswer: 'Realism is a theory of International Relations that views the world as a competitive and anarchic system where states are the primary actors. Its core tenets are: 1) Statism: States are the main actors in the international system. 2) Survival: The primary goal of every state is survival, which drives their actions. 3) Self-help: In an anarchic system with no higher authority, states must rely on their own resources and power to ensure their security. Realists believe that international politics is a struggle for power and security, and conflict is an inevitable feature.',
+  },
+  {
+    id: 'pp-gs-2021-1',
+    year: 2021,
+    subject: 'General Science & Ability',
+    questionText: 'What is the difference between climate and weather?',
+    idealAnswer: 'Weather refers to short-term atmospheric conditions in a specific location, including temperature, humidity, precipitation, and wind. Climate, on the other hand, is the long-term average of weather patterns in a region over a period of 30 years or more. In short, climate is what you expect, and weather is what you get.',
+  },
+  {
+    id: 'pp-criminology-2023-1',
+    year: 2023,
+    subject: 'Criminology',
+    questionText: 'Discuss the Social Disorganization Theory and its relevance to crime in urban areas.',
+    idealAnswer: 'Social Disorganization Theory suggests that a person\'s residential location is a more significant factor in shaping criminal activity than their personal characteristics. It posits that neighborhoods with high rates of poverty, population turnover, and ethnic heterogeneity are less able to exert social control, leading to higher crime rates. This theory is highly relevant for understanding crime in urban areas where such conditions are often concentrated, helping policymakers focus on community-level interventions rather than just individual-level enforcement.',
+  },
+  {
+    id: 'pp-gender-2022-1',
+    year: 2022,
+    subject: 'Gender Studies',
+    questionText: 'What is meant by "the glass ceiling"? Discuss its impact on women in the corporate world.',
+    idealAnswer: 'The "glass ceiling" is a metaphor for the invisible barriers that prevent women and minorities from advancing to senior leadership positions within an organization. It is not a formal barrier but a complex web of cultural norms, stereotypes, and biases. Its impact is significant, leading to a lack of female representation in boardrooms and executive roles, a persistent gender pay gap at senior levels, and the underutilization of a talented portion of the workforce. It discourages ambitious women and reinforces gender inequality in the professional sphere.',
   }
 ];
 
