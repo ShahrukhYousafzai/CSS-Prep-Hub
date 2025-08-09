@@ -28,7 +28,7 @@ import { Bot, Loader2 } from 'lucide-react';
 import { pastPaperQuestions } from '@/lib/data';
 import { generateEssayAction } from '../actions';
 import { useToast } from '@/hooks/use-toast';
-import type { EnrichedQuestion } from '@/lib/types';
+import type { EnrichedQuestion, PaperQuestion } from '@/lib/types';
 import { Badge } from '@/components/ui/badge';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
@@ -87,8 +87,9 @@ export function PastPapersClient() {
     });
   };
 
-  const renderAnswer = (q: EnrichedQuestion) => {
-    if (q.questionType === 'Essay') {
+  const renderAnswer = (q: PaperQuestion) => {
+    switch (q.questionType) {
+      case 'Essay':
         return (
           <>
             {generatingId === q.id ? (
@@ -109,40 +110,68 @@ export function PastPapersClient() {
                 </CardContent>
               </Card>
             ) : (
-              <Button
-                onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
-                disabled={isPending}
-              >
-                <Bot className="mr-2 h-4 w-4" />
-                Generate Full Answer with AI
-              </Button>
+              <div>
+                <h4 className="font-semibold text-primary mb-2">Outline</h4>
+                <div className="text-muted-foreground text-sm whitespace-pre-wrap mb-4">{q.idealAnswer}</div>
+                <Button
+                  onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
+                  disabled={isPending}
+                >
+                  <Bot className="mr-2 h-4 w-4" />
+                  Generate Full Answer with AI
+                </Button>
+              </div>
             )}
           </>
         );
-    }
-    
-    if (q.questionType === 'MCQ' || q.questionType === 'Analogy') {
-      return (
-          <div className="space-y-4">
-            <RadioGroup disabled defaultValue={q.idealAnswer}>
-                {(q.options ?? []).map((option, index) => (
-                    <div key={index} className="flex items-center space-x-2 rounded-md border p-3 hover:bg-muted/50 has-[[data-state=checked]]:bg-primary has-[[data-state=checked]]:text-primary-foreground">
-                        <RadioGroupItem value={option} id={`${q.id}-${index}`} className="border-muted-foreground has-[[data-state=checked]]:border-primary-foreground" />
-                        <Label htmlFor={`${q.id}-${index}`} className="text-base font-normal flex-1 cursor-pointer">{option}</Label>
-                    </div>
-                ))}
-            </RadioGroup>
-          </div>
-      );
-    }
 
-    // Default rendering for other question types
-    return (
-      <div>
-        <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
-        <div className="text-muted-foreground text-sm whitespace-pre-wrap">{q.idealAnswer}</div>
-      </div>
-    );
+      case 'MCQ':
+      case 'Analogy':
+        return (
+          <div className="space-y-4">
+            {(q.options ?? []).map((option, index) => (
+              <Card key={index} className="p-4">
+                <p className="font-semibold mb-2">{option.question}</p>
+                <RadioGroup disabled defaultValue={option.answer}>
+                  {option.choices.map((choice, choiceIndex) => (
+                    <div key={choiceIndex} className="flex items-center space-x-3 rounded-md border p-3 has-[[data-state=checked]]:bg-primary has-[[data-state=checked]]:text-primary-foreground">
+                      <RadioGroupItem value={choice} id={`${q.id}-${index}-${choiceIndex}`} className="border-muted-foreground has-[[data-state=checked]]:border-primary-foreground" />
+                      <Label htmlFor={`${q.id}-${index}-${choiceIndex}`} className="text-base font-normal flex-1 cursor-pointer">{choice}</Label>
+                    </div>
+                  ))}
+                </RadioGroup>
+              </Card>
+            ))}
+          </div>
+        );
+
+      case 'Comprehension':
+      case 'Correction':
+      case 'Punctuation':
+      case 'Word Pairs':
+      case 'Idioms':
+        return (
+          <div className="space-y-4">
+            <p className="whitespace-pre-wrap text-sm">{q.questionText}</p>
+            <div className="space-y-3">
+              {(q.subQuestions ?? []).map((subQ, index) => (
+                <Card key={subQ.id} className="p-3 bg-muted/50">
+                  <p className="font-semibold text-sm">{subQ.questionText}</p>
+                  <p className="text-sm text-muted-foreground mt-1 whitespace-pre-wrap">{subQ.idealAnswer}</p>
+                </Card>
+              ))}
+            </div>
+          </div>
+        );
+
+      default:
+        return (
+          <div>
+            <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
+            <div className="text-muted-foreground text-sm whitespace-pre-wrap">{q.idealAnswer}</div>
+          </div>
+        );
+    }
   };
 
   return (

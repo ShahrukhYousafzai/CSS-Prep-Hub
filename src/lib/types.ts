@@ -1,13 +1,29 @@
 import { z } from 'zod';
 
+// For multi-part questions like Comprehension or Correction
+export interface SubQuestion {
+  id: string;
+  questionText: string;
+  idealAnswer: string;
+}
+
+// For Analogy/MCQ questions
+export interface MCQOption {
+  question: string;
+  choices: string[];
+  answer: string;
+}
+
+
 // A single question within a paper
 export interface PaperQuestion {
   id: string;
   questionNumber?: string; // e.g., "Q.2", "Q.4 (a)"
   questionText: string;
   idealAnswer: string;
-  questionType: 'Essay' | 'MCQ' | 'Analogy' | 'Other';
-  options?: string[]; // For MCQs
+  questionType: 'Essay' | 'MCQ' | 'Analogy' | 'Other' | 'Precis' | 'Comprehension' | 'Correction' | 'Punctuation' | 'Dialogue' | 'Word Pairs' | 'Idioms' | 'Translation';
+  options?: MCQOption[]; // For Analogies / MCQs
+  subQuestions?: SubQuestion[]; // For Comprehension, Correction, etc.
 }
 
 // Represents a full past paper, which can contain multiple questions
