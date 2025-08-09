@@ -3,6 +3,108 @@ import type { PastPaper } from '../../../types';
 
 export const pastPapers: PastPaper[] = [
     {
+        id: 'pp-eng-precis-2023',
+        year: 2023,
+        subject: 'English (Precis & Composition)',
+        questions: [
+            {
+                id: 'pp-eng-precis-2023-q2',
+                questionNumber: 'Q. 2',
+                questionType: 'Precis',
+                questionText: `On the question of freedom in education there are at present three main schools of thought, deriving partly from differences as to ends and partly from differences in psychological theory. There are those who say that children should be completely free, however bad they may be; there are those who say they should be completely subject to authority, however good they may be; and there are those who say they should be free, but in spite of freedom they should be always good. This last party is larger than it has any logical right to be; children, like adults, will not all be virtuous if they are all free. The belief that liberty will ensure moral perfection is a relic of Rousseauism, and would not survive a study of animals and babies. Those who hold this belief think that education should have no positive purpose, but should merely offer an environment suitable for spontaneous development. I cannot agree with this school, which seems to me too individualistic, and unduly indifferent to the importance of knowledge. We live in communities which require co-operation, and it would be utopian to expect all the necessary co-operation to result from spontaneous impulse. The existence of a large population on a limited area is only possible owing to science and technique; education must, therefore, hand on the necessary minimum of these. The educators who allow most freedom are men whose success depends upon a degree of benevolence, self-control, and trained intelligence which can hardly be generated where every impulse is left unchecked; their merits, therefore, are not likely to be perpetuated if their methods are undiluted. Education, viewed from a social standpoint, must be something more positive than a mere opportunity for growth. It must, of course, provide this, but it must also provide a mental and moral equipment which children cannot acquire entirely for themselves.`,
+                idealAnswer: `**Title: Freedom and Purpose in Education**
+
+Three main schools of thought exist on freedom in education: complete freedom, complete authority, and the illogical belief in freedom yielding constant goodness. The author rejects the Rousseauist idea that liberty alone ensures virtue, arguing it is individualistic and neglects the necessity of knowledge for societal cooperation. Science and technique are vital for large communities and must be taught. While educators who grant freedom often possess admirable qualities, these traits cannot be cultivated in an environment of unchecked impulse. Therefore, education must be more than just an opportunity for spontaneous growth; it must positively provide a mental and moral framework that children cannot develop on their own.`
+            },
+            {
+                id: 'pp-eng-precis-2023-q3',
+                questionNumber: 'Q. 3',
+                questionType: 'Comprehension',
+                questionText: `The majority of people have always lived simply, and most of humanity still struggles on a daily basis to eke out a meager existence under dire circumstances. Only in affluent industrialized countries do people have the luxury of more goods and services than they need to survive. On the basis of material wealth, North Americans and Europeans should be the happiest people on earth, but according to the 2012 Happy Planet Index (HPI), they are not. Surprisingly, what had begun as an experimental lifestyle evolved into a quiet revolution that spread the word through books such as Duane Elgin’s best-selling Voluntary Simplicity: Toward a Way of Life that is Outwardly Simple, Inwardly Rich (1981), as well as numerous magazines, alternative communities of the like-minded, and, later, Internet websites. Combined with a growing awareness of the environmental consequences of consumerism, the voluntary simplicity movement sought to reduce the consumption of goods and energy and to minimize one’s personal impact on the environment. “Voluntary” denotes a free and conscious choice to make appropriate changes that will enrich life in a deeper, spiritual sense. “Simplicity” refers to the lack of clutter, that is, eliminating all those things, patterns, habits, and ideas that take control of our lives and distract us from our inner selves. However, this is not to be confused with poverty, which is involuntary, degrading, and debilitating. Neither does it mean that people must live on a farm or reject progress or technology, or do without what is necessary for their comfort and welfare. To practice voluntary simplicity, one must differentiate between what one wants (psychological desires) and what one needs (basic requirements of life), and seek a healthy balance that is compatible with both. In a consumer society where advertising bombards us with the message that without this, that, and the other product, we are unsuccessful, undesirable, and unimportant, being clear on what you really need and resisting what you don’t can be an ongoing struggle. The beauty of voluntary simplicity is that it is a philosophy, and not a dogma. How one goes about it depends on individual character, cultural background, and climate. For this, three Rs (i.e., Reduce, Recycle & Reuse) represent the best way to get a handle on rampant consumerism. In economies driven by the quest for ever more, living with less is erroneously equated with poverty and social inferiority. By conserving energy, for instance, you are actually ensuring that more resources are available for future use. By making a frugal budget and sticking to it, you can eliminate unnecessary expenses. Recycling paper, metal, plastic, and glass and reusing building materials and old clothing keep materials in the loop and out of landfills. Pooling skills and resources through barter networks not only saves money, but sharing with others establishes bonds and fosters a sense of community. With the glut of cheap goods that are usually designed for obsolescence, quality products that last are becoming progressively harder to find. In the long run, a more expensive but durable and repairable item or even an older used item that is still in good condition is a better investment than a brand new piece of junk that will only break down and end up in the trash. Thus, at the heart of voluntary simplicity is the conscious realization that less is really more. Less consumption means more resources for future generations. Less activity that brings little satisfaction or reward is more time for yourself and your loved ones. Less stuff is more space to move around in. Less stress means more relaxation and better health. Less worry provides more enjoyment and more fulfillment in life.`,
+                subQuestions: [
+                    { id: 'pp-eng-precis-2023-q3-1', questionText: 'How important is happiness to most people, and what is the relationship between material wealth and happiness?', idealAnswer: 'Happiness is very important, but the passage suggests that the relationship between material wealth and happiness is weak. People in the most affluent countries are not the happiest, indicating that happiness is not solely dependent on material possessions.' },
+                    { id: 'pp-eng-precis-2023-q3-2', questionText: 'How does the author characterize the concept of ‘Voluntary Simplicity’ as a movement and as a philosophy?', idealAnswer: 'As a movement, it sought to reduce consumption and environmental impact. As a philosophy, it is a conscious choice to eliminate clutter from one\'s life to achieve inner richness, adaptable to individual character and circumstances, not a rigid dogma.' },
+                    { id: 'pp-eng-precis-2023-q3-3', questionText: 'What impact is feared by the growing consumerism of modern society?', idealAnswer: 'The feared impact is environmental degradation due to excessive consumption of goods and energy, and personal distraction from one\'s inner self due to the clutter of material possessions.' },
+                    { id: 'pp-eng-precis-2023-q3-4', questionText: 'What influences make it difficult for people to reduce their consumption patterns?', idealAnswer: 'Pervasive advertising in a consumer society makes it difficult, as it constantly sends messages that one needs more products to be successful, desirable, and important.' },
+                    { id: 'pp-eng-precis-2023-q3-5', questionText: 'What are the challenges and rewards of voluntary simplicity?', idealAnswer: 'The main challenge is resisting the influence of a consumer society. The rewards are numerous: more resources for the future, more time for oneself and loved ones, more space, better health, and more enjoyment and fulfillment in life.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2023-q4',
+                questionNumber: 'Q. 4',
+                questionType: 'Correction',
+                questionText: 'Correct only FIVE of the following:',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2023-q4-i', questionText: 'His knowledge of languages and international relations aid him in his work.', idealAnswer: 'His knowledge of languages and international relations aids him in his work.' },
+                    { id: 'pp-eng-precis-2023-q4-ii', questionText: 'The ambassador, with his family and staff, invite you to a reception at the embassy on Tuesday afternoon.', idealAnswer: 'The ambassador, with his family and staff, invites you to a reception at the embassy on Tuesday afternoon.' },
+                    { id: 'pp-eng-precis-2023-q4-iii', questionText: 'This year, he will sit in the CSS examination.', idealAnswer: 'This year, he will sit for the CSS examination.' },
+                    { id: 'pp-eng-precis-2023-q4-iv', questionText: 'The Chief Executive will let us know whether or not he can attend the meeting.', idealAnswer: 'The Chief Executive will let us know whether he can attend the meeting.' },
+                    { id: 'pp-eng-precis-2023-q4-v', questionText: 'When he came back from vacation, Aslam and me plan to look for another apartment.', idealAnswer: 'When he came back from vacation, Aslam and I plan to look for another apartment.' },
+                    { id: 'pp-eng-precis-2023-q4-vi', questionText: 'If some of you make a noise, they shall be punished.', idealAnswer: 'If any of you make a noise, you shall be punished.' },
+                    { id: 'pp-eng-precis-2023-q4-vii', questionText: 'He came to me to enquire what is the salary attached to the appointment.', idealAnswer: 'He came to me to enquire what the salary attached to the appointment is.' },
+                    { id: 'pp-eng-precis-2023-q4-viii', questionText: 'I am too tired that I do not hunt words and idioms in my English book.', idealAnswer: 'I am too tired to hunt for words and idioms in my English book.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2023-q5a',
+                questionNumber: 'Q. 5 (a)',
+                questionType: 'Punctuation',
+                questionText: 'Punctuate the following text, where necessary.',
+                subQuestions: [
+                    {
+                        id: 'pp-eng-precis-2023-q5a-i',
+                        questionText: 'while taking a nap on the porch one hot summer day hodga dreamed that a stranger promised to give him ten pieces of gold the stranger placed them in hodgas hand one by one until he reached the tenth piece which he hesitated to give him come on what are you waiting for said hodga you promised me ten just then he woke up he immediately looked at his hand and saw that it was empty he quickly shut his eyes again stretched out his hand and said all right i ll settle for nine.',
+                        idealAnswer: 'While taking a nap on the porch one hot summer day, Hodga dreamed that a stranger promised to give him ten pieces of gold. The stranger placed them in Hodga\'s hand, one by one, until he reached the tenth piece, which he hesitated to give him. "Come on, what are you waiting for?" said Hodga. "You promised me ten." Just then, he woke up. He immediately looked at his hand and saw that it was empty. He quickly shut his eyes again, stretched out his hand, and said, "All right, I\'ll settle for nine."'
+                    }
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2023-q5b',
+                questionNumber: 'Q. 5 (b)',
+                questionType: 'Correction',
+                questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate Prepositions.',
+                 subQuestions: [
+                    { id: 'pp-eng-precis-2023-q5b-i', questionText: 'The neighbours came ______ my house to see what’s going on in the house.', idealAnswer: 'The neighbours came to my house to see what’s going on in the house.' },
+                    { id: 'pp-eng-precis-2023-q5b-ii', questionText: 'She sat _______ the shade of the tree.', idealAnswer: 'She sat in the shade of the tree.' },
+                    { id: 'pp-eng-precis-2023-q5b-iii', questionText: 'The moon does not shine _______ its own light.', idealAnswer: 'The moon does not shine by its own light.' },
+                    { id: 'pp-eng-precis-2023-q5b-iv', questionText: 'The burglar jumped ________ the compound wall.', idealAnswer: 'The burglar jumped over the compound wall.' },
+                    { id: 'pp-eng-precis-2023-q5b-v', questionText: 'She entered ________ an agreement with them.', idealAnswer: 'She entered into an agreement with them.' },
+                    { id:'pp-eng-precis-2023-q5b-vi', questionText: 'I have been working hard ________ arithmetic.', idealAnswer: 'I have been working hard at arithmetic.' },
+                    { id: 'pp-eng-precis-2023-q5b-vii', questionText: 'He got ________ his bicycle.', idealAnswer: 'He got on his bicycle.' },
+                    { id: 'pp-eng-precis-2023-q5b-viii', questionText: 'It cannot be done ________ offence.', idealAnswer: 'It cannot be done without offence.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2023-q6',
+                questionNumber: 'Q. 6',
+                questionType: 'Word Pairs',
+                questionText: 'Use only FIVE pairs of words in sentences clearly illustrating their meanings.',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2023-q6-i', questionText: 'Antic, Antique', idealAnswer: '**Antic:** (bizarre behavior) His antic of wearing a pot on his head made everyone laugh.\n**Antique:** (an old object of value) She inherited a beautiful antique chair from her grandmother.' },
+                    { id: 'pp-eng-precis-2023-q6-ii', questionText: 'Draught, Drought', idealAnswer: '**Draught:** (a current of cold air) She felt a draught from the poorly sealed window.\n**Drought:** (a long period of low rainfall) The severe drought caused the crops to fail.' },
+                    { id: 'pp-eng-precis-2023-q6-iii', questionText: 'Quaint, Queer', idealAnswer: '**Quaint:** (attractively unusual or old-fashioned) We stayed in a quaint little cottage in the countryside.\n**Queer:** (strange or odd) He had a queer feeling that he was being watched.' },
+                    { id: 'pp-eng-precis-2023-q6-iv', questionText: 'Momentary, Momentous', idealAnswer: '**Momentary:** (lasting for a very short time) There was a momentary pause in the conversation.\n**Momentous:** (of great importance) It was a momentous occasion in the country\'s history.' },
+                    { id: 'pp-eng-precis-2023-q6-v', questionText: 'Compliment, Complement', idealAnswer: '**Compliment:** (a polite expression of praise) She paid me a lovely compliment on my new dress.\n**Complement:** (a thing that completes or brings to perfection) The wine was a perfect complement to the meal.' },
+                    { id: 'pp-eng-precis-2023-q6-vi', questionText: 'Eminent, Imminent', idealAnswer: '**Eminent:** (famous and respected) He is an eminent professor in his field.\n**Imminent:** (about to happen) The storm is imminent, so we should take shelter.' },
+                    { id: 'pp-eng-precis-2023-q6-vii', questionText: 'Faint, Feint', idealAnswer: '**Faint:** (lacking in clearness or strength) She felt faint and had to sit down.\n**Feint:** (a deceptive movement) The boxer made a feint with his left hand.' },
+                    { id: 'pp-eng-precis-2023-q6-viii', questionText: 'Immigrant, Emigrant', idealAnswer: '**Immigrant:** (a person who comes to live permanently in a foreign country) My grandfather was an immigrant from Italy.\n**Emigrant:** (a person who leaves their own country to settle permanently in another) Many emigrants left Ireland during the famine.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2023-q7',
+                questionNumber: 'Q. 7',
+                questionType: 'Translation',
+                questionText: 'جنگل کے پار ایک پہاڑ ہے جہاں وه پھول اگتا ہے جس کی خوشبو سے آنکھوں کی کھوئی ہوئی روشنی لوٹ آتی ہے ،مگر پہاڑ بہت بلند ہے اور اس پر بے شمار چٹانیں ہیں ،کانٹے دار جھاڑیاں ہیں اور بڑے بڑے پتھر ہیں جو راستہ روک لیتے ہیں ۔ اِس پہاڑ پر جانے کے لیے کئی لوگ آئے اور چلےگئے مگر ایسا کو ئی شخص نہیں آیا جو پھول تک پہنچا ہو۔ شاید اسی لیے دُنیا میں دُکھ اور تکلیف ہے اور انسان روشنی کی تلاش میں ہے۔',
+                idealAnswer: 'Across the forest, there is a mountain where that flower grows whose fragrance brings back lost eyesight. But the mountain is very high, and on it are countless rocks, thorny bushes, and large stones that block the way. Many people came and went to go to this mountain, but no such person has come who reached the flower. Perhaps that is why there is sorrow and suffering in the world, and man is in search of light.'
+            }
+        ]
+    },
+    {
         id: 'pp-eng-precis-2022',
         year: 2022,
         subject: 'English (Precis & Composition)',
@@ -268,14 +370,14 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 questionType: 'Correction',
                 questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate prepositions.',
                 subQuestions: [
-                    { question: 'I was annoyed ________ him.', idealAnswer: 'I was annoyed with him.' },
-                    { question: 'This train is bound ________ Gujrat.', idealAnswer: 'This train is bound for Gujrat.' },
-                    { question: 'The pistol went ________ by accident.', idealAnswer: 'The pistol went off by accident.' },
-                    { question: 'He kept ________ asking silly questions.', idealAnswer: 'He kept on asking silly questions.' },
-                    { question: 'He was knocked ________ by the bus.', idealAnswer: 'He was knocked down by the bus.' },
-                    { question: 'Do not meddle ________ my affairs.', idealAnswer: 'Do not meddle in my affairs.' },
-                    { question: 'The meeting was put ________ by the Chairman.', idealAnswer: 'The meeting was put off by the Chairman.' },
-                    { question: 'He rounded ________ his speech with a quote from Ghalib.', idealAnswer: 'He rounded off his speech with a quote from Ghalib.' },
+                    { id: 'pp-eng-precis-2020-q5b-i', questionText: 'I was annoyed ________ him.', idealAnswer: 'I was annoyed with him.' },
+                    { id: 'pp-eng-precis-2020-q5b-ii', questionText: 'This train is bound ________ Gujrat.', idealAnswer: 'This train is bound for Gujrat.' },
+                    { id: 'pp-eng-precis-2020-q5b-iii', questionText: 'The pistol went ________ by accident.', idealAnswer: 'The pistol went off by accident.' },
+                    { id: 'pp-eng-precis-2020-q5b-iv', questionText: 'He kept ________ asking silly questions.', idealAnswer: 'He kept on asking silly questions.' },
+                    { id: 'pp-eng-precis-2020-q5b-v', questionText: 'He was knocked ________ by the bus.', idealAnswer: 'He was knocked down by the bus.' },
+                    { id: 'pp-eng-precis-2020-q5b-vi', questionText: 'Do not meddle ________ my affairs.', idealAnswer: 'Do not meddle in my affairs.' },
+                    { id: 'pp-eng-precis-2020-q5b-vii', questionText: 'The meeting was put ________ by the Chairman.', idealAnswer: 'The meeting was put off by the Chairman.' },
+                    { id: 'pp-eng-precis-2020-q5b-viii', questionText: 'He rounded ________ his speech with a quote from Ghalib.', idealAnswer: 'He rounded off his speech with a quote from Ghalib.' },
                 ],
                 idealAnswer: ''
             },
@@ -364,14 +466,14 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 questionType: 'Correction',
                 questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate prepositions.',
                 subQuestions: [
-                    { question: 'What time do we arrive ______our destination?', idealAnswer: 'What time do we arrive at our destination?' },
-                    { question: 'We are flying ______some rough weather; please fasten your seat belts.', idealAnswer: 'We are flying through some rough weather; please fasten your seat belts.' },
-                    { question: 'It is warming up; ______noon we should be able to go swimming.', idealAnswer: 'It is warming up; by noon we should be able to go swimming.' },
-                    { question: 'My parents are not responsible ______my actions.', idealAnswer: 'My parents are not responsible for my actions.' },
-                    { question: 'This pan is ______cooking omelettes.', idealAnswer: 'This pan is for cooking omelettes.' },
-                    { question: '______ poor attendance, this course is being cancelled.', idealAnswer: 'Owing to poor attendance, this course is being cancelled.' },
-                    { question: 'The police took the men in ______questioning.', idealAnswer: 'The police took the men in for questioning.' },
-                    { question: 'The woman you gave the book ______is my aunt.', idealAnswer: 'The woman you gave the book to is my aunt.' },
+                    { id: 'pp-eng-precis-2019-q5b-i', questionText: 'What time do we arrive ______our destination?', idealAnswer: 'What time do we arrive at our destination?' },
+                    { id: 'pp-eng-precis-2019-q5b-ii', questionText: 'We are flying ______some rough weather; please fasten your seat belts.', idealAnswer: 'We are flying through some rough weather; please fasten your seat belts.' },
+                    { id: 'pp-eng-precis-2019-q5b-iii', questionText: 'It is warming up; ______noon we should be able to go swimming.', idealAnswer: 'It is warming up; by noon we should be able to go swimming.' },
+                    { id: 'pp-eng-precis-2019-q5b-iv', questionText: 'My parents are not responsible ______my actions.', idealAnswer: 'My parents are not responsible for my actions.' },
+                    { id: 'pp-eng-precis-2019-q5b-v', questionText: 'This pan is ______cooking omelettes.', idealAnswer: 'This pan is for cooking omelettes.' },
+                    { id: 'pp-eng-precis-2019-q5b-vi', questionText: '______ poor attendance, this course is being cancelled.', idealAnswer: 'Owing to poor attendance, this course is being cancelled.' },
+                    { id: 'pp-eng-precis-2019-q5b-vii', questionText: 'The police took the men in ______questioning.', idealAnswer: 'The police took the men in for questioning.' },
+                    { id: 'pp-eng-precis-2019-q5b-viii', questionText: 'The woman you gave the book ______is my aunt.', idealAnswer: 'The woman you gave the book to is my aunt.' },
                 ],
                 idealAnswer: ''
             },
@@ -477,7 +579,7 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 id: 'pp-eng-precis-2018-q5b',
                 questionNumber: 'Q. 5 (b)',
                 questionType: 'Dialogue',
-                questionText: 'Rewrite the following dialogue, written in direct speech, in a paragraph form.\n\nJack: Hello, Swarup! Swatting away as usual. Come out, man; shut up your old books, and come and have a game of tennis.\nSwarup: I am sorry I cannot do that, Jack. The examination is drawing near, and I want every hour I can get for study.\nJack: Oh! Hang all examinations! I do not worry about mine. What is the use of them, any way?\nSwarup: Well, you can’t get a degree if you don’t pass the examination; and I have set my heart on being a graduate.\nJack: And pray what good will graduation do you? You may get a clerkship in a government office; but that’s all, and there are hundreds of fellows who have got their degrees, and are no nearer getting jobs of any sort.\nSwarup: That may be so; but I am not studying so much to pass my examination and obtain my degree, as to store my mind with knowledge and develop my intellectual faculties.',
+                questionText: 'Rewrite the following dialogue, written in direct speech, in a paragraph form.\n\nJack: Hello, Swarup! Swatting away as usual. Come out, man; shut up your old books, and come and\nhave a game of tennis.\nSwarup: I am sorry I cannot do that, Jack. The examination is drawing near, and I want every hour I can get\nfor study.\nJack: Oh! Hang all examinations! I do not worry about mine. What is the use of them, any way?\nSwarup: Well, you can’t get a degree if you don’t pass the examination; and I have set my heart on being a\ngraduate.\nJack: And pray what good will graduation do you? You may get a clerkship in a government office; but\nthat’s all, and there are hundreds of fellows who have got their degrees, and are no nearer getting\njobs of any sort.\nSwarup: That may be so; but I am not studying so much to pass my examination and obtain my degree, as to\nstore my mind with knowledge and develop my intellectual faculties.',
                 idealAnswer: `Jack greeted Swarup, who was studying as usual, and urged him to close his books and come out for a game of tennis. Swarup apologized, explaining that he couldn't because his examination was approaching and he needed every hour for study. Jack dismissed examinations, saying he didn't worry about his and questioned their use. Swarup replied that one cannot get a degree without passing, and he had set his heart on graduating. Jack questioned the value of a degree, suggesting it might only lead to a clerkship and that many graduates were jobless. Swarup conceded that might be true, but stated that his primary goal for studying was not just to pass and get a degree, but to gain knowledge and develop his intellect.`
             },
             {
@@ -572,14 +674,14 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
                 questionType: 'Correction',
                 questionText: 'Re-write the following sentences (Only FIVE) after filling in the blanks appropriately:',
                  subQuestions: [
-                    { question: 'I cannot buy this car _____ this price.', idealAnswer: 'I cannot buy this car at this price.' },
-                    { question: 'Send these books _____ my home address.', idealAnswer: 'Send these books to my home address.' },
-                    { question: 'Monkeys live _____ trees.', idealAnswer: 'Monkeys live in trees.' },
-                    { question: 'I said it _____ his face.', idealAnswer: 'I said it to his face.' },
-                    { question: 'The manager _______the receipt of my letter promptly.', idealAnswer: 'The manager acknowledged the receipt of my letter promptly.' },
-                    { question: 'Most foreign students don’t like American coffee, and ________ .', idealAnswer: 'Most foreign students don’t like American coffee, and neither do I.' },
-                    { question: 'We________ take care of our parents when they are old.', idealAnswer: 'We ought to take care of our parents when they are old.' },
-                    { question: 'Yousaf ________in the garden the whole of yesterday.', idealAnswer: 'Yousaf was digging in the garden the whole of yesterday.' },
+                    { id: 'pp-eng-precis-2017-q4b-i', questionText: 'I cannot buy this car _____ this price.', idealAnswer: 'I cannot buy this car at this price.' },
+                    { id: 'pp-eng-precis-2017-q4b-ii', questionText: 'Send these books _____ my home address.', idealAnswer: 'Send these books to my home address.' },
+                    { id: 'pp-eng-precis-2017-q4b-iii', questionText: 'Monkeys live _____ trees.', idealAnswer: 'Monkeys live in trees.' },
+                    { id: 'pp-eng-precis-2017-q4b-iv', questionText: 'I said it _____ his face.', idealAnswer: 'I said it to his face.' },
+                    { id: 'pp-eng-precis-2017-q4b-v', questionText: 'The manager _______the receipt of my letter promptly.', idealAnswer: 'The manager acknowledged the receipt of my letter promptly.' },
+                    { id: 'pp-eng-precis-2017-q4b-vi', questionText: 'Most foreign students don’t like American coffee, and ________ .', idealAnswer: 'Most foreign students don’t like American coffee, and neither do I.' },
+                    { id: 'pp-eng-precis-2017-q4b-vii', questionText: 'We________ take care of our parents when they are old.', idealAnswer: 'We ought to take care of our parents when they are old.' },
+                    { id: 'pp-eng-precis-2017-q4b-viii', questionText: 'Yousaf ________in the garden the whole of yesterday.', idealAnswer: 'Yousaf was digging in the garden the whole of yesterday.' },
                 ],
                 idealAnswer: ''
             },
