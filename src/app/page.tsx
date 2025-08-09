@@ -76,7 +76,7 @@ const featureCards = [
     title: 'Psychological Tests',
     description: 'Simulate and practice for the psychological assessment.',
     icon: BrainCircuit,
-    href: '#',
+    href: '/psychological-tests',
     color: 'text-rose-500',
   },
 ];
@@ -122,10 +122,12 @@ export default function DashboardPage() {
               Interview Prep
             </Button>
           </Link>
-          <Button variant="ghost" className="justify-start gap-2">
-            <BrainCircuit className="h-4 w-4" />
-            Psychological Tests
-          </Button>
+          <Link href="/psychological-tests">
+            <Button variant="ghost" className="justify-start gap-2 w-full">
+              <BrainCircuit className="h-4 w-4" />
+              Psychological Tests
+            </Button>
+          </Link>
         </nav>
       </aside>
       <div className="flex flex-col sm:gap-4 sm:py-4 sm:pl-64">
@@ -166,7 +168,7 @@ export default function DashboardPage() {
                     <MessageSquareQuote className="h-5 w-5" />
                     Interview Prep
                 </Link>
-                <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                <Link href="/psychological-tests" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                     <BrainCircuit className="h-5 w-5" />
                     Psychological Tests
                 </Link>

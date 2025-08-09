@@ -23,7 +23,7 @@ export interface QuizQuestion {
 }
 
 export interface Quiz {
-  id: string;
+  id:string;
   subject: string;
   questions: QuizQuestion[];
 }
@@ -33,4 +33,32 @@ export interface InterviewQuestion {
   category: 'General Knowledge' | 'Current Affairs' | 'Personality';
   questionText: string;
   suggestedAnswer: string;
+}
+
+export interface PsychTestMCQ {
+  id: string;
+  questionText: string;
+  options: { text: string, value: string }[];
+}
+
+export interface PsychTestSentenceCompletion {
+  id: string;
+  prompt: string;
+}
+
+export interface PsychTest {
+  id: string;
+  title: string;
+  mcqs: PsychTestMCQ[];
+  sentenceCompletions: PsychTestSentenceCompletion[];
+}
+
+export interface AIPsychEvaluation {
+    overallAnalysis: string;
+    keyTraits: {
+        trait: string;
+        analysis: string;
+    }[];
+    potentialStrengths: string;
+    areasForReflection: string;
 }
