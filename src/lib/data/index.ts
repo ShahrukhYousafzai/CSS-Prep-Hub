@@ -1,7 +1,7 @@
 
-import type { PastPaperQuestion, Quiz, InterviewQuestion, PsychTest, SubjectWiseQuestion } from '../types';
-import { pastPapersCompulsory } from './past-papers/compulsory';
-import { pastPapers as pastPapersGroup1 } from './past-papers/group-1';
+import type { PastPaper, Quiz, InterviewQuestion, PsychTest, SubjectWiseQuestion } from '../types';
+import { pastPapers as pastPapersCompulsory } from './past-papers/compulsory';
+import { pastPapers as pastPapersGroup1 } from './past-papers/group-1/index';
 import { pastPapers as pastPapersGroup2 } from './past-papers/group-2';
 import { pastPapers as pastPapersGroup3 } from './past-papers/group-3';
 import { pastPapers as pastPapersGroup4 } from './past-papers/group-4';
@@ -20,7 +20,7 @@ import { quizzesData } from './quizzes';
 import { interviewQuestionsData } from './interview-questions';
 import { psychTestData } from './psych-test';
 
-export const pastPaperQuestions: PastPaperQuestion[] = [
+export const pastPaperQuestions: PastPaper[] = [
     ...pastPapersCompulsory,
     ...pastPapersGroup1,
     ...pastPapersGroup2,
@@ -29,7 +29,8 @@ export const pastPaperQuestions: PastPaperQuestion[] = [
     ...pastPapersGroup5,
     ...pastPapersGroup6,
     ...pastPapersGroup7,
-];
+].flatMap(subject => subject.questions ? subject : ({ ...subject, questions: [] }));
+
 
 export const subjectWiseQuestions: SubjectWiseQuestion[] = [
     ...subjectWiseCompulsory,
