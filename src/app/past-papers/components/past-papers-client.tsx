@@ -208,7 +208,8 @@ export function PastPapersClient() {
             ))}
           </div>
         );
-
+      
+      case 'Other':
       case 'Comprehension':
       case 'Correction':
       case 'Punctuation':
