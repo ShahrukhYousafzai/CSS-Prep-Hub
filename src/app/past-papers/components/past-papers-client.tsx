@@ -136,36 +136,34 @@ export function PastPapersClient() {
                     <h4 className="font-semibold text-primary mb-2">Ideal Answer Outline</h4>
                     <p className="text-muted-foreground text-sm">{q.idealAnswer}</p>
                   </div>
-                  {q.subject === 'English Essay' && (
-                    <div className="mt-4">
-                      {generatingId === q.id ? (
-                        <div className="flex items-center justify-center h-24 rounded-lg border border-dashed">
-                          <div className="text-center">
-                            <Loader2 className="mx-auto h-8 w-8 animate-spin text-primary" />
-                            <p className="mt-2 font-semibold">Generating full answer...</p>
-                            <p className="text-xs text-muted-foreground">This may take a moment.</p>
-                          </div>
+                  <div className="mt-4">
+                    {generatingId === q.id ? (
+                      <div className="flex items-center justify-center h-24 rounded-lg border border-dashed">
+                        <div className="text-center">
+                          <Loader2 className="mx-auto h-8 w-8 animate-spin text-primary" />
+                          <p className="mt-2 font-semibold">Generating full answer...</p>
+                          <p className="text-xs text-muted-foreground">This may take a moment.</p>
                         </div>
-                      ) : generatedAnswers[q.id] ? (
-                        <Card className="bg-muted/50">
-                           <CardHeader>
-                            <CardTitle className="text-lg">AI Generated Answer</CardTitle>
-                          </CardHeader>
-                          <CardContent>
-                            <p className="whitespace-pre-wrap text-sm">{generatedAnswers[q.id]}</p>
-                          </CardContent>
-                        </Card>
-                      ) : (
-                        <Button
-                          onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
-                          disabled={isPending}
-                        >
-                          <Bot className="mr-2 h-4 w-4" />
-                          Generate Full Answer with AI
-                        </Button>
-                      )}
-                    </div>
-                  )}
+                      </div>
+                    ) : generatedAnswers[q.id] ? (
+                      <Card className="bg-muted/50">
+                         <CardHeader>
+                          <CardTitle className="text-lg">AI Generated Answer</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <p className="whitespace-pre-wrap text-sm">{generatedAnswers[q.id]}</p>
+                        </CardContent>
+                      </Card>
+                    ) : (
+                      <Button
+                        onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
+                        disabled={isPending}
+                      >
+                        <Bot className="mr-2 h-4 w-4" />
+                        Generate Full Answer with AI
+                      </Button>
+                    )}
+                  </div>
                 </div>
               </AccordionContent>
             </AccordionItem>
