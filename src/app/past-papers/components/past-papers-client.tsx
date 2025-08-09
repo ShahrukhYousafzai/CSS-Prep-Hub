@@ -88,8 +88,7 @@ export function PastPapersClient() {
   };
 
   const renderAnswer = (q: EnrichedQuestion) => {
-    switch (q.questionType) {
-      case 'Essay':
+    if (q.questionType === 'Essay') {
         return (
           <>
             {generatingId === q.id ? (
@@ -120,29 +119,30 @@ export function PastPapersClient() {
             )}
           </>
         );
-      case 'MCQ':
-      case 'Analogy':
-        return (
+    }
+    
+    if (q.questionType === 'MCQ' || q.questionType === 'Analogy') {
+      return (
           <div className="space-y-4">
             <RadioGroup disabled defaultValue={q.idealAnswer}>
                 {(q.options ?? []).map((option, index) => (
-                    <div key={index} className="flex items-center space-x-2">
-                        <RadioGroupItem value={option} id={`${q.id}-${index}`} />
-                        <Label htmlFor={`${q.id}-${index}`}>{option}</Label>
+                    <div key={index} className="flex items-center space-x-2 rounded-md border p-3 hover:bg-muted/50 has-[[data-state=checked]]:bg-primary has-[[data-state=checked]]:text-primary-foreground">
+                        <RadioGroupItem value={option} id={`${q.id}-${index}`} className="border-muted-foreground has-[[data-state=checked]]:border-primary-foreground" />
+                        <Label htmlFor={`${q.id}-${index}`} className="text-base font-normal flex-1 cursor-pointer">{option}</Label>
                     </div>
                 ))}
             </RadioGroup>
-            <p className="text-sm font-semibold text-primary">Correct Answer: {q.idealAnswer}</p>
           </div>
-        );
-      default:
-        return (
-          <div>
-            <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
-            <div className="text-muted-foreground text-sm whitespace-pre-wrap">{q.idealAnswer}</div>
-          </div>
-        );
+      );
     }
+
+    // Default rendering for other question types
+    return (
+      <div>
+        <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
+        <div className="text-muted-foreground text-sm whitespace-pre-wrap">{q.idealAnswer}</div>
+      </div>
+    );
   };
 
   return (
@@ -195,10 +195,10 @@ export function PastPapersClient() {
             <AccordionItem value={q.id} key={q.id} className="border-b-0 rounded-lg bg-card overflow-hidden border">
               <AccordionTrigger className="p-4 hover:no-underline">
                 <div className="flex-1 text-left">
-                  <p className="font-semibold whitespace-pre-wrap">
-                    {q.questionNumber ? `${q.questionNumber} ` : ''}
-                    {q.questionText}
-                  </p>
+                   <p className="font-semibold whitespace-pre-wrap">
+                     {q.questionNumber ? `${q.questionNumber} ` : ''}
+                     {q.questionText}
+                   </p>
                    <div className="flex items-center gap-2 mt-2 flex-wrap">
                     <Badge variant="outline">{q.subject}</Badge>
                     <Badge variant="secondary">{q.year}</Badge>
