@@ -6,6 +6,8 @@ import {
   LayoutDashboard,
   PanelLeft,
   Search,
+  MessageSquareQuote,
+  BrainCircuit,
 } from 'lucide-react';
 
 import {
@@ -30,17 +32,18 @@ import { AIAnswerCheckerClient } from './components/ai-answer-checker-client';
 
 export default function AiAnswerCheckPage() {
   return (
-    <div className="flex min-h-screen w-full flex-col bg-muted/40">
-      <aside className="fixed inset-y-0 left-0 z-10 hidden w-60 flex-col border-r bg-background sm:flex">
-        <nav className="flex flex-col items-center gap-4 px-2 sm:py-5">
-          <Link
-            href="/"
-            className="group flex h-9 w-9 shrink-0 items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-primary-foreground md:h-8 md:w-8 md:text-base"
-          >
-            <Icons.logo className="h-5 w-5 transition-all group-hover:scale-110" />
-            <span className="sr-only">CSS Prep Hub</span>
-          </Link>
-          <div className="flex flex-col gap-2 w-full px-2">
+    <div className="flex min-h-screen w-full flex-col bg-background">
+      <aside className="fixed inset-y-0 left-0 z-10 hidden w-60 flex-col border-r bg-card sm:flex">
+         <div className="flex flex-col items-center gap-4 px-2 sm:py-5">
+            <Link
+              href="/"
+              className="group flex h-9 w-9 shrink-0 items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-primary-foreground md:h-8 md:w-8 md:text-base"
+            >
+              <Icons.logo className="h-5 w-5 transition-all group-hover:scale-110" />
+              <span className="sr-only">CSS Prep Hub</span>
+            </Link>
+          </div>
+        <nav className="flex flex-col gap-2 w-full px-4">
              <Link href="/" legacyBehavior passHref>
               <Button asChild variant="ghost" className="justify-start gap-2">
                 <a><LayoutDashboard className="h-4 w-4" />Dashboard</a>
@@ -58,7 +61,14 @@ export default function AiAnswerCheckPage() {
               <GanttChartSquare className="h-4 w-4" />
               Quizzes
             </Button>
-          </div>
+            <Button variant="ghost" className="justify-start gap-2">
+                <MessageSquareQuote className="h-4 w-4" />
+                Interview Prep
+            </Button>
+            <Button variant="ghost" className="justify-start gap-2">
+                <BrainCircuit className="h-4 w-4" />
+                Psychological Tests
+            </Button>
         </nav>
       </aside>
       <div className="flex flex-col sm:gap-4 sm:py-4 sm:pl-64">
@@ -70,7 +80,7 @@ export default function AiAnswerCheckPage() {
                 <span className="sr-only">Toggle Menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="sm:max-w-xs">
+            <SheetContent side="left" className="sm:max-w-xs bg-card">
               <nav className="grid gap-6 text-lg font-medium">
                 <Link
                   href="/"
@@ -94,6 +104,14 @@ export default function AiAnswerCheckPage() {
                 <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <GanttChartSquare className="h-5 w-5" />
                   Quizzes
+                </Link>
+                 <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                    <MessageSquareQuote className="h-5 w-5" />
+                    Interview Prep
+                </Link>
+                <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                    <BrainCircuit className="h-5 w-5" />
+                    Psychological Tests
                 </Link>
               </nav>
             </SheetContent>

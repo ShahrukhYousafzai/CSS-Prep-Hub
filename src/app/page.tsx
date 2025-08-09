@@ -25,18 +25,16 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import { Input } from '@/components/ui/input';
+import { UserNav } from '@/components/user-nav';
+import { ThemeToggle } from '@/components/theme-toggle';
+import { ProgressChart } from '@/components/progress-chart';
+import { Icons } from '@/components/icons';
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb';
-import { UserNav } from '@/components/user-nav';
-import { ThemeToggle } from '@/components/theme-toggle';
-import { ProgressChart } from '@/components/progress-chart';
-import { Icons } from '@/components/icons';
 
 const featureCards = [
   {
@@ -85,35 +83,43 @@ const featureCards = [
 
 export default function DashboardPage() {
   return (
-    <div className="flex min-h-screen w-full flex-col bg-muted/40">
-      <aside className="fixed inset-y-0 left-0 z-10 hidden w-60 flex-col border-r bg-background sm:flex">
-        <nav className="flex flex-col items-center gap-4 px-2 sm:py-5">
-          <Link
-            href="#"
-            className="group flex h-9 w-9 shrink-0 items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-primary-foreground md:h-8 md:w-8 md:text-base"
-          >
-            <Icons.logo className="h-5 w-5 transition-all group-hover:scale-110" />
-            <span className="sr-only">CSS Prep Hub</span>
-          </Link>
-          <div className="flex flex-col gap-2 w-full px-2">
-            <Button variant="ghost" className="justify-start gap-2">
-              <LayoutDashboard className="h-4 w-4" />
-              Dashboard
-            </Button>
-            <Button variant="ghost" className="justify-start gap-2">
-              <FileText className="h-4 w-4" />
-              Past Papers
-            </Button>
-            <Link href="/ai-answer-check" legacyBehavior passHref>
-              <Button asChild variant="secondary" className="justify-start gap-2">
-                 <a><Bot className="h-4 w-4" />AI Answer Check</a>
-              </Button>
+    <div className="flex min-h-screen w-full flex-col bg-background">
+      <aside className="fixed inset-y-0 left-0 z-10 hidden w-60 flex-col border-r bg-card sm:flex">
+        <div className="flex flex-col items-center gap-4 px-2 sm:py-5">
+            <Link
+              href="/"
+              className="group flex h-9 w-9 shrink-0 items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-primary-foreground md:h-8 md:w-8 md:text-base"
+            >
+              <Icons.logo className="h-5 w-5 transition-all group-hover:scale-110" />
+              <span className="sr-only">CSS Prep Hub</span>
             </Link>
-             <Button variant="ghost" className="justify-start gap-2">
-              <GanttChartSquare className="h-4 w-4" />
-              Quizzes
-            </Button>
           </div>
+        <nav className="flex flex-col gap-2 w-full px-4">
+          <Button variant="secondary" className="justify-start gap-2">
+            <LayoutDashboard className="h-4 w-4" />
+            Dashboard
+          </Button>
+          <Button variant="ghost" className="justify-start gap-2">
+            <FileText className="h-4 w-4" />
+            Past Papers
+          </Button>
+          <Link href="/ai-answer-check" legacyBehavior passHref>
+            <Button asChild variant="ghost" className="justify-start gap-2">
+              <a><Bot className="h-4 w-4" />AI Answer Check</a>
+            </Button>
+          </Link>
+          <Button variant="ghost" className="justify-start gap-2">
+            <GanttChartSquare className="h-4 w-4" />
+            Quizzes
+          </Button>
+          <Button variant="ghost" className="justify-start gap-2">
+            <MessageSquareQuote className="h-4 w-4" />
+            Interview Prep
+          </Button>
+          <Button variant="ghost" className="justify-start gap-2">
+            <BrainCircuit className="h-4 w-4" />
+            Psychological Tests
+          </Button>
         </nav>
       </aside>
       <div className="flex flex-col sm:gap-4 sm:py-4 sm:pl-64">
@@ -125,7 +131,7 @@ export default function DashboardPage() {
                 <span className="sr-only">Toggle Menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="sm:max-w-xs">
+            <SheetContent side="left" className="sm:max-w-xs bg-card">
               <nav className="grid gap-6 text-lg font-medium">
                 <Link
                   href="#"
@@ -134,7 +140,7 @@ export default function DashboardPage() {
                   <Icons.logo className="h-5 w-5 transition-all group-hover:scale-110" />
                   <span className="sr-only">CSS Prep Hub</span>
                 </Link>
-                <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                <Link href="#" className="flex items-center gap-4 px-2.5 text-foreground">
                   <LayoutDashboard className="h-5 w-5" />
                   Dashboard
                 </Link>
@@ -142,13 +148,21 @@ export default function DashboardPage() {
                   <FileText className="h-5 w-5" />
                   Past Papers
                 </Link>
-                 <Link href="/ai-answer-check" className="flex items-center gap-4 px-2.5 text-foreground">
+                <Link href="/ai-answer-check" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <Bot className="h-5 w-5" />
                   AI Answer Check
                 </Link>
                 <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <GanttChartSquare className="h-5 w-5" />
                   Quizzes
+                </Link>
+                <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                    <MessageSquareQuote className="h-5 w-5" />
+                    Interview Prep
+                </Link>
+                <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                    <BrainCircuit className="h-5 w-5" />
+                    Psychological Tests
                 </Link>
               </nav>
             </SheetContent>
@@ -157,7 +171,7 @@ export default function DashboardPage() {
             <BreadcrumbList>
               <BreadcrumbItem>
                 <BreadcrumbLink asChild>
-                  <Link href="#">Dashboard</Link>
+                  <Link href="/">Dashboard</Link>
                 </BreadcrumbLink>
               </BreadcrumbItem>
             </BreadcrumbList>
@@ -174,13 +188,15 @@ export default function DashboardPage() {
           <UserNav />
         </header>
         <main className="grid flex-1 items-start gap-4 p-4 sm:px-6 sm:py-0 md:gap-8">
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {featureCards.map((feature) => (
               <Link href={feature.href} key={feature.title} className="group">
-                <Card className="h-full transition-all group-hover:shadow-lg group-hover:-translate-y-1">
-                  <CardHeader className="flex flex-row items-center justify-between pb-2">
-                    <CardTitle className="text-lg font-medium">{feature.title}</CardTitle>
-                    <feature.icon className={`h-6 w-6 ${feature.color}`} />
+                <Card className="h-full transition-all duration-300 ease-in-out group-hover:shadow-xl group-hover:-translate-y-2">
+                  <CardHeader>
+                    <div className="flex items-start justify-between">
+                       <CardTitle className="text-lg font-semibold">{feature.title}</CardTitle>
+                       <feature.icon className={`h-8 w-8 p-1.5 rounded-md bg-muted ${feature.color}`} />
+                    </div>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">{feature.description}</p>
