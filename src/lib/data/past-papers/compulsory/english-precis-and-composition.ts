@@ -3,6 +3,128 @@ import type { PastPaper } from '../../../types';
 
 export const pastPapers: PastPaper[] = [
     {
+        id: 'pp-eng-precis-2018',
+        year: 2018,
+        subject: 'English (Precis & Composition)',
+        questions: [
+            {
+                id: 'pp-eng-precis-2018-q2',
+                questionNumber: 'Q. 2',
+                questionType: 'Precis',
+                questionText: 'It is in the temperate countries of northern Europe that the beneficial effects of cold are most manifest. A cold climate seems to stimulate energy by acting as an obstacle. In the face of an insuperable obstacle our energies are numbed by despair; the total absence of obstacles, on the other hand leaves no room for the exercise and training of energy; but a struggle against difficulties that we have a fair hope of over-coming, calls into active operation all our powers. In like manner, while intense cold numbs human energies, and a hot climate affords little motive for exertion, moderate cold seems to have a bracing effect on the human race. In a moderately cold climate man is engaged in an arduous, but no hopeless struggles and with the inclemency of the weather. He has to build strong houses and procure thick clothes to keep himself warm. To supply fuel for his fires, he must hew down trees and dig coal out of the earth. In the open air, unless he moves quickly, he will suffer pain from the biting wind. Finally, in order to replenish the expenditure of bodily tissue caused by his necessary exertions, he has to procure for himself plenty of nourishing food.\nQuite different is the lot of man in the tropics. In the neighbourhood of the equator there is little need of clothes or fire, and it is possible with perfect comfort and no danger to health, to pass the livelong day stretched out on the bare ground beneath the shade of a tree. A very little fruit or vegetable food is required to sustain life under such circumstances, and that little can be obtained without much exertion from the bounteous earth.\nWe may recognize must the same difference between ourselves at different seasons of the year, as there is between human nature in the tropics and in temperate climes. In hot weather we are generally languid and inclined to take life easily; but when the cold season comes, we find that we are more inclined to vigorous exertion of our minds and bodies.',
+                idealAnswer: `**Title: The Bracing Effect of a Cold Climate**\n\nA moderately cold climate acts as a beneficial obstacle that stimulates human energy and powers. Unlike intense cold which numbs, or a hot climate which discourages effort, a temperate climate necessitates a challenging but manageable struggle against the elements for survival. This struggle involves building strong homes, procuring warm clothing, and securing fuel and nourishing food, all of which demand vigorous exertion. In contrast, life in the tropics requires minimal effort for survival. This difference is also reflected in our own behavior, as we tend to be more energetic and active during colder seasons compared to the languor of hot weather.`
+            },
+            {
+                id: 'pp-eng-precis-2018-q3',
+                questionNumber: 'Q. 3',
+                questionType: 'Comprehension',
+                questionText: 'The third great defect of our civilization is that it does not know what to do with its knowledge. Science has given us powers fit for the gods, yet we use them like small children. For example, we do not know how to manage our machines. Machines were made to be man’s servants; yet he has grown so dependent on them that they are in a fair way to become his master. Already most men spend most of their lives looking after and waiting upon machines. And the machines are very stern masters. They must be fed with coal, and given petrol to drink, and oil to wash with, and they must be kept at the right temperature. And if they do not get their meals when they expect them, they grow sulky and refuse to work, or burst with rage, and blow up, and spread ruin and destruction all around them. So we have to wait upon them very attentively and do all that we can to keep them in a good temper. Already we find it difficult either to work or play without the machines, and a time may come when they will rule us altogether, just as we rule the animals.\nAnd this brings me to the point at which I asked, “What do we do with all the time which the machines have saved for us, and the new energy they have given us?” On the whole, it must be admitted, we do very little. For the most part we use our time and energy to make more and better machines; but more and better machines will only give us still more time and still more energy, and what are we to do with them? The answer, I think, is that we should try to become mere civilized. For the machines themselves, and the power which the machines have given us, are not civilization but aids to civilization. But you will remember that we agreed at the beginning that being civilized meant making and linking beautiful things. Thinking freely, and living rightly and maintaining justice equally between man and man. Man has a better chance today to do these things than he ever had before; he has more time, more energy, less to fear and less to fight against. If he will give his time and energy which his machines have won for him to making more beautiful things, to finding out more and more about the universe, to removing the causes of quarrels between nations, to discovering how to prevent poverty, then I think our civilization would undoubtedly be the greater, as it would be the most lasing that there has ever been.',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2018-q3-1', questionText: 'Instead of making machines our servants the author says they have become our masters. In what sense has this come about?', idealAnswer: 'This has come about because man has grown so dependent on machines that he now spends most of his life serving them. They require constant attention—feeding them with fuel, maintaining them, and keeping them in good working order—making man their attendant rather than their master.' },
+                    { id: 'pp-eng-precis-2018-q3-2', questionText: 'The use of machines has brought us more leisure and more energy. But the author says that this has been a curse rather than a blessing. Why?', idealAnswer: 'It has been a curse because instead of using the extra time and energy for civilized pursuits like creating beauty or fostering justice, we mostly use it to create even more machines, perpetuating a cycle without purpose.' },
+                    { id: 'pp-eng-precis-2018-q3-3', questionText: 'What exactly is the meaning of ‘civilization’? Do you agree with the author’s views?', idealAnswer: 'The author defines civilization not as the machines themselves, but as using the aids of civilization for higher purposes: making beautiful things, thinking freely, living rightly, and maintaining justice between people. (The second part of the question requires a personal opinion, but it can be justified based on the text).' },
+                    { id: 'pp-eng-precis-2018-q3-4', questionText: '‘Making more beautiful things’ – what does this expression mean? Make a list of the beautiful things that you would like to make and how you would make them.', idealAnswer: 'The expression means engaging in creative and artistic pursuits that enrich the human experience beyond mere utility. Examples could include writing poetry, composing music, painting, or designing aesthetically pleasing public spaces. (This question requires a personal list).' },
+                    { id: 'pp-eng-precis-2018-q3-5', questionText: 'Mention some plans you may have to prevent poverty in the world. Who would receive your most particular attention, and why?', idealAnswer: 'The author suggests using our time and energy to discover how to prevent poverty. Plans could include investing in education, creating fair trade policies, and ensuring equal opportunities. Particular attention might be given to children and marginalized communities because they are the most vulnerable and investing in them has the greatest long-term impact. (This question requires a personal plan).' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2018-q4a',
+                questionNumber: 'Q. 4 (a)',
+                questionType: 'Correction',
+                questionText: 'Correct only FIVE of the following:',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2018-q4a-i', questionText: 'They only work when they have no money.', idealAnswer: 'They work only when they have no money.' },
+                    { id: 'pp-eng-precis-2018-q4a-ii', questionText: 'They left the hotel here they had been staying in a motor-car.', idealAnswer: 'They left the hotel where they had been staying in a motor-car.' },
+                    { id: 'pp-eng-precis-2018-q4a-iii', questionText: 'I cannot by no means allow you to do so.', idealAnswer: 'I can by no means allow you to do so. OR I cannot by any means allow you to do so.' },
+                    { id: 'pp-eng-precis-2018-q4a-iv', questionText: 'My friend said he never remembered having read a more enjoyable book.', idealAnswer: 'My friend said he did not remember ever having read a more enjoyable book.' },
+                    { id: 'pp-eng-precis-2018-q4a-v', questionText: 'Going up the hill, an old temple was seen.', idealAnswer: 'Going up the hill, I saw an old temple.' },
+                    { id: 'pp-eng-precis-2018-q4a-vi', questionText: 'One day the bird did not perform certain tricks which had thought it to his satisfaction.', idealAnswer: 'One day the bird did not perform certain tricks which I had taught it to my satisfaction.' },
+                    { id: 'pp-eng-precis-2018-q4a-vii', questionText: 'I was rather impressed by the manner of the orator than by his matter.', idealAnswer: 'I was impressed by the manner of the orator rather than by his matter.' },
+                    { id: 'pp-eng-precis-2018-q4a-viii', questionText: 'What an awful weather!', idealAnswer: 'What awful weather!' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2018-q4b',
+                questionNumber: 'Q. 4 (b)',
+                questionType: 'Punctuation',
+                questionText: 'Use punctuation marks where needed in the following sentences:',
+                 subQuestions: [
+                    { id: 'pp-eng-precis-2018-q4b-i', questionText: 'There is a slavery that no legislation can abolish the slavery of caste', idealAnswer: 'There is a slavery that no legislation can abolish: the slavery of caste.' },
+                    { id: 'pp-eng-precis-2018-q4b-ii', questionText: 'All that I am all that I hope to be I owe to my angel mother.', idealAnswer: 'All that I am, all that I hope to be, I owe to my angel mother.' },
+                    { id: 'pp-eng-precis-2018-q4b-iii', questionText: 'Take away that bauble said Cromwell pointing to the mace which lay upon the table.', idealAnswer: '"Take away that bauble," said Cromwell, pointing to the mace which lay upon the table.' },
+                    { id: 'pp-eng-precis-2018-q4b-iv', questionText: 'There is only one cure for the evils which newly acquired freedom produces and that cure is freedom', idealAnswer: 'There is only one cure for the evils which newly acquired freedom produces, and that cure is freedom.' },
+                    { id: 'pp-eng-precis-2018-q4b-v', questionText: 'History it has been said is the essence of innumerable biographies.', idealAnswer: 'History, it has been said, is the essence of innumerable biographies.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2018-q5a',
+                questionNumber: 'Q. 5 (a)',
+                questionType: 'MCQ',
+                questionText: 'Fill the following blanks (any FIVE) appropriate preposition.',
+                options: [
+                    { question: '______ a Ford, he has a Fiat car.', choices: ['in', 'before', 'besides', 'despite'], answer: 'besides' },
+                    { question: 'I saw him felling a big tree ______ a hatchet.', choices: ['with', 'through', 'by', 'at'], answer: 'with' },
+                    { question: 'I must start ______ dawn to reach the station in time.', choices: ['on', 'at', 'by', 'after'], answer: 'at' },
+                    { question: 'I have known him ______ a long time.', choices: ['since', 'from', 'for', 'over'], answer: 'for' },
+                    { question: '“Will you walk ______ my parlour?”', choices: ['in', 'to', 'by', 'into'], answer: 'into' },
+                    { question: 'The public are cautioned ______ pickpockets.', choices: ['against', 'about', 'of', 'for'], answer: 'against' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2018-q5b',
+                questionNumber: 'Q. 5 (b)',
+                questionType: 'Dialogue',
+                questionText: 'Rewrite the following dialogue, written in direct speech, in a paragraph form.\n\nJack: Hello, Swarup! Swatting away as usual. Come out, man; shut up your old books, and come and have a game of tennis.\nSwarup: I am sorry I cannot do that, Jack. The examination is drawing near, and I want every hour I can get for study.\nJack: Oh! Hang all examinations! I do not worry about mine. What is the use of them, any way?\nSwarup: Well, you can’t get a degree if you don’t pass the examination; and I have set my heart on being a graduate.\nJack: And pray what good will graduation do you? You may get a clerkship in a government office; but that’s all, and there are hundreds of fellows who have got their degrees, and are no nearer getting jobs of any sort.\nSwarup: That may be so; but I am not studying so much to pass my examination and obtain my degree, as to store my mind with knowledge and develop my intellectual faculties.',
+                idealAnswer: `Jack greeted Swarup, who was studying as usual, and urged him to close his books and come out for a game of tennis. Swarup apologized, explaining that he couldn't because his examination was approaching and he needed every hour for study. Jack dismissed examinations, saying he didn't worry about his and questioned their use. Swarup replied that one cannot get a degree without passing, and he had set his heart on graduating. Jack questioned the value of a degree, suggesting it might only lead to a clerkship and that many graduates were jobless. Swarup conceded that might be true, but stated that his primary goal for studying was not just to pass and get a degree, but to gain knowledge and develop his intellect.`
+            },
+            {
+                id: 'pp-eng-precis-2018-q6a',
+                questionNumber: 'Q. 6 (a)',
+                questionType: 'Word Pairs',
+                questionText: 'Explain the difference between the following word pairs (Any FIVE) by using each word in your own sentences:',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2018-q6a-i', questionText: 'Callous, Callus', idealAnswer: '**Callous:** (unfeelingly indifferent) He showed a callous disregard for the feelings of others.\n**Callus:** (a hardened part of the skin) Years of manual labor had formed a thick callus on his hands.' },
+                    { id: 'pp-eng-precis-2018-q6a-ii', questionText: 'Born, Borne', idealAnswer: '**Born:** (brought into life) He was born in a small village.\n**Borne:** (carried or endured) The bad news was borne with great courage.' },
+                    { id: 'pp-eng-precis-2018-q6a-iii', questionText: 'Faint, Feint', idealAnswer: '**Faint:** (lacking in clearness or strength) She felt faint from the heat and had to sit down. / There was a faint smell of smoke.\n**Feint:** (a deceptive movement) The boxer made a feint with his left hand before landing a punch with his right.' },
+                    { id: 'pp-eng-precis-2018-q6a-iv', questionText: 'Dinghy, Dingy', idealAnswer: '**Dinghy:** (a small open boat) They used a dinghy to get from the yacht to the shore.\n**Dingy:** (gloomy and drab) The office was a small, dingy room with one window.' },
+                    { id: 'pp-eng-precis-2018-q6a-v', questionText: 'Lose, Loose', idealAnswer: '**Lose:** (be deprived of or cease to have) Be careful not to lose your keys.\n**Loose:** (not firmly fixed in place) The doorknob was loose and needed to be tightened.' },
+                    { id: 'pp-eng-precis-2018-q6a-vi', questionText: 'Waiver, Waver', idealAnswer: '**Waiver:** (an act of refraining from claiming a right) He signed a waiver to participate in the dangerous activity.\n**Waver:** (shake with a quivering motion; be undecided) His courage began to waver as he approached the haunted house.' },
+                    { id: 'pp-eng-precis-2018-q6a-vii', questionText: 'Shear, Sheer', idealAnswer: '**Shear:** (to cut the wool off a sheep) It is time to shear the sheep.\n**Sheer:** (nothing other than; unmitigated) The success of the project was due to sheer determination. / The cliff was a sheer drop of 500 feet.' },
+                    { id: 'pp-eng-precis-2018-q6a-viii', questionText: 'Resister, Resistor', idealAnswer: '**Resister:** (a person who opposes something) He was a well-known resister of the oppressive regime.\n**Resistor:** (an electrical component) The circuit required a 10-ohm resistor to function correctly.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2018-q6b',
+                questionNumber: 'Q. 6 (b)',
+                questionType: 'Idioms',
+                questionText: 'Use ONLY FIVE of the following in sentences which illustrate their meaning:',
+                subQuestions: [
+                    { id: 'pp-eng-precis-2018-q6b-i', questionText: 'Show and tell', idealAnswer: 'For the class presentation, each student had to bring an item for show and tell.' },
+                    { id: 'pp-eng-precis-2018-q6b-ii', questionText: 'Helter-skelter', idealAnswer: 'When the fire alarm rang, everyone ran helter-skelter out of the building.' },
+                    { id: 'pp-eng-precis-2018-q6b-iii', questionText: 'To the death', idealAnswer: 'The soldiers swore to fight to the death to defend their homeland.' },
+                    { id: 'pp-eng-precis-2018-q6b-iv', questionText: 'Tilt at windmills', idealAnswer: 'Arguing with the bureaucracy can feel like tilting at windmills, but he refused to give up.' },
+                    { id: 'pp-eng-precis-2018-q6b-v', questionText: 'Het up', idealAnswer: 'Don\'t get so het up about a minor mistake; it\'s not the end of the world.' },
+                    { id: 'pp-eng-precis-2018-q6b-vi', questionText: 'The whole ball of wax', idealAnswer: 'He didn\'t just want a part of the company; he wanted to buy the whole ball of wax.' },
+                    { id: 'pp-eng-precis-2018-q6b-vii', questionText: 'It’s about time', idealAnswer: 'It\'s about time you cleaned your room; it\'s a complete mess!' },
+                    { id: 'pp-eng-precis-2018-q6b-viii', questionText: 'Punch-up', idealAnswer: 'A heated argument after the football match led to a punch-up between rival fans.' },
+                ],
+                idealAnswer: ''
+            },
+            {
+                id: 'pp-eng-precis-2018-q7',
+                questionNumber: 'Q. 7',
+                questionType: 'Translation',
+                questionText: 'لاہور شہر سیاست ہی نہیں ثقافت کا بھی قدیم مرکز ہے۔ مغلوں کی ثقافت نے عروج کا زمانہ اس شہر میں دیکھا۔ سکھ ثقافت کا بھی یہی مرکز تھا۔ علم و ادب کی ثقافت بھی اسی شہر کے حصہ میں آئی۔ اہل تصوف کا بھی یہی مرکز تھا۔ تصوف کی مشہور کتاب کشف المجوب کے مصنف حضرت علی ہجویری المشہور حضرت داتا گنج بخش بھی اسی شہر میں مدفون ہیں۔ انگریزوں کے دور میں بھی لاہور کا فیشن پورے ہندوستان میں رائج ہوتا تھا۔ قیام پاکستان کے بعد بھی اس شہر کی اہمیت کم نہیں ہوئی۔',
+                idealAnswer: 'The city of Lahore is an ancient center not only of politics but also of culture. The culture of the Mughals saw its golden age in this city. It was also the center of Sikh culture. The culture of knowledge and literature also fell to this city\'s share. It was also the center for the people of Sufism. The author of the famous book of Sufism, "Kashf al-Mahjub," Hazrat Ali Hujwiri, famously known as Hazrat Data Ganj Bakhsh, is also buried in this city. Even during the British era, Lahore\'s fashion was prevalent throughout India. Even after the establishment of Pakistan, the importance of this city has not diminished.'
+            }
+        ]
+    },
+    {
         id: 'pp-eng-precis-2017',
         year: 2017,
         subject: 'English (Precis & Composition)',
