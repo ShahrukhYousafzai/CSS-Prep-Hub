@@ -1,7 +1,7 @@
 
 import type { PastPaper } from '../../types';
-import { pastPapers as accountancyPapers } from './accountancy-and-auditing';
-import { pastPapers as economicsPapers } from './economics';
+import { pastPapers as accountancyPapers } from './group-1/accountancy-and-auditing';
+import { pastPapers as economicsPapers } from './group-1/economics';
 
 export const pastPapers: PastPaper[] = [
   ...accountancyPapers,
