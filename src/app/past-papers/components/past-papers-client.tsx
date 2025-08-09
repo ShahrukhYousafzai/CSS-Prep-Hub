@@ -87,6 +87,64 @@ export function PastPapersClient() {
     });
   };
 
+  const renderAnswer = (q: EnrichedQuestion) => {
+    switch (q.questionType) {
+      case 'Essay':
+        return (
+          <>
+            {generatingId === q.id ? (
+              <div className="flex items-center justify-center h-24 rounded-lg border border-dashed">
+                <div className="text-center">
+                  <Loader2 className="mx-auto h-8 w-8 animate-spin text-primary" />
+                  <p className="mt-2 font-semibold">Generating full answer...</p>
+                  <p className="text-xs text-muted-foreground">This may take a moment.</p>
+                </div>
+              </div>
+            ) : generatedAnswers[q.id] ? (
+              <Card className="bg-background">
+                <CardHeader>
+                  <CardTitle className="text-lg">AI Generated Answer</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="whitespace-pre-wrap text-sm">{generatedAnswers[q.id]}</p>
+                </CardContent>
+              </Card>
+            ) : (
+              <Button
+                onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
+                disabled={isPending}
+              >
+                <Bot className="mr-2 h-4 w-4" />
+                Generate Full Answer with AI
+              </Button>
+            )}
+          </>
+        );
+      case 'MCQ':
+      case 'Analogy':
+        return (
+          <div className="space-y-4">
+            <RadioGroup disabled defaultValue={q.idealAnswer}>
+                {(q.options ?? []).map((option, index) => (
+                    <div key={index} className="flex items-center space-x-2">
+                        <RadioGroupItem value={option} id={`${q.id}-${index}`} />
+                        <Label htmlFor={`${q.id}-${index}`}>{option}</Label>
+                    </div>
+                ))}
+            </RadioGroup>
+            <p className="text-sm font-semibold text-primary">Correct Answer: {q.idealAnswer}</p>
+          </div>
+        );
+      default:
+        return (
+          <div>
+            <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
+            <div className="text-muted-foreground text-sm whitespace-pre-wrap">{q.idealAnswer}</div>
+          </div>
+        );
+    }
+  };
+
   return (
     <div className="space-y-4">
       <Card>
@@ -137,7 +195,7 @@ export function PastPapersClient() {
             <AccordionItem value={q.id} key={q.id} className="border-b-0 rounded-lg bg-card overflow-hidden border">
               <AccordionTrigger className="p-4 hover:no-underline">
                 <div className="flex-1 text-left">
-                  <p className="font-semibold">
+                  <p className="font-semibold whitespace-pre-wrap">
                     {q.questionNumber ? `${q.questionNumber} ` : ''}
                     {q.questionText}
                   </p>
@@ -149,55 +207,7 @@ export function PastPapersClient() {
                 </div>
               </AccordionTrigger>
               <AccordionContent className="p-4 pt-0">
-                <div className="space-y-4">
-                  {(q.questionType === 'MCQ' && q.options) ? (
-                    <div className="space-y-4">
-                        <RadioGroup disabled defaultValue={q.idealAnswer}>
-                            {q.options.map((option, index) => (
-                                <div key={index} className="flex items-center space-x-2">
-                                    <RadioGroupItem value={option} id={`${q.id}-${index}`} />
-                                    <Label htmlFor={`${q.id}-${index}`}>{option}</Label>
-                                </div>
-                            ))}
-                        </RadioGroup>
-                        <p className="text-sm font-semibold text-primary">Correct Answer: {q.idealAnswer}</p>
-                    </div>
-                  ) : q.questionType === 'Essay' ? (
-                    <>
-                      {generatingId === q.id ? (
-                        <div className="flex items-center justify-center h-24 rounded-lg border border-dashed">
-                          <div className="text-center">
-                            <Loader2 className="mx-auto h-8 w-8 animate-spin text-primary" />
-                            <p className="mt-2 font-semibold">Generating full answer...</p>
-                            <p className="text-xs text-muted-foreground">This may take a moment.</p>
-                          </div>
-                        </div>
-                      ) : generatedAnswers[q.id] ? (
-                        <Card className="bg-background">
-                          <CardHeader>
-                            <CardTitle className="text-lg">AI Generated Answer</CardTitle>
-                          </CardHeader>
-                          <CardContent>
-                            <p className="whitespace-pre-wrap text-sm">{generatedAnswers[q.id]}</p>
-                          </CardContent>
-                        </Card>
-                      ) : (
-                        <Button
-                          onClick={() => handleGenerateAnswer(q.id, q.questionText, q.idealAnswer)}
-                          disabled={isPending}
-                        >
-                          <Bot className="mr-2 h-4 w-4" />
-                          Generate Full Answer with AI
-                        </Button>
-                      )}
-                    </>
-                  ) : (
-                     <div>
-                        <h4 className="font-semibold text-primary mb-2">Ideal Answer</h4>
-                        <div className="text-muted-foreground text-sm whitespace-pre-wrap">{q.idealAnswer}</div>
-                      </div>
-                  )}
-                </div>
+                {renderAnswer(q)}
               </AccordionContent>
             </AccordionItem>
           ))}
