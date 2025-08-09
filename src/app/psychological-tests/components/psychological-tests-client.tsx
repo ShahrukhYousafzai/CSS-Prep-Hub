@@ -7,7 +7,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Progress } from '@/components/ui/progress';
-import { Bot, Loader2, Sparkles, Lightbulb, BarChart, CheckCircle, RefreshCw } from 'lucide-react';
+import { Bot, Loader2, Sparkles, Lightbulb, BarChart, CheckCircle, RefreshCw, BrainCircuit } from 'lucide-react';
 import { psychTest } from '@/lib/mock-data';
 import type { AIPsychEvaluation } from '@/lib/types';
 import { evaluatePsychTest } from '../actions';
