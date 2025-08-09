@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import {
-  BookCopy,
   Bot,
   FileText,
   GanttChartSquare,
@@ -43,13 +42,6 @@ const featureCards = [
     icon: FileText,
     href: '/past-papers',
     color: 'text-sky-500',
-  },
-  {
-    title: 'Subject-wise Questions',
-    description: 'Practice questions by subject and topic.',
-    icon: BookCopy,
-    href: '/subject-wise-practice',
-    color: 'text-emerald-500',
   },
   {
     title: 'AI Answer Check',
@@ -105,12 +97,6 @@ export default function DashboardPage() {
               Past Papers
             </Button>
           </Link>
-           <Link href="/subject-wise-practice">
-            <Button variant="ghost" className="justify-start gap-2 w-full">
-              <BookCopy className="h-4 w-4" />
-              Subject-wise Practice
-            </Button>
-          </Link>
           <Link href="/ai-answer-check">
             <Button variant="ghost" className="justify-start gap-2 w-full">
               <Bot className="h-4 w-4" />AI Answer Check
@@ -161,10 +147,6 @@ export default function DashboardPage() {
                 <Link href="/past-papers" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <FileText className="h-5 w-5" />
                   Past Papers
-                </Link>
-                <Link href="/subject-wise-practice" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
-                  <BookCopy className="h-5 w-5" />
-                  Subject-wise Practice
                 </Link>
                 <Link href="/ai-answer-check" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <Bot className="h-5 w-5" />
