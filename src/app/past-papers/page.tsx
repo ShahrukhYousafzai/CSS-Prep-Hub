@@ -28,9 +28,9 @@ import {
 import { Icons } from '@/components/icons';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { UserNav } from '@/components/user-nav';
-import { AIAnswerCheckerClient } from './components/ai-answer-checker-client';
+import { PastPapersClient } from './components/past-papers-client';
 
-export default function AiAnswerCheckPage() {
+export default function PastPapersPage() {
   return (
     <div className="flex min-h-screen w-full flex-col bg-background">
       <aside className="fixed inset-y-0 left-0 z-10 hidden w-60 flex-col border-r bg-card sm:flex">
@@ -49,16 +49,16 @@ export default function AiAnswerCheckPage() {
                 <LayoutDashboard className="h-4 w-4" />Dashboard
               </Button>
             </Link>
-            <Link href="/past-papers">
+            <Button variant="secondary" className="justify-start gap-2">
+              <FileText className="h-4 w-4" />
+              Past Papers
+            </Button>
+            <Link href="/ai-answer-check">
               <Button variant="ghost" className="justify-start gap-2 w-full">
-                <FileText className="h-4 w-4" />
-                Past Papers
+                <Bot className="h-4 w-4" />
+                AI Answer Check
               </Button>
             </Link>
-            <Button variant="secondary" className="justify-start gap-2">
-              <Bot className="h-4 w-4" />
-              AI Answer Check
-            </Button>
             <Button variant="ghost" className="justify-start gap-2">
               <GanttChartSquare className="h-4 w-4" />
               Quizzes
@@ -95,11 +95,11 @@ export default function AiAnswerCheckPage() {
                   <LayoutDashboard className="h-5 w-5" />
                   Dashboard
                 </Link>
-                <Link href="/past-papers" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                <Link href="/past-papers" className="flex items-center gap-4 px-2.5 text-foreground">
                   <FileText className="h-5 w-5" />
                   Past Papers
                 </Link>
-                <Link href="/ai-answer-check" className="flex items-center gap-4 px-2.5 text-foreground">
+                <Link href="/ai-answer-check" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <Bot className="h-5 w-5" />
                   AI Answer Check
                 </Link>
@@ -127,7 +127,7 @@ export default function AiAnswerCheckPage() {
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbPage>AI Answer Check</BreadcrumbPage>
+                <BreadcrumbPage>Past Papers</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
@@ -143,7 +143,7 @@ export default function AiAnswerCheckPage() {
           <UserNav />
         </header>
         <main className="flex-1 p-4 sm:px-6 sm:py-0">
-          <AIAnswerCheckerClient />
+          <PastPapersClient />
         </main>
          <footer className="text-center p-4 text-sm text-muted-foreground">
           Developed by Shahrukh Yousafzai

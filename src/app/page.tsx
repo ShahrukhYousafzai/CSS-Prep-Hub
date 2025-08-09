@@ -41,7 +41,7 @@ const featureCards = [
     title: 'Past Papers',
     description: 'Review previous years papers with ideal answers.',
     icon: FileText,
-    href: '#',
+    href: '/past-papers',
     color: 'text-sky-500',
   },
   {
@@ -99,10 +99,12 @@ export default function DashboardPage() {
             <LayoutDashboard className="h-4 w-4" />
             Dashboard
           </Button>
-          <Button variant="ghost" className="justify-start gap-2">
-            <FileText className="h-4 w-4" />
-            Past Papers
-          </Button>
+          <Link href="/past-papers">
+            <Button variant="ghost" className="justify-start gap-2 w-full">
+              <FileText className="h-4 w-4" />
+              Past Papers
+            </Button>
+          </Link>
           <Link href="/ai-answer-check">
             <Button variant="ghost" className="justify-start gap-2 w-full">
               <Bot className="h-4 w-4" />AI Answer Check
@@ -140,11 +142,11 @@ export default function DashboardPage() {
                   <Icons.logo className="h-5 w-5 transition-all group-hover:scale-110" />
                   <span className="sr-only">CSS Prep Hub</span>
                 </Link>
-                <Link href="#" className="flex items-center gap-4 px-2.5 text-foreground">
+                <Link href="/" className="flex items-center gap-4 px-2.5 text-foreground">
                   <LayoutDashboard className="h-5 w-5" />
                   Dashboard
                 </Link>
-                <Link href="#" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                <Link href="/past-papers" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <FileText className="h-5 w-5" />
                   Past Papers
                 </Link>
