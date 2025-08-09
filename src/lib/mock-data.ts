@@ -299,6 +299,7 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
     difficulty: 'Easy',
     questionText: 'Name the five rivers of Punjab.',
     idealAnswer: 'The five rivers of Punjab are Jhelum, Chenab, Ravi, Sutlej, and Beas. The name "Punjab" itself means "Land of Five Waters" in Persian.',
+    group: 'Compulsory'
   },
   {
     id: 'swq-pa-2',
@@ -307,6 +308,7 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
     difficulty: 'Medium',
     questionText: 'What was the Objective Resolution and why is it significant in Pakistan\'s constitutional history?',
     idealAnswer: 'The Objective Resolution was passed by the Constituent Assembly of Pakistan in March 1949. It is significant because it laid down the framework and principles for the future constitution of Pakistan, blending Islamic principles with modern democratic ideals. It declared that sovereignty over the entire universe belongs to Allah Almighty alone, and the authority to be exercised by the people of Pakistan within the limits prescribed by Him is a sacred trust. It has been the preamble to all of Pakistan\'s constitutions.',
+    group: 'Compulsory'
   },
   {
     id: 'swq-is-1',
@@ -315,6 +317,7 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
     difficulty: 'Easy',
     questionText: 'Explain the concept of Zakat.',
     idealAnswer: 'Zakat, one of the Five Pillars of Islam, is the obligatory purification of wealth through charity. It is a mandatory annual donation of a certain percentage (usually 2.5%) of a Muslim\'s net worth to the poor and needy. It serves to purify the wealth of the giver, prevent hoarding, and reduce economic inequality within the community, fostering a sense of social responsibility.',
+    group: 'Compulsory'
   },
   {
     id: 'swq-ca-1',
@@ -323,6 +326,7 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
     difficulty: 'Hard',
     questionText: 'Analyze the impact of the Russia-Ukraine war on global energy markets.',
     idealAnswer: 'The Russia-Ukraine war has profoundly disrupted global energy markets. Sanctions against Russia, a major oil and gas exporter, have led to significant price volatility and supply chain disruptions. European countries, heavily reliant on Russian gas, have scrambled to find alternative sources, accelerating the transition towards renewable energy but also causing short-term energy crises. The conflict has highlighted the geopolitical weaponization of energy and forced a global reassessment of energy security strategies, leading to increased investment in LNG infrastructure and a renewed focus on energy diversification.',
+    group: 'Compulsory'
   },
   {
     id: 'swq-eng-precis-1',
@@ -331,6 +335,7 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
     difficulty: 'Medium',
     questionText: 'What are the key qualities of a good precis?',
     idealAnswer: 'A good precis must be clear, concise, and comprehensive. It should capture the essential ideas of the original passage accurately, without omitting important points or adding new information. It must be written in the writer\'s own words and should be about one-third the length of the original. A suitable title is also necessary.',
+    group: 'Compulsory'
   },
    {
     id: 'swq-eng-essay-1',
@@ -339,6 +344,7 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
     difficulty: 'Hard',
     questionText: 'Discuss the pros and cons of social media.',
     idealAnswer: 'A balanced answer would discuss the benefits of social media, such as global connectivity, information dissemination, and social movements, while also critically examining its drawbacks, including mental health issues (anxiety, depression), the spread of misinformation, privacy concerns, and cyberbullying. The ideal answer would use specific examples and provide a nuanced conclusion rather than a one-sided judgment.',
+    group: 'Compulsory'
   },
   {
     id: 'swq-gs-1',
@@ -347,155 +353,65 @@ export const subjectWiseQuestions: SubjectWiseQuestion[] = [
     difficulty: 'Easy',
     questionText: 'What is photosynthesis?',
     idealAnswer: 'Photosynthesis is the process used by plants, algae, and some bacteria to convert light energy into chemical energy, through a process that converts carbon dioxide and water into glucose (sugar) and oxygen.',
+    group: 'Compulsory'
   },
 
-  // Optional Subjects (Group I)
-  {
-    id: 'swq-acc-1',
-    subject: 'Accountancy & Auditing',
-    topic: 'Basic Principles',
-    difficulty: 'Easy',
-    questionText: 'What are the fundamental accounting principles?',
-    idealAnswer: 'The fundamental accounting principles, often referred to as GAAP (Generally Accepted Accounting Principles), include concepts like the cost principle, matching principle, full disclosure principle, revenue recognition principle, and the principle of conservatism. These principles ensure that financial statements are consistent, comparable, and reliable.',
-  },
-  {
-    id: 'swq-econ-1',
-    subject: 'Economics',
-    topic: 'Macroeconomics',
-    difficulty: 'Medium',
-    questionText: 'Explain the difference between monetary and fiscal policy.',
-    idealAnswer: 'Monetary policy, typically managed by a central bank, involves controlling the money supply and interest rates to manage inflation and stabilize the economy. Fiscal policy is managed by the government and involves the use of government spending and taxation to influence the economy. For example, cutting taxes is a fiscal policy tool, while raising interest rates is a monetary policy tool.',
-  },
-  {
-    id: 'swq-cs-1',
-    subject: 'Computer Science',
-    topic: 'Databases',
-    difficulty: 'Medium',
-    questionText: 'What is the difference between SQL and NoSQL databases?',
-    idealAnswer: 'SQL (Structured Query Language) databases are relational, meaning they organize data in tables with predefined schemas. They are best for applications requiring structured data and complex queries. Examples include MySQL and PostgreSQL. NoSQL databases are non-relational and have dynamic schemas, making them flexible for unstructured data. They excel in scalability and performance for large datasets. Examples include MongoDB and Cassandra.',
-  },
-  {
-    id: 'swq-polsci-1',
-    subject: 'Political Science',
-    topic: 'Political Philosophy',
-    difficulty: 'Medium',
-    questionText: 'Define the concept of "State" and its essential elements.',
-    idealAnswer: 'A state is a political organization that maintains a monopoly on the legitimate use of force within a specific territory. The essential elements of a state are: 1) Population, 2) Territory with defined borders, 3) Government to administer the state, and 4) Sovereignty, meaning supreme and independent authority.',
-  },
-  {
-    id: 'swq-ir-1',
-    subject: 'International Relations',
-    topic: 'Theories',
-    difficulty: 'Hard',
-    questionText: 'Differentiate between Liberalism and Realism in International Relations.',
-    idealAnswer: 'Realism views the international system as anarchic, with states as the primary actors driven by self-interest and a struggle for power and survival. Conflict is seen as inevitable. Liberalism, on the other hand, is more optimistic, emphasizing cooperation, international institutions (like the UN), economic interdependence, and the promotion of democracy to mitigate conflict and achieve collective security.',
-  },
+  // Group I
+  { id: 'swq-acc-1', subject: 'Accountancy & Auditing', topic: 'Basic Principles', difficulty: 'Easy', questionText: 'What are the fundamental accounting principles?', idealAnswer: 'The fundamental accounting principles, often referred to as GAAP (Generally Accepted Accounting Principles), include concepts like the cost principle, matching principle, full disclosure principle, revenue recognition principle, and the principle of conservatism.', group: 'Group I' },
+  { id: 'swq-econ-1', subject: 'Economics', topic: 'Macroeconomics', difficulty: 'Medium', questionText: 'Explain the difference between monetary and fiscal policy.', idealAnswer: 'Monetary policy, typically managed by a central bank, involves controlling the money supply and interest rates to manage inflation and stabilize the economy. Fiscal policy is managed by the government and involves the use of government spending and taxation to influence the economy.', group: 'Group I' },
+  { id: 'swq-cs-1', subject: 'Computer Science', topic: 'Databases', difficulty: 'Medium', questionText: 'What is the difference between SQL and NoSQL databases?', idealAnswer: 'SQL (Structured Query Language) databases are relational, meaning they organize data in tables with predefined schemas. They are best for applications requiring structured data and complex queries. Examples include MySQL and PostgreSQL. NoSQL databases are non-relational and have dynamic schemas, making them flexible for unstructured data. Examples include MongoDB and Cassandra.', group: 'Group I' },
+  { id: 'swq-polsci-1', subject: 'Political Science', topic: 'Political Philosophy', difficulty: 'Medium', questionText: 'Define the concept of "State" and its essential elements.', idealAnswer: 'A state is a political organization that maintains a monopoly on the legitimate use of force within a specific territory. The essential elements of a state are: 1) Population, 2) Territory with defined borders, 3) Government to administer the state, and 4) Sovereignty, meaning supreme and independent authority.', group: 'Group I' },
+  { id: 'swq-ir-1', subject: 'International Relations', topic: 'Theories', difficulty: 'Hard', questionText: 'Differentiate between Liberalism and Realism in International Relations.', idealAnswer: 'Realism views the international system as anarchic, with states as the primary actors driven by self-interest and a struggle for power and survival. Conflict is seen as inevitable. Liberalism, on the other hand, is more optimistic, emphasizing cooperation, international institutions (like the UN), economic interdependence, and the promotion of democracy to mitigate conflict and achieve collective security.', group: 'Group I' },
 
-  // Optional Subjects (Group II)
-  {
-    id: 'swq-physics-1',
-    subject: 'Physics',
-    topic: 'Classical Mechanics',
-    difficulty: 'Medium',
-    questionText: 'Explain the principle of conservation of energy.',
-    idealAnswer: 'The principle of conservation of energy states that energy cannot be created or destroyed, but only changed from one form to another. The total energy of an isolated system remains constant. For example, when a ball is dropped, its potential energy is converted into kinetic energy as it falls, but the total energy remains the same (ignoring air resistance).',
-  },
-  {
-    id: 'swq-chem-1',
-    subject: 'Chemistry',
-    topic: 'Organic Chemistry',
-    difficulty: 'Medium',
-    questionText: 'What is a hydrocarbon? Name two types.',
-    idealAnswer: 'A hydrocarbon is an organic compound consisting entirely of hydrogen and carbon atoms. The two main types are alkanes, which have single bonds (e.g., methane), and alkenes, which have at least one carbon-carbon double bond (e.g., ethene).',
-  },
+  // Group II
+  { id: 'swq-physics-1', subject: 'Physics', topic: 'Classical Mechanics', difficulty: 'Medium', questionText: 'Explain the principle of conservation of energy.', idealAnswer: 'The principle of conservation of energy states that energy cannot be created or destroyed, but only changed from one form to another.', group: 'Group II' },
+  { id: 'swq-chem-1', subject: 'Chemistry', topic: 'Organic Chemistry', difficulty: 'Medium', questionText: 'What is a hydrocarbon? Name two types.', idealAnswer: 'A hydrocarbon is an organic compound consisting entirely of hydrogen and carbon atoms. The two main types are alkanes (single bonds) and alkenes (double bonds).', group: 'Group II' },
+  { id: 'swq-appmath-1', subject: 'Applied Mathematics', topic: 'Vectors', difficulty: 'Medium', questionText: 'What is a vector?', idealAnswer: 'A vector is a quantity that has both magnitude and direction.', group: 'Group II' },
+  { id: 'swq-puremath-1', subject: 'Pure Mathematics', topic: 'Calculus', difficulty: 'Hard', questionText: 'What is a derivative?', idealAnswer: 'A derivative represents the rate of change of a function with respect to a variable.', group: 'Group II' },
+  { id: 'swq-stats-1', subject: 'Statistics', topic: 'Basics', difficulty: 'Easy', questionText: 'What is the difference between mean, median, and mode?', idealAnswer: 'The mean is the average of a set of numbers. The median is the middle value in a set of numbers. The mode is the number that appears most frequently in a set of numbers.', group: 'Group II' },
+  { id: 'swq-geo-1', subject: 'Geology', topic: 'Basics', difficulty: 'Easy', questionText: 'What are the three main types of rocks?', idealAnswer: 'The three main types of rocks are igneous, sedimentary, and metamorphic.', group: 'Group II' },
 
-  // Optional Subjects (Group III)
-  {
-    id: 'swq-pubad-1',
-    subject: 'Public Administration',
-    topic: 'Theories',
-    difficulty: 'Medium',
-    questionText: 'What is New Public Management (NPM)?',
-    idealAnswer: 'New Public Management (NPM) is an approach to running public service organizations that is used in government and public service institutions and agencies. It advocates for the public sector to adopt practices from the private sector, such as a focus on efficiency, performance measurement, decentralization, and a customer-oriented approach to service delivery.',
-  },
+  // Group III
+  { id: 'swq-ba-1', subject: 'Business Administration', topic: 'Management', difficulty: 'Easy', questionText: 'What are the four functions of management?', idealAnswer: 'The four functions of management are planning, organizing, leading, and controlling.', group: 'Group III' },
+  { id: 'swq-pa-3', subject: 'Public Administration', topic: 'Theories', difficulty: 'Medium', questionText: 'What is New Public Management (NPM)?', idealAnswer: 'New Public Management (NPM) is an approach to running public service organizations that advocates for the public sector to adopt practices from the private sector.', group: 'Group III' },
+  { id: 'swq-gpp-1', subject: 'Governance & Public Policies', topic: 'Policy Making', difficulty: 'Medium', questionText: 'What are the stages of the policy cycle?', idealAnswer: 'The stages of the policy cycle are agenda setting, policy formulation, decision making, implementation, and evaluation.', group: 'Group III' },
+  { id: 'swq-tpum-1', subject: 'Town Planning & Urban Management', topic: 'Basics', difficulty: 'Easy', questionText: 'What is zoning?', idealAnswer: 'Zoning is the process of dividing land in a municipality into zones in which certain land uses are permitted or prohibited.', group: 'Group III' },
 
-  // Optional Subjects (Group IV)
-  {
-    id: 'swq-hist-pakindia-1',
-    subject: 'History of Pakistan & India',
-    topic: 'Mughal Empire',
-    difficulty: 'Medium',
-    questionText: 'Briefly describe the administrative reforms of Sher Shah Suri.',
-    idealAnswer: 'Sher Shah Suri\'s administrative reforms were highly influential. He introduced a standardized currency (the silver rupiya), improved the road system (notably the Grand Trunk Road), established a postal service, and reorganized the land revenue system based on measurement and classification of land, which later influenced the Mughal and British systems.',
-  },
-   {
-    id: 'swq-history-usa-1',
-    subject: 'History of USA',
-    topic: 'American Revolution',
-    difficulty: 'Medium',
-    questionText: 'What were the main causes of the American Revolution?',
-    idealAnswer: 'The main causes included "taxation without representation," where colonists protested against taxes imposed by the British Parliament without their consent (e.g., the Stamp Act, Townshend Acts). Philosophical ideas from the Enlightenment about liberty and rights, coupled with restrictive British policies like the Proclamation of 1763, fueled a desire for independence.',
-  },
+  // Group IV
+  { id: 'swq-hist-pakindia-1', subject: 'History of Pakistan & India', topic: 'Mughal Empire', difficulty: 'Medium', questionText: 'Briefly describe the administrative reforms of Sher Shah Suri.', idealAnswer: 'Sher Shah Suri introduced a standardized currency, improved the road system (Grand Trunk Road), established a postal service, and reorganized the land revenue system.', group: 'Group IV' },
+  { id: 'swq-ihc-1', subject: 'Islamic History & Culture', topic: 'Umayyads', difficulty: 'Medium', questionText: 'Who was the founder of the Umayyad Caliphate?', idealAnswer: 'The founder of the Umayyad Caliphate was Muawiyah I.', group: 'Group IV' },
+  { id: 'swq-bh-1', subject: 'British History', topic: 'Tudors', difficulty: 'Easy', questionText: 'Who was the first Tudor monarch?', idealAnswer: 'The first Tudor monarch was Henry VII.', group: 'Group IV' },
+  { id: 'swq-eh-1', subject: 'European History', topic: 'French Revolution', difficulty: 'Medium', questionText: 'What was the Reign of Terror?', idealAnswer: 'The Reign of Terror was a period of the French Revolution characterized by a series of massacres and numerous public executions.', group: 'Group IV' },
+  { id: 'swq-husa-1', subject: 'History of USA', topic: 'American Revolution', difficulty: 'Medium', questionText: 'What were the main causes of the American Revolution?', idealAnswer: 'The main causes included "taxation without representation," and philosophical ideas from the Enlightenment about liberty and rights.', group: 'Group IV' },
 
-  // Optional Subjects (Group V)
-  {
-    id: 'swq-gender-1',
-    subject: 'Gender Studies',
-    topic: 'Feminist Theories',
-    difficulty: 'Medium',
-    questionText: 'What is the core idea behind Liberal Feminism?',
-    idealAnswer: 'Liberal Feminism focuses on achieving gender equality through legal and political reforms within the existing system. It advocates for equal opportunities for women in areas like education, employment, and political participation. Unlike more radical forms of feminism, it does not seek to overthrow the entire patriarchal structure but rather to reform it to ensure women have the same rights and freedoms as men.',
-  },
-   {
-    id: 'swq-envsci-1',
-    subject: 'Environmental Sciences',
-    topic: 'Climate Change',
-    difficulty: 'Easy',
-    questionText: 'What is the greenhouse effect?',
-    idealAnswer: 'The greenhouse effect is a natural process that warms the Earth\'s surface. When the Sun\'s energy reaches the Earth’s atmosphere, some of it is reflected back to space and the rest is absorbed and re-radiated by greenhouse gases (like CO2, methane). This absorption and re-radiation process traps heat, keeping the Earth warmer than it would be otherwise.',
-  },
+  // Group V
+  { id: 'swq-gs-2', subject: 'Gender Studies', topic: 'Feminist Theories', difficulty: 'Medium', questionText: 'What is the core idea behind Liberal Feminism?', idealAnswer: 'Liberal Feminism focuses on achieving gender equality through legal and political reforms within the existing system.', group: 'Group V' },
+  { id: 'swq-es-1', subject: 'Environmental Sciences', topic: 'Climate Change', difficulty: 'Easy', questionText: 'What is the greenhouse effect?', idealAnswer: 'The greenhouse effect is a natural process that warms the Earth\'s surface by trapping heat from the sun.', group: 'Group V' },
+  { id: 'swq-af-1', subject: 'Agriculture & Forestry', topic: 'Basics', difficulty: 'Easy', questionText: 'What is crop rotation?', idealAnswer: 'Crop rotation is the practice of growing a series of different types of crops in the same area across a sequence of growing seasons.', group: 'Group V' },
+  { id: 'swq-bot-1', subject: 'Botany', topic: 'Basics', difficulty: 'Easy', questionText: 'What is pollination?', idealAnswer: 'Pollination is the transfer of pollen from a male part of a plant to a female part of a plant, later enabling fertilization and the production of seeds.', group: 'Group V' },
+  { id: 'swq-zoo-1', subject: 'Zoology', topic: 'Basics', difficulty: 'Easy', questionText: 'What is metamorphosis?', idealAnswer: 'Metamorphosis is a profound transformation from one stage of life to another, such as a tadpole turning into a frog.', group: 'Group V' },
+  { id: 'swq-el-1', subject: 'English Literature', topic: 'Shakespeare', difficulty: 'Medium', questionText: 'Name three tragedies written by William Shakespeare.', idealAnswer: 'Three of Shakespeare\'s most famous tragedies are Hamlet, Macbeth, and Othello.', group: 'Group V' },
+  { id: 'swq-ul-1', subject: 'Urdu Literature', topic: 'Poetry', difficulty: 'Medium', questionText: 'Who is known as the "Poet of the East"?', idealAnswer: 'Allama Muhammad Iqbal is known as the "Poet of the East" (Shayar-e-Mashriq).', group: 'Group V' },
 
-  // Optional Subjects (Group VI)
-  {
-    id: 'swq-intlaw-1',
-    subject: 'International Law',
-    topic: 'Sources of Law',
-    difficulty: 'Hard',
-    questionText: 'What is the concept of "jus cogens" in international law?',
-    idealAnswer: 'Jus cogens refers to peremptory norms of general international law that are recognized by the international community as norms from which no derogation is permitted. These are fundamental principles that are considered to have a higher status than other norms. Examples include prohibitions against genocide, piracy, slavery, and torture.',
-  },
-  {
-    id: 'swq-criminology-1',
-    subject: 'Criminology',
-    topic: 'Theories of Crime',
-    difficulty: 'Hard',
-    questionText: 'Explain the "Broken Windows" theory of criminology.',
-    idealAnswer: 'The "Broken Windows" theory, proposed by James Q. Wilson and George L. Kelling, posits that visible signs of crime, anti-social behavior, and civil disorder (like broken windows, graffiti, and public drinking) create an urban environment that encourages further, more serious crime. The theory suggests that policing methods that target minor crimes help to create an atmosphere of order and lawfulness, thereby preventing more serious crimes from happening.',
-  },
+  // Group VI
+  { id: 'swq-law-1', subject: 'Law', topic: 'Basics', difficulty: 'Easy', questionText: 'What is the difference between criminal law and civil law?', idealAnswer: 'Criminal law deals with behavior that is or can be construed as an offense against the public, society, or the state. Civil law deals with disputes between individuals or organizations.', group: 'Group VI' },
+  { id: 'swq-cl-1', subject: 'Constitutional Law', topic: 'Basics', difficulty: 'Medium', questionText: 'What is the principle of "separation of powers"?', idealAnswer: 'Separation of powers is a model for the governance of a state, dividing its government into branches, each with separate and independent powers and areas of responsibility so that the powers of one branch are not in conflict with those of the other branches.', group: 'Group VI' },
+  { id: 'swq-il-1', subject: 'International Law', topic: 'Sources of Law', difficulty: 'Hard', questionText: 'What is the concept of "jus cogens" in international law?', idealAnswer: 'Jus cogens refers to peremptory norms of general international law that are recognized by the international community as norms from which no derogation is permitted.', group: 'Group VI' },
+  { id: 'swq-mlj-1', subject: 'Muslim Law & Jurisprudence', topic: 'Sources', difficulty: 'Medium', questionText: 'What are the four primary sources of Islamic law?', idealAnswer: 'The four primary sources of Islamic law are the Quran, the Sunnah (the teachings and practices of Prophet Muhammad), Ijma (scholarly consensus), and Qiyas (analogical reasoning).', group: 'Group VI' },
+  { id: 'swq-merl-1', subject: 'Mercantile Law', topic: 'Contracts', difficulty: 'Medium', questionText: 'What are the essential elements of a valid contract?', idealAnswer: 'The essential elements of a valid contract are offer and acceptance, intention to create legal relations, consideration, capacity to contract, and free consent.', group: 'Group VI' },
+  { id: 'swq-crim-1', subject: 'Criminology', topic: 'Theories of Crime', difficulty: 'Hard', questionText: 'Explain the "Broken Windows" theory of criminology.', idealAnswer: 'The "Broken Windows" theory posits that visible signs of crime and anti-social behavior create an urban environment that encourages further, more serious crime.', group: 'Group VI' },
+  { id: 'swq-phil-1', subject: 'Philosophy', topic: 'Epistemology', difficulty: 'Medium', questionText: 'What is the difference between rationalism and empiricism?', idealAnswer: 'Rationalism is the belief that reason is the primary source of knowledge. Empiricism is the belief that sensory experience is the primary source of knowledge.', group: 'Group VI' },
 
-  // Optional Subjects (Group VII)
-  {
-    id: 'swq-sociology-1',
-    subject: 'Sociology',
-    topic: 'Social Institutions',
-    difficulty: 'Easy',
-    questionText: 'What is a social institution? Provide two examples.',
-    idealAnswer: 'A social institution is a complex, integrated set of social norms, beliefs, and values organized into a relatively stable structure that meets the basic needs of a society. They are not physical buildings but established patterns of behavior. Examples include the family, which socializes children, and education, which transmits knowledge and skills across generations.',
-  },
-  {
-    id: 'swq-geo-1',
-    subject: 'Geography',
-    topic: 'Physical Geography',
-    difficulty: 'Easy',
-    questionText: 'What causes the seasons on Earth?',
-    idealAnswer: 'The seasons are caused by the tilt of the Earth\'s rotational axis (about 23.5 degrees) relative to its orbital plane around the Sun. This tilt means that different parts of the Earth receive more direct sunlight at different times of the year, leading to summer when a hemisphere is tilted towards the Sun and winter when it is tilted away.',
-  },
-  {
-    id: 'swq-punjabi-1',
-    subject: 'Punjabi',
-    topic: 'Literature',
-    difficulty: 'Medium',
-    questionText: 'Who is considered the most famous poet of the Punjabi language, known for his epic "Heer Ranjha"?',
-    idealAnswer: 'Waris Shah is widely considered the most famous poet of the Punjabi language. His rendition of the tragic romance "Heer Ranjha" is a classic of Punjabi literature, revered for its poetic beauty and profound commentary on society, love, and human nature.',
-  }
+  // Group VII
+  { id: 'swq-jmc-1', subject: 'Journalism & Mass Communication', topic: 'Theories', difficulty: 'Medium', questionText: 'What is the "agenda-setting" theory?', idealAnswer: 'The agenda-setting theory describes the ability of the news media to influence the salience of topics on the public agenda.', group: 'Group VII' },
+  { id: 'swq-psy-1', subject: 'Psychology', topic: 'Basics', difficulty: 'Easy', questionText: 'What is classical conditioning?', idealAnswer: 'Classical conditioning is a learning process that occurs when two stimuli are repeatedly paired; a response that is at first elicited by the second stimulus is eventually elicited by the first stimulus alone.', group: 'Group VII' },
+  { id: 'swq-geog-1', subject: 'Geography', topic: 'Physical Geography', difficulty: 'Easy', questionText: 'What causes the seasons on Earth?', idealAnswer: 'The seasons are caused by the tilt of the Earth\'s rotational axis (about 23.5 degrees) relative to its orbital plane around the Sun.', group: 'Group VII' },
+  { id: 'swq-soc-1', subject: 'Sociology', topic: 'Social Institutions', difficulty: 'Easy', questionText: 'What is a social institution? Provide two examples.', idealAnswer: 'A social institution is a complex, integrated set of social norms, beliefs, and values organized into a relatively stable structure that meets the basic needs of a society. Examples include the family and education.', group: 'Group VII' },
+  { id: 'swq-anth-1', subject: 'Anthropology', topic: 'Basics', difficulty: 'Easy', questionText: 'What are the four subfields of anthropology?', idealAnswer: 'The four subfields of anthropology are archaeology, biological anthropology, cultural anthropology, and linguistic anthropology.', group: 'Group VII' },
+  { id: 'swq-pun-1', subject: 'Punjabi', topic: 'Literature', difficulty: 'Medium', questionText: 'Who is considered the most famous poet of the Punjabi language, known for his epic "Heer Ranjha"?', idealAnswer: 'Waris Shah is widely considered the most famous poet of the Punjabi language for his epic "Heer Ranjha".', group: 'Group VII' },
+  { id: 'swq-sin-1', subject: 'Sindhi', topic: 'Literature', difficulty: 'Medium', questionText: 'Who is the national poet of Sindh?', idealAnswer: 'Shah Abdul Latif Bhittai is revered as the national poet of Sindh.', group: 'Group VII' },
+  { id: 'swq-pas-1', subject: 'Pashto', topic: 'Literature', difficulty: 'Medium', questionText: 'Who is a prominent classical Pashto poet?', idealAnswer: 'Rahman Baba is a prominent classical Pashto poet.', group: 'Group VII' },
+  { id: 'swq-bal-1', subject: 'Balochi', topic: 'Literature', difficulty: 'Medium', questionText: 'Who is a well-known figure in Balochi literature?', idealAnswer: 'Gul Khan Nasir is a well-known figure in Balochi literature.', group: 'Group VII' },
+  { id: 'swq-per-1', subject: 'Persian', topic: 'Literature', difficulty: 'Medium', questionText: 'Who wrote the Shahnameh?', idealAnswer: 'The Shahnameh (Book of Kings) was written by the Persian poet Ferdowsi.', group: 'Group VII' },
+  { id: 'swq-ara-1', subject: 'Arabic', topic: 'Literature', difficulty: 'Medium', questionText: 'Who is one of the most famous pre-Islamic Arab poets?', idealAnswer: 'Imru\' al-Qais is one of the most famous poets of the pre-Islamic era.', group: 'Group VII' }
 ];

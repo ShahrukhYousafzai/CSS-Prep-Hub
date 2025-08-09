@@ -25,24 +25,55 @@ import { subjectWiseQuestions } from '@/lib/mock-data';
 import { Badge } from '@/components/ui/badge';
 import type { SubjectWiseQuestion } from '@/lib/types';
 
+const groups = ['all', 'Compulsory', 'Group I', 'Group II', 'Group III', 'Group IV', 'Group V', 'Group VI', 'Group VII'];
+
 export function SubjectWisePracticeClient() {
+  const [selectedGroup, setSelectedGroup] = useState('all');
   const [selectedSubject, setSelectedSubject] = useState('all');
   const [selectedTopic, setSelectedTopic] = useState('all');
   const [selectedDifficulty, setSelectedDifficulty] = useState('all');
 
-  const subjects = useMemo(() => ['all', ...Array.from(new Set(subjectWiseQuestions.map((q) => q.subject)))], []);
-  const topics = useMemo(() => ['all', ...Array.from(new Set(subjectWiseQuestions.map((q) => q.topic)))], []);
-  const difficulties: Array<'all' | 'Easy' | 'Medium' | 'Hard'> = ['all', 'Easy', 'Medium', 'Hard'];
+  const subjects = useMemo(() => {
+    let filteredSubjects = subjectWiseQuestions;
+    if (selectedGroup !== 'all') {
+      filteredSubjects = subjectWiseQuestions.filter(q => q.group === selectedGroup);
+    }
+    return ['all', ...Array.from(new Set(filteredSubjects.map((q) => q.subject)))]
+  }, [selectedGroup]);
+  
+  const topics = useMemo(() => {
+    let filteredTopics = subjectWiseQuestions;
+     if (selectedSubject !== 'all') {
+      filteredTopics = subjectWiseQuestions.filter(q => q.subject === selectedSubject);
+    } else if (selectedGroup !== 'all') {
+      filteredTopics = subjectWiseQuestions.filter(q => q.group === selectedGroup);
+    }
+    return ['all', ...Array.from(new Set(filteredTopics.map((q) => q.topic)))];
+  }, [selectedGroup, selectedSubject]);
 
+  const difficulties: Array<'all' | 'Easy' | 'Medium' | 'Hard'> = ['all', 'Easy', 'Medium', 'Hard'];
 
   const filteredQuestions = useMemo(() => {
     return subjectWiseQuestions.filter((q) => {
+      const groupMatch = selectedGroup === 'all' || q.group === selectedGroup;
       const subjectMatch = selectedSubject === 'all' || q.subject === selectedSubject;
       const topicMatch = selectedTopic === 'all' || q.topic === selectedTopic;
       const difficultyMatch = selectedDifficulty === 'all' || q.difficulty === selectedDifficulty;
-      return subjectMatch && topicMatch && difficultyMatch;
+      return groupMatch && subjectMatch && topicMatch && difficultyMatch;
     });
-  }, [selectedSubject, selectedTopic, selectedDifficulty]);
+  }, [selectedGroup, selectedSubject, selectedTopic, selectedDifficulty]);
+
+  // Reset subject/topic filters when group changes
+  React.useEffect(() => {
+    setSelectedSubject('all');
+    setSelectedTopic('all');
+  }, [selectedGroup]);
+
+  // Reset topic filter when subject changes
+  React.useEffect(() => {
+    setSelectedTopic('all');
+  }, [selectedSubject]);
+
 
   return (
     <div className="space-y-4">
@@ -54,7 +85,19 @@ export function SubjectWisePracticeClient() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-4">
+             <Select value={selectedGroup} onValueChange={setSelectedGroup}>
+              <SelectTrigger>
+                <SelectValue placeholder="Select Group" />
+              </SelectTrigger>
+              <SelectContent>
+                {groups.map((group) => (
+                  <SelectItem key={group} value={group}>
+                    {group === 'all' ? 'All Groups' : group}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
             <Select value={selectedSubject} onValueChange={setSelectedSubject}>
               <SelectTrigger>
                 <SelectValue placeholder="Select Subject" />
@@ -102,7 +145,8 @@ export function SubjectWisePracticeClient() {
               <AccordionTrigger className="p-4 hover:no-underline">
                 <div className="flex-1 text-left">
                   <p className="font-semibold">{q.questionText}</p>
-                  <div className="flex items-center gap-2 mt-2">
+                  <div className="flex items-center gap-2 mt-2 flex-wrap">
+                    <Badge variant="outline">{q.group}</Badge>
                     <Badge variant="secondary">{q.subject}</Badge>
                     <Badge variant="outline">{q.topic}</Badge>
                      <Badge 

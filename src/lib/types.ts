@@ -90,4 +90,5 @@ export interface SubjectWiseQuestion {
   difficulty: 'Easy' | 'Medium' | 'Hard';
   questionText: string;
   idealAnswer: string;
+  group: 'Compulsory' | 'Group I' | 'Group II' | 'Group III' | 'Group IV' | 'Group V' | 'Group VI' | 'Group VII';
 }
