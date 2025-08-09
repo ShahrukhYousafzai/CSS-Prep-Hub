@@ -1,4 +1,4 @@
-import type { PastPaperQuestion, Quiz, InterviewQuestion, PsychTest } from './types';
+import type { PastPaperQuestion, Quiz, InterviewQuestion, PsychTest, SubjectWiseQuestion } from './types';
 
 export const pastPaperQuestions: PastPaperQuestion[] = [
   {
@@ -159,3 +159,38 @@ export const psychTest: PsychTest = {
     { id: 'sc-4', prompt: 'I feel successful when...' },
   ],
 };
+
+export const subjectWiseQuestions: SubjectWiseQuestion[] = [
+  {
+    id: 'swq-pa-1',
+    subject: 'Pakistan Affairs',
+    topic: 'Geography',
+    difficulty: 'Easy',
+    questionText: 'Name the five rivers of Punjab.',
+    idealAnswer: 'The five rivers of Punjab are Jhelum, Chenab, Ravi, Sutlej, and Beas. The name "Punjab" itself means "Land of Five Waters" in Persian.',
+  },
+  {
+    id: 'swq-pa-2',
+    subject: 'Pakistan Affairs',
+    topic: 'Post-Independence History',
+    difficulty: 'Medium',
+    questionText: 'What was the Objective Resolution and why is it significant in Pakistan\'s constitutional history?',
+    idealAnswer: 'The Objective Resolution was passed by the Constituent Assembly of Pakistan in March 1949. It is significant because it laid down the framework and principles for the future constitution of Pakistan, blending Islamic principles with modern democratic ideals. It declared that sovereignty over the entire universe belongs to Allah Almighty alone, and the authority to be exercised by the people of Pakistan within the limits prescribed by Him is a sacred trust. It has been the preamble to all of Pakistan\'s constitutions.',
+  },
+  {
+    id: 'swq-is-1',
+    subject: 'Islamic Studies',
+    topic: 'Pillars of Islam',
+    difficulty: 'Easy',
+    questionText: 'Explain the concept of Zakat.',
+    idealAnswer: 'Zakat, one of the Five Pillars of Islam, is the obligatory purification of wealth through charity. It is a mandatory annual donation of a certain percentage (usually 2.5%) of a Muslim\'s net worth to the poor and needy. It serves to purify the wealth of the giver, prevent hoarding, and reduce economic inequality within the community, fostering a sense of social responsibility.',
+  },
+  {
+    id: 'swq-ca-1',
+    subject: 'Current Affairs',
+    topic: 'International Relations',
+    difficulty: 'Hard',
+    questionText: 'Analyze the impact of the Russia-Ukraine war on global energy markets.',
+    idealAnswer: 'The Russia-Ukraine war has profoundly disrupted global energy markets. Sanctions against Russia, a major oil and gas exporter, have led to significant price volatility and supply chain disruptions. European countries, heavily reliant on Russian gas, have scrambled to find alternative sources, accelerating the transition towards renewable energy but also causing short-term energy crises. The conflict has highlighted the geopolitical weaponization of energy and forced a global reassessment of energy security strategies, leading to increased investment in LNG infrastructure and a renewed focus on energy diversification.',
+  },
+];

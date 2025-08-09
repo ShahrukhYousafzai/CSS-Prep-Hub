@@ -82,3 +82,12 @@ export interface AIPsychEvaluation {
     potentialStrengths: string;
     areasForReflection: string;
 }
+
+export interface SubjectWiseQuestion {
+  id: string;
+  subject: string;
+  topic: string;
+  difficulty: 'Easy' | 'Medium' | 'Hard';
+  questionText: string;
+  idealAnswer: string;
+}
