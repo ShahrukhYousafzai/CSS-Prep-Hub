@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState, useMemo } from 'react';
@@ -21,7 +22,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { subjectWiseQuestions } from '@/lib/mock-data';
+import { subjectWiseQuestions } from '@/lib/data';
 import { Badge } from '@/components/ui/badge';
 import type { SubjectWiseQuestion } from '@/lib/types';
 

@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState, useTransition, useRef, useEffect } from 'react';
@@ -14,7 +15,7 @@ import {
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Textarea } from '@/components/ui/textarea';
 import { cn } from '@/lib/utils';
-import { pastPaperQuestions } from '@/lib/mock-data';
+import { pastPaperQuestions } from '@/lib/data';
 import type { PastPaperQuestion, AIFeedback } from '@/lib/types';
 import { checkAnswerAction, ocrAction } from '../actions';
 import { useToast } from '@/hooks/use-toast';

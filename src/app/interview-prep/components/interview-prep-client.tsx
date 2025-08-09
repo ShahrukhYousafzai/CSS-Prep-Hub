@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState, useMemo } from 'react';
@@ -21,7 +22,7 @@ import {
   TabsTrigger,
 } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
-import { interviewQuestions } from '@/lib/mock-data';
+import { interviewQuestions } from '@/lib/data';
 import type { InterviewQuestion } from '@/lib/types';
 import { Bot, RefreshCw } from 'lucide-react';
 

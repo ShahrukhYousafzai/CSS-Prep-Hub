@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState } from 'react';
@@ -7,7 +8,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Progress } from '@/components/ui/progress';
 import { CheckCircle, XCircle, Award, RotateCw } from 'lucide-react';
-import { quizzes } from '@/lib/mock-data';
+import { quizzes } from '@/lib/data';
 import type { Quiz, QuizQuestion } from '@/lib/types';
 import { cn } from '@/lib/utils';
 

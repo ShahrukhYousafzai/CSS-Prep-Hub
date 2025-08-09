@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState, useMemo } from 'react';
@@ -22,7 +23,7 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { Input } from '@/components/ui/input';
-import { pastPaperQuestions } from '@/lib/mock-data';
+import { pastPaperQuestions } from '@/lib/data';
 import type { PastPaperQuestion } from '@/lib/types';
 
 export function PastPapersClient() {
