@@ -130,10 +130,10 @@ export function PastPapersClient() {
   }
 
   const renderAnswer = (q: PaperQuestion) => {
+    const title = q.questionType === 'Essay' ? 'Outline' : 'Ideal Answer';
     switch (q.questionType) {
       case 'Essay':
       case 'Other':
-        const title = q.questionType === 'Essay' ? 'Outline' : 'Ideal Answer';
         return (
           <>
             {generatingId === q.id ? (
