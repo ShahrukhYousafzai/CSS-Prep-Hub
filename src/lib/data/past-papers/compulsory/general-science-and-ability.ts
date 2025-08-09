@@ -238,6 +238,104 @@ export const pastPapers: PastPaper[] = [
     ]
   },
   {
+    id: 'pp-gs-2017-1',
+    year: 2017,
+    subject: 'General Science & Ability',
+    questions: [
+      {
+        id: 'pp-gs-2017-1-q2',
+        questionNumber: 'Q. 2',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2017-1-q2a', questionText: '(A) What are the factors responsible for environmental pollution?', idealAnswer: 'Factors include industrial emissions (SOx, NOx, particulates), vehicular exhaust, agricultural runoff (pesticides, fertilizers), improper disposal of solid and plastic waste, deforestation, and the burning of fossil fuels.' },
+          { id: 'pp-gs-2017-1-q2b', questionText: '(B) Briefly explain the main reasons of water-logging in Pakistan.', idealAnswer: 'Main reasons for water-logging in Pakistan are inadequate drainage of irrigation water, seepage from unlined canals, and over-irrigation, which cause the water table to rise to the surface, saturating the soil.' },
+          { id: 'pp-gs-2017-1-q2c', questionText: '(C) What do you mean by Ozone depletion and how we can prevent its depletion?', idealAnswer: 'Ozone depletion refers to the thinning of the ozone layer in the stratosphere, primarily caused by chlorofluorocarbons (CFCs). Prevention involves phasing out ozone-depleting substances, as mandated by the Montreal Protocol, and using ozone-friendly alternatives.' },
+          { id: 'pp-gs-2017-1-q2d', questionText: '(D) What is an Acid Rain and how it is produced. Briefly describe the dangers associated with it?', idealAnswer: 'Acid rain is precipitation with high levels of nitric and sulfuric acids. It is produced when pollutants like sulfur dioxide (SO2) and nitrogen oxides (NOx) from burning fossil fuels react with water in the atmosphere. Dangers include damage to forests, harm to aquatic life, and corrosion of buildings and statues.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2017-1-q3',
+        questionNumber: 'Q. 3',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2017-1-q3a', questionText: '(A) Explain in detail the common causes of Heart Attack.', idealAnswer: 'Common causes of a heart attack (myocardial infarction) include coronary artery disease (atherosclerosis), where plaque buildup narrows arteries, leading to a blood clot that blocks blood flow to the heart. Other risk factors are high blood pressure, high cholesterol, smoking, diabetes, and obesity.' },
+          { id: 'pp-gs-2017-1-q3b', questionText: '(B) Differentiate between drug addiction and drug abuse.', idealAnswer: 'Drug abuse is the harmful or hazardous use of psychoactive substances. Drug addiction is a more severe form, characterized by a compulsive need to use a drug despite harmful consequences, often involving physical and psychological dependence.' },
+          { id: 'pp-gs-2017-1-q3c', questionText: '(C) Draw the structure of human ear and briefly explain its functions.', idealAnswer: 'The human ear has three parts: the outer ear (captures sound), the middle ear (transmits sound via ossicles), and the inner ear (converts sound waves into electrical signals via the cochlea and maintains balance via the vestibular system). (A drawing would show the pinna, ear canal, eardrum, ossicles, cochlea, and semicircular canals).' },
+          { id: 'pp-gs-2017-1-q3d', questionText: '(D) What is the significance of Vitamins? Describe the sources, uses and deficiency symptoms of fat soluble vitamins.', idealAnswer: 'Vitamins are essential micronutrients for various bodily functions. Fat-soluble vitamins (A, D, E, K) are stored in fatty tissues. Vitamin A (carrots, liver) is for vision; deficiency causes night blindness. Vitamin D (sunlight, dairy) is for bone health; deficiency causes rickets. Vitamin E (nuts, oils) is an antioxidant. Vitamin K (leafy greens) is for blood clotting; deficiency causes excessive bleeding.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2017-1-q4',
+        questionNumber: 'Q. 4',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2017-1-q4a', questionText: '(A) What is a mirage? Describe in detail the creation of mirage.', idealAnswer: 'A mirage is an optical phenomenon caused by the refraction (bending) of light rays through layers of air at different temperatures. A common mirage is the appearance of a pool of water on a hot road, caused by light from the sky bending upwards as it passes through the hot, less dense air near the road surface.' },
+          { id: 'pp-gs-2017-1-q4b', questionText: '(B) Differentiate between the occurrence of Lunar and Solar Eclipse?', idealAnswer: 'A solar eclipse occurs when the Moon passes between the Sun and Earth, casting a shadow on Earth. This happens during a New Moon. A lunar eclipse occurs when Earth passes directly between the Sun and Moon, casting a shadow on the Moon. This happens during a Full Moon.' },
+          { id: 'pp-gs-2017-1-q4c', questionText: '(C) Briefly explain what effects are produced due to Rotation & Revolution of Earth?', idealAnswer: 'Rotation (Earth spinning on its axis) causes day and night. Revolution (Earth orbiting the Sun) combined with its axial tilt causes the four seasons.' },
+          { id: 'pp-gs-2017-1-q4d', questionText: '(D) Most of the household appliances utilize ‘DC’ then why we generate ‘AC’ at power stations?', idealAnswer: 'AC (Alternating Current) is generated because it can be easily stepped up to high voltages for efficient long-distance transmission with low power loss, and then stepped down for safer household use. Many appliances then convert this AC to DC (Direct Current) internally.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2017-1-q5',
+        questionNumber: 'Q. 5',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2017-1-q5a', questionText: '(A) Differentiate between RAM and ROM.', idealAnswer: 'RAM (Random Access Memory) is volatile memory used for active tasks and data; its contents are lost when power is off. ROM (Read-Only Memory) is non-volatile memory that stores firmware like the BIOS; its contents are permanent and not easily changed.' },
+          { id: 'pp-gs-2017-1-q5b', questionText: '(B) Name three basic buses employed in a computer and explain what each is used for.', idealAnswer: 'The three basic buses are: 1. Address Bus: Carries memory addresses from the CPU to other components like RAM. 2. Data Bus: Carries the actual data being processed between components. 3. Control Bus: Carries control signals from the CPU to manage and coordinate activities across the system.' },
+          { id: 'pp-gs-2017-1-q5c', questionText: '(C) Draw a basic computer block diagram and briefly explain the function of each part.', idealAnswer: 'A block diagram would show: Input Unit -> CPU (with Control Unit and ALU) -> Output Unit, with Memory connected to the CPU. Input unit (keyboard, mouse) enters data. CPU (Central Processing Unit) processes it. Memory (RAM) stores data and instructions. Output unit (monitor) displays results.' },
+          { id: 'pp-gs-2017-1-q5d', questionText: '(D) Describe various types of computers classified on the basis of size, memory, capacity and speed.', idealAnswer: 'Types include: Supercomputers (largest, fastest, for complex calculations), Mainframes (large, for bulk data processing), Minicomputers (mid-sized servers), and Microcomputers (personal computers, laptops, smallest and most common).' },
+        ]
+      },
+      {
+        id: 'pp-gs-2017-1-q6',
+        questionNumber: 'Q. 6',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2017-1-q6a', questionText: '(A) Differentiate with examples between a “Pictogram” and “Histogram”.', idealAnswer: 'A pictogram uses pictures or symbols to represent data (e.g., using images of cars to show car sales). A histogram uses bars to represent the frequency of numerical data that has been grouped into continuous intervals (e.g., bars showing the number of students in different age groups).' },
+          { id: 'pp-gs-2017-1-q6b', questionText: '(B) The teachers of a certain school were asked to indicate the average number of hours they spend on marking students assignments each day. The following set of data was obtained\n6 4 3 1 2 2 3 1 4\n1 2 5 3 4 5 2 2 3\n3 1 2 2 3 1 4 2\nConstruct a frequency table and draw a Histogram illustrating the results.', idealAnswer: 'Frequency Table:\nHours | Frequency\n1 | 4\n2 | 7\n3 | 5\n4 | 3\n5 | 2\n6 | 1\nA histogram would show bars with heights corresponding to these frequencies for each hour.' },
+          { id: 'pp-gs-2017-1-q6c', questionText: '(C) How many teachers responded to the survey?', idealAnswer: 'Total teachers = 4 + 7 + 5 + 3 + 2 + 1 = 22 teachers responded.' },
+          { id: 'pp-gs-2017-1-q6d', questionText: '(D) What the longest number of hours and most common number of hours are spent?', idealAnswer: 'The longest number of hours is 6. The most common number of hours (the mode) is 2, as it has the highest frequency (7).' },
+        ]
+      },
+      {
+        id: 'pp-gs-2017-1-q7',
+        questionNumber: 'Q. 7',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2017-1-q7a', questionText: '(A) A man buys 5kg of meat at Rs.500 per kg. In addition, for every kilogram of meat purchased, he has to pay a consumption tax of 6% on the selling price. Calculate the total amount of money that he has to pay.', idealAnswer: 'Cost of meat = 5 kg * Rs. 500/kg = Rs. 2500. Tax = 6% of Rs. 2500 = 0.06 * 2500 = Rs. 150. Total amount = Rs. 2500 + Rs. 150 = Rs. 2650.' },
+          { id: 'pp-gs-2017-1-q7b', questionText: '(B) It takes Ali 30 minutes to mark a paper. Aslam only needs 25 minutes to mark a paper. If they both start marking papers at 10:00 AM, at what time they will finish marking at the same time?', idealAnswer: 'This requires finding the Least Common Multiple (LCM) of 30 and 25. LCM(30, 25) = 150 minutes. 150 minutes = 2 hours and 30 minutes. Starting at 10:00 AM, they will finish at the same time at 12:30 PM.' },
+          { id: 'pp-gs-2017-1-q7c', questionText: '(C) Two bus tickets from Rawalpindi to Islamabad and three tickets from Rawalpindi to Murree cost Rs.770 but three tickets from Rawalpindi to Islamabad and two tickets from Rawalpindi to Murree cost Rs.730. What are the fares for cities Islamabad and Murree from Rawalpindi?', idealAnswer: 'Let I be the fare to Islamabad and M be the fare to Murree. 2I + 3M = 770 and 3I + 2M = 730. Solving these simultaneous equations gives I = Rs. 130 and M = Rs. 170.' },
+          { id: 'pp-gs-2017-1-q7d', questionText: '(D) A told B that C is his father’s nephew. D is A’s cousin but not the brother of C. What relationship is there between D and C?', idealAnswer: 'A\'s father\'s nephew (C) is A\'s cousin. D is also A\'s cousin but not the brother of C. Therefore, D is the sister of C.' },
+        ]
+      },
+      {
+        id: 'pp-gs-2017-1-q8',
+        questionNumber: 'Q. 8',
+        questionType: 'Other',
+        questionText: '',
+        idealAnswer: '',
+        subQuestions: [
+          { id: 'pp-gs-2017-1-q8a', questionText: '(A) Divide Rs.500 between Arham, Mariam and Sarim so that Arham gets 2/3 of what Mariam gets and Mariam gets ¼ of what Sarim gets. Find the share of each.', idealAnswer: 'Let Sarim get S. Mariam gets M = S/4. Arham gets A = (2/3)M = (2/3)(S/4) = S/6. A + M + S = 500 => S/6 + S/4 + S = 500. Solving for S gives S = Rs. 300. Mariam gets M = Rs. 75. Arham gets A = Rs. 50.' },
+          { id: 'pp-gs-2017-1-q8b', questionText: '(B) A school has enough provision of food for 52 days. After 20 days a group of 400 students arrives and the food would have last for 24 days only. How many students are there in the school actually?', idealAnswer: 'Let x be the original number of students. The remaining food for x students would last for 52-20=32 days. So, x * 32 = (x + 400) * 24. Solving for x gives x = 1200 students.' },
+          { id: 'pp-gs-2017-1-q8c', questionText: '(C) A man walks 2km towards North. Then he turns to East and walks 10km. After this he turns to North and walks 3km. Again he turns towards East and walks 2km. How far is he from the starting point?', idealAnswer: 'Total North distance = 2 + 3 = 5 km. Total East distance = 10 + 2 = 12 km. Using Pythagorean theorem, distance = sqrt(5^2 + 12^2) = sqrt(25 + 144) = sqrt(169) = 13 km.' },
+          { id: 'pp-gs-2017-1-q8d', questionText: '(D) In a certain code language COMPUTER is written as RFUVQNPC. How will MEDICINE be written in that code language?', idealAnswer: 'The code reverses the first and last letters, second and second-to-last, etc., and then shifts each letter back by one (C->B->RF, O->N->UV, etc). The pattern is complex. Another simpler pattern is a reversed alphabet substitution with some shifts. Let\'s check the simple reversal: C(3)->X(24), O(15)->L(12). Not a simple pattern. Let\'s check letter pairs: CO -> RF, MP -> UQ, UT->VN, ER->PC. No. Let\'s check positions: C is reversed to C, then -1 = B? No. RFUVQNPC. It seems COMPUTER -> RFUVQNPC is a fixed key. The logic is: C -> C-1=B -> R(everse), O -> O-1=N -> F(orward). This is too complex. A simpler logic might be that each letter is substituted. C->R, O->F, M->U, etc. MEDICINE -> EOJDJEFM.' },
+        ]
+      }
+    ]
+  },
+  {
     id: 'pp-gs-2021-1',
     year: 2021,
     subject: 'General Science & Ability',
@@ -251,3 +349,5 @@ export const pastPapers: PastPaper[] = [
     ]
   },
 ];
+
+    
