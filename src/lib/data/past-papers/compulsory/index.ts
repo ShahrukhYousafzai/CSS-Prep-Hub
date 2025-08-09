@@ -7,7 +7,7 @@ import { pastPapers as currentAffairs } from './current-affairs';
 import { pastPapers as pakistanAffairs } from './pakistan-affairs';
 import { pastPapers as islamicStudies } from './islamic-studies';
 
-export const pastPapers: PastPaperQuestion[] = [
+export const pastPapersCompulsory: PastPaperQuestion[] = [
     ...englishEssay,
     ...englishPrecis,
     ...generalScience,
