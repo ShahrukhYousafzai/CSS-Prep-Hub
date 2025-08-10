@@ -25,6 +25,21 @@ type Message = {
   content: string;
 };
 
+// A simple component to render markdown
+const SimpleMarkdown = ({ text }: { text: string }) => {
+    const boldPattern = /\*\*(.*?)\*\*/g;
+    const parts = text.split(boldPattern);
+
+    return (
+        <p className="text-sm whitespace-pre-wrap">
+            {parts.map((part, index) => 
+                index % 2 === 1 ? <strong key={index}>{part}</strong> : part
+            )}
+        </p>
+    );
+};
+
+
 export function AITutorClient() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
@@ -112,7 +127,7 @@ export function AITutorClient() {
                       : 'bg-muted'
                   )}
                 >
-                  <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                  <SimpleMarkdown text={message.content} />
                 </div>
                  {message.role === 'user' && (
                   <Avatar className="h-8 w-8">
