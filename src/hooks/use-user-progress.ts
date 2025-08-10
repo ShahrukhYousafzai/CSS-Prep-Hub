@@ -22,7 +22,7 @@ export function useUserProgress() {
     name: 'Aspirant',
     email: 'user@example.com',
     streak: 0,
-    xp: 0,
+    knowledgeScore: 0,
   });
 
   useEffect(() => {
@@ -62,11 +62,11 @@ export function useUserProgress() {
     }
   }, []);
 
-  const addXp = useCallback((points: number) => {
+  const addKnowledgeScore = useCallback((points: number) => {
     setUserProgress(currentProgress => {
       const newProgress = {
         ...currentProgress,
-        xp: currentProgress.xp + points
+        knowledgeScore: currentProgress.knowledgeScore + points
       };
       try {
         localStorage.setItem('userProgress', JSON.stringify(newProgress));
@@ -77,5 +77,5 @@ export function useUserProgress() {
     });
   }, []);
 
-  return { userProgress, addXp };
+  return { userProgress, addKnowledgeScore };
 }

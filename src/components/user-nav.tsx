@@ -47,7 +47,7 @@ export function UserNav() {
             </div>
              <div className="flex items-center gap-1">
               <Star className="h-4 w-4 text-yellow-500" />
-              <span className="text-sm font-medium">{userProgress.xp} XP</span>
+              <span className="text-sm font-medium">{userProgress.knowledgeScore}</span>
             </div>
           </div>
         </DropdownMenuGroup>

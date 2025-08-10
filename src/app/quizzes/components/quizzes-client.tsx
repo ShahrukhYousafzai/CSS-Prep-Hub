@@ -19,7 +19,7 @@ export function QuizzesClient() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string>>({});
   const [showResults, setShowResults] = useState(false);
-  const { addXp } = useUserProgress();
+  const { addKnowledgeScore } = useUserProgress();
   const { toast } = useToast();
 
   const handleStartQuiz = (quiz: Quiz) => {
@@ -49,11 +49,11 @@ export function QuizzesClient() {
       return acc + (selectedAnswers[index] === question.correctAnswer ? 1 : 0);
     }, 0);
     
-    const points = score * 10; // 10 XP per correct answer
-    addXp(points);
+    const points = score * 10; // 10 points per correct answer
+    addKnowledgeScore(points);
     toast({
         title: "Quiz Complete!",
-        description: `You earned ${points} XP!`,
+        description: `You earned ${points} Knowledge Score!`,
     });
 
     setShowResults(true);

@@ -209,11 +209,11 @@ export default function DashboardPage() {
             </Card>
             <Card>
               <CardHeader className="flex flex-row items-center justify-between pb-2">
-                <CardTitle className="text-sm font-medium">Experience Points</CardTitle>
+                <CardTitle className="text-sm font-medium">Knowledge Score</CardTitle>
                 <Star className="h-5 w-5 text-yellow-500" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold">{userProgress.xp} XP</div>
+                <div className="text-2xl font-bold">{userProgress.knowledgeScore}</div>
                 <p className="text-xs text-muted-foreground">Earned from quizzes and practice.</p>
               </CardContent>
             </Card>

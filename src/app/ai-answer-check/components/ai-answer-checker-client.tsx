@@ -40,7 +40,7 @@ export function AIAnswerCheckerClient() {
   const [isPending, startTransition] = useTransition();
   const [isOcrPending, startOcrTransition] = useTransition();
   const { toast } = useToast();
-  const { addXp } = useUserProgress();
+  const { addKnowledgeScore } = useUserProgress();
 
   const [isCameraOpen, setIsCameraOpen] = useState(false);
   const [hasCameraPermission, setHasCameraPermission] = useState<boolean | null>(null);
@@ -140,11 +140,11 @@ export function AIAnswerCheckerClient() {
 
       if (result.success && result.data) {
         setFeedback(result.data);
-        const points = Math.round(result.data.totalScore * 25); // Max 25 XP
-        addXp(points);
+        const points = Math.round(result.data.totalScore * 25); // Max 25 points
+        addKnowledgeScore(points);
         toast({
           title: "Evaluation Complete!",
-          description: `Your answer has been marked by the AI. You earned ${points} XP!`,
+          description: `Your answer has been marked by the AI. You earned ${points} Knowledge Score!`,
         });
       } else {
         toast({

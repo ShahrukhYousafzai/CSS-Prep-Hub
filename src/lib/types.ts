@@ -128,6 +128,6 @@ export interface User {
   name: string;
   email: string;
   streak: number;
-  xp: number;
+  knowledgeScore: number;
   lastVisited?: string;
 }
