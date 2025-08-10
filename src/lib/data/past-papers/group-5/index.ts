@@ -1,18 +1,19 @@
 
 import type { PastPaper } from '../../types';
+import { pastPapers as genderStudiesPapers } from './gender-studies';
+import { pastPapers as environmentalSciencesPapers } from './environmental-sciences';
+import { pastPapers as agricultureAndForestryPapers } from './agriculture-and-forestry';
+import { pastPapers as botanyPapers } from './botany';
+import { pastPapers as zoologyPapers } from './zoology';
+import { pastPapers as englishLiteraturePapers } from './english-literature';
+import { pastPapers as urduLiteraturePapers } from './urdu-literature';
 
 export const pastPapers: PastPaper[] = [
-    {
-        id: 'pp-gender-2022-1',
-        year: 2022,
-        subject: 'Gender Studies',
-        questions: [
-            {
-                id: 'pp-gender-2022-1-q1',
-                questionType: 'Other',
-                questionText: 'What is meant by "the glass ceiling"? Discuss its impact on women in the corporate world.',
-                idealAnswer: 'The "glass ceiling" is an unacknowledged, invisible barrier that prevents qualified individuals, particularly women, from advancing to senior leadership positions. Its impact includes a lack of women in executive roles, a persistent gender pay gap at the top, and the underutilization of talent.',
-            }
-        ]
-    },
+    ...genderStudiesPapers,
+    ...environmentalSciencesPapers,
+    ...agricultureAndForestryPapers,
+    ...botanyPapers,
+    ...zoologyPapers,
+    ...englishLiteraturePapers,
+    ...urduLiteraturePapers,
 ];
