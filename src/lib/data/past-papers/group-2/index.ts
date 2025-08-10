@@ -1,5 +1,6 @@
 
 import type { PastPaper } from '../../types';
+import { pastPapers as physicsPapers } from './physics';
 
 export const pastPapers: PastPaper[] = [
     {
@@ -28,4 +29,5 @@ export const pastPapers: PastPaper[] = [
             }
         ]
     },
+    ...physicsPapers,
 ];
