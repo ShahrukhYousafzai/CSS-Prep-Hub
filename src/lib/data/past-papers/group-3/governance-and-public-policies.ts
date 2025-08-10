@@ -40,13 +40,13 @@ export const pastPapers: PastPaper[] = [
             {
                 id: 'pp-gpp-2016-1-q6',
                 questionType: 'Other',
-                questionText: 'Explain following categories of public policies. (a) Substantive and Procedural Policies (b) Distributive, Regulatory, Self Regulatory and Redistributive policies.',
+                questionText: 'Explain following categories of public policies.\n(a) Substantive and Procedural Policies\n(b) Distributive, Regulatory, Self Regulatory and Redistributive policies.',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2016-1-q7',
                 questionType: 'Other',
-                questionText: 'Write short notes on the following: (a) Role of Active Citizens in Community Engagement and Governance. (b) The stigma of corruption and the decline of good governance in Pakistan.',
+                questionText: 'Write short notes on the following:\n(a) Role of Active Citizens in Community Engagement and Governance.\n(b) The stigma of corruption and the decline of good governance in Pakistan.',
                 idealAnswer: 'To be provided by AI.'
             }
         ]
@@ -59,43 +59,43 @@ export const pastPapers: PastPaper[] = [
             {
                 id: 'pp-gpp-2017-1-q1',
                 questionType: 'Other',
-                questionText: '(A) Nature and character of state of Pakistan has been under discussion since long. Some people voice for its theocratic nature. Others argue it as democratic nature and some say that religion be kept separated from the state’ functioning. In this backdrop, elaborate ideas of Quaid-e-Azam Muhammad Ali Jinnah on the following:- (1) Quaid’s Vision of an Islamic Society. (2) State’s Constitution and System of Government in Pakistan. (3) Protection of non-Muslims, their rights and obligations. (B) What are your views on State and Society of Pakistan in relation with Quaid- e-Azam’s ideas on our system of governance?',
+                questionText: '(A) Nature and character of state of Pakistan has been under discussion since long. Some people voice for its theocratic nature. Others argue it as democratic nature and some say that religion be kept separated from the state’ functioning. In this backdrop, elaborate ideas of Quaid-e-Azam Muhammad Ali Jinnah on the following:-\n(1) Quaid’s Vision of an Islamic Society.\n(2) State’s Constitution and System of Government in Pakistan.\n(3) Protection of non-Muslims, their rights and obligations.\n(B) What are your views on State and Society of Pakistan in relation with Quaid- e-Azam’s ideas on our system of governance?',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2017-1-q2',
                 questionType: 'Other',
-                questionText: '(A) Economics forms the basis of all human developments. The growing concern at present is increasing poverty in South Asia. There is a class of scholars who feel that ‘Top-down Approach’ has not worked well in South Asian Countries. They find ‘Economic Democracy through Pro-Poor Growth’ a solution to poverty. Under this concept of economic development, explain the following:- (1) Definition and concept of ‘Economic Democracy through Pro-poor Growth’. (2) Implementation modalities of ‘Pro-poor Growth’ especially in Pakistan. (B) If you are given the project of developing a strategy on ‘Pro-poor Growth’ for Pakistan, what would be your main considerations for a workable plan.',
+                questionText: '(A) Economics forms the basis of all human developments. The growing concern at present is increasing poverty in South Asia. There is a class of scholars who feel that ‘Top-down Approach’ has not worked well in South Asian Countries. They find ‘Economic Democracy through Pro-Poor Growth’ a solution to poverty. Under this concept of economic development, explain the following:-\n(1) Definition and concept of ‘Economic Democracy through Pro-poor Growth’.\n(2) Implementation modalities of ‘Pro-poor Growth’ especially in Pakistan.\n(B) If you are given the project of developing a strategy on ‘Pro-poor Growth’ for Pakistan, what would be your main considerations for a workable plan.',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2017-1-q3',
                 questionType: 'Other',
-                questionText: '(A) Constitution of Pakistan provides guiding principles for establishing state system and governance rules. In the light of this, briefly explain the following:- (1) Name of the Republic and its Territories. (2) Rights of individuals and their constitutional obligations. (3) Freedom of trade and business. (B) To what extent, you find our society is aware of the constitutional obligations with respect to taxation and freedom of speech. Are you satisfied over the present level of societal awareness? Give your comments in either case.',
+                questionText: '(A) Constitution of Pakistan provides guiding principles for establishing state system and governance rules. In the light of this, briefly explain the following:-\n(1) Name of the Republic and its Territories.\n(2) Rights of individuals and their constitutional obligations.\n(3) Freedom of trade and business.\n(B) To what extent, you find our society is aware of the constitutional obligations with respect to taxation and freedom of speech. Are you satisfied over the present level of societal awareness? Give your comments in either case.',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2017-1-q4',
                 questionType: 'Other',
-                questionText: '(A) Concept of governance stems from the basic idea of formal orchestration of material and human resource for a prosperous and harmonious society. How do you look at some of its fundamentals as given below:- (1) Accountability; elaborate its concept and kinds. (2) Ethnonationalism; define it with an example. (3) Hybrid organizations; define its value addition to governance. (4) Action research; how does it contribute to governance? (B) Keeping in mind socio-economic makeup of our society, what kind of plan would you suggest for substantial and objective improvements in governance?',
+                questionText: '(A) Concept of governance stems from the basic idea of formal orchestration of material and human resource for a prosperous and harmonious society. How do you look at some of its fundamentals as given below:-\n(1) Accountability; elaborate its concept and kinds.\n(2) Ethnonationalism; define it with an example.\n(3) Hybrid organizations; define its value addition to governance.\n(4) Action research; how does it contribute to governance?\n(B) Keeping in mind socio-economic makeup of our society, what kind of plan would you suggest for substantial and objective improvements in governance?',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2017-1-q5',
                 questionType: 'Other',
-                questionText: '(A) Islam is first and the foremost in ethical and practical relationship of mankind with the surroundings for benefiting humanity. Elaborate following in this regards:- (1) Status of man as custodian of governance in a state system. (2) Relationship of state and society. (3) Concept of ‘Shura’ or ‘Consultation’. (B) Where do you find our existing system of governance in Pakistan in congruence and conflict with the Islamic concept? Give your suggestions in case of conflict.',
+                questionText: '(A) Islam is first and the foremost in ethical and practical relationship of mankind with the surroundings for benefiting humanity. Elaborate following in this regards:-\n(1) Status of man as custodian of governance in a state system.\n(2) Relationship of state and society.\n(3) Concept of ‘Shura’ or ‘Consultation’.\n(B) Where do you find our existing system of governance in Pakistan in congruence and conflict with the Islamic concept? Give your suggestions in case of conflict.',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2017-1-q6',
                 questionType: 'Other',
-                questionText: '(A) Our bureaucracy is perceived to be the extension of ‘Royal Civil Services’ (Steel Frame of British Empire). Do you agree with this notion? Give reasons in either case. Also elaborate the following:- (1) Concept of bureaucracy; Max Weber School of Thought. (2) Reforms in bureaucracy of Pakistan, give only brief highlights. (3) Major/visible contributions of bureaucracy in providing good governance. (4) Shortfalls / areas of improvement, your personal perspective. (B) Comment on the restructuring of civil bureaucracy undertaken under devolution of power during Mr. Musharraf’s regime.',
+                questionText: '(A) Our bureaucracy is perceived to be the extension of ‘Royal Civil Services’ (Steel Frame of British Empire). Do you agree with this notion? Give reasons in either case. Also elaborate the following:-\n(1) Concept of bureaucracy; Max Weber School of Thought.\n(2) Reforms in bureaucracy of Pakistan, give only brief highlights.\n(3) Major/visible contributions of bureaucracy in providing good governance.\n(4) Shortfalls / areas of improvement, your personal perspective.\n(B) Comment on the restructuring of civil bureaucracy undertaken under devolution of power during Mr. Musharraf’s regime.',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2017-1-q7',
                 questionType: 'Other',
-                questionText: '(A) Write short notes on any three of the following:- (1) Distinctive features of ‘Efficient Governance’ and ‘Effective Governance’. (2) Rational Choice Theory of Governance. (3) Indicators of good and bad governance. (4) Public policy making process with special reference to Pakistan. (5) Merits and demerits of ‘Local Governments’ in Pakistan’s perspective. (B) Public-Private Partnership is considered a mode of fast paced developments. However, it has not been very successful in Pakistan. What measures would you recommend to improve upon the existing status?',
+                questionText: '(A) Write short notes on any three of the following:-\n(1) Distinctive features of ‘Efficient Governance’ and ‘Effective Governance’.\n(2) Rational Choice Theory of Governance.\n(3) Indicators of good and bad governance.\n(4) Public policy making process with special reference to Pakistan.\n(5) Merits and demerits of ‘Local Governments’ in Pakistan’s perspective.\n(B) Public-Private Partnership is considered a mode of fast paced developments. However, it has not been very successful in Pakistan. What measures would you recommend to improve upon the existing status?',
                 idealAnswer: 'To be provided by AI.'
             }
         ]
@@ -108,13 +108,13 @@ export const pastPapers: PastPaper[] = [
             {
                 id: 'pp-gpp-2018-1-q1',
                 questionType: 'Other',
-                questionText: '(a) Define and describe Governance as formation and management of the formal and informal mechanisms that regulate the public realms. (b) Describe various indicators of good governance such as Participation, Rule of Law, Transparency, Accountability, Responsiveness and Efficiency.',
+                questionText: '(a) Define and describe Governance as formation and management of the formal and informal mechanisms that regulate the public realms.\n(b) Describe various indicators of good governance such as Participation, Rule of Law, Transparency, Accountability, Responsiveness and Efficiency.',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2018-1-q2',
                 questionType: 'Other',
-                questionText: '(a) Rational Choice Theory proposes that a rational person is guided by the incentive system within which he/she operates. Explain the implication of this theory in relation to transforming systems and models of public sector governance. (b) In response to the rational choice theorists, new institutionalism theory prescribes a more comprehensive understanding of social behaviour. Explain how the new institutionalism theorists see self-interest, social values, and power structures as determinants of social behaviour.',
+                questionText: '(a) Rational Choice Theory proposes that a rational person is guided by the incentive system within which he/she operates. Explain the implication of this theory in relation to transforming systems and models of public sector governance.\n(b) In response to the rational choice theorists, new institutionalism theory prescribes a more comprehensive understanding of social behaviour. Explain how the new institutionalism theorists see self-interest, social values, and power structures as determinants of social behaviour.',
                 idealAnswer: 'To be provided by AI.'
             },
             {
@@ -126,13 +126,13 @@ export const pastPapers: PastPaper[] = [
             {
                 id: 'pp-gpp-2018-1-q4',
                 questionType: 'Other',
-                questionText: '(a) A multitude of models are proposed for public policy making process. Describe and explain the six step model proposed by Patton and Swacki (1986) that begins with defining and diagnosing the problem. (b) Pakistan has a mixed-economy with a considerably large public sector. It is believed that size and scope of government needs substantial reduction in order to reduce fiscal deficit and achieve economic efficiency. Suggest strategies for gradual process of right-sizing in public sector of Pakistan.',
+                questionText: '(a) A multitude of models are proposed for public policy making process. Describe and explain the six step model proposed by Patton and Swacki (1986) that begins with defining and diagnosing the problem.\n(b) Pakistan has a mixed-economy with a considerably large public sector. It is believed that size and scope of government needs substantial reduction in order to reduce fiscal deficit and achieve economic efficiency. Suggest strategies for gradual process of right-sizing in public sector of Pakistan.',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2018-1-q5',
                 questionType: 'Other',
-                questionText: '(a) Local government reforms have been designed and implemented across Pakistan during three military regimes in 1959, 1979 and 2001. Present an overview of causes of failure and success (if any) of the aforementioned reforms. (b) The case of decentralization reforms in the Indian state of Kerala has attracted a world-wide attention. Highlight key features of Kerala’s decentralization model that was initiated in 1996 by the LDF (Leftist Democratic Front).',
+                questionText: '(a) Local government reforms have been designed and implemented across Pakistan during three military regimes in 1959, 1979 and 2001. Present an overview of causes of failure and success (if any) of the aforementioned reforms.\n(b) The case of decentralization reforms in the Indian state of Kerala has attracted a world-wide attention. Highlight key features of Kerala’s decentralization model that was initiated in 1996 by the LDF (Leftist Democratic Front).',
                 idealAnswer: 'To be provided by AI.'
             },
             {
@@ -193,7 +193,7 @@ export const pastPapers: PastPaper[] = [
             {
                 id: 'pp-gpp-2019-1-q7',
                 questionType: 'Other',
-                questionText: 'The traditional theory of policy making is that legislators make policy and public managers carry it out. However, most scholars argue that this impleolitics/administration dichotomy does not accurately reflect the policy-making process in most contemporary public administration environments. i. How do public managers engage in policy making? ii. How do legislators engage in policy implementation? iii. Is the politics/administration dichotomy still valid today? Why or why not. iv. Provide one detailed example in an area with which you are familiar.',
+                questionText: 'The traditional theory of policy making is that legislators make policy and public managers carry it out. However, most scholars argue that this impleolitics/administration dichotomy does not accurately reflect the policy-making process in most contemporary public administration environments.\ni. How do public managers engage in policy making?\nii. How do legislators engage in policy implementation?\niii. Is the politics/administration dichotomy still valid today? Why or why not.\niv. Provide one detailed example in an area with which you are familiar.',
                 idealAnswer: 'To be provided by AI.'
             }
         ]
@@ -230,19 +230,19 @@ export const pastPapers: PastPaper[] = [
             {
                 id: 'pp-gpp-2020-1-q5',
                 questionType: 'Other',
-                questionText: '(a) What are the commonalities and difference in the tenets of Good Governance between World Bank, Asian Development Bank and Department for International Development (DFID)? (b) The concept of good governance is ubiquitous in democratic states. What is the role of the World Bank in the promotion of this concept?',
+                questionText: '(a) What are the commonalities and difference in the tenets of Good Governance between World Bank, Asian Development Bank and Department for International Development (DFID)?\n(b) The concept of good governance is ubiquitous in democratic states. What is the role of the World Bank in the promotion of this concept?',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2020-1-q6',
                 questionType: 'Other',
-                questionText: '(a) In the Rational Choice theory, how is the institution of the bureaucracy described? (b) What are the lessons that can be drawn from the Rational Choice theory for reforming Pakistani bureaucracy?',
+                questionText: '(a) In the Rational Choice theory, how is the institution of the bureaucracy described?\n(b) What are the lessons that can be drawn from the Rational Choice theory for reforming Pakistani bureaucracy?',
                 idealAnswer: 'To be provided by AI.'
             },
             {
                 id: 'pp-gpp-2020-1-q7',
                 questionType: 'Other',
-                questionText: 'Choose any of your favorite policy sector to elucidate following components of policy analysis process; (a) Constructing policy alternatives (b) Choosing evaluative criteria (c) Assessing the alternatives (d) Drawing conclusions',
+                questionText: 'Choose any of your favorite policy sector to elucidate following components of policy analysis process;\n(a) Constructing policy alternatives\n(b) Choosing evaluative criteria\n(c) Assessing the alternatives\n(d) Drawing conclusions',
                 idealAnswer: 'To be provided by AI.'
             }
         ]
@@ -255,7 +255,7 @@ export const pastPapers: PastPaper[] = [
             {
                 id: 'pp-gpp-2021-1-q1',
                 questionType: 'Other',
-                questionText: 'Public policy changes occur through two primary mechanisms: substantial disruption and incrementalism. Even though both of these mechanisms involve political institutions, they appear to be unrelated processes. Using specific examples, (a) Explain how these disparate processes create policy change? What is the role of institutions in both processes? (b) Specifically, are institutions endogenous or exogenous to policy changes? Can disruption and incrementalism be integrated to create a fuller theoretical understanding of policy change, or should they be understood separately?',
+                questionText: 'Public policy changes occur through two primary mechanisms: substantial disruption and incrementalism. Even though both of these mechanisms involve political institutions, they appear to be unrelated processes. Using specific examples,\n(a) Explain how these disparate processes create policy change? What is the role of institutions in both processes?\n(b) Specifically, are institutions endogenous or exogenous to policy changes? Can disruption and incrementalism be integrated to create a fuller theoretical understanding of policy change, or should they be understood separately?',
                 idealAnswer: 'To be provided by AI.'
             },
             {
@@ -291,7 +291,7 @@ export const pastPapers: PastPaper[] = [
             {
                 id: 'pp-gpp-2021-1-q7',
                 questionType: 'Other',
-                questionText: 'Religion as a form of ethical doctrine could potentially provide the “internal good” for development through its doctrines on social cohesion, mutual cooperation and virtue-based community. Elaborate the following in this regard: - a) (a) Rule of law in the Islamic System (b) Doctrine of the Separation of Powers and Independence of the Judiciary',
+                questionText: 'Religion as a form of ethical doctrine could potentially provide the “internal good” for development through its doctrines on social cohesion, mutual cooperation and virtue-based community. Elaborate the following in this regard: -\na) (a) Rule of law in the Islamic System\n(b) Doctrine of the Separation of Powers and Independence of the Judiciary',
                 idealAnswer: 'To be provided by AI.'
             }
         ]

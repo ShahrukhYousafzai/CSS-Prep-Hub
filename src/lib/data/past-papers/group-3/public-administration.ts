@@ -46,7 +46,7 @@ export const pastPapers: PastPaper[] = [
       {
         id: 'pp-pubad-2017-1-q7',
         questionType: 'Other',
-        questionText: 'Write substantive notes on any TWO of the following: (a) Zero based budgeting (b) Judicial Activism (c) Social Policy',
+        questionText: 'Write substantive notes on any TWO of the following:\n(a) Zero based budgeting\n(b) Judicial Activism\n(c) Social Policy',
         idealAnswer: 'To be provided by AI.'
       }
     ]
@@ -95,7 +95,7 @@ export const pastPapers: PastPaper[] = [
       {
         id: 'pp-pubad-2018-1-q7',
         questionType: 'Other',
-        questionText: 'Write a comprehensive note on any TWO of the following: (a) Scientific Management (b) Human Relation Approach (c) Theory X and Y of Motivation',
+        questionText: 'Write a comprehensive note on any TWO of the following:\n(a) Scientific Management\n(b) Human Relation Approach\n(c) Theory X and Y of Motivation',
         idealAnswer: 'To be provided by AI.'
       }
     ]
@@ -144,7 +144,7 @@ export const pastPapers: PastPaper[] = [
       {
         id: 'pp-pubad-2019-1-q7',
         questionType: 'Other',
-        questionText: 'Write short notes on any TWO of the following: (a) Types of Decentralization (b) Role of Civil Society in good governance (c) Administrative buffering',
+        questionText: 'Write short notes on any TWO of the following:\n(a) Types of Decentralization\n(b) Role of Civil Society in good governance\n(c) Administrative buffering',
         idealAnswer: 'To be provided by AI.'
       }
     ]
@@ -193,7 +193,7 @@ export const pastPapers: PastPaper[] = [
       {
         id: 'pp-pubad-2020-1-q7',
         questionType: 'Other',
-        questionText: 'Write comprehensive notes on the following:- (a) Public Business Re-Engineering (b) Governance Challenges in Pakistan',
+        questionText: 'Write comprehensive notes on the following:-\n(a) Public Business Re-Engineering\n(b) Governance Challenges in Pakistan',
         idealAnswer: 'To be provided by AI.'
       }
     ]
@@ -242,7 +242,7 @@ export const pastPapers: PastPaper[] = [
       {
         id: 'pp-pubad-2021-1-q7',
         questionType: 'Other',
-        questionText: 'Write short notes on any TWO of the following:- (a) Management by Objectives (MBO) (b) Abraham Maslow’s Hierarchy of Needs (c) Differentiate between the Authoritarian and Transformational styles of Leadership.',
+        questionText: 'Write short notes on any TWO of the following:-\n(a) Management by Objectives (MBO)\n(b) Abraham Maslow’s Hierarchy of Needs\n(c) Differentiate between the Authoritarian and Transformational styles of Leadership.',
         idealAnswer: 'To be provided by AI.'
       }
     ]
