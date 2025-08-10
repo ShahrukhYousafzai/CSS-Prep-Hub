@@ -1,3 +1,6 @@
+
+"use client";
+
 import Link from 'next/link';
 import {
   Bot,
@@ -36,7 +39,7 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
 } from '@/components/ui/breadcrumb';
-import { userData } from '@/lib/data';
+import { useUserProgress } from '@/hooks/use-user-progress';
 
 const featureCards = [
   {
@@ -77,6 +80,8 @@ const featureCards = [
 ];
 
 export default function DashboardPage() {
+  const { userProgress } = useUserProgress();
+  
   return (
     <div className="flex min-h-screen w-full flex-col bg-background">
       <aside className="fixed inset-y-0 left-0 z-10 hidden w-60 flex-col border-r bg-card sm:flex">
@@ -198,7 +203,7 @@ export default function DashboardPage() {
                 <Flame className="h-5 w-5 text-amber-500" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold">{userData.streak} Days</div>
+                <div className="text-2xl font-bold">{userProgress.streak} Days</div>
                 <p className="text-xs text-muted-foreground">Keep it up to build your momentum!</p>
               </CardContent>
             </Card>
@@ -208,7 +213,7 @@ export default function DashboardPage() {
                 <Star className="h-5 w-5 text-yellow-500" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold">{userData.xp} XP</div>
+                <div className="text-2xl font-bold">{userProgress.xp} XP</div>
                 <p className="text-xs text-muted-foreground">Earned from quizzes and practice.</p>
               </CardContent>
             </Card>

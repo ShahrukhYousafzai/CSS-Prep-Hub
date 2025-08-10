@@ -1,5 +1,5 @@
 
-import type { PastPaper, Quiz, InterviewQuestion, PsychTest, SubjectWiseQuestion, User } from '../types';
+import type { PastPaper, Quiz, InterviewQuestion, PsychTest, SubjectWiseQuestion } from '../types';
 import { pastPapers as pastPapersCompulsory } from './past-papers/compulsory/index';
 import { pastPapers as pastPapersGroup1 } from './past-papers/group-1/index';
 import { pastPapers as pastPapersGroup2 } from './past-papers/group-2/index';
@@ -49,9 +49,3 @@ export const interviewQuestions: InterviewQuestion[] = interviewQuestionsData;
 
 export const psychTest: PsychTest = psychTestData;
 
-export const userData: User = {
-  name: 'Shahrukh',
-  email: 'user@example.com',
-  streak: 5,
-  xp: 1250,
-};

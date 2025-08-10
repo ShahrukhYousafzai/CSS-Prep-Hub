@@ -11,12 +11,16 @@ import { CheckCircle, XCircle, Award, RotateCw } from 'lucide-react';
 import { quizzes } from '@/lib/data';
 import type { Quiz, QuizQuestion } from '@/lib/types';
 import { cn } from '@/lib/utils';
+import { useUserProgress } from '@/hooks/use-user-progress';
+import { useToast } from '@/hooks/use-toast';
 
 export function QuizzesClient() {
   const [selectedQuiz, setSelectedQuiz] = useState<Quiz | null>(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string>>({});
   const [showResults, setShowResults] = useState(false);
+  const { addXp } = useUserProgress();
+  const { toast } = useToast();
 
   const handleStartQuiz = (quiz: Quiz) => {
     setSelectedQuiz(quiz);
@@ -39,6 +43,19 @@ export function QuizzesClient() {
   };
 
   const handleSubmit = () => {
+    if (!selectedQuiz) return;
+    
+    const score = selectedQuiz.questions.reduce((acc, question, index) => {
+      return acc + (selectedAnswers[index] === question.correctAnswer ? 1 : 0);
+    }, 0);
+    
+    const points = score * 10; // 10 XP per correct answer
+    addXp(points);
+    toast({
+        title: "Quiz Complete!",
+        description: `You earned ${points} XP!`,
+    });
+
     setShowResults(true);
   };
 

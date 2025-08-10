@@ -1,3 +1,4 @@
+
 import { z } from 'zod';
 
 // For multi-part questions like Comprehension or Correction
@@ -128,4 +129,5 @@ export interface User {
   email: string;
   streak: number;
   xp: number;
+  lastVisited?: string;
 }

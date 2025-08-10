@@ -1,3 +1,6 @@
+
+"use client";
+
 import { Flame, Star } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
@@ -11,9 +14,11 @@ import {
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { userData } from "@/lib/data"
+import { useUserProgress } from "@/hooks/use-user-progress";
 
 export function UserNav() {
+  const { userProgress } = useUserProgress();
+  
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -27,9 +32,9 @@ export function UserNav() {
       <DropdownMenuContent className="w-56" align="end" forceMount>
         <DropdownMenuLabel className="font-normal">
           <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium leading-none">{userData.name}</p>
+            <p className="text-sm font-medium leading-none">{userProgress.name}</p>
             <p className="text-xs leading-none text-muted-foreground">
-              {userData.email}
+              {userProgress.email}
             </p>
           </div>
         </DropdownMenuLabel>
@@ -38,11 +43,11 @@ export function UserNav() {
            <div className="flex items-center justify-around py-2">
             <div className="flex items-center gap-1">
               <Flame className="h-4 w-4 text-amber-500" />
-              <span className="text-sm font-medium">{userData.streak}</span>
+              <span className="text-sm font-medium">{userProgress.streak}</span>
             </div>
              <div className="flex items-center gap-1">
               <Star className="h-4 w-4 text-yellow-500" />
-              <span className="text-sm font-medium">{userData.xp} XP</span>
+              <span className="text-sm font-medium">{userProgress.xp} XP</span>
             </div>
           </div>
         </DropdownMenuGroup>

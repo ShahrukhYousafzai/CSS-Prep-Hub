@@ -29,6 +29,7 @@ import {
   DialogClose,
 } from '@/components/ui/dialog';
 import { Alert, AlertTitle, AlertDescription } from '@/components/ui/alert';
+import { useUserProgress } from '@/hooks/use-user-progress';
 
 
 export function AIAnswerCheckerClient() {
@@ -39,6 +40,7 @@ export function AIAnswerCheckerClient() {
   const [isPending, startTransition] = useTransition();
   const [isOcrPending, startOcrTransition] = useTransition();
   const { toast } = useToast();
+  const { addXp } = useUserProgress();
 
   const [isCameraOpen, setIsCameraOpen] = useState(false);
   const [hasCameraPermission, setHasCameraPermission] = useState<boolean | null>(null);
@@ -138,9 +140,11 @@ export function AIAnswerCheckerClient() {
 
       if (result.success && result.data) {
         setFeedback(result.data);
-         toast({
+        const points = Math.round(result.data.totalScore * 25); // Max 25 XP
+        addXp(points);
+        toast({
           title: "Evaluation Complete!",
-          description: "Your answer has been marked by the AI.",
+          description: `Your answer has been marked by the AI. You earned ${points} XP!`,
         });
       } else {
         toast({
