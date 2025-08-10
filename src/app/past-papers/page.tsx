@@ -116,9 +116,11 @@ export default function PastPapersPage() {
                   <LayoutDashboard className="h-5 w-5" />
                   Dashboard
                 </Link>
-                <Link href="/subject-wise-practice" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
-                    <BookCopy className="h-5 w-5" />
-                    Subject-wise Practice
+                <Link href="/subject-wise-practice">
+                    <Button variant="ghost" className="justify-start gap-2 w-full">
+                        <BookCopy className="h-4 w-4" />
+                        Subject-wise Practice
+                    </Button>
                 </Link>
                 <Link href="/past-papers" className="flex items-center gap-4 px-2.5 text-foreground">
                   <FileText className="h-5 w-5" />
@@ -181,4 +183,3 @@ export default function PastPapersPage() {
     </div>
   );
 }
-

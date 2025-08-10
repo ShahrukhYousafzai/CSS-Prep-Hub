@@ -48,4 +48,3 @@ export const quizzes: Quiz[] = quizzesData;
 export const interviewQuestions: InterviewQuestion[] = interviewQuestionsData;
 
 export const psychTest: PsychTest = psychTestData;
-
