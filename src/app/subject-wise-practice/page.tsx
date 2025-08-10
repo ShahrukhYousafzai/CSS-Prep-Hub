@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import {
   Bot,
@@ -9,6 +10,7 @@ import {
   MessageSquareQuote,
   BrainCircuit,
   BookCopy,
+  Sparkles,
 } from 'lucide-react';
 
 import {
@@ -50,20 +52,26 @@ export default function SubjectWisePracticePage() {
                 <LayoutDashboard className="h-4 w-4" />Dashboard
               </Button>
             </Link>
+            <Button variant="secondary" className="justify-start gap-2">
+                <BookCopy className="h-4 w-4" />
+                Subject-wise Practice
+            </Button>
             <Link href="/past-papers">
               <Button variant="ghost" className="justify-start gap-2 w-full">
                 <FileText className="h-4 w-4" />
                 Past Papers
               </Button>
             </Link>
-            <Button variant="secondary" className="justify-start gap-2">
-                <BookCopy className="h-4 w-4" />
-                Subject-wise Practice
-            </Button>
             <Link href="/ai-answer-check">
               <Button variant="ghost" className="justify-start gap-2 w-full">
                 <Bot className="h-4 w-4" />
                 AI Answer Check
+              </Button>
+            </Link>
+             <Link href="/ai-tutor">
+              <Button variant="ghost" className="justify-start gap-2 w-full">
+                  <Sparkles className="h-4 w-4" />
+                  AI Tutor
               </Button>
             </Link>
             <Link href="/quizzes">
@@ -108,17 +116,21 @@ export default function SubjectWisePracticePage() {
                   <LayoutDashboard className="h-5 w-5" />
                   Dashboard
                 </Link>
-                <Link href="/past-papers" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
-                  <FileText className="h-5 w-5" />
-                  Past Papers
-                </Link>
                  <Link href="/subject-wise-practice" className="flex items-center gap-4 px-2.5 text-foreground">
                     <BookCopy className="h-5 w-5" />
                     Subject-wise Practice
                 </Link>
+                <Link href="/past-papers" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                  <FileText className="h-5 w-5" />
+                  Past Papers
+                </Link>
                 <Link href="/ai-answer-check" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <Bot className="h-5 w-5" />
                   AI Answer Check
+                </Link>
+                <Link href="/ai-tutor" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                    <Sparkles className="h-5 w-5" />
+                    AI Tutor
                 </Link>
                 <Link href="/quizzes" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <GanttChartSquare className="h-5 w-5" />
@@ -169,3 +181,4 @@ export default function SubjectWisePracticePage() {
     </div>
   );
 }
+

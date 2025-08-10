@@ -13,6 +13,8 @@ import {
   BrainCircuit,
   Flame,
   Star,
+  BookCopy,
+  Sparkles,
 } from 'lucide-react';
 
 import {
@@ -43,6 +45,13 @@ import { useUserProgress } from '@/hooks/use-user-progress';
 
 const featureCards = [
   {
+    title: 'Subject-wise Practice',
+    description: 'Practice questions organized by subject and topic.',
+    icon: BookCopy,
+    href: '/subject-wise-practice',
+    color: 'text-violet-500',
+  },
+  {
     title: 'Past Papers',
     description: 'Review previous years papers with ideal answers.',
     icon: FileText,
@@ -55,6 +64,13 @@ const featureCards = [
     icon: Bot,
     href: '/ai-answer-check',
     color: 'text-blue-500',
+  },
+  {
+    title: 'AI Tutor',
+    description: 'Your personal AI assistant for CSS preparation.',
+    icon: Sparkles,
+    href: '/ai-tutor',
+    color: 'text-green-500',
   },
   {
     title: 'Quizzes',
@@ -99,6 +115,12 @@ export default function DashboardPage() {
             <LayoutDashboard className="h-4 w-4" />
             Dashboard
           </Button>
+          <Link href="/subject-wise-practice">
+            <Button variant="ghost" className="justify-start gap-2 w-full">
+              <BookCopy className="h-4 w-4" />
+              Subject-wise Practice
+            </Button>
+          </Link>
           <Link href="/past-papers">
             <Button variant="ghost" className="justify-start gap-2 w-full">
               <FileText className="h-4 w-4" />
@@ -108,6 +130,12 @@ export default function DashboardPage() {
           <Link href="/ai-answer-check">
             <Button variant="ghost" className="justify-start gap-2 w-full">
               <Bot className="h-4 w-4" />AI Answer Check
+            </Button>
+          </Link>
+           <Link href="/ai-tutor">
+            <Button variant="ghost" className="justify-start gap-2 w-full">
+              <Sparkles className="h-4 w-4" />
+              AI Tutor
             </Button>
           </Link>
            <Link href="/quizzes">
@@ -152,6 +180,10 @@ export default function DashboardPage() {
                   <LayoutDashboard className="h-5 w-5" />
                   Dashboard
                 </Link>
+                <Link href="/subject-wise-practice" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                  <BookCopy className="h-5 w-5" />
+                  Subject-wise Practice
+                </Link>
                 <Link href="/past-papers" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <FileText className="h-5 w-5" />
                   Past Papers
@@ -159,6 +191,10 @@ export default function DashboardPage() {
                 <Link href="/ai-answer-check" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <Bot className="h-5 w-5" />
                   AI Answer Check
+                </Link>
+                <Link href="/ai-tutor" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
+                  <Sparkles className="h-5 w-5" />
+                  AI Tutor
                 </Link>
                 <Link href="/quizzes" className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground">
                   <GanttChartSquare className="h-5 w-5" />
@@ -256,3 +292,4 @@ export default function DashboardPage() {
     </div>
   );
 }
+
