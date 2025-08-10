@@ -18,7 +18,6 @@ export interface MCQOption {
 // A single question within a paper
 export interface PaperQuestion {
   id: string;
-  questionNumber?: string; // e.g., "Q.2", "Q.4 (a)"
   questionText: string;
   idealAnswer: string;
   questionType: 'Essay' | 'MCQ' | 'Analogy' | 'Other' | 'Precis' | 'Comprehension' | 'Correction' | 'Punctuation' | 'Dialogue' | 'Word Pairs' | 'Idioms' | 'Translation';

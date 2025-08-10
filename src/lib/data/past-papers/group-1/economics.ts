@@ -791,7 +791,7 @@ export const pastPapers: PastPaper[] = [
         id: 'pp-econ-2022-2-q4',
         questionType: 'Other',
         questionText: 'What are the trends and tendencies of imports and exports of Pakistan? How the country can enhance its “terms of trade” favorable with particular reference to trade with China?',
-        idealAnswer: 'The trend is a widening trade deficit. To enhance its terms of trade with China, Pakistan needs to move beyond exporting raw materials and low-value textiles, and seek Chinese investment and technology transfer to develop higher-value manufacturing exports.'
+        idealAnswer: 'The trend is a widening trade deficit. To enhance its terms of trade with China, Pakistan needs to move beyond exporting raw materials and low-value-added textiles, and seek Chinese investment and technology transfer to develop higher-value manufacturing exports.'
       },
       {
         id: 'pp-econ-2022-2-q5',

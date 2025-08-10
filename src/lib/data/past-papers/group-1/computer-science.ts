@@ -58,7 +58,7 @@ export const pastPapers: PastPaper[] = [
       {
         id: 'pp-cs-2016-1-q4c',
         questionType: 'Other',
-        questionText: 'Suppose you are designing software for a Medical Store, using object oriented techniques. Decide and define classes and their attributes in C++ or Java syntax... You must use inheritance where suitable.',
+        questionText: 'Suppose you are designing software for a Medical Store, using object oriented techniques. Decide and define classes (like ‘Person’, ‘Customer’, ‘Salesman’, ‘Purchase’ etc.) and their attributes in C++ or Java syntax. You are not required to write any member functions and main programme. You must use inheritance where suitable.',
         idealAnswer: 'A good design would include a `Medicine` class (name, batchNo, expiryDate), a `Person` base class, with `Customer` and `Employee` classes inheriting from it. A `Sale` class would associate a `Customer`, `Employee`, and a list of `Medicine` objects. This demonstrates understanding of inheritance and class relationships in OOP.'
       },
       {
@@ -534,7 +534,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-cs-2018-1-q2b',
             questionType: 'Other',
-            questionText: 'How digital evidences can be preserved from a crime scene? Write in details by taking examples of digital devices commonly used these days.',
+            questionText: 'How digital evidences can be preserved from a crime scene. Write in details by taking examples of digital devices commonly used these days.',
             idealAnswer: 'Preservation involves: 1. Securing the scene to prevent tampering. 2. Creating a forensic image (a bit-for-bit copy) of the storage media (e.g., hard drive, phone memory) using a write-blocker to prevent altering the original. 3. Documenting a chain of custody. 4. Storing the original device and the forensic image in a secure location.'
         },
         {
@@ -570,7 +570,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-cs-2018-1-q3a',
             questionType: 'Other',
-            questionText: 'Write a program grade average calculator, User will input marks for five subjects and program will output the average of its marks. Print appropriate message on the base of its mark\'s average.',
+            questionText: 'Write a program grade average calculator, User will input marks for five subjects and program will output the average of its marks. Print appropriate message on the base of its mark\'s average e.g.; Well done, Keep it up, Better luck next time etc.',
             idealAnswer: 'The program should use a loop to input marks for five subjects, summing them up. It then calculates the average by dividing the sum by 5. Finally, it uses a series of if-else if statements to check the average and print a message like "Well done" for high averages, "Keep it up" for medium, etc.'
         },
         {
@@ -1636,7 +1636,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-cs-2022-1-q2a',
             questionType: 'Other',
-            questionText: 'Using C++ write a function pattern (int n) that produces the following output. Pay special attention to the spaces and clearly state the return type of the function.',
+            questionText: 'Using C++ write a function pattern (int n) that produces the following output. Pay special attention to the spaces and clearly state the return type of the function. Note that the following is just an example; your solution should work for any input “n”.',
             idealAnswer: 'The function would have a `void` return type. It requires nested loops. The outer loop iterates from 1 to `n`. The inner loops would handle printing the leading spaces, the numbers up to the current row number, and then the numbers back down to 1.'
         },
         {
@@ -1654,7 +1654,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-cs-2022-1-q3a',
             questionType: 'Other',
-            questionText: 'Complete the C++ code below to find the number of distinct elements in an array in O(n) time... All the elements of the array are in the range [1,100].',
+            questionText: 'Complete the C++ code below to find the number of distinct elements in an array in O(n) time (linear time complexity) where “n” is the number of elements in the array. For example, if the array is {3,1,3,8,2,1,8,2}, the number of distinct elements is 4 (to be returned from the function below) as the distinct elements are {1,2,3,8}. All the elements of the array are in the range [1,100]. Also, n >> 100 (n is significantly greater than 100).',
             idealAnswer: 'Since the range of elements is small and fixed [1,100], a boolean array (or a hash set) of size 101 can be used. Iterate through the input array. For each element `x`, if the boolean array at index `x` is false, set it to true and increment a counter. The final count is the number of distinct elements.'
         },
         {
@@ -1774,7 +1774,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-cs-2022-2-q4a',
             questionType: 'Other',
-            questionText: 'Assume a pipeline with four stages: fetch instruction (FI), decode instruction and calculate addresses (DA), fetch operand (FO), and execute (EX). Draw a diagram for a sequence of 7 instructions, in which the third instruction is a branch that is taken...',
+            questionText: 'Assume a pipeline with four stages: fetch instruction (FI), decode instruction and calculate addresses (DA), fetch operand (FO), and execute (EX). Draw a diagram for a sequence of 7 instructions, in which the third instruction is a branch that is taken and in which there are no data dependencies.',
             idealAnswer: 'The diagram would be a space-time diagram showing time on the x-axis and instructions on the y-axis. It would show the first two instructions proceeding through the pipeline. When the third (branch) instruction is executed, the pipeline would be "flushed," and the instructions fetched after it (4 and 5) would be discarded. The pipeline would then restart fetching from the branch target (instruction 6).'
         },
         {
@@ -1822,7 +1822,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-cs-2022-2-q7b',
             questionType: 'Other',
-            questionText: 'Write the jQuery code to slide elements up and down. Also write the code to fade the elements in and out of visibility.',
+            questionText: 'Write the jQuery code to slide elements up and down. Also write the code to fade the elements in and out of visibility. Use HTML, CSS, and jQuery.',
             idealAnswer: 'Slide: `$(\'#element\').slideUp();` and `$(\'#element\').slideDown();` or `slideToggle()`. Fade: `$(\'#element\').fadeIn();` and `$(\'#element\').fadeOut();` or `fadeToggle()`.'
         },
         {

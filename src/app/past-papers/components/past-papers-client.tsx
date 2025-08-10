@@ -292,10 +292,7 @@ export function PastPapersClient() {
             <AccordionItem value={q.id} key={q.id} className="border-b-0 rounded-lg bg-card overflow-hidden border">
               <AccordionTrigger className="p-4 hover:no-underline">
                 <div className="flex-1 text-left">
-                   <p className="font-semibold whitespace-pre-wrap">
-                     {q.questionNumber ? `${q.questionNumber} ` : ''}
-                     {q.questionText}
-                   </p>
+                   <p className="font-semibold whitespace-pre-wrap">{q.questionText}</p>
                    <div className="flex items-center gap-2 mt-2 flex-wrap">
                     <Badge variant="outline">{q.subject}</Badge>
                     <Badge variant="secondary">{q.year}</Badge>

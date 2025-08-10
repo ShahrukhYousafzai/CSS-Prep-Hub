@@ -9,7 +9,6 @@ export const pastPapers: PastPaper[] = [
         questions: [
             {
                 id: 'pp-eng-precis-2023-q2',
-                questionNumber: 'Q. 2',
                 questionType: 'Precis',
                 questionText: `On the question of freedom in education there are at present three main schools of thought, deriving partly from differences as to ends and partly from differences in psychological theory. There are those who say that children should be completely free, however bad they may be; there are those who say they should be completely subject to authority, however good they may be; and there are those who say they should be free, but in spite of freedom they should be always good. This last party is larger than it has any logical right to be; children, like adults, will not all be virtuous if they are all free. The belief that liberty will ensure moral perfection is a relic of Rousseauism, and would not survive a study of animals and babies. Those who hold this belief think that education should have no positive purpose, but should merely offer an environment suitable for spontaneous development. I cannot agree with this school, which seems to me too individualistic, and unduly indifferent to the importance of knowledge. We live in communities which require co-operation, and it would be utopian to expect all the necessary co-operation to result from spontaneous impulse. The existence of a large population on a limited area is only possible owing to science and technique; education must, therefore, hand on the necessary minimum of these. The educators who allow most freedom are men whose success depends upon a degree of benevolence, self-control, and trained intelligence which can hardly be generated where every impulse is left unchecked; their merits, therefore, are not likely to be perpetuated if their methods are undiluted. Education, viewed from a social standpoint, must be something more positive than a mere opportunity for growth. It must, of course, provide this, but it must also provide a mental and moral equipment which children cannot acquire entirely for themselves.`,
                 idealAnswer: `**Title: Freedom and Purpose in Education**
@@ -18,7 +17,6 @@ Three main schools of thought exist on freedom in education: complete freedom, c
             },
             {
                 id: 'pp-eng-precis-2023-q3',
-                questionNumber: 'Q. 3',
                 questionType: 'Comprehension',
                 questionText: `The majority of people have always lived simply, and most of humanity still struggles on a daily basis to eke out a meager existence under dire circumstances. Only in affluent industrialized countries do people have the luxury of more goods and services than they need to survive. On the basis of material wealth, North Americans and Europeans should be the happiest people on earth, but according to the 2012 Happy Planet Index (HPI), they are not. Surprisingly, what had begun as an experimental lifestyle evolved into a quiet revolution that spread the word through books such as Duane Elgin’s best-selling Voluntary Simplicity: Toward a Way of Life that is Outwardly Simple, Inwardly Rich (1981), as well as numerous magazines, alternative communities of the like-minded, and, later, Internet websites. Combined with a growing awareness of the environmental consequences of consumerism, the voluntary simplicity movement sought to reduce the consumption of goods and energy and to minimize one’s personal impact on the environment. “Voluntary” denotes a free and conscious choice to make appropriate changes that will enrich life in a deeper, spiritual sense. “Simplicity” refers to the lack of clutter, that is, eliminating all those things, patterns, habits, and ideas that take control of our lives and distract us from our inner selves. However, this is not to be confused with poverty, which is involuntary, degrading, and debilitating. Neither does it mean that people must live on a farm or reject progress or technology, or do without what is necessary for their comfort and welfare. To practice voluntary simplicity, one must differentiate between what one wants (psychological desires) and what one needs (basic requirements of life), and seek a healthy balance that is compatible with both. In a consumer society where advertising bombards us with the message that without this, that, and the other product, we are unsuccessful, undesirable, and unimportant, being clear on what you really need and resisting what you don’t can be an ongoing struggle. The beauty of voluntary simplicity is that it is a philosophy, and not a dogma. How one goes about it depends on individual character, cultural background, and climate. For this, three Rs (i.e., Reduce, Recycle & Reuse) represent the best way to get a handle on rampant consumerism. In economies driven by the quest for ever more, living with less is erroneously equated with poverty and social inferiority. By conserving energy, for instance, you are actually ensuring that more resources are available for future use. By making a frugal budget and sticking to it, you can eliminate unnecessary expenses. Recycling paper, metal, plastic, and glass and reusing building materials and old clothing keep materials in the loop and out of landfills. Pooling skills and resources through barter networks not only saves money, but sharing with others establishes bonds and fosters a sense of community. With the glut of cheap goods that are usually designed for obsolescence, quality products that last are becoming progressively harder to find. In the long run, a more expensive but durable and repairable item or even an older used item that is still in good condition is a better investment than a brand new piece of junk that will only break down and end up in the trash. Thus, at the heart of voluntary simplicity is the conscious realization that less is really more. Less consumption means more resources for future generations. Less activity that brings little satisfaction or reward is more time for yourself and your loved ones. Less stuff is more space to move around in. Less stress means more relaxation and better health. Less worry provides more enjoyment and more fulfillment in life.`,
                 subQuestions: [
@@ -32,7 +30,6 @@ Three main schools of thought exist on freedom in education: complete freedom, c
             },
             {
                 id: 'pp-eng-precis-2023-q4',
-                questionNumber: 'Q. 4',
                 questionType: 'Correction',
                 questionText: 'Correct only FIVE of the following:',
                 subQuestions: [
@@ -49,7 +46,6 @@ Three main schools of thought exist on freedom in education: complete freedom, c
             },
             {
                 id: 'pp-eng-precis-2023-q5a',
-                questionNumber: 'Q. 5 (a)',
                 questionType: 'Punctuation',
                 questionText: 'Punctuate the following text, where necessary.',
                 subQuestions: [
@@ -63,7 +59,6 @@ Three main schools of thought exist on freedom in education: complete freedom, c
             },
             {
                 id: 'pp-eng-precis-2023-q5b',
-                questionNumber: 'Q. 5 (b)',
                 questionType: 'Correction',
                 questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate Prepositions.',
                  subQuestions: [
@@ -72,7 +67,7 @@ Three main schools of thought exist on freedom in education: complete freedom, c
                     { id: 'pp-eng-precis-2023-q5b-iii', questionText: 'The moon does not shine _______ its own light.', idealAnswer: 'The moon does not shine by its own light.' },
                     { id: 'pp-eng-precis-2023-q5b-iv', questionText: 'The burglar jumped ________ the compound wall.', idealAnswer: 'The burglar jumped over the compound wall.' },
                     { id: 'pp-eng-precis-2023-q5b-v', questionText: 'She entered ________ an agreement with them.', idealAnswer: 'She entered into an agreement with them.' },
-                    { id:'pp-eng-precis-2023-q5b-vi', questionText: 'I have been working hard ________ arithmetic.', idealAnswer: 'I have been working hard at arithmetic.' },
+                    { id: 'pp-eng-precis-2023-q5b-vi', questionText: 'I have been working hard ________ arithmetic.', idealAnswer: 'I have been working hard at arithmetic.' },
                     { id: 'pp-eng-precis-2023-q5b-vii', questionText: 'He got ________ his bicycle.', idealAnswer: 'He got on his bicycle.' },
                     { id: 'pp-eng-precis-2023-q5b-viii', questionText: 'It cannot be done ________ offence.', idealAnswer: 'It cannot be done without offence.' },
                 ],
@@ -80,7 +75,6 @@ Three main schools of thought exist on freedom in education: complete freedom, c
             },
             {
                 id: 'pp-eng-precis-2023-q6',
-                questionNumber: 'Q. 6',
                 questionType: 'Word Pairs',
                 questionText: 'Use only FIVE pairs of words in sentences clearly illustrating their meanings.',
                 subQuestions: [
@@ -97,7 +91,6 @@ Three main schools of thought exist on freedom in education: complete freedom, c
             },
             {
                 id: 'pp-eng-precis-2023-q7',
-                questionNumber: 'Q. 7',
                 questionType: 'Translation',
                 questionText: 'جنگل کے پار ایک پہاڑ ہے جہاں وه پھول اگتا ہے جس کی خوشبو سے آنکھوں کی کھوئی ہوئی روشنی لوٹ آتی ہے ،مگر پہاڑ بہت بلند ہے اور اس پر بے شمار چٹانیں ہیں ،کانٹے دار جھاڑیاں ہیں اور بڑے بڑے پتھر ہیں جو راستہ روک لیتے ہیں ۔ اِس پہاڑ پر جانے کے لیے کئی لوگ آئے اور چلےگئے مگر ایسا کو ئی شخص نہیں آیا جو پھول تک پہنچا ہو۔ شاید اسی لیے دُنیا میں دُکھ اور تکلیف ہے اور انسان روشنی کی تلاش میں ہے۔',
                 idealAnswer: 'Across the forest, there is a mountain where that flower grows whose fragrance brings back lost eyesight. But the mountain is very high, and on it are countless rocks, thorny bushes, and large stones that block the way. Many people came and went to go to this mountain, but no such person has come who reached the flower. Perhaps that is why there is sorrow and suffering in the world, and man is in search of light.'
@@ -111,7 +104,6 @@ Three main schools of thought exist on freedom in education: complete freedom, c
         questions: [
             {
                 id: 'pp-eng-precis-2022-q2',
-                questionNumber: 'Q. 2',
                 questionType: 'Precis',
                 questionText: `The fear of human beings when faced with the mysteries of life and their weakness by comparison with the vastness of nature created in them a need to communicate with the divine, with the superior powers which they believed regulated the universe and determined their own fates. Knowledge of wishes of the gods was always a sure guide for human behavior. In ancient Greece, the precise nature of these wishes was ‘decoded’ by the art of giving oracles, practiced by soothsayers who had the gift of understanding the signs or signals sent by the gods.
 The soothsayers uttered their oracles by interpreting flashes of lightening, rolls of thunder or the flights of certain birds of prey (omens); alternatively, they might observe the direction in which the fire burned when a sacrifice was made, examine the entrails of animals which had just been sacrificed, or base judgments on the sacrificial beast’s willingness to approach the altar. The interpretation of dreams was popular too, and so was palmistry. The most notable soothsayers of ancient Greece were Tiresias, Calchas, Helenus, Amphiaraus and Cassandra.
@@ -123,12 +115,11 @@ In ancient Greece, human fear and weakness before life's mysteries created a nee
             },
             {
                 id: 'pp-eng-precis-2022-q3',
-                questionNumber: 'Q. 3',
                 questionType: 'Comprehension',
                 questionText: `Civil society refers to all of the places where individuals gather together to have conversations, pursue common interests and, occasionally, try to influence public opinion or public policy. In many respects, civil society is where people spend their time when they are not at work or at home. For example, a group of people gather at a local park every Thursday afternoon for a game of football. Most of them arrive well before the game begins and stay for some time after it ends. Some of them go out for dinner or a drink after the game. In the course of their meetings they talk about a wide range of topics, including football but also extending to include issues such as work, family, relationships, community events, racial issues and politics. This kind of solidarity can be found in a variety of other places in civil society – such as sports clubs, bowling leagues, reading groups and social movements – where individuals get together to associate on the basis of some shared interest fostering more effective forms of citizenship. Even though people may come together on the basis of an interest they all share in common, they eventually have to develop productive strategies for dealing with conflicts and differences that emerge within the association. Team mates in a bowling league discover, on certain issues, significant differences of opinion. And yet, because they value the association and look forward to participating in its activities, they do not respond to these differences by exiting the scene. Instead, they search for the ways of interacting that will not threaten the solidarity of the group. In the process, they learn to appreciate and to tolerate social differences, a valuable skill to have in an increasingly multicultural nation. They also develop a general sense of social trust and mutual obligation, which makes society function more efficiently (this is what political scientists and sociologists are talking about when they refer to the importance of social capital). Gathering together in an association, people begin to think about their shared private interest as a collective public interest, and they try to make sure that this public interest is safe and secured. For example, the group that gets together for a weekly football game begins to talk about the park as an important community resource; if feel that the park is being mistreated or mismanaged, will organize a ‘save the park’ campaign to try to influence their local politicians and the other residents of the community. Recently, there has been growing concern that civil society is weaker than it used to be, because people are losing interest in joining associations. As citizens become increasingly disconnected from voluntary associations, they will experience less trust and less social connection, and as a result political institutions will function less efficiently. However, some scholars opine that many people are simply choosing to participate in different kinds of associations with fewer face-to-face meetings but supplemented with ‘virtual’ interactions facilitated by resources.`,
                 subQuestions: [
                     { id: 'pp-eng-precis-2022-q3-1', questionText: 'How does the author characterize the concept of civil society?', idealAnswer: 'The author characterizes civil society as the spaces where individuals gather outside of work and home to pursue common interests, have conversations, and sometimes try to influence public opinion or policy.' },
-                    { id: 'pp-eng-precis-2022-q3-2', questionText: 'Why does civil society strive towards better socialization driven by tolerance?', idealAnswer: 'Because members value their association, they learn to manage internal conflicts and differences without dissolving the group. This process teaches them to appreciate and tolerate social differences, which is a valuable skill for better socialization.' },
+                    { id: 'pp-eng-precis-2022-q3-2', questionText: 'Why does civil society strive towards better socialization driven by tolerance?', idealAnswer: 'Because members value their association, they learn to manage internal conflicts and differences without dissolving the group. This process teaches them to appreciate and to tolerate social differences, which is a valuable skill for better socialization.' },
                     { id: 'pp-eng-precis-2022-q3-3', questionText: 'What do you understand by the term ‘Social Capital’ used in this passage?', idealAnswer: 'Social capital refers to the sense of social trust and mutual obligation that develops within associations, which helps society function more efficiently.' },
                     { id: 'pp-eng-precis-2022-q3-4', questionText: 'Why does a civil society assume the role of a public stake holder?', idealAnswer: 'A civil society assumes this role when members begin to view their shared private interests as a collective public interest and organize to protect that interest, such as campaigning to save a local park.' },
                     { id: 'pp-eng-precis-2022-q3-5', questionText: 'What impact is feared by the weakening state of civil society?', idealAnswer: 'The feared impact is that as people become disconnected from voluntary associations, they will experience less trust and social connection, causing political institutions to function less efficiently.' },
@@ -137,7 +128,6 @@ In ancient Greece, human fear and weakness before life's mysteries created a nee
             },
             {
                 id: 'pp-eng-precis-2022-q4',
-                questionNumber: 'Q. 4',
                 questionType: 'Correction',
                 questionText: 'Correct only FIVE of the following:',
                 subQuestions: [
@@ -154,7 +144,6 @@ In ancient Greece, human fear and weakness before life's mysteries created a nee
             },
             {
                 id: 'pp-eng-precis-2022-q5a',
-                questionNumber: 'Q. 5 (a)',
                 questionType: 'Punctuation',
                 questionText: 'Punctuate the following text, where necessary.',
                 subQuestions: [
@@ -168,7 +157,6 @@ In ancient Greece, human fear and weakness before life's mysteries created a nee
             },
             {
                 id: 'pp-eng-precis-2022-q5b',
-                questionNumber: 'Q. 5 (b)',
                 questionType: 'Correction',
                 questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate Prepositions.',
                  subQuestions: [
@@ -185,7 +173,6 @@ In ancient Greece, human fear and weakness before life's mysteries created a nee
             },
             {
                 id: 'pp-eng-precis-2022-q6',
-                questionNumber: 'Q. 6',
                 questionType: 'Word Pairs',
                 questionText: 'Use only FIVE pairs of words in sentences clearly illustrating their meanings.',
                 subQuestions: [
@@ -202,7 +189,6 @@ In ancient Greece, human fear and weakness before life's mysteries created a nee
             },
             {
                 id: 'pp-eng-precis-2022-q7',
-                questionNumber: 'Q. 7',
                 questionType: 'Translation',
                 questionText: 'ہمارے پیارے نبی حضرت محمد صلی اللہ علیہ وسلم نے فرمایا ہے کہ جو شخص علم کی تلاش میں سفر کرتا ہے، اللہ تعالیٰ اس کے لیے جنت کا راستہ آسان کر دیتا ہے۔ فرشتے طالب علم کے کام سے خوش ہو کر اس کے لیے اپنے پر بچھا دیتے ہیں۔ طالب علم کے لیے زمین اور آسمان کی تمام چیزیں حتٰی کہ پانی میں مچھلیاں بھی دعا کرتی ہیں۔ عابد پر عالم کی فضیلت ایسی ہے جیسی چودھویں کے چاند کی تمام ستاروں پر۔ بے شک علماء ہی پیغمبروں کے وارث ہیں۔ پیغمبروں نے روپے پیسے کی میراث نہیں چھوڑی، بلکہ انہوں نے علم کی میراث چھوڑی ہے۔ پس جس نے علم حاصل کیا، اس نے بڑا حصہ پایا۔',
                 idealAnswer: 'Our beloved Prophet, Hazrat Muhammad (peace be upon him), has said that for whoever travels in search of knowledge, Allah makes the path to paradise easy for him. The angels, pleased with the work of the student, spread their wings for him. All things in the heavens and the earth, even the fish in the water, pray for the student. The superiority of a scholar over a worshipper is like that of the full moon over all the stars. Indeed, the scholars are the heirs of the prophets. The prophets did not leave an inheritance of money, but they left an inheritance of knowledge. Therefore, whoever acquires knowledge has gained a great share.'
@@ -216,7 +202,6 @@ In ancient Greece, human fear and weakness before life's mysteries created a nee
         questions: [
             {
                 id: 'pp-eng-precis-2021-q2',
-                questionNumber: 'Q. 2',
                 questionType: 'Precis',
                 questionText: `Nizar Hassan was born in 1960 and raised in the village of Mashhad, near Nazareth, where he has lived with his family. He studied anthropology at Haifa University and after graduating worked in TV. Starting in 1990, he turned to cinema. In 1994, he produced Independence, in which he pokes his Palestinian interlocutors about what they think of the bizarre Israeli notion of their “independence”. They have stolen another people’s homeland and call the act “independence”! Hassan dwells on that absurdity.
 As the world’s attention was captured by the news of Israel planning to “annex” yet a bit more of Palestine and add it to what they have already stolen, I received an email from Nizar Hassan, the pre-eminent Palestinian documentary filmmaker. He wrote to me about his latest film, My Grandfather’s Path, and included a link to the director’s cut. It was a blessing. They say choose your enemies carefully for you would end up like them. The same goes for those opposing Zionist settler colonialists. If you are too incensed and angered by their daily dose of claptrap, the vulgarity of their armed robbery of Palestine, you would soon become like them and forget yourself and what beautiful ideas, ideals, and aspirations once animated your highest dreams. Never fall into that trap. For decades, aspects of Palestinian and world cinema, art, poetry, fiction, and drama have done for me precisely that: saved me from that trap. They have constantly reminded me what all our politics are about – a moment of poetic salvation from it all.
@@ -225,7 +210,6 @@ Nizar Hassan’s new documentary is one such work – in a moment of dejection o
             },
             {
                 id: 'pp-eng-precis-2021-q3',
-                questionNumber: 'Q. 3',
                 questionType: 'Comprehension',
                 questionText: `In its response to 9/11, America has shown itself to be not only a hyperpower but increasingly assertive and ready to use its dominance as a hyperpower. After declaring a War on Terrorism, America has led two conventional wars, in Afghanistan and Iraq, demonstrating its overwhelmingly awesome military might. But these campaigns reveal something more: America’s willingness to have recourse to arms as appropriate and legitimate means to secure its interests and bolster its security. It has set forth a new doctrine: the right of pre-emptive strike when it considers its security, and therefore its national interests, to be at risk. The essence of this doctrine is the real meaning of hyperpower.
 Prime Minister Tony Blair has consistently argued that the only option in the face of hyperpower is to offer wise counsel. But increasingly this is a course that governments and people across the world have refused. The mobilisation for war against Iraq split the United Nations and provoked the largest anti-war demonstrations the world has ever seen. And through it all, America maintained its determination to wage war alone if necessary and not to be counselled by the concerns of supposedly allied governments when they faithfully represented the wishes of their electorates. Rather than engaging in debate, the American government expressed its exasperation. The influential new breed of neoconservative radio and television hosts went much further. They acted as ringmasters for outpourings of public scorn that saw French fries renamed ‘freedom fries’ and moves to boycott French and German produce across America. If one sound-bite can capture a mood, then perhaps it would be Fox News’ Bill O’Reilly. At the height of the tension over a second Security Council resolution to legitimate war in Iraq, Mr O’Reilly told his viewers that the bottom line was security, the security of his family, and in that matter ‘There’s no moral equivalence between the US and Belgium’. It is, in effect, the ethos of hyperpower articulated and made manifest in the public domain of 24-hour talk. And America’s willingness to prosecute war has raised innumerable questions about how it engages with other countries. Afghanistan has seen the removal of the Taliban. But there are no official statistics on the number of innocent civilians dead and injured to achieve that security objective. The people of Afghanistan have witnessed a descent into the chaos that preceded the arrival of the Taliban, a country administered not by a new era of democracy under the tutelage of the hyperpower, but merely by the return of the warlords. Beyond Kabul, much of the country remains too insecure for any meaningful efforts at reconstruction and there is enormous difficulty in bringing relief aid to the rural population.`,
@@ -240,7 +224,6 @@ Prime Minister Tony Blair has consistently argued that the only option in the fa
             },
             {
                 id: 'pp-eng-precis-2021-q4',
-                questionNumber: 'Q. 4',
                 questionType: 'Correction',
                 questionText: 'Correct only FIVE of the following:',
                 subQuestions: [
@@ -257,7 +240,6 @@ Prime Minister Tony Blair has consistently argued that the only option in the fa
             },
             {
                 id: 'pp-eng-precis-2021-q5a',
-                questionNumber: 'Q. 5 (a)',
                 questionType: 'Punctuation',
                 questionText: 'Punctuate the following text, where necessary.',
                 subQuestions: [
@@ -267,7 +249,6 @@ Prime Minister Tony Blair has consistently argued that the only option in the fa
             },
             {
                 id: 'pp-eng-precis-2021-q5b',
-                questionNumber: 'Q. 5 (b)',
                 questionType: 'Correction',
                 questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate Prepositions.',
                  subQuestions: [
@@ -284,7 +265,6 @@ Prime Minister Tony Blair has consistently argued that the only option in the fa
             },
             {
                 id: 'pp-eng-precis-2021-q6',
-                questionNumber: 'Q. 6',
                 questionType: 'Word Pairs',
                 questionText: 'Use only FIVE of the pairs of words in sentences clearly illustrating their meanings.',
                 subQuestions: [
@@ -301,7 +281,6 @@ Prime Minister Tony Blair has consistently argued that the only option in the fa
             },
             {
                 id: 'pp-eng-precis-2021-q7',
-                questionNumber: 'Q. 7',
                 questionType: 'Translation',
                 questionText: 'رانہ طرز استعماریت پسند انگر یزی اقدار کےسا منے خوش آمدانہ اور فر ما نبردا عمل کے بر خال ف ، جسے برطا نوی حکمرانوں نے فر و غ دیا تھااور جسے اہل ہند نے اُس دور میں اختیار کر رکھا تھا ۔ سید احمد خاں اور اُن کے اعلی مر تبت اور روشن دما غ فر زند سید محمو د دونو ں نے ایسا رویہ اختیار کر نے کی کو شش کی گویا وہ انگر یزو ں کے مساوی اور ہم مر تبہ ہوں ۔ سن ١٨٦٧ ء کے آگر ہ دربا ر کا واقعہ نہ صر ف مسلما نو ں کو بلکہ پور ی ہندوستا نی قو م کو بخو بی معلو م تھا ۔ سید احمد خاں نے اس در با ر سے اس لیے علیحد گی اختیار کی تھی کہ وہا ں ہندوستانیو ں کو انگر یزو ں کے مقا بلے میں کم تر در جے کی نشست فرا ہم کی گئی تھی ۔ اس دربا ر میں سید احمد خاں کو ایک تمغہ عطا کیا جا نے واال تھا ۔ بعد میں میرٹھ کے کمشنر ویلیمس کو یہ خد مت تقویض کی گئی کہ وہ علی گڑھ ریلو ے اسٹیشن جا کر سید احمد خا ں کو تمغہ پیش کر یں۔',
                 idealAnswer: 'Contrary to the sycophantic and obedient attitude towards pro-imperialist English values, which the British rulers had promoted and which the people of India had adopted during that period, both Sir Syed Ahmed Khan and his high-ranking and enlightened son, Syed Mahmud, tried to adopt an attitude as if they were equal and of the same status as the English. The incident of the Agra Durbar of 1867 was well-known not only to the Muslims but to the entire Indian nation. Sir Syed Ahmed Khan had withdrawn from this Durbar because Indians were provided with seats of a lower status compared to the English. In this Durbar, Sir Syed Ahmed Khan was to be awarded a medal. Later, the Commissioner of Meerut, Williams, was assigned the duty to go to the Aligarh railway station and present the medal to Sir Syed Ahmed Khan.'
@@ -315,7 +294,6 @@ Prime Minister Tony Blair has consistently argued that the only option in the fa
         questions: [
             {
                 id: 'pp-eng-precis-2020-q2',
-                questionNumber: 'Q. 2',
                 questionType: 'Precis',
                 questionText: `Manto was a victim of some kind of social ambivalence that converged on self-righteousness, hypocrisy, and mental obtuseness. His detractors branded him as vulgar and obscene and implicated him into a long-dawn legal battle questioning the moral validity of his writings. Without being deterred by their negative tactics, he remained firm in his commitment to exploring the stark realities of life offensive to the conservative taste of some self-styled purists. In the line of Freud, he sought to unravel the mysteries of sex not in an abstract, non-earthly manner but in a palpable, fleshy permutation signifying his deep concern for the socially disabled and depressed classes of society, like petty wage-earners, pimps, and prostitutes.
 For Manto, man is neither an angel nor a devil, but a mix of both. His middle and lower middle class characters think, feel and act like human beings. Without feigning virtuosity, he was able to strike a rapport with his readers on some of the most vital socio-moral issues concerning them. As a realist, he was fully conscious of the yawning gap between appearance and reality; in fact, nothing vexed him more than a demonstrable duality in human behaviour at different levels of the social hierarchy. He had an unjaundiced view of man’s faults and follies. As a literary artist, he treated vulgarity discreetly --- without ever sounding vulgar in the process. Like Joyce, Lawrence, and Caldwell, in Manto’s work too, men and women of the age find their own restlessness accurately mirrored. And like them, Manto was also ‘raised above his own self by his sombre enthusiasm’.`,
@@ -323,7 +301,6 @@ For Manto, man is neither an angel nor a devil, but a mix of both. His middle an
             },
             {
                 id: 'pp-eng-precis-2020-q3',
-                questionNumber: 'Q. 3',
                 questionType: 'Comprehension',
                 questionText: `Globalization is viewed by its proponents as a process of cementing economic, cultural and political bonds between peoples of different countries of the world. One may regard it as a process by which they are welded into a single world society, to be termed as global society. It means internationalization of production and labour leading to integration of economies of developing and developed countries into global economy. To quote Rosaberth M.Kanter, “The world is becoming a global shopping mall in which ideas and products are available everywhere at the same time.”
 Globalization is a natural outcome of computer networking and electronic mass communication. Information technology has made it possible for nations of the world to contact one another beyond their national borders. Besides, globalization is also promoted through the growth and proliferation of multinational companies and corporations that operate as transporter networks. Anyhow the flow of capital technology and labour across the borders of countries has accentuated the process of globalization.
@@ -339,7 +316,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2020-q4',
-                questionNumber: 'Q. 4',
                 questionType: 'Correction',
                 questionText: 'Correct only FIVE of the following:',
                 subQuestions: [
@@ -356,7 +332,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2020-q5a',
-                questionNumber: 'Q. 5 (a)',
                 questionType: 'Punctuation',
                 questionText: 'Punctuate the following text, where necessary.',
                 subQuestions: [
@@ -366,7 +341,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2020-q5b',
-                questionNumber: 'Q. 5 (b)',
                 questionType: 'Correction',
                 questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate prepositions.',
                 subQuestions: [
@@ -383,24 +357,22 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2020-q6',
-                questionNumber: 'Q. 6',
                 questionType: 'Idioms',
                 questionText: 'Use ONLY FIVE of the following in sentences which illustrate their meanings.',
                 subQuestions: [
                     { id: 'pp-eng-precis-2020-q6-i', questionText: 'To break the ice', idealAnswer: 'He told a joke to break the ice at the start of the formal meeting.' },
                     { id: 'pp-eng-precis-2020-q6-ii', questionText: 'Nip in the bud', idealAnswer: 'It\'s important to nip bad habits in the bud before they become serious problems.' },
                     { id: 'pp-eng-precis-2020-q6-iii', questionText: 'See eye to eye with', idealAnswer: 'Although they were partners, they rarely saw eye to eye on business strategy.' },
-                    { id: 'pp-eng-precis-2020-q6-iv', questionText: 'For good', idealAnswer: 'After the final argument, she decided to leave the city for good.' },
-                    { id: 'pp-eng-precis-2020-q6-v', questionText: 'Tamper with', idealAnswer: 'It is a serious crime to tamper with evidence at a crime scene.' },
-                    { id: 'pp-eng-precis-2020-q6-vi', questionText: 'The small hours', idealAnswer: 'The students were studying into the small hours of the morning for their final exam.' },
-                    { id: 'pp-eng-precis-2020-q6-vii', questionText: 'Keep up appearances', idealAnswer: 'Despite their financial troubles, the family tried to keep up appearances by driving an expensive car.' },
-                    { id: 'pp-eng-precis-2020-q6-viii', questionText: 'Prima facie', idealAnswer: 'There was prima facie evidence that he was guilty, but further investigation was needed.' },
+                    { id: 'pp-eng-precis-2020-q6-v', questionText: 'For good', idealAnswer: 'After the final argument, she decided to leave the city for good.' },
+                    { id: 'pp-eng-precis-2020-q6-vi', questionText: 'Tamper with', idealAnswer: 'It is a serious crime to tamper with evidence at a crime scene.' },
+                    { id: 'pp-eng-precis-2020-q6-vii', questionText: 'The small hours', idealAnswer: 'The students were studying into the small hours of the morning for their final exam.' },
+                    { id: 'pp-eng-precis-2020-q6-viii', questionText: 'Keep up appearances', idealAnswer: 'Despite their financial troubles, the family tried to keep up appearances by driving an expensive car.' },
+                    { id: 'pp-eng-precis-2020-q6-ix', questionText: 'Prima facie', idealAnswer: 'There was prima facie evidence that he was guilty, but further investigation was needed.' },
                 ],
                 idealAnswer: ''
             },
             {
                 id: 'pp-eng-precis-2020-q7',
-                questionNumber: 'Q. 7',
                 questionType: 'Translation',
                 questionText: 'د نیا کی تمام بڑی زبانوں کی طرح اُردو بھی ایک مخلوط زبان ہے، جو مختلف زبانوں کے الفاظ سے مل کر بنی ہے۔ اور جب کوئی قوم دوسری قوم کے ساتھ سیاسی، سماجی یا کاروباری تعلقات قائم کرتی ہے تو وہ اس کی زبان کے کچھ الفاظ بھی اختیار کر لیتی ہے۔ اُردو زبان کی ابتدا اُس وقت ہوئی جب مسلمان اِس ملک میں آئے۔ مسلمانوں کی زبان عربی، ترکی اور فارسی تھی۔ وقت گزرنے کے ساتھ ساتھ مقامی زبانوں کے میل جول سے ایک نئی زبان نے جنم لیا جس کا نام اُردو رکھا گیا۔',
                 idealAnswer: 'Like all major languages of the world, Urdu is also a mixed language, which is formed by the combination of words from different languages. And when one nation establishes political, social, or business relations with another nation, it also adopts some words from its language. The Urdu language began when the Muslims came to this country. The language of the Muslims was Arabic, Turkish, and Persian. With the passage of time, through interaction with local languages, a new language was born which was named Urdu.'
@@ -414,14 +386,12 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
         questions: [
             {
                 id: 'pp-eng-precis-2019-q2',
-                questionNumber: 'Q. 2',
                 questionType: 'Precis',
                 questionText: 'I think modern educational theorists are inclined to attach too much importance to the negative virtue of not interfering with children, and too little to the positive merit of enjoying their company. If you have the sort of liking for children that many people have for horses or dogs, they will be apt to respond to your suggestions, and to accept prohibitions, perhaps with some good-humoured grumbling, but without resentment. It is no use to have the sort of liking that consists in regarding them as a field for valuable social endeavour, or what amounts to the same thing as an outlet for power-impulses. No child will be grateful for an interest in him that springs from the thought that he will have a vote to be secured for your party or a body to be sacrificed to king and country. The desirable sort of interest is that which consists in spontaneous pleasure in the presence of children, without any ulterior purpose. Teachers who have this quality will seldom need to interfere with children\'s freedom, but will be able to do so, when necessary, without causing psychological damage.\nUnfortunately, it is utterly impossible for over-worked teachers to preserve an instinctive liking for children; they are bound to come to feel towards them as the proverbial confectioner\'s apprentice does towards macaroons. I do not think that education ought to be anyone\'s whole profession: it should be undertaken for at most two hours a day by people whose remaining hours are spent away from children. The society of the young is fatiguing, especially when strict discipline is avoided. Fatigue, in the end, produces irritation, which is likely to express itself somehow, whatever theories the harassed teacher may have taught himself or herself to believe. The necessary friendliness cannot be preserved by self-control alone. But where it exists, it should be unnecessary to have rules in advance as to how "naughty" children are to be treated, since impulse is likely to lead to the right decision, and almost any decision will be right if the child feels that you like him. No rules, however wise, are a substitute for affection and tact.',
                 idealAnswer: `**Title: The Importance of Genuine Affection in Education**\n\nThe author argues that effective education hinges on a genuine, spontaneous enjoyment of children's company, not on viewing them as objects for social engineering or power. When this natural affection exists, children respond positively to guidance without resentment. However, the author contends that overworked, full-time teachers inevitably lose this instinctive liking due to fatigue, which breeds irritation. He suggests that teaching should be a part-time activity, as friendliness cannot be maintained by self-control alone. Ultimately, the author concludes that affection and tact are superior to any rigid rules, as a child who feels liked is more receptive to any decision made by the teacher.`
             },
             {
                 id: 'pp-eng-precis-2019-q3',
-                questionNumber: 'Q. 3',
                 questionType: 'Comprehension',
                 questionText: 'When I returned to the common the sun was setting. The crowd about the pit had increased, and stood out black against the lemon yellow of the sky-a couple of hundred people, perhaps. There were raised voices, and some sort of struggle appeared to be going on about the pit. Strange imaginings passed through my mind. As I drew nearer I heard Stent\'s voice: "Keep back! Keep back!" A boy came running towards me. "It\'s movin\'," he said to me as he passed; "it’s screwin\' and screwin\' out. I don\'t like it. I\'m goin\' home, I am." I went on to the crowd. There were really, I should think, two or three hundred people elbowing and jostling one another, the one or two ladies there being by no means the least active. "He\'s fallen in the pit!" cried someone. "Keep back!" said several. The crowd swayed a little, and I elbowed my way through. Everyone seemed greatly excited. I heard a peculiar humming sound from the pit. "I say!" said Ogilvy. "Help keep these idiots back. We don\'t know what\'s in the confounded thing, you know!" I saw a young man, a shop assistant in Woking I believe he was, standing on the cylinder and trying to scramble out of the hole again. The crowd had pushed him in. The end of the cylinder was being screwed out from within. Nearly two feet of shining screw projected. Somebody blundered against me, and I narrowly missed being pitched onto the top of the screw. I turned, and as I did so the screw must have come out, for the lid of the cylinder fell upon the gravel with a ringing concussion. I stuck my elbow into the person behind me, and turned my head towards the Thing again. For a moment that circular cavity seemed perfectly black. I had the sunset in my eyes. I think everyone expected to see a man emerge-possibly something a little unlike us terrestrial men, but in all essentials a man. I know I did. But, looking, I presently saw something stirring within the shadow: greyish billowy movements, one above another, and then two luminous disks-like eyes. Then something resembling a little grey snake, about the thickness of a walking stick, coiled up out of the writhing middle, and wriggled in the air towards me-and then another. A sudden chill came over me. There was a loud shriek from a woman behind. I half turned, keeping my eyes fixed upon the cylinder still, from which other tentacles were now projecting, and began pushing my way back from the edge of the pit. I saw astonishment giving place to horror on the faces of the people about me. I heard inarticulate exclamations on all sides. There was a general movement backwards. I saw the shopman struggling still on the edge of the pit. I found myself alone, and saw the people on the other side of the pit running off, Stent among them. I looked again at the cylinder and ungovernable terror gripped me. I stood petrified and staring. A big greyish rounded bulk, the size, perhaps, of a bear, was rising slowly and painfully out of the cylinder. As it bulged up and caught the light, it glistened like wet leather. Two large dark-coloured eyes were regarding me steadfastly. The mass that framed them, the head of the thing, was rounded, and had, one might say, a face. There was a mouth under the eyes, the lipless brim of which quivered and panted, and dropped saliva. The whole creature heaved and pulsated convulsively. A lank tentacular appendage gripped the edge of the cylinder, another swayed in the air. Those who have never seen a living Martian can scarcely imagine the strange horror of its appearance. The peculiar V-shaped mouth with its pointed upper lip, the absence of brow ridges, the absence of a chin beneath the wedge like lower lip, the incessant quivering of this mouth, the Gorgon groups of tentacles, the tumultuous breathing of the lungs in a strange atmosphere, the evident heaviness and painfulness of movement due to the greater gravitational energy of the earthabove all, the extraordinary intensity of the immense eyes-were at once vital, intense, inhuman, crippled and monstrous. There was something fungoid in the oily brown skin, something in the clumsy deliberation of the tedious movements unspeakably nasty. Even at this first encounter, this first glimpse, I was overcome with disgust and dread.',
                 subQuestions: [
@@ -435,7 +405,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2019-q4',
-                questionNumber: 'Q. 4',
                 questionType: 'Correction',
                 questionText: 'Correct only FIVE of the following:',
                 subQuestions: [
@@ -452,7 +421,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2019-q5a',
-                questionNumber: 'Q. 5 (a)',
                 questionType: 'Punctuation',
                 questionText: 'Punctuate the following text, where necessary.',
                 subQuestions: [
@@ -462,7 +430,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2019-q5b',
-                questionNumber: 'Q. 5 (b)',
                 questionType: 'Correction',
                 questionText: 'Re-write the following sentences (ONLY FIVE) after filling in the blanks with appropriate prepositions.',
                 subQuestions: [
@@ -479,7 +446,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2019-q6',
-                questionNumber: 'Q. 6',
                 questionType: 'Idioms',
                 questionText: 'Use ONLY FIVE of the following in sentences which illustrate their meanings.',
                 subQuestions: [
@@ -496,7 +462,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2019-q7',
-                questionNumber: 'Q. 7',
                 questionType: 'Translation',
                 questionText: 'یہ حقیقت ہے کہ انسان، حیوان اور نباتات ایک دوسرے کے محتاج ہیں۔ سب ایک دوسرے کی بقا کے لیے ناگزیر ہیں۔ ہوا، زمین، چاند، سورج، ستارے اور دیگر اجرام فلکی ایک نظام کے تحت ایک دوسرے کی معاونت کرتے ہیں۔ اس کائنات میں کوئی بھی چیز نہ تو غیر ضروری ہے اور نہ ہی بے مقصد۔ انسان اور حیوان روز اول سے ہی ایک دوسرے کے کام آرہے ہیں۔ انسان ان سے اپنی خوراک، حفاظت اور دیگر ضروریات زندگی پوری کرتا آرہا ہے۔ اس کے علاوہ انسان نے اپنی تفریح طبع کے لیے ان سے اپنی دلچسپی کے وابستہ مشاغل بھی اپنا رکھے ہیں۔ جانوروں اور پرندوں کی لڑائی، دوڑ اور دیگر مقابلے بھی انسان کی دلچسپی کا محور رہے ہیں۔ انسان اور حیوان کی لازم و ملزوم رفاقت اپنی جگہ لیکن انسان اپنی فطری ضرورتوں کے تحت دیگر ذرائع سے بھی اپنی تفریح طبع کا اہتمام کرتا رہا ہے۔',
                 idealAnswer: 'It is a fact that humans, animals, and plants are dependent on each other. All are indispensable for each other\'s survival. The air, earth, moon, sun, stars, and other celestial bodies assist each other under one system. In this universe, nothing is either unnecessary or purposeless. Man and animal have been useful to each other since the very first day. Man has been fulfilling his food, safety, and other life necessities from them. Besides this, for his recreation, man has also adopted hobbies associated with his interest in them. The fights, races, and other competitions of animals and birds have also been the focus of human interest. The inseparable companionship of man and animal is one thing, but man, according to his natural needs, has also been arranging for his recreation through other means.'
@@ -510,14 +475,12 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
         questions: [
             {
                 id: 'pp-eng-precis-2018-q2',
-                questionNumber: 'Q. 2',
                 questionType: 'Precis',
                 questionText: 'It is in the temperate countries of northern Europe that the beneficial effects of cold are most manifest. A cold climate seems to stimulate energy by acting as an obstacle. In the face of an insuperable obstacle our energies are numbed by despair; the total absence of obstacles, on the other hand leaves no room for the exercise and training of energy; but a struggle against difficulties that we have a fair hope of over-coming, calls into active operation all our powers. In like manner, while intense cold numbs human energies, and a hot climate affords little motive for exertion, moderate cold seems to have a bracing effect on the human race. In a moderately cold climate man is engaged in an arduous, but no hopeless struggles and with the inclemency of the weather. He has to build strong houses and procure thick clothes to keep himself warm. To supply fuel for his fires, he must hew down trees and dig coal out of the earth. In the open air, unless he moves quickly, he will suffer pain from the biting wind. Finally, in order to replenish the expenditure of bodily tissue caused by his necessary exertions, he has to procure for himself plenty of nourishing food.\nQuite different is the lot of man in the tropics. In the neighbourhood of the equator there is little need of clothes or fire, and it is possible with perfect comfort and no danger to health, to pass the livelong day stretched out on the bare ground beneath the shade of a tree. A very little fruit or vegetable food is required to sustain life under such circumstances, and that little can be obtained without much exertion from the bounteous earth.\nWe may recognize must the same difference between ourselves at different seasons of the year, as there is between human nature in the tropics and in temperate climes. In hot weather we are generally languid and inclined to take life easily; but when the cold season comes, we find that we are more inclined to vigorous exertion of our minds and bodies.',
                 idealAnswer: `**Title: The Bracing Effect of a Cold Climate**\n\nA moderately cold climate acts as a beneficial obstacle that stimulates human energy and powers. Unlike intense cold which numbs, or a hot climate which discourages effort, a temperate climate necessitates a challenging but manageable struggle against the elements for survival. This struggle involves building strong homes, procuring warm clothing, and securing fuel and nourishing food, all of which demand vigorous exertion. In contrast, life in the tropics requires minimal effort for survival. This difference is also reflected in our own behavior, as we tend to be more energetic and active during colder seasons compared to the languor of hot weather.`
             },
             {
                 id: 'pp-eng-precis-2018-q3',
-                questionNumber: 'Q. 3',
                 questionType: 'Comprehension',
                 questionText: 'The third great defect of our civilization is that it does not know what to do with its knowledge. Science has given us powers fit for the gods, yet we use them like small children. For example, we do not know how to manage our machines. Machines were made to be man’s servants; yet he has grown so dependent on them that they are in a fair way to become his master. Already most men spend most of their lives looking after and waiting upon machines. And the machines are very stern masters. They must be fed with coal, and given petrol to drink, and oil to wash with, and they must be kept at the right temperature. And if they do not get their meals when they expect them, they grow sulky and refuse to work, or burst with rage, and blow up, and spread ruin and destruction all around them. So we have to wait upon them very attentively and do all that we can to keep them in a good temper. Already we find it difficult either to work or play without the machines, and a time may come when they will rule us altogether, just as we rule the animals.\nAnd this brings me to the point at which I asked, “What do we do with all the time which the machines have saved for us, and the new energy they have given us?” On the whole, it must be admitted, we do very little. For the most part we use our time and energy to make more and better machines; but more and better machines will only give us still more time and still more energy, and what are we to do with them? The answer, I think, is that we should try to become mere civilized. For the machines themselves, and the power which the machines have given us, are not civilization but aids to civilization. But you will remember that we agreed at the beginning that being civilized meant making and linking beautiful things. Thinking freely, and living rightly and maintaining justice equally between man and man. Man has a better chance today to do these things than he ever had before; he has more time, more energy, less to fear and less to fight against. If he will give his time and energy which his machines have won for him to making more beautiful things, to finding out more and more about the universe, to removing the causes of quarrels between nations, to discovering how to prevent poverty, then I think our civilization would undoubtedly be the greater, as it would be the most lasing that there has ever been.',
                 subQuestions: [
@@ -531,7 +494,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2018-q4a',
-                questionNumber: 'Q. 4 (a)',
                 questionType: 'Correction',
                 questionText: 'Correct only FIVE of the following:',
                 subQuestions: [
@@ -548,7 +510,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2018-q4b',
-                questionNumber: 'Q. 4 (b)',
                 questionType: 'Punctuation',
                 questionText: 'Use punctuation marks where needed in the following sentences:',
                  subQuestions: [
@@ -562,7 +523,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2018-q5a',
-                questionNumber: 'Q. 5 (a)',
                 questionType: 'MCQ',
                 questionText: 'Fill the following blanks (any FIVE) appropriate preposition.',
                 options: [
@@ -577,14 +537,12 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2018-q5b',
-                questionNumber: 'Q. 5 (b)',
                 questionType: 'Dialogue',
                 questionText: 'Rewrite the following dialogue, written in direct speech, in a paragraph form.\n\nJack: Hello, Swarup! Swatting away as usual. Come out, man; shut up your old books, and come and\nhave a game of tennis.\nSwarup: I am sorry I cannot do that, Jack. The examination is drawing near, and I want every hour I can get\nfor study.\nJack: Oh! Hang all examinations! I do not worry about mine. What is the use of them, any way?\nSwarup: Well, you can’t get a degree if you don’t pass the examination; and I have set my heart on being a\ngraduate.\nJack: And pray what good will graduation do you? You may get a clerkship in a government office; but\nthat’s all, and there are hundreds of fellows who have got their degrees, and are no nearer getting\njobs of any sort.\nSwarup: That may be so; but I am not studying so much to pass my examination and obtain my degree, as to\nstore my mind with knowledge and develop my intellectual faculties.',
                 idealAnswer: `Jack greeted Swarup, who was studying as usual, and urged him to close his books and come out for a game of tennis. Swarup apologized, explaining that he couldn't because his examination was approaching and he needed every hour for study. Jack dismissed examinations, saying he didn't worry about his and questioned their use. Swarup replied that one cannot get a degree without passing, and he had set his heart on graduating. Jack questioned the value of a degree, suggesting it might only lead to a clerkship and that many graduates were jobless. Swarup conceded that might be true, but stated that his primary goal for studying was not just to pass and get a degree, but to gain knowledge and develop his intellect.`
             },
             {
                 id: 'pp-eng-precis-2018-q6a',
-                questionNumber: 'Q. 6 (a)',
                 questionType: 'Word Pairs',
                 questionText: 'Explain the difference between the following word pairs (Any FIVE) by using each word in your own sentences:',
                 subQuestions: [
@@ -601,7 +559,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2018-q6b',
-                questionNumber: 'Q. 6 (b)',
                 questionType: 'Idioms',
                 questionText: 'Use ONLY FIVE of the following in sentences which illustrate their meaning:',
                 subQuestions: [
@@ -618,7 +575,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2018-q7',
-                questionNumber: 'Q. 7',
                 questionType: 'Translation',
                 questionText: 'لاہور شہر سیاست ہی نہیں ثقافت کا بھی قدیم مرکز ہے۔ مغلوں کی ثقافت نے عروج کا زمانہ اس شہر میں دیکھا۔ سکھ ثقافت کا بھی یہی مرکز تھا۔ علم و ادب کی ثقافت بھی اسی شہر کے حصہ میں آئی۔ اہل تصوف کا بھی یہی مرکز تھا۔ تصوف کی مشہور کتاب کشف المجوب کے مصنف حضرت علی ہجویری المشہور حضرت داتا گنج بخش بھی اسی شہر میں مدفون ہیں۔ انگریزوں کے دور میں بھی لاہور کا فیشن پورے ہندوستان میں رائج ہوتا تھا۔ قیام پاکستان کے بعد بھی اس شہر کی اہمیت کم نہیں ہوئی۔',
                 idealAnswer: 'The city of Lahore is an ancient center not only of politics but also of culture. The culture of the Mughals saw its golden age in this city. It was also the center of Sikh culture. The culture of knowledge and literature also fell to this city\'s share. It was also the center for the people of Sufism. The author of the famous book of Sufism, "Kashf al-Mahjub," Hazrat Ali Hujwiri, famously known as Hazrat Data Ganj Bakhsh, is also buried in this city. Even during the British era, Lahore\'s fashion was prevalent throughout India. Even after the establishment of Pakistan, the importance of this city has not diminished.'
@@ -632,14 +588,12 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
         questions: [
             {
                 id: 'pp-eng-precis-2017-q2',
-                questionNumber: 'Q. 2',
                 questionType: 'Precis',
                 questionText: 'All the evils in this world are brought about by the persons who are always up and doing, but do not know when they ought to be up nor what they ought to be doing. The devil, I take it, is still the busiest creature in the universe, and I can quite imagine him denouncing laziness and becoming angry at the smallest waste of time. In his kingdom, I will wager, nobody is allowed to do nothing, not even for a single afternoon. The world, we all freely admit, is in a muddle but I for one do not think that it is laziness that has brought it to such a pass. It is not the active virtues that it lacks but the passive ones; it is capable of anything but kindness and a little steady thought. There is still plenty of energy in the world (there never were more fussy people about), but most of it is simply misdirected. If, for example, in July 1914, when there was some capital idling weather, everybody, emperors, Kings, arch dukes, statesmen, generals, journalists, had been suddenly smitten with an intense desire to do nothing, just to hang about in the sunshine and consume tobacco, then we should all have been much better off than we are now. But no, the doctrine of the strenuous life still went unchallenged; there must be no time wasted; something must be done. Again, suppose our statesmen, instead of rushing off to Versailles with a bundle of ill-digested notions and great deal of energy to dissipate had all taken a fortnight off, away from all correspondence and interviews and what not, and had simply lounged about on some hillside or other apparently doing nothing for the first time in their energetic lives, then they might have gone to their so-called peace conference and come away again with their reputations still unsoiled and the affairs of the world in good trim. Even at the present time, if half of the politicians in Europe would relinquish the notion that laziness is crime and go away and do nothing for a little space, we should certainly gain by it. Other examples come crowding into mind. Thus, every now and then, certain religious sects hold conferences; but though there are evils abroad that are mountains high, though the fate of civilization is still doubtful, the members who attend these conferences spend their time condemning the length of ladies’ skirts and the noisiness of dance bands. They would all be better employed lying flat on their backs somewhere, staring at the sky and recovering their mental health.',
                 idealAnswer: `**Title: In Praise of Idleness**\n\nThe author argues that the world's problems are caused not by laziness, but by misdirected and restless energy. He posits that evil thrives on ceaseless activity without thoughtful consideration. If world leaders and influential figures had chosen idleness over action at critical moments, such as before World War I or the Versailles conference, the world would be in a better state. The author believes the world lacks passive virtues like kindness and steady thought, not active ones. He concludes that many influential people, from politicians to religious leaders, would serve humanity better by taking time for quiet reflection to regain mental clarity, rather than engaging in misguided, fussy activities.`
             },
             {
                 id: 'pp-eng-precis-2017-q3',
-                questionNumber: 'Q. 3',
                 questionType: 'Comprehension',
                 questionText: 'Education ought to teach us how to be in love and what to be in love with. The great things of history have been done by the great lovers, by the saints and men of science, and artists, and the problem of civilization is to give every man a chance of being a saint, a man of science, or an artist. But this problem cannot be attempted, much less solved, unless men desire to be saints, men of science, and artists. And if they are to desire that continuously and consciously they must be taught what it means to be these. We think of the man of science or the artist, if not of the saint, as a being with peculiar gifts, not as one who exercises, more precisely and incessantly perhaps, activities which we all ought to exercise. It is a commonplace now that art has ebbed away out of our ordinary life, out of all the things which we use, and that it is practiced no longer by workmen but only by a few painters and sculptors. That has happened because we no longer recognize the aesthetic activity of the spirit, so common to all men. We do not know that when a man makes anything he ought to make it beautiful for the sake of doing so, and that when a man buys anything he ought to demand beauty in it, for the sake of beauty. We think of beauty if we think of it at all as a mere source of pleasure, and therefore it means to us ornament, added to things for which we can pay extra as we choose. But beauty is not an ornament to life, or to the things made by man. It is an essential part of both. The aesthetic activity, when it reveals itself in things made by men, reveals itself in design, just as it reveals itself in the design of all natural things. It shapes objects as the moral activity shapes actions, and we ought to recognize it in the objects and value it, as we recognize and value moral activity in actions. And as actions empty of the moral activity are distasteful to us, so should objects be that are empty of the aesthetic activity. But this is not so with most of us. We do not value it; do not even recognize it, or the lack of it, in the work of others. The artist, of whatever kind, is a man so much aware of the beauty of the universe that he must impart the same beauty to whatever he makes. He has exercised his aesthetic activity in the discovery of the beauty in the universe before he exercises it in imparting beauty to that which he makes. He has seen things in that relation in his own work, whatever it may be. And just as he sees that relation for its own sake, so he produces it for its own sake and satisfies the desire of his spirit in doing so. And we should value his work; we should desire that relation in all things made by man, if we too have the habit of seeing that relation in the universe, and if we knew that, when we see it, we are exercising an activity of the spirit and satisfying a spiritual desire. And we should also know that work without beauty means unsatisfied spiritual desire in the worker; that it is waste of life and common evil and danger, like thought without truth, or action without righteousness.',
                 subQuestions: [
@@ -653,7 +607,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2017-q4a',
-                questionNumber: 'Q. 4 (a)',
                 questionType: 'Correction',
                 questionText: 'Correct only FIVE of the following:',
                 subQuestions: [
@@ -670,7 +623,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2017-q4b',
-                questionNumber: 'Q. 4 (b)',
                 questionType: 'Correction',
                 questionText: 'Re-write the following sentences (Only FIVE) after filling in the blanks appropriately:',
                  subQuestions: [
@@ -687,7 +639,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2017-q5a',
-                questionNumber: 'Q. 5 (a)',
                 questionType: 'Analogy',
                 questionText: 'Choose the ANALOGY of words written in capital letters. Attempt any FIVE.',
                 options: [
@@ -704,14 +655,12 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2017-q5b',
-                questionNumber: 'Q. 5 (b)',
                 questionType: 'Punctuation',
                 questionText: 'Punctuate the following text, where necessary.\n\na quaker was one day walking on country road he was suddenly met by a highwayman pointing a pistol the man exclaimed your money or your life my friend said the quaker I cannot deliver my money for i should be helping thee in evildoing however exchange is lawful and i will give thee my purse for the pistol the robber agree on receiving the purse the quaker at once held the pistol at the robbers head and said now friend my purse back or the weapon may go off fire said the robber there is no powder in the pistol',
                 idealAnswer: 'A Quaker was one day walking on a country road. He was suddenly met by a highwayman. Pointing a pistol, the man exclaimed, "Your money or your life!" "My friend," said the Quaker, "I cannot deliver my money, for I should be helping thee in evildoing. However, exchange is lawful, and I will give thee my purse for the pistol." The robber agreed. On receiving the purse, the Quaker at once held the pistol at the robber\'s head and said, "Now, friend, my purse back, or the weapon may go off." "Fire!" said the robber, "There is no powder in the pistol."'
             },
             {
                 id: 'pp-eng-precis-2017-q6a',
-                questionNumber: 'Q. 6 (a)',
                 questionType: 'Word Pairs',
                 questionText: 'Explain the difference between the following word pairs (Any FIVE) by using each word in your own sentences:',
                 subQuestions: [
@@ -728,7 +677,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2017-q6b',
-                questionNumber: 'Q. 6 (b)',
                 questionType: 'Idioms',
                 questionText: 'Use ONLY FIVE of the following in sentences which illustrate their meaning:',
                 subQuestions: [
@@ -745,7 +693,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2017-q7',
-                questionNumber: 'Q. 7',
                 questionType: 'Translation',
                 questionText: 'اپنے پوشیدہ عیبوں کو معلوم کرنے کے لیے یہ دیکھنا ضروری ہے کہ ہمارے دشمن ہم کو کیا کہتے ہیں۔ ہمارے دوست اکثر ہمارے دل کے موافق ہماری تعریف کرتے ہیں۔ اول ہمارے عیب ان کو عیب ہی نہیں لگتے یا پھر ہماری خاطر کو ایسا عزیز رکھتے ہیں کہ اِس کو رنجیدہ نہ کرنے کے خیال سے اِن کو چھپاتے ہیں۔ یا پھر اِن سے چشم پوشی کرتے ہیں۔ بر خالف اِس کے ہمارا دشمن ہم کو خوب ٹٹولتا ہے اور کونے کونے سے ڈھونڈ کر ہمارے عیب نکالتا ہے، گووہ دشمنی سے چھوٹی بات کو بڑا بنا دیتا ہے۔ مگر اِس میں کچھ نہ کچھ اصلیت ہوتی ہے۔دوست ہمیشہ اپنے دوست کی نیکیوں کو بڑھاتا ہے اور دشمن عیبوں کو۔ اِس لیے ہمیں اپنے دشمن کا زیادہ اِحسان مند ہونا چاہیے کہ وہ ہمیں ہمارے عیبوں سے مطلع کرتا ہے۔ اِس تناظر میں دیکھا جائے تو دشمن دوست سے بہتر ثابت ہوتا ہے۔',
                 idealAnswer: 'To discover our hidden flaws, it is essential to see what our enemies say about us. Our friends often praise us according to our heart\'s desire. Firstly, our faults do not seem like faults to them, or they hold our feelings so dear that they hide them with the thought of not offending us, or they simply turn a blind eye to them. In contrast to this, our enemy scrutinizes us thoroughly and seeks out our flaws from every nook and cranny. Although, out of enmity, they may exaggerate a small matter, there is still some truth in it. A friend always exaggerates their friend\'s virtues, while an enemy exaggerates their flaws. Therefore, we should be more grateful to our enemy for informing us of our faults. Seen in this context, an enemy proves to be better than a friend.'
@@ -759,14 +706,12 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
         questions: [
             {
                 id: 'pp-eng-precis-2016-q2',
-                questionNumber: 'Q. 2',
                 questionType: 'Precis',
                 questionText: `During my vacation last May, I had a hard time choosing a tour. Flights to Japan, Hong Kong and Australia are just too common. What I wanted was somewhere exciting and exotic, a place where I could be spared from the holiday tour crowds. I was so happy when John called up, suggesting a trip to Cherokee, a county in the state of Oklahoma. I agreed and went off with the preparation immediately.\nWe took a flight to Cherokee and visited a town called Qualla Boundary surrounded by magnificent mountain scenery, the town painted a paradise before us. With its Oconaluftee Indian Village reproducing tribal crafts and lifestyles of the 18th century and the outdoor historical pageant Unto These Hills playing six times weekly in the summer nights, Qualla Boundary tries to present a brief image of the Cherokee past to the tourists.\nDespite the language barrier, we managed to find our way to the souvenir shops with the help of the natives. The shops were filled with rubber tomahawks and colorful traditional war bonnets, made of dyed turkey feathers. Tepees, coneshaped tents made from animal skin, were also pitched near the shops. "Welcome! Want to get anything?" We looked up and saw a middle-aged man smiling at us. We were very surprised by his fluent English. He introduced himself as George and we ended up chatting till lunch time when he invited us for lunch at a nearby coffee shop.\n"Sometimes, I've to work from morning to sunset during the tour season. Anyway, this is still better off than being a woodcutter ..." Remembrance weighed heavy on George's mind and he went on to tell us that he used to cut firewood for a living but could hardly make ends meet. We learnt from him that the Cherokees do not depend solely on trade for survival. During the tour off-peak period, the tribe would have to try out other means for income. One of the successful ways is the "Bingo Weekend". On the Friday afternoons of the Bingo weekends, a large bingo hall was opened, attracting huge crowds of people to the various kinds of games like the Super Jackpot and the Warrior Game Special. According to George, these forms of entertainment fetch them great returns.\nOur final stop in Qualla Boundary was at the museum where arts, ranging from the simple hand-woven oak baskets to wood and stone carvings of wolves, ravens and other symbols of Cherokee cosmology are displayed.\nBack at home, I really missed the place and I would of course look forward to the next trip to another exotic place.`,
                 idealAnswer: `**Title: A Glimpse into Cherokee Life**\n\nSeeking an unconventional vacation, the author visited the Cherokee town of Qualla Boundary in Oklahoma. The town offers tourists a recreation of 18th-century tribal life through its Indian Village and historical pageants. While exploring souvenir shops filled with traditional crafts, the author met George, a local who spoke fluent English. George explained that tourism is a seasonal industry, and during the off-peak season, the tribe generates income through other means, such as popular "Bingo Weekends." The author also visited a museum displaying Cherokee arts and crafts, from simple baskets to symbolic carvings. The trip left a lasting impression, fueling a desire for more exotic travel.`
             },
             {
                 id: 'pp-eng-precis-2016-q3',
-                questionNumber: 'Q. 3',
                 questionType: 'Comprehension',
                 questionText: 'Read the following passage carefully and answer the questions that follow:\n\nThe New Year is the time for resolution. Mentally, at least most of us could compile formidable lists of ‘do’s and ‘don’ts’. The same old favorites recur year in and year out with the children, do a thousand and one job about the house, be nice to people we don’t like, drive carefully, and take the dog for a walk every day. Past experience has taught us that certain accomplishments are beyond attainment. If we remain deep rooted liars, it is only because we have so often experienced the frustration that results from failure.\nMost of us fail in our efforts at self-improvement because our schemes are too ambitious and we never have time to carry them out. We also make the fundamental error of announcing our resolution to everybody so that we look even more foolish when we slip back into our bad old ways. Aware of these pitfalls, this year I attempted to keep my resolution to myself. I limited myself to two modest ambitions, to do physical exercise every morning and to read more in the evening. An overnight party on New Year’s Eve provided me with a good excuse for not carrying out either of these new resolutions on the first day of the year, but on the second, I applied myself assiduously to the task.\nThe daily exercise lasted only eleven minutes and I proposed to do them early in the morning before anyone had got up. The self-discipline required to drag myself out of bed eleven minutes earlier than usual was considerable. Nevertheless, I managed to creep down into the living room for two days before anyone found me out. After jumping about in the carpet and twisted the human frame into uncomfortable positions. I sat down at the breakfast table in an exhausted condition. It was this that betrayed me. The next morning the whole family trooped into watch the performance. That was really unsettling but I fended off the taunts and jibes of the family good humoredly and soon everybody got used to the idea. However, my enthusiasm waned, the time I spent at exercises gradually diminished. Little by little the eleven minutes fell to zero. By January10th I was back to where I had started from. I argued that if I spent less time exhausting myself at exercises in the morning. I would keep my mind fresh for reading when I got home from work. Resisting the hypnotizing effect of television, I sat in my room for a few evenings with my eyes glued to a book. One night, however, feeling cold and lonely, I went downstairs and sat in front of the television pretending to read. That proved to be my undoing, for I soon got back to the old bad habit of dozing off in front of the screen. I still haven’t given up my resolution to do more reading. In fact, I have just bought a book entitled ‘How to Read a Thousand Words a Minute’. Perhaps it will solve my problem, but I just have not had time to read it.',
                 subQuestions: [
@@ -795,7 +740,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2016-q4a',
-                questionNumber: 'Q. 4 (a)',
                 questionType: 'Correction',
                 questionText: 'Correct only FIVE of the following:',
                 subQuestions: [
@@ -812,7 +756,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2016-q4b',
-                questionNumber: 'Q. 4 (b)',
                 questionType: 'Punctuation',
                 questionText: 'Choose the punctuation mark that is needed in each of the following sentences:',
                  subQuestions: [
@@ -826,7 +769,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2016-q5a',
-                questionNumber: 'Q. 5 (a)',
                 questionType: 'Analogy',
                 questionText: 'Choose the analogy of the words written in capital letters (Any five).',
                 options: [
@@ -843,14 +785,12 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2016-q5b',
-                questionNumber: 'Q. 5 (b)',
                 questionType: 'Dialogue',
                 questionText: 'Rewrite the following dialogue, written in indirect speech, in a paragraph form.\n\nHelen: Mr West, what\'s happened to John?\nMr West: He\'s left the company\nHelen: Why has he done that?\nMr West: He asked me for a rise but I didn\'t give it to him.\nHelen: Why didn\'t you give him a rise?\nMr West: Because he was lazy.\nHelen: Has he found another job?\nMr West: Yes, he is working in a film company.\nHelen: What is his salary like?\nMr West: I think he earns quite a lot.\nHelen: Does he like the new job?\nMr West: I don\'t know.',
                 idealAnswer: `Helen asked Mr West what had happened to John. Mr West replied that he had left the company. Helen then inquired why he had done that. Mr West explained that John had asked for a raise, but he hadn't given it to him because he was lazy. When Helen asked if he had found another job, Mr West confirmed that he was now working in a film company. Helen then asked about his salary, and Mr West said he thought he earned quite a lot. Finally, Helen asked if he liked the new job, to which Mr West replied that he didn't know.`
             },
             {
                 id: 'pp-eng-precis-2016-q6a',
-                questionNumber: 'Q. 6 (a)',
                 questionType: 'Word Pairs',
                 questionText: 'Explain the difference between the following word pairs by using each word in your own sentences (Any five):',
                  subQuestions: [
@@ -867,7 +807,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2016-q6b',
-                questionNumber: 'Q. 6 (b)',
                 questionType: 'Idioms',
                 questionText: 'Use any FIVE of the following in sentences which illustrate their meaning:',
                 subQuestions: [
@@ -884,7 +823,6 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
             },
             {
                 id: 'pp-eng-precis-2016-q7',
-                questionNumber: 'Q. 7',
                 questionType: 'Translation',
                 questionText: 'عام لوگوں کا خیال ہے کہ ملک کے قانون اور فرد کی آزادی ایک دوسرے کی ضد ہوتے ہیں۔ بظاہر یہ بات غلط معلوم نہیں ہوتی۔ ہر قانون شہریوں پر کوئی نہ کوئی پابندی عائد کرتا ہے۔ اگر ملک میں قوانین کی تعداد زیادہ ہو تو مجموعی پابندیاں بھی زیادہ ہوتی ہیں۔ زیادہ پابندیوں سے فرد کی آزادی ا ن کے بوجھ تلے دب کررہ جاتی ہے۔ ا س کے برعکس قوانین کی تعداد کم ہو تو شہریوں کی آزادی کا دائرہ وسیع ہوتا ہے۔',
                 idealAnswer: 'The common person thinks that the law of the land and individual liberty are antithetical to each other. On the face of it, this does not seem incorrect. Every law imposes some restriction on the citizens. If the number of laws in a country is large, the collective restrictions are also numerous. With more restrictions, an individual\'s freedom gets crushed under their weight. Conversely, if the number of laws is small, the sphere of citizens\' freedom is broadened.'
@@ -892,5 +830,3 @@ Deregulation, liberalism and privatization being assiduously pursued in the deve
         ]
     }
 ];
-
-    

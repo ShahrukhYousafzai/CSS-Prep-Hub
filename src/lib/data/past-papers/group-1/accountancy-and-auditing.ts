@@ -233,7 +233,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-aa-2017-2-q5a',
             questionType: 'Other',
-            questionText: 'Define the concept of sales tax &amp; describe the sales tax act of 1990. Identify the official positions of Inland revenue officers and their powers.',
+            questionText: 'Define the concept of sales tax & describe the sales tax act of 1990. Identify the official positions of Inland revenue officers and their powers.',
             idealAnswer: 'Sales tax is an indirect tax on the supply of goods and services. The Sales Tax Act, 1990 is the primary legislation governing it in Pakistan. Inland Revenue officers have powers to register taxpayers, conduct audits, assess tax liability, and enforce the collection of tax.'
         },
         {
@@ -288,13 +288,13 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-aa-2018-1-q2',
             questionType: 'Other',
-            questionText: 'Following is the summary of closing balances (unadjusted trial balance) of Muddasar Co... Based upon above information, prepare Adjusting Entries, Adjusted Trail Balance and Income Statement &amp; Balance Sheet.',
+            questionText: 'Following is the summary of closing balances (unadjusted trial balance) of Muddasar Co... Based upon above information, prepare Adjusting Entries, Adjusted Trail Balance and Income Statement & Balance Sheet.',
             idealAnswer: 'This comprehensive problem requires preparing adjusting entries for closing inventory, supplies used, expired rent and insurance, outstanding salaries, and depreciation. These adjustments are then used to create an adjusted trial balance. Finally, an income statement and balance sheet are prepared from the adjusted trial balance figures.'
         },
         {
             id: 'pp-aa-2018-1-q3',
             questionType: 'Other',
-            questionText: 'The Income Statement of the Abdul Rehman &amp; Co for the year on December 31... Required: Horizontal Analysis and Vertical Analysis for the above given financial statements.',
+            questionText: 'The Income Statement of the Abdul Rehman & Co for the year on December 31... Required: Horizontal Analysis and Vertical Analysis for the above given financial statements.',
             idealAnswer: 'Horizontal analysis compares financial data across different periods (e.g., year-over-year percentage change). Vertical analysis (common-size analysis) expresses each line item as a percentage of a base figure (e.g., sales for the income statement, total assets for the balance sheet) for a single period. These analyses help in identifying trends and the relative importance of different accounts.'
         },
         {
@@ -312,7 +312,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-aa-2018-1-q5',
             questionType: 'Other',
-            questionText: 'Proprietor (Owner) of ABC Industries has limited knowledge of Cost &amp; Managerial Accounting who prepared an incorrect Income Statement... Prepare cost of goods manufactured and cost of goods sold statement, prepare revised income statement, and explain the difference.',
+            questionText: 'Proprietor (Owner) of ABC Industries has limited knowledge of Cost & Managerial Accounting who prepared an incorrect Income Statement... Prepare cost of goods manufactured and cost of goods sold statement, prepare revised income statement, and explain the difference.',
             idealAnswer: 'This involves reclassifying costs correctly between manufacturing costs (direct material, direct labor, factory overhead) and selling/administrative expenses. A Cost of Goods Manufactured statement needs to be prepared to calculate the cost of goods sold. The revised income statement will use the correct cost of goods sold figure and properly classify expenses, leading to a different, more accurate net profit.'
         },
         {
@@ -336,13 +336,13 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-aa-2018-1-q8a',
             questionType: 'Other',
-            questionText: 'Ayesha &amp; Co. Prepared following estimates for the year 2017... Calculate Total Factory overhead variance, Capacity variance, and Budget variance.',
+            questionText: 'Ayesha & Co. Prepared following estimates for the year 2017... Calculate Total Factory overhead variance, Capacity variance, and Budget variance.',
             idealAnswer: 'Total FOH variance = Actual FOH - Applied FOH. Capacity variance measures the effect of operating at a different capacity level than budgeted. Budget variance (or spending variance) measures the difference between actual overhead costs and the budgeted costs for the actual level of activity.'
         },
         {
             id: 'pp-aa-2018-1-q8b',
             questionType: 'Other',
-            questionText: 'Calculate the total fixed cost of the shipping department of Areeba &amp; Co. based upon the following information for the year 2016.',
+            questionText: 'Calculate the total fixed cost of the shipping department of Areeba & Co. based upon the following information for the year 2016.',
             idealAnswer: 'Fixed costs are those that do not vary with the level of activity. Here, the fixed costs are: 75% of salaries (0.75 * 800,000 = 600,000) and the annual lease for the warehouse (250,000). Packaging and postage are variable. Total fixed cost = 600,000 + 250,000 = Rs. 850,000.'
         },
         {
@@ -451,7 +451,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-aa-2019-1-q5',
             questionType: 'Other',
-            questionText: 'The AB &amp; Co produces a chemical which requires processing in three departments... Prepare cost of production report of Department III by Weighted Average.',
+            questionText: 'The AB & Co produces a chemical which requires processing in three departments... Prepare cost of production report of Department III by Weighted Average.',
             idealAnswer: 'This process costing problem requires preparing a cost of production report for Department III using the weighted average method. This involves calculating equivalent units, cost per equivalent unit for previous department costs, materials, and conversion costs, and then assigning these costs to units transferred out and ending work-in-process.'
         },
         {
@@ -475,14 +475,14 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-aa-2019-1-q8',
             questionType: 'Other',
-            questionText: 'The following information is gathered from the labor records of Binamul &amp; Co... Calculate the labor variances.',
+            questionText: 'The following information is gathered from the labor records of Binamul & Co... Calculate the labor variances.',
             idealAnswer: 'This requires calculating the labor rate variance and the labor efficiency variance. Labor Rate Variance = (Actual Rate - Standard Rate) * Actual Hours. Labor Efficiency Variance = (Actual Hours - Standard Hours Allowed) * Standard Rate. The standard hours allowed for the output is 4,500 units * 2 hours/unit = 9,000 hours.'
         },
         {
             id: 'pp-aa-2019-2-q2',
             questionType: 'Other',
-            questionText: 'Explain shortly all audit assertions related to class of transactions (revenue and expenses), account balances (assets/liabilities/equities), and presentation &amp; disclosure.',
-            idealAnswer: 'Assertions for transactions: Occurrence, Completeness, Accuracy, Cutoff, Classification. Assertions for account balances: Existence, Rights &amp; Obligations, Completeness, Valuation &amp; Allocation. Assertions for presentation: Occurrence, Completeness, Classification &amp; Understandability, Accuracy &amp; Valuation.'
+            questionText: 'Explain shortly all audit assertions related to class of transactions (revenue and expenses), account balances (assets/liabilities/equities), and presentation & disclosure.',
+            idealAnswer: 'Assertions for transactions: Occurrence, Completeness, Accuracy, Cutoff, Classification. Assertions for account balances: Existence, Rights & Obligations, Completeness, Valuation & Allocation. Assertions for presentation: Occurrence, Completeness, Classification & Understandability, Accuracy & Valuation.'
         },
         {
             id: 'pp-aa-2019-2-q3',
@@ -638,7 +638,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-aa-2020-2-q3',
             questionType: 'Other',
-            questionText: 'Define audit and auditing. Comment on the auditor’s consideration of “reasonable assurance” and “True &amp; Fair view” for the financial audit of a corporate entity.',
+            questionText: 'Define audit and auditing. Comment on the auditor’s consideration of “reasonable assurance” and “True & Fair view” for the financial audit of a corporate entity.',
             idealAnswer: 'Auditing is the systematic examination of financial records to provide an opinion. Auditors provide "reasonable assurance," not absolute assurance, that the financial statements are free from material misstatement. A "true and fair view" means the financial statements are factually accurate and present an unbiased picture of the company\'s financial position and performance.'
         },
         {
@@ -935,7 +935,7 @@ export const pastPapers: PastPaper[] = [
         {
             id: 'pp-aa-2023-1-q7',
             questionType: 'Other',
-            questionText: 'The Balance Sheet of Fazal Din &amp; Co. as on 31st December 2021 was as follows... Prepare an Income statement for 2022 and a balance Sheet as on 31st December 2022.',
+            questionText: 'The Balance Sheet of Fazal Din & Co. as on 31st December 2021 was as follows... Prepare an Income statement for 2022 and a balance Sheet as on 31st December 2022.',
             idealAnswer: 'This is a comprehensive problem requiring the reconstruction of the income statement and balance sheet from transactional data and changes in balances. It involves tracking the flow of costs through inventory accounts, calculating net income, and then preparing the final balance sheet ensuring it balances.'
         },
         {
