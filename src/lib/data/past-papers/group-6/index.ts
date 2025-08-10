@@ -17,3 +17,5 @@ export const pastPapers: PastPaper[] = [
     ...criminologyPapers,
     ...philosophyPapers,
 ];
+
+  
