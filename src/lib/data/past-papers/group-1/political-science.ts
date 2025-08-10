@@ -29,30 +29,16 @@ export const pastPapers: PastPaper[] = [
         idealAnswer: 'Al-Mawardi\'s theory of Imamate (or Caliphate) is a classical Islamic political theory. He outlined the necessity of the Imamate for the implementation of Sharia and the administration of the state. He detailed the qualifications for the Caliph, his duties (defending the faith, managing state affairs, ensuring justice), and the methods of his appointment, providing a legal and constitutional framework for Islamic governance.'
       },
       {
-        id: 'pp-polsci-2016-1-q5a',
-        questionNumber: 'Q. No. 5 (a)',
+        id: 'pp-polsci-2016-1-q5',
         questionType: 'Other',
-        questionText: 'End of History',
-        idealAnswer: 'The "End of History" is a concept proposed by Francis Fukuyama, arguing that with the ascendancy of Western liberal democracy after the Cold War, humanity has reached the endpoint of its ideological evolution and the final form of human government. It does not mean an end to events, but an end to the debate over the best possible system of governance.'
-      },
-      {
-        id: 'pp-polsci-2016-1-q5b',
-        questionNumber: 'Q. No. 5 (b)',
-        questionType: 'Other',
-        questionText: 'Totalitarianism',
-        idealAnswer: 'Totalitarianism is a form of government where the state holds total authority over society and seeks to control all aspects of public and private life wherever possible. It is characterized by a single-party state, extensive propaganda, a secret police, and the complete suppression of opposition.'
-      },
-      {
-        id: 'pp-polsci-2016-1-q5c',
-        questionNumber: 'Q. No. 5 (c)',
-        questionType: 'Other',
-        questionText: 'Women Empowerment',
-        idealAnswer: 'Women\'s empowerment refers to the process of increasing the personal, social, economic, and political power of women. It involves promoting women\'s sense of self-worth, their ability to make their own choices, and their right to influence social change for themselves and others.'
+        questionNumber: 'Q. No. 5',
+        questionText: 'Write short notes on any TWO of the following:\n(a) End of History\n(b) Totalitarianism\n(c) Women Empowerment',
+        idealAnswer: '(a) End of History: The "End of History" is a concept proposed by Francis Fukuyama, arguing that with the ascendancy of Western liberal democracy after the Cold War, humanity has reached the endpoint of its ideological evolution and the final form of human government. It does not mean an end to events, but an end to the debate over the best possible system of governance.\n(b) Totalitarianism: Totalitarianism is a form of government where the state holds total authority over society and seeks to control all aspects of public and private life wherever possible. It is characterized by a single-party state, extensive propaganda, a secret police, and the complete suppression of opposition.\n(c) Women Empowerment: Women\'s empowerment refers to the process of increasing the personal, social, economic, and political power of women. It involves promoting women\'s sense of self-worth, their ability to make their own choices, and their right to influence social change for themselves and others.'
       },
       {
         id: 'pp-polsci-2016-1-q6',
-        questionNumber: 'Q. No. 6',
         questionType: 'Other',
+        questionNumber: 'Q. No. 6',
         questionText: '“Democratic Political System can not function successfully without organized Political Parties.” Discuss.',
         idealAnswer: 'The statement is largely true. Political parties are essential for democracy as they perform key functions: they aggregate and articulate public interests, provide a clear choice for voters in elections, recruit and train political leaders, form governments, and provide organized opposition, all of which are crucial for a functioning democratic system.'
       },
@@ -64,18 +50,11 @@ export const pastPapers: PastPaper[] = [
         idealAnswer: 'A confederation is a loose association of independent states that delegate some powers to a central government, but the member states retain their sovereignty. A federation is a system where power is divided between a central government and regional governments (states/provinces), with both levels having direct authority over citizens. The key difference is that in a federation, the central government has significant powers and sovereignty is shared, while in a confederation, the states are supreme.'
       },
       {
-        id: 'pp-polsci-2016-1-q8a',
-        questionNumber: 'Q. No. 8 (a)',
+        id: 'pp-polsci-2016-1-q8',
         questionType: 'Other',
-        questionText: 'Civil society',
-        idealAnswer: 'Civil society refers to the "third sector" of society, distinct from government and business. It comprises non-governmental organizations (NGOs), community groups, unions, and other voluntary associations that advance common interests and can act as a check on government power.'
-      },
-      {
-        id: 'pp-polsci-2016-1-q8b',
-        questionNumber: 'Q. No. 8 (b)',
-        questionType: 'Other',
-        questionText: 'Public opinion',
-        idealAnswer: 'Public opinion is the collective attitude or belief of the population on a specific issue or problem. It is a key element of a democratic system, as governments are expected to be responsive to it. It is shaped by factors like media, political parties, and personal experience.'
+        questionNumber: 'Q. No. 8',
+        questionText: 'Write short notes on the following:\n(a) Civil society\n(b) Public opinion',
+        idealAnswer: '(a) Civil society: Civil society refers to the "third sector" of society, distinct from government and business. It comprises non-governmental organizations (NGOs), community groups, unions, and other voluntary associations that advance common interests and can act as a check on government power.\n(b) Public opinion: Public opinion is the collective attitude or belief of the population on a specific issue or problem. It is a key element of a democratic system, as governments are expected to be responsive to it. It is shaped by factors like media, political parties, and personal experience.'
       }
     ]
   },
@@ -127,18 +106,11 @@ export const pastPapers: PastPaper[] = [
         idealAnswer: 'The 18th Amendment had major implications. Politically, it strengthened parliamentary democracy by removing the President\'s power to dissolve assemblies and strengthened provincial autonomy. Administratively, it devolved significant powers and responsibilities (e.g., in health and education) from the federal government to the provinces, requiring a major restructuring of administrative capacity at the provincial level.'
       },
       {
-        id: 'pp-polsci-2016-2-q8a',
-        questionNumber: 'Q. No. 8 (a)',
+        id: 'pp-polsci-2016-2-q8',
         questionType: 'Other',
-        questionText: 'European Union',
-        idealAnswer: 'The European Union (EU) is a unique political and economic union of 27 member states located primarily in Europe. It is characterized by a single market with free movement of goods, services, capital, and people, a common currency (the Euro) for most members, and a shared set of political institutions.'
-      },
-      {
-        id: 'pp-polsci-2016-2-q8b',
-        questionNumber: 'Q. No. 8 (b)',
-        questionType: 'Other',
-        questionText: 'South Asian Association for Regional Cooperation',
-        idealAnswer: 'SAARC is a regional intergovernmental organization of states in South Asia. Its objectives are to promote economic and regional integration. However, its progress has been severely hampered by political disputes and mistrust between its two largest members, India and Pakistan.'
+        questionNumber: 'Q. No. 8',
+        questionText: 'Write detailed notes on the following:\n(a) European Union\n(b) South Asian Association for Regional Cooperation',
+        idealAnswer: '(a) European Union: The European Union (EU) is a unique political and economic union of 27 member states located primarily in Europe. It is characterized by a single market with free movement of goods, services, capital, and people, a common currency (the Euro) for most members, and a shared set of political institutions.\n(b) South Asian Association for Regional Cooperation: SAARC is a regional intergovernmental organization of states in South Asia. Its objectives are to promote economic and regional integration. However, its progress has been severely hampered by political disputes and mistrust between its two largest members, India and Pakistan.'
       }
     ]
   },
@@ -246,18 +218,11 @@ export const pastPapers: PastPaper[] = [
         idealAnswer: 'A critical analysis would argue that while political parties and interest groups are essential for democracy, in Pakistan their weakness, internal factionalism, and focus on short-term gains have often failed to establish a stable system. At the same time, their actions, combined with external pressures, have also contributed to the demolishing of democratic systems, creating a cycle of instability.'
       },
       {
-        id: 'pp-polsci-2017-2-q8a',
-        questionNumber: 'Q. No. 8 (a)',
+        id: 'pp-polsci-2017-2-q8',
         questionType: 'Other',
-        questionText: 'Foreign policy making process in Pakistan.',
-        idealAnswer: 'The foreign policy making process in Pakistan is complex, with formal roles for the Ministry of Foreign Affairs and the Prime Minister. However, the military establishment has historically played a dominant role, particularly in shaping policy towards India, Afghanistan, and the US, reflecting the country\'s unique civil-military dynamic.'
-      },
-      {
-        id: 'pp-polsci-2017-2-q8b',
-        questionNumber: 'Q. No. 8 (b)',
-        questionType: 'Other',
-        questionText: 'Global Civil Society',
-        idealAnswer: 'Global civil society refers to the vast network of non-governmental organizations, advocacy groups, and social movements that operate across borders to address global issues like human rights, environmental protection, and development. It acts as a check on the power of states and international corporations.'
+        questionNumber: 'Q. No. 8',
+        questionText: 'Write comprehensive notes on the following:\n(a). Foreign policy making process in Pakistan.\n(b). Global Civil Society',
+        idealAnswer: '(a). Foreign policy making process in Pakistan: The foreign policy making process in Pakistan is complex, with formal roles for the Ministry of Foreign Affairs and the Prime Minister. However, the military establishment has historically played a dominant role, particularly in shaping policy towards India, Afghanistan, and the US, reflecting the country\'s unique civil-military dynamic.\n(b). Global Civil Society: Global civil society refers to the vast network of non-governmental organizations, advocacy groups, and social movements that operate across borders to address global issues like human rights, environmental protection, and development. It acts as a check on the power of states and international corporations.'
       }
     ]
   },
@@ -309,25 +274,11 @@ export const pastPapers: PastPaper[] = [
         idealAnswer: 'An independent judiciary is significant because it upholds the rule of law, protects fundamental rights, and acts as a check on the power of the executive and legislative branches. Without it, a system of checks and balances cannot be effectively established, as there would be no impartial arbiter to prevent the other branches from overstepping their constitutional limits, leading to tyranny or abuse of power.'
       },
       {
-        id: 'pp-polsci-2018-1-q8a',
-        questionNumber: 'Q. No. 8 (a)',
+        id: 'pp-polsci-2018-1-q8',
         questionType: 'Other',
-        questionText: 'Role of middle class in strengthening the democracy.',
-        idealAnswer: 'A strong and educated middle class is often seen as a prerequisite for a stable democracy. They have a vested interest in the rule of law and political stability, they form the backbone of civil society, and they provide a moderating influence in politics, balancing the interests of the elite and the masses.'
-      },
-      {
-        id: 'pp-polsci-2018-1-q8b',
-        questionNumber: 'Q. No. 8 (b)',
-        questionType: 'Other',
-        questionText: 'Violation of parliamentary values and traditions in Pakistan',
-        idealAnswer: 'Violations in Pakistan include a lack of decorum and debate, frequent walkouts, passing legislation without proper discussion, low attendance of members, and a general culture of confrontation rather than consensus-building, all of which weaken the institution of parliament.'
-      },
-      {
-        id: 'pp-polsci-2018-1-q8c',
-        questionNumber: 'Q. No. 8 (c)',
-        questionType: 'Other',
-        questionText: 'Significance of religious harmony in a state.',
-        idealAnswer: 'Religious harmony is significant for national cohesion, social peace, and political stability, especially in a multi-religious state. Its absence can lead to sectarian violence, discrimination, and social strife, which undermines the state and hinders development.'
+        questionNumber: 'Q. No. 8',
+        questionText: 'Write short notes on any TWO of the following:\n(a) Role of middle class in strengthening the democracy.\n(b) Violation of parliamentary values and traditions in Pakistan\n(c) Significance of religious harmony in a state.',
+        idealAnswer: '(a) Role of middle class in strengthening the democracy: A strong and educated middle class is often seen as a prerequisite for a stable democracy. They have a vested interest in the rule of law and political stability, they form the backbone of civil society, and they provide a moderating influence in politics, balancing the interests of the elite and the masses.\n(b) Violation of parliamentary values and traditions in Pakistan: Violations in Pakistan include a lack of decorum and debate, frequent walkouts, passing legislation without proper discussion, low attendance of members, and a general culture of confrontation rather than consensus-building, all of which weaken the institution of parliament.\n(c) Significance of religious harmony in a state: Religious harmony is significant for national cohesion, social peace, and political stability, especially in a multi-religious state. Its absence can lead to sectarian violence, discrimination, and social strife, which undermines the state and hinders development.'
       }
     ]
   },
@@ -379,18 +330,11 @@ export const pastPapers: PastPaper[] = [
         idealAnswer: 'Pakistan\'s national interest lies in leveraging its geostrategic position for economic opportunity rather than conflict. Its location at the crossroads of South Asia, Central Asia, and the Middle East makes it a potential hub for trade and energy corridors (like CPEC). Pursuing this economic interest is key to achieving internal and regional peace and security.'
       },
       {
-        id: 'pp-polsci-2018-2-q8a',
-        questionNumber: 'Q. No. 8 (a)',
+        id: 'pp-polsci-2018-2-q8',
         questionType: 'Other',
-        questionText: 'Guardian Council of Iran.',
-        idealAnswer: 'The Guardian Council is a powerful 12-member body in Iran\'s political system. It is composed of six theologians appointed by the Supreme Leader and six jurists nominated by the judiciary. Its main functions are to vet all legislation to ensure it complies with Islam and the constitution, and to supervise elections, including vetting candidates.'
-      },
-      {
-        id: 'pp-polsci-2018-2-q8b',
-        questionNumber: 'Q. No. 8 (b)',
-        questionType: 'Other',
-        questionText: 'ECO',
-        idealAnswer: 'The Economic Cooperation Organization (ECO) is an Asian political and economic intergovernmental organization founded by Iran, Pakistan, and Turkey. It aims to promote economic, technical, and cultural cooperation among its member states, which now include several Central Asian countries.'
+        questionNumber: 'Q. No. 8',
+        questionText: 'Write comprehensive note on the following:\n(a) Guardian Council of Iran.\n(b) ECO',
+        idealAnswer: '(a) Guardian Council of Iran: The Guardian Council is a powerful 12-member body in Iran\'s political system. It is composed of six theologians appointed by the Supreme Leader and six jurists nominated by the judiciary. Its main functions are to vet all legislation to ensure it complies with Islam and the constitution, and to supervise elections, including vetting candidates.\n(b) ECO: The Economic Cooperation Organization (ECO) is an Asian political and economic intergovernmental organization founded by Iran, Pakistan, and Turkey. It aims to promote economic, technical, and cultural cooperation among its member states, which now include several Central Asian countries.'
       }
     ]
   },
@@ -495,7 +439,7 @@ export const pastPapers: PastPaper[] = [
         questionType: 'Other',
         questionNumber: 'Q. No. 7',
         questionText: 'What are the major obstacles to the process of national integration in contemporary Pakistan? Suggest remedies for success of the process.',
-        idealAnswer: 'Obstacles include ethnic and linguistic divisions, economic disparities between provinces, a weak sense of national identity beyond religion, and the presence of extremist ideologies. Remedies include strengthening federalism, ensuring equitable resource distribution, promoting inter-provincial harmony, and fostering an inclusive national narrative.'
+        idealAnswer: 'Obstacles include ethnic and linguistic divisions, economic disparities between provinces, a weak sense of national identity beyond religion, and the presence of extremist ideologies. Remedies include strengthening federalism, equitable resource distribution, and promoting an inclusive national narrative.'
       },
       {
         id: 'pp-polsci-2019-2-q8',
@@ -554,18 +498,11 @@ export const pastPapers: PastPaper[] = [
         idealAnswer: 'In a unitary government, all power is concentrated in the central government, which may delegate power to local units. In a federal government, power is constitutionally divided between a central government and regional governments (provinces/states), with both levels having sovereignty in their respective spheres.'
       },
       {
-        id: 'pp-polsci-2020-1-q8a',
-        questionNumber: 'Q. No. 8 (a)',
+        id: 'pp-polsci-2020-1-q8',
         questionType: 'Other',
-        questionText: 'Ibn-e-Khaldun’s concept of Asbiyah',
-        idealAnswer: 'Asbiyyah refers to social solidarity, group cohesion, or a sense of shared purpose. Ibn Khaldun saw it as the primary force in history, enabling groups to achieve political power and build civilizations. He theorized that dynasties rise and fall based on the strength and decay of their Asbiyyah.'
-      },
-      {
-        id: 'pp-polsci-2020-1-q8b',
-        questionNumber: 'Q. No. 8 (b)',
-        questionType: 'Other',
-        questionText: 'Marx’s theory of Class Struggle',
-        idealAnswer: 'Marx\'s theory of class struggle posits that "the history of all hitherto existing society is the history of class struggles." He argued that society is divided into classes based on their relationship to the means of production, and that the inherent conflict between these classes (e.g., bourgeoisie vs. proletariat) drives historical change.'
+        questionNumber: 'Q. No. 8',
+        questionText: 'Write short notes on the following:-\n(a). Ibn-e-Khaldun’s concept of Asbiyah\n(b). Marx’s theory of Class Struggle',
+        idealAnswer: '(a). Ibn-e-Khaldun’s concept of Asbiyah: Asbiyyah refers to social solidarity, group cohesion, or a sense of shared purpose. Ibn Khaldun saw it as the primary force in history, enabling groups to achieve political power and build civilizations. He theorized that dynasties rise and fall based on the strength and decay of their Asbiyyah.\n(b). Marx’s theory of Class Struggle: Marx\'s theory of class struggle posits that "the history of all hitherto existing society is the history of class struggles." He argued that society is divided into classes based on their relationship to the means of production (bourgeoisie vs. proletariat), and that the inherent conflict between these classes (e.g., bourgeoisie vs. proletariat) drives historical change.'
       }
     ]
   },
@@ -785,18 +722,11 @@ export const pastPapers: PastPaper[] = [
         idealAnswer: 'The discussion should cover different local government systems in Pakistan\'s history, including Ayub Khan\'s Basic Democracies, the systems under Musharraf, and the various provincial acts post-18th amendment. It should highlight the pattern of these systems being introduced by authoritarian regimes and often rolled back by democratic ones, leading to a lack of continuity and genuine devolution.'
       },
       {
-        id: 'pp-polsci-2022-1-q8a',
-        questionNumber: 'Q. No. 8 (a)',
+        id: 'pp-polsci-2022-1-q8',
         questionType: 'Other',
-        questionText: 'Islamic political ideology',
-        idealAnswer: 'Islamic political ideology is centered on the concepts of God\'s sovereignty (Hakimiyyah), the implementation of divine law (Sharia), the principle of consultation (Shura), and the pursuit of justice (Adl). It views political authority as a trust (Amanah) to be exercised for the welfare of the community (Ummah).'
-      },
-      {
-        id: 'pp-polsci-2022-1-q8b',
-        questionNumber: 'Q. No. 8 (b)',
-        questionType: 'Other',
-        questionText: 'Forms of political culture',
-        idealAnswer: 'Almond and Verba identified three forms of political culture: 1. Parochial: citizens are largely unaware of the political system. 2. Subject: citizens are aware but passive. 3. Participant: citizens are aware and actively participate in the political process. A healthy democracy requires a participant political culture.'
+        questionNumber: 'Q. No. 8',
+        questionText: 'Write short notes on the following:-\n(a) Islamic political ideology\n(b) Forms of political culture',
+        idealAnswer: '(a) Islamic political ideology: Islamic political ideology is centered on the concepts of God\'s sovereignty (Hakimiyyah), the implementation of divine law (Sharia), the principle of consultation (Shura), and the pursuit of justice (Adl). It views political authority as a trust (Amanah) to be exercised for the welfare of the community (Ummah).\n(b) Forms of political culture: Almond and Verba identified three forms of political culture: 1. Parochial: citizens are largely unaware of the political system. 2. Subject: citizens are aware but passive. 3. Participant: citizens are aware and actively participate in the political process. A healthy democracy requires a participant political culture.'
       }
     ]
   },
@@ -883,18 +813,11 @@ export const pastPapers: PastPaper[] = [
         idealAnswer: 'Iqbal\'s vision was for the spiritual, intellectual, and political revival of Muslims. He argued for a dynamic interpretation of Islam (Ijtihad) to break free from intellectual stagnation. Politically, his vision culminated in the idea of a separate Muslim state in Northwest India where Islam could be practiced as a living, cultural force, free from the domination of both the British and the Hindu majority.'
       },
       {
-        id: 'pp-polsci-2023-1-q5a',
-        questionNumber: 'Q. No. 5 (a)',
+        id: 'pp-polsci-2023-1-q5',
         questionType: 'Other',
-        questionText: 'Existentialism is humanism',
-        idealAnswer: 'This is the title of an essay by Jean-Paul Sartre. He argues that existentialism is a form of humanism because it places complete responsibility on humanity. Since "existence precedes essence," humans are radically free to define their own nature through their choices, and in doing so, they define the meaning of humanity itself.'
-      },
-      {
-        id: 'pp-polsci-2023-1-q5b',
-        questionNumber: 'Q. No. 5 (b)',
-        questionType: 'Other',
-        questionText: 'Cogito, ergo sum (I think, therefore I am)',
-        idealAnswer: 'This is the foundational principle of Rene Descartes\' philosophy. Through a process of radical doubt, Descartes concluded that the very act of doubting his own existence proved that he, as a thinking thing, must exist. It established a basis of certainty on which to build knowledge.'
+        questionNumber: 'Q. No. 5',
+        questionText: 'Write short notes on the following\n(a) Existentialism is humanism\n(b) Cogito, ergo sum (I think, therefore I am)',
+        idealAnswer: '(a) Existentialism is humanism: This is the title of an essay by Jean-Paul Sartre. He argues that existentialism is a form of humanism because it places complete responsibility on humanity. Since "existence precedes essence," humans are radically free to define their own nature through their choices, and in doing so, they define the meaning of humanity itself.\n(b) Cogito, ergo sum (I think, therefore I am): This is the foundational principle of Rene Descartes\' philosophy. Through a process of radical doubt, Descartes concluded that the very act of doubting his own existence proved that he, as a thinking thing, must exist. It established a basis of certainty on which to build knowledge.'
       },
       {
         id: 'pp-polsci-2023-1-q6',
