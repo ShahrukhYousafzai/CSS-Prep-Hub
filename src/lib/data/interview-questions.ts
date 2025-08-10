@@ -291,5 +291,3 @@ export const interviewQuestionsData: InterviewQuestion[] = [
     suggestedAnswer: 'This question assesses ambition, realism, and commitment. A good answer would not name a specific post, but would focus on the impact one hopes to have. For example: "In 20 years, I hope to have become a seasoned and effective public servant, having contributed meaningfully to policy implementation in areas like education or public health, and earned a reputation for integrity and competence."',
   }
 ];
-
-    
