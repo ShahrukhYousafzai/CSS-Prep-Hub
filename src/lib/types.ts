@@ -122,3 +122,10 @@ export interface SubjectWiseQuestion {
   idealAnswer: string;
   group: 'Compulsory' | 'Group I' | 'Group II' | 'Group III' | 'Group IV' | 'Group V' | 'Group VI' | 'Group VII';
 }
+
+export interface User {
+  name: string;
+  email: string;
+  streak: number;
+  xp: number;
+}

@@ -8,6 +8,8 @@ import {
   PanelLeft,
   Search,
   BrainCircuit,
+  Flame,
+  Star,
 } from 'lucide-react';
 
 import {
@@ -34,6 +36,7 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
 } from '@/components/ui/breadcrumb';
+import { userData } from '@/lib/data';
 
 const featureCards = [
   {
@@ -188,6 +191,28 @@ export default function DashboardPage() {
           <UserNav />
         </header>
         <main className="grid flex-1 items-start gap-4 p-4 sm:px-6 sm:py-0 md:gap-8">
+           <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between pb-2">
+                <CardTitle className="text-sm font-medium">Streak</CardTitle>
+                <Flame className="h-5 w-5 text-amber-500" />
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold">{userData.streak} Days</div>
+                <p className="text-xs text-muted-foreground">Keep it up to build your momentum!</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between pb-2">
+                <CardTitle className="text-sm font-medium">Experience Points</CardTitle>
+                <Star className="h-5 w-5 text-yellow-500" />
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold">{userData.xp} XP</div>
+                <p className="text-xs text-muted-foreground">Earned from quizzes and practice.</p>
+              </CardContent>
+            </Card>
+          </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {featureCards.map((feature) => (
               <Link href={feature.href} key={feature.title} className="group">
