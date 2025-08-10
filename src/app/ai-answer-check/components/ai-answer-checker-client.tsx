@@ -1,7 +1,7 @@
 
 "use client";
 
-import React, { useState, useTransition, useRef, useEffect } from 'react';
+import React, { useState, useTransition, useRef, useEffect, useMemo } from 'react';
 import { Bot, FileUp, Loader2, Camera, X, ScanText } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
@@ -16,10 +16,9 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { Textarea } from '@/components/ui/textarea';
 import { cn } from '@/lib/utils';
 import { pastPaperQuestions } from '@/lib/data';
-import type { PastPaperQuestion, AIFeedback } from '@/lib/types';
+import type { PastPaperQuestion, AIFeedback, EnrichedQuestion } from '@/lib/types';
 import { checkAnswerAction, ocrAction } from '../actions';
 import { useToast } from '@/hooks/use-toast';
-import { FeedbackDisplay } from './feedback-display';
 import {
   Dialog,
   DialogContent,
@@ -30,11 +29,24 @@ import {
 } from '@/components/ui/dialog';
 import { Alert, AlertTitle, AlertDescription } from '@/components/ui/alert';
 import { useUserProgress } from '@/hooks/use-user-progress';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+
+// Helper function to group questions by subject
+const groupQuestionsBySubject = (questions: EnrichedQuestion[]) => {
+  return questions.reduce((acc, question) => {
+    const { subject } = question;
+    if (!acc[subject]) {
+      acc[subject] = [];
+    }
+    acc[subject].push(question);
+    return acc;
+  }, {} as Record<string, EnrichedQuestion[]>);
+};
 
 
 export function AIAnswerCheckerClient() {
   const [selectedQuestion, setSelectedQuestion] =
-    useState<PastPaperQuestion | null>(pastPaperQuestions[0]);
+    useState<EnrichedQuestion | null>(null);
   const [userAnswer, setUserAnswer] = useState('');
   const [feedback, setFeedback] = useState<AIFeedback | null>(null);
   const [isPending, startTransition] = useTransition();
@@ -47,6 +59,18 @@ export function AIAnswerCheckerClient() {
   const [capturedImage, setCapturedImage] = useState<string | null>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  const allQuestions = useMemo((): EnrichedQuestion[] => {
+    return pastPaperQuestions.flatMap(paper => 
+      paper.questions.map(question => ({
+        ...question,
+        subject: paper.subject,
+        year: paper.year,
+      }))
+    );
+  }, []);
+
+  const groupedQuestions = useMemo(() => groupQuestionsBySubject(allQuestions), [allQuestions]);
 
   useEffect(() => {
     if (isCameraOpen) {
@@ -166,23 +190,34 @@ export function AIAnswerCheckerClient() {
         </CardHeader>
         <CardContent className="flex-grow p-0">
           <ScrollArea className="h-full">
-            <div className="flex flex-col p-2">
-              {pastPaperQuestions.map((q) => (
-                <button
-                  key={q.id}
-                  onClick={() => setSelectedQuestion(q)}
-                  className={cn(
-                    'w-full text-left p-3 rounded-lg hover:bg-muted/50 transition-colors',
-                    selectedQuestion?.id === q.id && 'bg-muted'
-                  )}
-                >
-                  <h3 className="font-semibold text-sm">{q.subject} ({q.year})</h3>
-                  <p className="text-xs text-muted-foreground line-clamp-2">
-                    {q.questionText}
-                  </p>
-                </button>
+            <Accordion type="single" collapsible className="w-full">
+              {Object.keys(groupedQuestions).map(subject => (
+                <AccordionItem value={subject} key={subject}>
+                  <AccordionTrigger className="p-4 hover:no-underline font-semibold text-base">
+                    {subject}
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="flex flex-col px-1">
+                      {groupedQuestions[subject].map((q) => (
+                        <button
+                          key={q.id}
+                          onClick={() => setSelectedQuestion(q)}
+                          className={cn(
+                            'w-full text-left p-3 rounded-lg hover:bg-muted/50 transition-colors',
+                            selectedQuestion?.id === q.id && 'bg-muted'
+                          )}
+                        >
+                          <p className="font-semibold text-sm">{q.year}</p>
+                          <p className="text-xs text-muted-foreground line-clamp-2">
+                            {q.questionText}
+                          </p>
+                        </button>
+                      ))}
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
               ))}
-            </div>
+            </Accordion>
           </ScrollArea>
         </CardContent>
       </Card>
