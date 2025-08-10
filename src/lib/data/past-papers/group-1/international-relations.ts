@@ -460,14 +460,14 @@ export const pastPapers: PastPaper[] = [
         questionNumber: 'Q. No. 2',
         questionType: 'Other',
         questionText: 'How the Neo-Realist and Constructivist approaches differ over the study of state behavior in the contemporary international politics?',
-        idealAnswer: 'This is a repeat of a 2018 question. Neo-realism posits that state behavior is driven by the anarchic structure of the international system and the distribution of power. Constructivism argues that state behavior is shaped by socially constructed norms, identities, and ideas. The former is materialist, the latter is ideational.'
+        idealAnswer: 'Neo-realism posits that state behavior is driven by the anarchic structure of the international system and the distribution of power. Constructivism argues that state behavior is shaped by socially constructed norms, identities, and ideas. The former is materialist, the latter is ideational.'
       },
       {
         id: 'pp-ir-2020-1-q3',
         questionNumber: 'Q. No. 3',
         questionType: 'Other',
         questionText: 'Describe the concept of Pre-Emptive Self-Defense in the context of International Law and critically evaluate the legitimacy of US use of force against Iraq.',
-        idealAnswer: 'This is a repeat of a 2018 question. Pre-emptive self-defense is the controversial doctrine of using force against an imminent threat. The US invasion of Iraq was justified on these grounds but is widely considered illegitimate under international law because the threat was not proven to be imminent and the action lacked UN Security Council authorization.'
+        idealAnswer: 'Pre-emptive self-defense is the controversial doctrine of using force against an imminent threat. The US invasion of Iraq was justified on these grounds but is widely considered illegitimate under international law because the threat was not proven to be imminent and the action lacked UN Security Council authorization.'
       },
       {
         id: 'pp-ir-2020-1-q4',
@@ -481,14 +481,14 @@ export const pastPapers: PastPaper[] = [
         questionNumber: 'Q. No. 5',
         questionType: 'Other',
         questionText: 'Define the concept of Strategic Culture and highlight the major determinants of Pakistan\'s Strategic Culture.',
-        idealAnswer: 'This is a repeat of a 2018 question. Strategic culture is the set of shared beliefs and norms that shape a state\'s strategic choices. Determinants of Pakistan\'s strategic culture include its rivalry with India, its geostrategic location, its Islamic identity, and the significant role of the military in security matters.'
+        idealAnswer: 'Strategic culture is the set of shared beliefs and norms that shape a state\'s strategic choices. Determinants of Pakistan\'s strategic culture include its rivalry with India, its geostrategic location, its Islamic identity, and the significant role of the military in security matters.'
       },
       {
         id: 'pp-ir-2020-1-q6',
         questionNumber: 'Q. No. 6',
         questionType: 'Other',
         questionText: 'Explain the concept of Economic Liberalism and relate its core interests with the concept of Neo-imperialism.',
-        idealAnswer: 'This is a repeat of a 2018 question. Economic liberalism promotes free markets and trade. It can be related to neo-imperialism through the argument that when applied between unequal states, it creates a system of dependency where developing countries are exploited by the developed core, serving the latter\'s economic interests.'
+        idealAnswer: 'Economic liberalism promotes free markets and trade. It can be related to neo-imperialism through the argument that when applied between unequal states, it creates a system of dependency where developing countries are exploited by the developed core, serving the latter\'s economic interests.'
       },
       {
         id: 'pp-ir-2020-1-q7',
@@ -614,7 +614,7 @@ export const pastPapers: PastPaper[] = [
         questionNumber: 'Q. No. 8',
         questionType: 'Other',
         questionText: 'Identify and discuss determinants of Pakistan’s Foreign Policy.',
-        idealAnswer: 'This is a repeat of a 2019 question. Determinants include: geostrategic location, security competition with India, the situation in Afghanistan, its Islamic identity, and economic imperatives.'
+        idealAnswer: 'Determinants include: geostrategic location, security competition with India, the situation in Afghanistan, its Islamic identity, and economic imperatives.'
       }
     ]
   },
@@ -670,7 +670,7 @@ export const pastPapers: PastPaper[] = [
         questionNumber: 'Q. No. 8',
         questionType: 'Other',
         questionText: 'How can Pakistan develop credible capabilities to deter ‘Hybrid’ warfare?',
-        idealAnswer: 'This is similar to a 2019 question. Pakistan can deter hybrid warfare by: 1. Strengthening national unity. 2. Developing strong cybersecurity and counter-propaganda capabilities. 3. Promoting media and information literacy. 4. Ensuring robust economic and political stability to reduce vulnerabilities.'
+        idealAnswer: 'Pakistan can deter hybrid warfare by: 1. Strengthening national unity. 2. Developing strong cybersecurity and counter-propaganda capabilities. 3. Promoting media and information literacy. 4. Ensuring robust economic and political stability to reduce vulnerabilities.'
       }
     ]
   },
@@ -698,7 +698,7 @@ export const pastPapers: PastPaper[] = [
         questionNumber: 'Q. No. 4',
         questionType: 'Other',
         questionText: 'Explain objectives and determinants of Pakistan’s foreign policy.',
-        idealAnswer: 'This is a repeat question. Objectives: National security, economic development, and protecting its Islamic identity. Determinants: Geostrategic location, rivalry with India, the situation in Afghanistan, and economic needs.'
+        idealAnswer: 'Objectives: National security, economic development, and protecting its Islamic identity. Determinants: Geostrategic location, rivalry with India, the situation in Afghanistan, and economic needs.'
       },
       {
         id: 'pp-ir-2022-1-q5',
@@ -899,3 +899,5 @@ export const pastPapers: PastPaper[] = [
     ]
   }
 ];
+
+    
