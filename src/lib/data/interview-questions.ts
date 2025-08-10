@@ -90,7 +90,7 @@ export const interviewQuestionsData: InterviewQuestion[] = [
     id: 'iq-gk-10',
     category: 'General Knowledge',
     questionText: 'What is the greenhouse effect and its relation to global warming?',
-    idealAnswer: 'The greenhouse effect is a natural process where certain gases in the atmosphere trap heat from the sun, keeping the Earth warm. Global warming is the enhancement of this effect due to increased concentrations of these gases from human activities, leading to a rise in global temperatures.'
+    suggestedAnswer: 'The greenhouse effect is a natural process where certain gases in the atmosphere trap heat from the sun, keeping the Earth warm. Global warming is the enhancement of this effect due to increased concentrations of these gases from human activities, leading to a rise in global temperatures.'
   },
   {
     id: 'iq-gk-11',
@@ -150,7 +150,7 @@ export const interviewQuestionsData: InterviewQuestion[] = [
     id: 'iq-ca-8',
     category: 'Current Affairs',
     questionText: 'Is political stability needed for economic stability?',
-    suggestedAnswer: 'Yes, political stability is widely considered a prerequisite for economic stability. A stable political environment fosters investor confidence, allows for consistent long-term economic planning, and ensures the rule of law, all of which are essential for sustainable economic growth.'
+    suggestedAnswer: 'Yes, political stability is widely considered a prerequisite for economic stability. A stable political environment fosters investor confidence, allows for consistent long-term economic planning, and ensures the rule of law, all of which are essential for sustainable economic growth.',
   },
   {
     id: 'iq-gk-13',
@@ -235,7 +235,59 @@ export const interviewQuestionsData: InterviewQuestion[] = [
     category: 'Current Affairs',
     questionText: 'What is the significance of COP 28 and its venue?',
     suggestedAnswer: 'COP28, held in Dubai, UAE, was significant for concluding the first-ever "global stocktake," which assessed progress towards the Paris Agreement goals. It ended with a historic agreement calling on all nations to transition away from fossil fuels.'
+  },
+  {
+    id: 'iq-ca-13',
+    category: 'Current Affairs',
+    questionText: 'What are the main features of the 1935 Government of India Act?',
+    suggestedAnswer: 'The main features of the Government of India Act 1935 were the introduction of provincial autonomy, the establishment of a federal structure (which never fully came into effect), and the creation of a bicameral legislature at the center. It served as the basis for the interim constitutions of both India and Pakistan after independence.'
+  },
+  {
+    id: 'iq-gk-22',
+    category: 'General Knowledge',
+    questionText: 'What is the difference between a colony and a dominion?',
+    suggestedAnswer: 'A colony is a territory under the full political control of another country, typically a distant one, and occupied by settlers from that country. A dominion is a semi-independent polity under the British Crown, with self-governance in its internal affairs but with its foreign policy and defense often still influenced by Britain. Dominions were a step towards full independence.'
+  },
+  {
+    id: 'iq-ca-14',
+    category: 'Current Affairs',
+    questionText: 'What is the role of FATF (Financial Action Task Force)?',
+    suggestedAnswer: 'The FATF is an inter-governmental body that sets international standards to prevent money laundering and terrorist financing. It assesses countries\' compliance with these standards and places those with deficiencies on a "grey list" or "black list," which can have significant economic repercussions.'
+  },
+  {
+    id: 'iq-ca-15',
+    category: 'Current Affairs',
+    questionText: 'Compare the Cuban Missile Crisis with the current Ukraine crisis.',
+    suggestedAnswer: 'Both crises involve a tense standoff between the US and Russia (or the USSR) with the risk of escalating to a major conflict. The Cuban Missile Crisis was about the placement of Soviet missiles in Cuba, a direct threat to the US mainland. The Ukraine crisis is about NATO expansion and Russia\'s invasion of a sovereign country. Both highlight the dangers of great power competition and spheres of influence.'
+  },
+  {
+    id: 'iq-p-9',
+    category: 'Personality',
+    questionText: 'How would you implement the rule of law?',
+    suggestedAnswer: 'As a civil servant, I would implement the rule of law by ensuring that all actions taken by my department are strictly in accordance with the law, treating all citizens equally without fear or favor, promoting transparency and accountability in my own work, and resisting any illegal or unethical pressure from superiors or political figures.'
+  },
+  {
+    id: 'iq-gk-23',
+    category: 'General Knowledge',
+    questionText: 'What was the Watergate scandal?',
+    suggestedAnswer: 'The Watergate scandal was a major political scandal in the United States in the 1970s involving a break-in at the Democratic National Committee headquarters at the Watergate office complex and the Nixon administration\'s subsequent attempts to cover up its involvement. The scandal ultimately led to the resignation of President Richard Nixon.'
+  },
+  {
+    id: 'iq-ca-16',
+    category: 'Current Affairs',
+    questionText: 'What is the significance of the Wakhan Corridor for Pakistan?',
+    suggestedAnswer: 'The Wakhan Corridor is a narrow strip of territory in Afghanistan that separates Pakistan from Tajikistan. Its significance for Pakistan is primarily strategic, as it prevents a direct border between Pakistan and Tajikistan, and it has been a factor in regional security dynamics involving Central Asia and China.'
+  },
+  {
+    id: 'iq-ca-17',
+    category: 'Current Affairs',
+    questionText: 'What is the "twin deficit" problem in Pakistan\'s economy?',
+    suggestedAnswer: 'The twin deficit problem refers to a situation where a country has both a significant fiscal deficit (government spending exceeds revenue) and a current account deficit (imports exceed exports). These two deficits are often interlinked and can create a vicious cycle of borrowing and economic instability.'
+  },
+  {
+    id: 'iq-p-10',
+    category: 'Personality',
+    questionText: 'Where do you see yourself in 20 years?',
+    suggestedAnswer: 'This question assesses ambition, realism, and commitment. A good answer would not name a specific post, but would focus on the impact one hopes to have. For example: "In 20 years, I hope to have become a seasoned and effective public servant, having contributed meaningfully to policy implementation in areas like education or public health, and earned a reputation for integrity and competence."',
   }
 ];
-
-    
