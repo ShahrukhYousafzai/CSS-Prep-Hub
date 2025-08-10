@@ -150,6 +150,55 @@ export const pastPapers: PastPaper[] = [
         ]
     },
     {
+        id: 'pp-genderstudies-2019-1',
+        year: 2019,
+        subject: 'Gender Studies',
+        questions: [
+            {
+                id: 'pp-genderstudies-2019-1-q1',
+                questionType: 'Other',
+                questionText: 'How do you differentiate the discipline of Gender Studies from that of Women Studies? Historically trace the need for the establishment of Gender Studies as a distinct discipline and its scope and significance with especial reference to Pakistan.',
+                idealAnswer: 'To be provided by AI.'
+            },
+            {
+                id: 'pp-genderstudies-2019-1-q2',
+                questionType: 'Other',
+                questionText: 'Outline and explain the three major waves of feminist movements in the West. Discuss the influence of these waves on feminist movements in Pakistan.',
+                idealAnswer: 'To be provided by AI.'
+            },
+            {
+                id: 'pp-genderstudies-2019-1-q3',
+                questionType: 'Other',
+                questionText: 'Explain the relevance of Modernization Theory and Dependency Theory to gender equality. Critically analyze the subordination of women in modern societies in the light of these two theories.',
+                idealAnswer: 'To be provided by AI.'
+            },
+            {
+                id: 'pp-genderstudies-2019-1-q4',
+                questionType: 'Other',
+                questionText: 'The process of globalization has connected nations worldwide and has made the world a global village, yet it has also increased inequalities across nations. Discuss the gendered inequalities created and promoted by the process of globalization in contemporary societies worldwide.',
+                idealAnswer: 'To be provided by AI.'
+            },
+            {
+                id: 'pp-genderstudies-2019-1-q5',
+                questionType: 'Other',
+                questionText: 'Women’s participation in labor force has increased recently yet women continue to perform their reproductive roles. Discuss the challenges encountered by women as a result of their paid employment worldwide with especial reference to Pakistan.',
+                idealAnswer: 'To be provided by AI.'
+            },
+            {
+                id: 'pp-genderstudies-2019-1-q6',
+                questionType: 'Other',
+                questionText: 'Explain the structural and direct forms of violence against women in the Pakistani society by highlighting the case study of Mukhtaran Mai.',
+                idealAnswer: 'To be provided by AI.'
+            },
+            {
+                id: 'pp-genderstudies-2019-1-q7',
+                questionType: 'Other',
+                questionText: 'Write short notes on any TWO of the following. (10 each)\na. Suffragist movement\nb. Postmodern Feminism\nc. Structural Functionalism',
+                idealAnswer: 'To be provided by AI.'
+            }
+        ]
+    },
+    {
         id: 'pp-genderstudies-2020-1',
         year: 2020,
         subject: 'Gender Studies',
