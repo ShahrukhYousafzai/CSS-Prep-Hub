@@ -45,7 +45,7 @@ export const pastPapers: PastPaper[] = [
             },
             {
                 id: 'pp-sindhi-2016-1-q7',
-                questionType: 'Other',
+                questionType: 'Translation',
                 questionText: 'الف( هيئ سوال نخمبر8ما ڈنل سنڌيء مر لکیل پٹرا گراف جو انگريزي مر ترجمو كيو. «\nجي حوالي سان صوتيات توڙي صور تخطي جو سندي گرامرتي كم اهم آهي ۽ لسانيات جي والاري تو پنهنجي جاءِ والاري تو. خاص ڪري سنڌي ٻوليءَ جي واڌاري ۽ بقاءَ لاءِ بنيادي حيثيت رکي ٿو. جيڪو ڪنهن به ٻوليءَ جي ترقي ۽ بقاءَ لاءِ بنيادي حيثيت رکي ٿو. سائين جن جو اهو ڪم سنڌي ٻوليءَ جي علم ادب جي خزاني ۾ واڌارو آڻيندو.\n(B) Translate following paragraph in Sindhi.\nMusic is soul of Sindhi and woven in the very texture of Sindhians. Hence Sindh is immensely rich in music, culture and heritage. Its music heritage contains most primitive songs, reminiscent of primitive man\'s dumb cries, signifying alarm, passion and joy. These songs are sung on one, two and three notes and are still current in Sindh.',
                 idealAnswer: 'To be provided by AI.'
             }
@@ -94,8 +94,8 @@ export const pastPapers: PastPaper[] = [
             },
             {
                 id: 'pp-sindhi-2017-1-q7',
-                questionType: 'Other',
-                questionText: ')الف( هیٹ ڈنل سنڌيء مرلکيل پثراگراف جو انگريزي ء مر ترجمو كريو،\nقوم هك عظيم اتحاد جونالو اهي، جيكا قرباني جي جذبي سان پنهنجي ذات که كي معاشري جي وسيع تر مفادن تي قربان ڪرن سان وجود م اچي تي ، اهزي قرباني جو مظا هرو ماضي م كيو ويوء اج اگ كان بہ وديك قرباني لاء جذبو هجي.\n(B) Translate following paragraph in Sindhi.\nShah Abdul Latif Bhatai is generally known as a mystic, spritual and pantheistic poet: however, his poetry highlights several other aspects: for instance, romanticism, aestheticism, retionalism, symbolism, patriotism and humanism.',
+                questionType: 'Translation',
+                questionText: ')الف( هیٹ ڈنل سنڌيء مرلکيل پثراگراف جو انگريزي ء مر ترجمو كريو،\nقوم هك عظيم اتحاد جونالو اهي، جيكا قرباني جي جذبي سان پنهنجي ذات که كي معاشري جي\nوسيع تر مفادن تي قربان ڪرن سان وجود م اچي تي ، اهزي قرباني جو مظا هرو ماضي م كيو ويوء\nاج اگ كان بہ وديك قرباني لاء جذبو هجي.\n(B) Translate following paragraph in Sindhi.\nShah Abdul Latif Bhatai is generally known as a mystic, spritual and pantheistic poet:\nhowever, his poetry highlights several other aspects: for instance, romanticism,\naestheticism, retionalism, symbolism, patriotism and humanism.',
                 idealAnswer: 'To be provided by AI.'
             }
         ]
@@ -143,7 +143,7 @@ export const pastPapers: PastPaper[] = [
             },
             {
                 id: 'pp-sindhi-2018-1-q7',
-                questionType: 'Other',
+                questionType: 'Translation',
                 questionText: '(الف) هيٺ ڏنل سنڌي پيراگراف جو انگريزيءَ ۾ ترجمو ڪريو.\nاسان کي پنهنجي ٻوليءَ، ادب، ثقافت ۽ تاريخ سان گڏ پنهنجي حال ۽ مستقبل جو به سوچڻو آهي. اسان کي پنهنجي نوجوان نسل کي جديد علمن ۽ ٽيڪنالاجيءَ سان ليس ڪرڻو آهي ته جيئن اهي دنيا جي ٻين قومن سان مقابلو ڪري سگهن. اسان کي پنهنجي معاشري مان غربت، جهالت ۽ ناانصافيءَ کي ختم ڪرڻو آهي.\n(ب) هيٺ ڏنل انگريزي پيراگراف جو سنڌيءَ ۾ ترجمو ڪريو.\nEducation is the most powerful weapon which you can use to change the world. It is the key to eliminating gender inequality, to reducing poverty, to creating a sustainable planet, to preventing needless deaths and illness, and to fostering peace. And in a knowledge economy, education is the new currency by which nations maintain economic competitiveness and global prosperity.',
                 idealAnswer: 'To be provided by AI.'
             }
@@ -192,7 +192,7 @@ export const pastPapers: PastPaper[] = [
             },
             {
                 id: 'pp-sindhi-2020-1-q7',
-                questionType: 'Other',
+                questionType: 'Translation',
                 questionText: '(a) ھیٺ ڏنل سنڌي فقري جو انگریزيءَ ۾ ترجمو ڪریو.\nگھڻن مؤرخن جو خیال آھي تہ قاضي قادن ارغونن کي شھہ ڏئي سنڌ جي اصلوکن رھاکن خاص طورڌاریجن کي مارایو ھو۔ حالانکہ قاضي قادن اھڙو کوئي بہ کو جھو کم نہ کیو ھو۔ پر حسن بیگ ارغون ۽ قاضي قادن ٻئي میان مھدي جونپريء جا مرید ھئا، ان کري سندن تعلق استوار رھیو۔ پر ارغون جڏھن مسلسل سنڌ سان بیواجبیون کندارھیا تہ ھو بیزار ٿي مکي شریف ڏانھن ھلیوویو۔ سندس وفات پڻ اتي ئي ٿي۔\n(b) ھیٺ ڏنل انگریزي پیراگراف جو سنڌي ۾ ترجمو ڪریو؟\nThe time is long gone when countless Americans, British, Canadian, Chinese, Germans, Australians, and people from all over the globe used to visit Pakistan to see its scenic beauty and astonishing historical and cultural heritage. Our beautiful country’s tourism is now plagued with terrorism and instability which has kept it off the radar for all but a few most hardened explorers. Its rich culture, spectacular hill stations, scenic places, history, heritage, beautiful lakes and tallest mountains are tearfully waiting for eager visitors who would profoundly tell the world about their matchlessness.\nThe people should join the government in its efforts to crush terrorism. The government should improve the law and order situation in all possible ways. Then all sorts of facilities should be provided by the government in hotels and tourist homes. Travelling should be comfortably easy. We should have the best international standards of tourism in the country. With this Pakistan will be a first-rate tourism-friendly country.',
                 idealAnswer: 'To be provided by AI.'
             }
