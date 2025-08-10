@@ -1,13 +1,13 @@
 
 import type { PastPaper, Quiz, InterviewQuestion, PsychTest, SubjectWiseQuestion } from '../types';
-import { pastPapers as pastPapersCompulsory } from './past-papers/compulsory';
-import { pastPapers as pastPapersGroup1 } from './past-papers/group-1';
-import { pastPapers as pastPapersGroup2 } from './past-papers/group-2';
-import { pastPapers as pastPapersGroup3 } from './past-papers/group-3';
-import { pastPapers as pastPapersGroup4 } from './past-papers/group-4';
-import { pastPapers as pastPapersGroup5 } from './past-papers/group-5';
-import { pastPapers as pastPapersGroup6 } from './past-papers/group-6';
-import { pastPapers as pastPapersGroup7 } from './past-papers/group-7';
+import { pastPapers as pastPapersCompulsory } from './past-papers/compulsory/index';
+import { pastPapers as pastPapersGroup1 } from './past-papers/group-1/index';
+import { pastPapers as pastPapersGroup2 } from './past-papers/group-2/index';
+import { pastPapers as pastPapersGroup3 } from './past-papers/group-3/index';
+import { pastPapers as pastPapersGroup4 } from './past-papers/group-4/index';
+import { pastPapers as pastPapersGroup5 } from './past-papers/group-5/index';
+import { pastPapers as pastPapersGroup6 } from './past-papers/group-6/index';
+import { pastPapers as pastPapersGroup7 } from './past-papers/group-7/index';
 import { subjectWiseQuestions as subjectWiseCompulsory } from './subject-wise-questions/compulsory';
 import { subjectWiseQuestions as subjectWiseGroup1 } from './subject-wise-questions/group-1';
 import { subjectWiseQuestions as subjectWiseGroup2 } from './subject-wise-questions/group-2';
