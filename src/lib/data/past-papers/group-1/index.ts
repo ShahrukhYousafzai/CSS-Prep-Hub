@@ -1,23 +1,13 @@
+
 import type { PastPaper } from '../../types';
 import { pastPapers as accountancyPapers } from './accountancy-and-auditing';
 import { pastPapers as economicsPapers } from './economics';
+import { pastPapers as computerSciencePapers } from './computer-science';
 
 export const pastPapers: PastPaper[] = [
   ...accountancyPapers,
   ...economicsPapers,
-  {
-    id: 'pp-cs-2022-p1',
-    year: 2022,
-    subject: 'Computer Science',
-    questions: [
-        {
-            id: 'pp-cs-2022-p1-q1',
-            questionType: 'Other',
-            questionText: 'Explain the OSI model and its seven layers.',
-            idealAnswer: 'The OSI (Open Systems Interconnection) model is a 7-layer conceptual framework for network communication. The layers are: 1. Physical (hardware), 2. Data Link (node-to-node transfer), 3. Network (routing, IP), 4. Transport (reliable data transfer, TCP/UDP), 5. Session (manages sessions), 6. Presentation (data translation/encryption), 7. Application (user services, HTTP).',
-        }
-    ]
-  },
+  ...computerSciencePapers,
   {
     id: 'pp-polsci-2021-p1',
     year: 2021,
