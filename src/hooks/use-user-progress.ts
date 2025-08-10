@@ -2,7 +2,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from 'react';
-import type { User } from '@/lib/types';
+import type { User, ProgressRecord } from '@/lib/types';
 
 const isSameDay = (date1: Date, date2: Date) => {
   return date1.getFullYear() === date2.getFullYear() &&
@@ -23,6 +23,7 @@ export function useUserProgress() {
     email: 'user@example.com',
     streak: 0,
     knowledgeScore: 0,
+    progressHistory: [],
   });
 
   useEffect(() => {
@@ -50,24 +51,32 @@ export function useUserProgress() {
         localStorage.setItem('userProgress', JSON.stringify(parsedProgress));
       } else {
         // Initialize for new user
-        const initialProgress = { ...userProgress, streak: 1, lastVisited: new Date().toISOString() };
+        const initialProgress: User = { ...userProgress, streak: 1, lastVisited: new Date().toISOString(), progressHistory: [] };
         localStorage.setItem('userProgress', JSON.stringify(initialProgress));
         setUserProgress(initialProgress);
       }
     } catch (error) {
         console.error("Failed to access localStorage or parse user progress", error);
         // Fallback to default state if localStorage is blocked or fails
-        const initialProgress = { ...userProgress, streak: 1, lastVisited: new Date().toISOString() };
+        const initialProgress: User = { ...userProgress, streak: 1, lastVisited: new Date().toISOString(), progressHistory: [] };
         setUserProgress(initialProgress);
     }
   }, []);
 
-  const addKnowledgeScore = useCallback((points: number) => {
+  const addKnowledgeScore = useCallback((score: number, type: ProgressRecord['type']) => {
     setUserProgress(currentProgress => {
+      const newHistoryRecord: ProgressRecord = {
+          date: new Date().toISOString(),
+          score,
+          type,
+      };
+
       const newProgress = {
         ...currentProgress,
-        knowledgeScore: currentProgress.knowledgeScore + points
+        knowledgeScore: currentProgress.knowledgeScore + score,
+        progressHistory: [...(currentProgress.progressHistory || []), newHistoryRecord],
       };
+      
       try {
         localStorage.setItem('userProgress', JSON.stringify(newProgress));
       } catch (error) {

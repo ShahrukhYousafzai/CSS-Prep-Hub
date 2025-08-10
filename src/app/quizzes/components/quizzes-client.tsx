@@ -50,7 +50,7 @@ export function QuizzesClient() {
     }, 0);
     
     const points = score * 10; // 10 points per correct answer
-    addKnowledgeScore(points);
+    addKnowledgeScore(points, 'quiz');
     toast({
         title: "Quiz Complete!",
         description: `You earned ${points} Knowledge Score!`,

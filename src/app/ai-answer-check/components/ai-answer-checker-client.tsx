@@ -141,7 +141,7 @@ export function AIAnswerCheckerClient() {
       if (result.success && result.data) {
         setFeedback(result.data);
         const points = Math.round(result.data.totalScore * 25); // Max 25 points
-        addKnowledgeScore(points);
+        addKnowledgeScore(points, 'ai-answer-check');
         toast({
           title: "Evaluation Complete!",
           description: `Your answer has been marked by the AI. You earned ${points} Knowledge Score!`,

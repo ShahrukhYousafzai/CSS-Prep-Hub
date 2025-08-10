@@ -124,10 +124,17 @@ export interface SubjectWiseQuestion {
   group: 'Compulsory' | 'Group I' | 'Group II' | 'Group III' | 'Group IV' | 'Group V' | 'Group VI' | 'Group VII';
 }
 
+export interface ProgressRecord {
+  date: string;
+  score: number;
+  type: 'quiz' | 'ai-answer-check';
+}
+
 export interface User {
   name: string;
   email: string;
   streak: number;
   knowledgeScore: number;
   lastVisited?: string;
+  progressHistory?: ProgressRecord[];
 }
