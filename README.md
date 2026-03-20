@@ -27,4 +27,3 @@ CSS Prep Hub is a one-stop, AI-powered platform designed to assist aspirants in 
 - **AI/Generative**: Google Genkit, Gemini
 - **Backend (Future)**: Firebase (Authentication, Firestore)
 
-This project was built in Firebase Studio.
