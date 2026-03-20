@@ -2,6 +2,14 @@
 
 CSS Prep Hub is a one-stop, AI-powered platform designed to assist aspirants in preparing for the Central Superior Services (CSS) exams in Pakistan. It provides a comprehensive suite of tools to cover every stage of the preparation journey, from studying past papers to preparing for the final interview.
 
+## 📸 Preview
+
+### Dark Theme
+![CSS Prep Hub Dark Theme](https://i.ibb.co/rGD9CHsR/Screenshot-2026-03-20-at-8-28-30-AM.png)
+
+### Light Theme
+![CSS Prep Hub Light Theme](https://i.ibb.co/tMJrsBd9/Screenshot-2026-03-20-at-8-28-43-AM.png)
+
 ## ✨ Key Features
 
 - [x] **Past Paper Viewer**: Browse a vast collection of past papers filterable by subject, year, and category. Includes ideal answers to help with study and revision.
@@ -26,4 +34,3 @@ CSS Prep Hub is a one-stop, AI-powered platform designed to assist aspirants in 
 - **Styling**: Tailwind CSS, ShadCN UI
 - **AI/Generative**: Google Genkit, Gemini
 - **Backend (Future)**: Firebase (Authentication, Firestore)
-
